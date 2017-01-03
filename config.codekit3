@@ -4320,6 +4320,209 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/wp-content\/themes\/hartman\/fonts\/montserrat\/demo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/montserrat\/demo.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Bold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Bold.eot",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Bold.ttf",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Bold.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Light.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Light.eot",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Light.ttf",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Light.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Light.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Regular.eot",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Regular.ttf",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Regular.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Thin.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Thin.eot",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Thin.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Thin.ttf",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Thin.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/montserrat\/Montserrat-Thin.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/montserrat\/stylesheet.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/montserrat\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/utopia\/demo-async.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/utopia\/demo-async-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/utopia\/demo-async.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/utopia\/demo-async.htm",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/utopia\/demo.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/utopia\/demo-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/utopia\/demo.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/utopia\/demo.htm",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/utopia\/fontlist.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/utopia\/fontlist.xml",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/033c5d49-c85b-41e0-a737-a20db01765e2.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/033c5d49-c85b-41e0-a737-a20db01765e2.woff2",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/2a0c47b9-7c72-4622-a2a6-753b1928c4f7.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/2a0c47b9-7c72-4622-a2a6-753b1928c4f7.eot",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/458089c5-dfe5-4af9-8c14-ca3b91d09fd1.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/458089c5-dfe5-4af9-8c14-ca3b91d09fd1.ttf",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/521c33af-0500-4311-ac9c-866d131d0dc5.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/521c33af-0500-4311-ac9c-866d131d0dc5.ttf",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/555811b3-72e5-44bb-a8db-c89fa420cc84.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/555811b3-72e5-44bb-a8db-c89fa420cc84.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/5a9f4a76-39ad-4893-a7c6-27840b6bc03c.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/5a9f4a76-39ad-4893-a7c6-27840b6bc03c.eot",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/b4afd2bd-5ded-45ce-930a-91bcbd795971.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/b4afd2bd-5ded-45ce-930a-91bcbd795971.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/cf097660-b052-407e-8446-064d8b9e4efc.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/cf097660-b052-407e-8446-064d8b9e4efc.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/d7079586-2da2-49e9-9ac2-9643ce1e6e9d.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/d7079586-2da2-49e9-9ac2-9643ce1e6e9d.woff2",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/de2ff455-5efa-4560-b525-48c8b68417be.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/utopia\/Fonts\/de2ff455-5efa-4560-b525-48c8b68417be.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/fonts\/utopia\/mtiFontTrackingCode.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/fonts\/utopia\/min\/mtiFontTrackingCode-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/wp-content\/themes\/hartman\/footer.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -4338,139 +4541,489 @@
 		"oAP": "\/wp-content\/themes\/hartman\/header.php",
 		"oF": 0
 		},
-	"\/wp-content\/themes\/hartman\/images\/headers\/berries-thumbnail.jpg": {
-		"ft": 16384,
-		"iS": 5626,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/hartman\/images\/headers\/berries-thumbnail.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/themes\/hartman\/images\/headers\/berries.jpg": {
-		"ft": 16384,
-		"iS": 60505,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/hartman\/images\/headers\/berries.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/themes\/hartman\/images\/headers\/cherryblossoms-thumbnail.jpg": {
-		"ft": 16384,
-		"iS": 6418,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/hartman\/images\/headers\/cherryblossoms-thumbnail.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/themes\/hartman\/images\/headers\/cherryblossoms.jpg": {
-		"ft": 16384,
-		"iS": 81579,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/hartman\/images\/headers\/cherryblossoms.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/themes\/hartman\/images\/headers\/concave-thumbnail.jpg": {
-		"ft": 16384,
-		"iS": 5692,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/hartman\/images\/headers\/concave-thumbnail.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/themes\/hartman\/images\/headers\/concave.jpg": {
-		"ft": 16384,
-		"iS": 38292,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/hartman\/images\/headers\/concave.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/themes\/hartman\/images\/headers\/fern-thumbnail.jpg": {
-		"ft": 16384,
-		"iS": 5496,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/hartman\/images\/headers\/fern-thumbnail.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/themes\/hartman\/images\/headers\/fern.jpg": {
-		"ft": 16384,
-		"iS": 24856,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/hartman\/images\/headers\/fern.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/themes\/hartman\/images\/headers\/forestfloor-thumbnail.jpg": {
-		"ft": 16384,
-		"iS": 6646,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/hartman\/images\/headers\/forestfloor-thumbnail.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/themes\/hartman\/images\/headers\/forestfloor.jpg": {
-		"ft": 16384,
-		"iS": 64595,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/hartman\/images\/headers\/forestfloor.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/themes\/hartman\/images\/headers\/inkwell-thumbnail.jpg": {
-		"ft": 16384,
-		"iS": 4039,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/hartman\/images\/headers\/inkwell-thumbnail.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/themes\/hartman\/images\/headers\/inkwell.jpg": {
-		"ft": 16384,
-		"iS": 39133,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/hartman\/images\/headers\/inkwell.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/themes\/hartman\/images\/headers\/path-thumbnail.jpg": {
-		"ft": 16384,
-		"iS": 4536,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/hartman\/images\/headers\/path-thumbnail.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/themes\/hartman\/images\/headers\/path.jpg": {
-		"ft": 16384,
-		"iS": 51488,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/hartman\/images\/headers\/path.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/themes\/hartman\/images\/headers\/sunset-thumbnail.jpg": {
-		"ft": 16384,
-		"iS": 2194,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/hartman\/images\/headers\/sunset-thumbnail.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/themes\/hartman\/images\/headers\/sunset.jpg": {
-		"ft": 16384,
-		"iS": 22115,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/hartman\/images\/headers\/sunset.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/themes\/hartman\/images\/wordpress.png": {
+	"\/wp-content\/themes\/hartman\/images\/award_1.png": {
 		"ft": 32768,
-		"iS": 794,
+		"iS": 32245,
 		"oA": 0,
-		"oAP": "\/wp-content\/themes\/hartman\/images\/wordpress.png",
+		"oAP": "\/wp-content\/themes\/hartman\/images\/award_1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/award_2.png": {
+		"ft": 32768,
+		"iS": 56096,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/award_2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/award_3.png": {
+		"ft": 32768,
+		"iS": 43852,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/award_3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/award_4.png": {
+		"ft": 32768,
+		"iS": 56262,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/award_4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/award_5.png": {
+		"ft": 32768,
+		"iS": 33014,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/award_5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/community_bg.jpg": {
+		"ft": 16384,
+		"iS": 88106,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/community_bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/community_image.jpg": {
+		"ft": 16384,
+		"iS": 371814,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/community_image.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/content_test_arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/content_test_arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/content_video_playbutton.png": {
+		"ft": 32768,
+		"iS": 27208,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/content_video_playbutton.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/content_video_thumb.jpg": {
+		"ft": 16384,
+		"iS": 72620,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/content_video_thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/footer_bg.jpg": {
+		"ft": 16384,
+		"iS": 163708,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/footer_bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/footer_logo_hartman.png": {
+		"ft": 32768,
+		"iS": 22012,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/footer_logo_hartman.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/footer_logo_ilawyer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/footer_logo_ilawyer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/header_icon_scrollarrow.png": {
+		"ft": 32768,
+		"iS": 27390,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/header_icon_scrollarrow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/header_icon_search-01.png": {
+		"ft": 32768,
+		"iS": 1667,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/header_icon_search-01.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/header_icon_search-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/header_icon_search-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/header_icon_sp1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/header_icon_sp1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/header_icon_sp2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/header_icon_sp2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/header_icon_sp3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/header_icon_sp3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/header_icon_v2_sp1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/header_icon_v2_sp1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/header_icon_v2_sp2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/header_icon_v2_sp2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/header_icon_v2_sp3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/header_icon_v2_sp3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/header_mainimage.jpg": {
+		"ft": 16384,
+		"iS": 406453,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/header_mainimage.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/header_video_playbutton.png": {
+		"ft": 32768,
+		"iS": 28130,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/header_video_playbutton.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/header_video_thumb.jpg": {
+		"ft": 16384,
+		"iS": 47016,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/header_video_thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/internal_bio_hartman.jpg": {
+		"ft": 16384,
+		"iS": 56114,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/internal_bio_hartman.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/internal_header_button.png": {
+		"ft": 32768,
+		"iS": 31755,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/internal_header_button.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/internal_header_button_hover.png": {
+		"ft": 32768,
+		"iS": 32690,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/internal_header_button_hover.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/internal_header_mainimage.png": {
+		"ft": 32768,
+		"iS": 89494,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/internal_header_mainimage.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/internal_profilepic_hartman.jpg": {
+		"ft": 16384,
+		"iS": 43723,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/internal_profilepic_hartman.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/internal_profilepic_olcott.jpg": {
+		"ft": 16384,
+		"iS": 45104,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/internal_profilepic_olcott.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/internal_tablet_mainimage.jpg": {
+		"ft": 16384,
+		"iS": 55580,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/internal_tablet_mainimage.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/logo_hartman.png": {
+		"ft": 32768,
+		"iS": 32916,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/logo_hartman.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/mobile_community_bg.jpg": {
+		"ft": 16384,
+		"iS": 68514,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/mobile_community_bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/mobile_footer_bg.jpg": {
+		"ft": 16384,
+		"iS": 49140,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/mobile_footer_bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/mobile_header_video_thumb.jpg": {
+		"ft": 16384,
+		"iS": 60712,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/mobile_header_video_thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/mobile_mainimage.jpg": {
+		"ft": 16384,
+		"iS": 190283,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/mobile_mainimage.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/mobile_sp_bg.jpg": {
+		"ft": 16384,
+		"iS": 68454,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/mobile_sp_bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/pa_arrow-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/pa_arrow-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/pa_icon1.png": {
+		"ft": 32768,
+		"iS": 28393,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/pa_icon1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/pa_icon2.png": {
+		"ft": 32768,
+		"iS": 28464,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/pa_icon2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/pa_icon3.png": {
+		"ft": 32768,
+		"iS": 29141,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/pa_icon3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/pa_icon4.png": {
+		"ft": 32768,
+		"iS": 27733,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/pa_icon4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/pa_icon5.png": {
+		"ft": 32768,
+		"iS": 29473,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/pa_icon5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/pa_icon6.png": {
+		"ft": 32768,
+		"iS": 28778,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/pa_icon6.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/social_fb.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/social_fb.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/social_google.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/social_google.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/social_linkedin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/social_linkedin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/social_twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/social_twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/sp_bg.jpg": {
+		"ft": 16384,
+		"iS": 268874,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/sp_bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/sp_checkmark.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/sp_checkmark.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/tablet_content_video_thumb.jpg": {
+		"ft": 16384,
+		"iS": 61441,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/tablet_content_video_thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/tablet_footer_bg.jpg": {
+		"ft": 16384,
+		"iS": 154859,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/tablet_footer_bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/tablet_header_video_playbutton.jpg": {
+		"ft": 16384,
+		"iS": 28451,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/tablet_header_video_playbutton.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/tablet_header_video_thumb.jpg": {
+		"ft": 16384,
+		"iS": 60737,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/tablet_header_video_thumb.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/tablet_mainimage.jpg": {
+		"ft": 16384,
+		"iS": 421519,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/tablet_mainimage.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/tablet_sp_bg.jpg": {
+		"ft": 16384,
+		"iS": 277434,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/tablet_sp_bg.jpg",
 		"oF": 0,
 		"opt": 0
 		},

@@ -1,0 +1,10 @@
+    @font-face{
+        font-family:"Utopia W01 Regular";
+        src:url("Fonts/2a0c47b9-7c72-4622-a2a6-753b1928c4f7.eot?#iefix");
+        src:url("Fonts/2a0c47b9-7c72-4622-a2a6-753b1928c4f7.eot?#iefix") format("eot"),url("Fonts/d7079586-2da2-49e9-9ac2-9643ce1e6e9d.woff2") format("woff2"),url("Fonts/cf097660-b052-407e-8446-064d8b9e4efc.woff") format("woff"),url("Fonts/521c33af-0500-4311-ac9c-866d131d0dc5.ttf") format("truetype"),url("Fonts/de2ff455-5efa-4560-b525-48c8b68417be.svg#de2ff455-5efa-4560-b525-48c8b68417be") format("svg");
+    }
+    @font-face{
+        font-family:"Utopia W01 Bd";
+        src:url("Fonts/5a9f4a76-39ad-4893-a7c6-27840b6bc03c.eot?#iefix");
+        src:url("Fonts/5a9f4a76-39ad-4893-a7c6-27840b6bc03c.eot?#iefix") format("eot"),url("Fonts/033c5d49-c85b-41e0-a737-a20db01765e2.woff2") format("woff2"),url("Fonts/b4afd2bd-5ded-45ce-930a-91bcbd795971.woff") format("woff"),url("Fonts/458089c5-dfe5-4af9-8c14-ca3b91d09fd1.ttf") format("truetype"),url("Fonts/555811b3-72e5-44bb-a8db-c89fa420cc84.svg#555811b3-72e5-44bb-a8db-c89fa420cc84") format("svg");
+    }
