@@ -66,60 +66,64 @@ header {
 	width:100%;
 	background: #fff;
 	overflow: hidden;
-	.inner_header {
-		max-width:2000px;
-		margin:0 auto;
-		.logo_wrapper {
-			float:left;
+	display: flex;
+	flex-direction: row;
+	.logo_wrapper {
 			padding:14px 30px;
+			display: flex;
+			flex-grow: 1;
 			img.logo {
 				max-width:100%;
 				height:auto;
 			}
 		}
-		.free_consultation_wrapper {
-			float:right;
-			color:#fff;
-			text-align: center;
-			padding: 25px 55px;
-			
-			
-			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f34b23+100 */
-			background: #f32323; /* Old browsers */
-			background: -moz-linear-gradient(left,  #f32323 0%, #f34b23 100%); /* FF3.6-15 */
-			background: -webkit-linear-gradient(left,  #f32323 0%,#f34b23 100%); /* Chrome10-25,Safari5.1-6 */
-			background: linear-gradient(to right,  #f32323 0%,#f34b23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f34b23',GradientType=1 ); /* IE6-9 */
-
-			span.sub_header {
-				font-family: $montserratreg;
-				font-size:13.75px;
-				display: block;
-				text-transform: uppercase;
-				letter-spacing: 0.6px;
-				margin-bottom: 3px;
-			}
-			a.large_header {
+		.header_col_right {
+			display:flex;
+			flex-direction: row;
+			flex-grow: 3;
+			.free_consultation_wrapper {
+				float:left;
 				color:#fff;
-				text-decoration: none;
-				font-size:30px;
-				font-family: $utopiabold;
-				letter-spacing: 0.4px;
+				text-align: center;
+				padding: 25px 55px;
+				margin-left:25px;
+				
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f34b23+100 */
+				background: #f32323; /* Old browsers */
+				background: -moz-linear-gradient(left,  #f32323 0%, #f34b23 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(left,  #f32323 0%,#f34b23 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to right,  #f32323 0%,#f34b23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f34b23',GradientType=1 ); /* IE6-9 */
+			
+				span.sub_header {
+					font-family: $montserratreg;
+					font-size:13.75px;
+					display: block;
+					text-transform: uppercase;
+					letter-spacing: 0.6px;
+					margin-bottom: 3px;
+				}
+				a.large_header {
+					color:#fff;
+					text-decoration: none;
+					font-size:30px;
+					font-family: $utopiabold;
+					letter-spacing: 0.4px;
+				}
 			}
 		}
 	}
-}
 
 
 
 
 nav.desktop {
-	width:50%;
-	float:left;
+	width:70%;
+	
 	font-family: $montserratlight;
 	font-size:13px;
 	text-transform: uppercase;
-	margin-top: 39px;
+	margin-top: 41px;
 	ul {
 		list-style: none;
 		margin:0;
@@ -146,10 +150,9 @@ nav.desktop {
 
 
 .search_wrapper {
-	width:250px;
-	float:left;
+// 	width:250px;
 	position: relative;
-	margin-top:25px;
+	margin-top:27px;
 	label {
 		display: none;
 	}

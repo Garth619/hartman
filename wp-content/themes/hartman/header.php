@@ -42,7 +42,7 @@
 
 <header>
 	
-	<div class="inner_header">
+
 	
 		<div class="logo_wrapper">
 		
@@ -50,28 +50,34 @@
 		
 		</div><!-- logo_wrapper -->
 	
-		<nav class="desktop">
-	
-		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
-	
-		</nav>
 		
-		<div class="search_wrapper">
+		<div class="header_col_right">
 		
-			<?php get_search_form(); ?>
+		
+			<nav class="desktop">
+	
+				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+	
+			</nav>
+		
+			<div class="search_wrapper">
+		
+				<?php get_search_form(); ?>
 			
 <!-- 			<input type="text" onfocus="if(this.value=='<?php _e( 'Search here..' ); ?>'){this.value='';}" onblur="if(this.value==''){this.value='<?php _e( 'Search here..' ); ?>';}" value="<?php _e( 'Search here..' ); ?>"> -->
 		
-		</div><!-- search_wrapper -->
+			</div><!-- search_wrapper -->
 	
-		<div class="free_consultation_wrapper">
+			<div class="free_consultation_wrapper">
 		
-			<span class="sub_header">Free Consultation</span><!-- sub_header -->
-			<a class="large_header" href="tel:866.586.1910">866.586.1910</a><!-- large_header -->
+				<span class="sub_header">Free Consultation</span><!-- sub_header -->
+				<a class="large_header" href="tel:866.586.1910">866.586.1910</a><!-- large_header -->
 			
-		</div><!-- free_consultation_wrapper -->
+			</div><!-- free_consultation_wrapper -->
+		
+		</div><!-- header_col_right -->
 	
-	</div><!-- inner_header -->
+
 	
 </header>
 
