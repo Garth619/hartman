@@ -94,7 +94,7 @@
 	
 		<div class="single_case_results">
 		
-			<span class="largeheader">$18,000,000</span><!-- subheader -->
+			<span class="largeheader"><span class="dollar">$</span>18,000,000</span><!-- subheader -->
 			<span class="subheader">Bad Faith Settlement</span><!-- subheader -->
 		
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -109,7 +109,7 @@
 	
 		<div class="single_case_results">
 		
-			<span class="largeheader">$15,600,000</span><!-- subheader -->
+			<span class="largeheader"><span class="dollar">$</span>15,600,000</span><!-- subheader -->
 			<span class="subheader">Personal Injury</span><!-- subheader -->
 		
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -124,7 +124,7 @@
 	
 		<div class="single_case_results">
 		
-			<span class="largeheader">$9,500,000</span><!-- subheader -->
+			<span class="largeheader"><span class="dollar">$</span>9,500,000</span><!-- subheader -->
 			<span class="subheader">School Bus Rollover</span><!-- subheader -->
 		
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -139,7 +139,7 @@
 	
 		<div class="single_case_results">
 		
-			<span class="largeheader">$8,900,000</span><!-- subheader -->
+			<span class="largeheader"><span class="dollar">$</span>8,900,000</span><!-- subheader -->
 			<span class="subheader">Workers' Comp Accident</span><!-- subheader -->
 		
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq.</p>
@@ -221,7 +221,11 @@
 		
 		<div class="single_practice_area">
 			
-			<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon1.png"/>
+			<div class="pa_icon_wrapper">
+			
+				<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon1.png"/>
+			
+			</div>
 			
 			<span class="subheader">Personal Injury</span><!-- subheader -->
 			
@@ -231,19 +235,13 @@
 		
 		<div class="single_practice_area">
 			
-			<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon2.png"/>
+			<div class="pa_icon_wrapper">
 			
-			<span class="subheader">Personal Injury</span><!-- subheader -->
+				<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon2.png"/>
 			
-			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			</div>
 			
-		</div><!-- single_practice_area -->
-		
-		<div class="single_practice_area">
-			
-			<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon3.png"/>
-			
-			<span class="subheader">Personal Injury</span><!-- subheader -->
+			<span class="subheader">Motor Vehicle Accidents</span><!-- subheader -->
 			
 			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
 			
@@ -251,19 +249,14 @@
 		
 		<div class="single_practice_area">
 			
-			<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon4.png"/>
+			<div class="pa_icon_wrapper">
 			
-			<span class="subheader">Personal Injury</span><!-- subheader -->
+				<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon3.png"/>
 			
-			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			</div>
+
 			
-		</div><!-- single_practice_area -->
-		
-		<div class="single_practice_area">
-			
-			<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon5.png"/>
-			
-			<span class="subheader">Personal Injury</span><!-- subheader -->
+			<span class="subheader">Worker's Compensation</span><!-- subheader -->
 			
 			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
 			
@@ -271,9 +264,44 @@
 		
 		<div class="single_practice_area">
 			
-			<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon6.png"/>
+			<div class="pa_icon_wrapper">
 			
-			<span class="subheader">Personal Injury</span><!-- subheader -->
+				<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon4.png"/>
+			
+			</div>
+
+			
+			<span class="subheader">Medical Malpractice</span><!-- subheader -->
+			
+			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			
+		</div><!-- single_practice_area -->
+		
+		<div class="single_practice_area">
+			
+			<div class="pa_icon_wrapper">
+			
+				<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon5.png"/>
+			
+			</div>
+
+			
+			<span class="subheader">Social Security Disability</span><!-- subheader -->
+			
+			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			
+		</div><!-- single_practice_area -->
+		
+		<div class="single_practice_area">
+			
+			<div class="pa_icon_wrapper">
+			
+				<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon6.png"/>
+			
+			</div>
+
+			
+			<span class="subheader">Legal Malpractice</span><!-- subheader -->
 			
 			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
 			
@@ -283,7 +311,11 @@
 
 </section><!-- practice_areas -->
 
-
+<section class="reasons">
+	
+	
+	
+</section><!-- reasons -->
 
 
 			

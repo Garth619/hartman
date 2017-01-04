@@ -356,6 +356,9 @@ nav.desktop {
 			border-right:1px solid #bdbdbd;
 			float:left;
 			width:25%;
+			.dollar {
+				font-size: 46px;
+			}
 //	 		transition:all .5s ease-in-out;
 			
 			span.largeheader {
@@ -553,7 +556,7 @@ nav.desktop {
 			background:$black;
 			width:16.6666667%;
 			float:left;
-			padding:130px 10px 90px;
+			padding:115px 10px 90px;
 			span.subheader {
 				font-family: $montserratlight;
 				text-transform: uppercase;
@@ -564,8 +567,15 @@ nav.desktop {
 				font-size:14px;
 			
 			}
-			img.pa_icon {
-				margin-bottom:40px;
+			.pa_icon_wrapper {
+				height:80px;
+				width:80px;
+				margin:0 auto 18px;
+				img.pa_icon {
+					position: relative;
+					top: 50%;
+					transform: translateY(-50%);
+				}
 			}
 			img.arrow {
 				width:22px;
@@ -573,4 +583,6 @@ nav.desktop {
 		}
 	}
 }
+
+
 
