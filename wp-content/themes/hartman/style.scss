@@ -22,8 +22,7 @@ html {-webkit-text-size-adjust: 100%;} // Disables scaling on landscape mobile
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
-	background: #ccc;
+	
 }
 
 
@@ -50,15 +49,17 @@ $utopiabold: "Utopia W01 Bd";
 
 /* Colors */
 
-
+$black: #101e2e;
 $bluedark: #003b6b;
 $grey: #e8e8e8;
 $red: #d11010;
+$bluelight: #007ddc;
 
 
 body {
 	font-family: $utopiareg;
 	line-height: 1;
+	color:$black;
 }
 
 
@@ -233,7 +234,7 @@ nav.desktop {
 			}
 		}
 		.lower_content {
-			margin-top:130px;
+			margin-top:123px;
 			overflow: hidden;
 			.icon_wrapper {
 				width:55%;
@@ -331,6 +332,57 @@ nav.desktop {
 	text-align: center;
 	img {
 		
+	}
+}
+
+
+.case_results {
+	width:100%;
+	max-width:1595px;
+	margin: -227px auto 0px;
+	background: #fff;
+	-webkit-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
+	box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
+	.single_case_results {
+		padding:40px 35px;
+		border-right:1px solid #bdbdbd;
+		display: inline-block;
+		width:24.8%;
+		span.largeheader {
+			color:$bluedark;
+			font-size:50px;
+			font-family: $montserratbold;
+			display: block;
+			margin-bottom:15px;
+			letter-spacing: -0.6px;
+		}
+		span.subheader {
+			color:$bluelight;
+			font-family: $montserratreg;
+			text-transform: uppercase;
+			display: block;
+			margin-bottom:80px;
+		}
+		p {
+			font-family: $utopiareg;
+			font-size:17px;
+			line-height:27px;
+			color:$bluedark;
+		}
+		span.case_link {
+			font-family: $montserratreg;
+			font-size:15px;
+			text-transform: lowercase;
+			float:right;
+			margin-top:100px;
+			img.case_link_arrow {
+				width:25px;
+				margin:0px 0 0 10px;
+				position: relative;
+				top:4px;
+			}
+		}
 	}
 }
 

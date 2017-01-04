@@ -7,7 +7,7 @@
 
 		
 
-<div class="main_banner">
+<section class="main_banner">
 	
 	<div class="main_inner_banner">
 	
@@ -82,7 +82,62 @@
 	
 	
 	
-</div><!-- main_banner -->
+</section><!-- main_banner -->
+
+
+
+<section class="case_results">
+	
+	<div class="single_case_results">
+		
+		<span class="largeheader">$18,000,000</span><!-- subheader -->
+		<span class="subheader">Bad Faith Settlement</span><!-- subheader -->
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		
+		<span class="case_link">Settlement <img class="case_link_arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/></span><!-- case_link -->
+		
+	</div><!-- single_case_results -->
+	
+	<div class="single_case_results">
+		
+		<span class="largeheader">$18,000,000</span><!-- subheader -->
+		<span class="subheader">Bad Faith Settlement</span><!-- subheader -->
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		
+		<span class="case_link">Settlement <img class="case_link_arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/></span><!-- case_link -->
+		
+	</div><!-- single_case_results -->
+	
+	<div class="single_case_results">
+		
+		<span class="largeheader">$18,000,000</span><!-- subheader -->
+		<span class="subheader">Bad Faith Settlement</span><!-- subheader -->
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		
+		<span class="case_link">Settlement <img class="case_link_arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/></span><!-- case_link -->
+		
+		
+	</div><!-- single_case_results -->
+	
+	<div class="single_case_results">
+		
+		<span class="largeheader">$18,000,000</span><!-- subheader -->
+		<span class="subheader">Bad Faith Settlement</span><!-- subheader -->
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		
+		<span class="case_link">Settlement <img class="case_link_arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/></span><!-- case_link -->
+		
+	</div><!-- single_case_results -->
+	
+	
+</section><!-- case_results -->
+
+
+
 
 			
 
