@@ -546,10 +546,8 @@ nav.desktop {
 /* Practice Areas */
 
 
-
-
-
 .practice_areas {
+	overflow: hidden;
 	.practice_area_wrapper {
 		.single_practice_area {
 			text-align: center;
@@ -580,6 +578,80 @@ nav.desktop {
 			img.arrow {
 				width:22px;
 			}
+		}
+	}
+}
+
+
+/* Reasons */
+
+
+.reasons {
+	background:url(images/sp_bg.jpg) top center no-repeat;
+	background-size:cover;
+	width:100%;
+	padding:150px 0;
+	.reasons_inner {
+		max-width:1460px;
+		margin:0 auto;
+		.large_header_wrapper {
+			span.large_header {
+				color:#fff;
+				font-family: $montserratbold;
+				letter-spacing: 0.6px;
+				text-transform: uppercase;
+				font-size:25px;
+			}
+			span.red_line {
+				width:155px;
+				margin-top:16px;
+				height:1px;
+				background: $red;
+				display: block;
+			}
+		}
+	}
+}
+
+.reasons_grid {
+	margin-top:80px;
+	overflow: hidden;
+	.single_reason {
+		background: #fff;
+		text-align: center;
+		padding:65px 10px 95px;
+		width:31%;
+		margin-right:3%;
+		float:left;
+		margin-bottom:38px;
+		&:nth-of-type(3n + 3) {
+			margin-right:0;
+		}
+		.icon {
+			width:60px;
+		}
+		span.sm_red_line {
+			height:1px;
+			width:70px;
+			background: $red;
+			margin:25px auto 0;
+			display: block;
+		}
+		span.large_header {
+			color:$bluedark;
+			font-family: $montserratbold;
+			font-size:20px;
+			line-height: 29px;
+			text-transform: uppercase;
+			margin-top:20px;
+			display: block;
+			margin-bottom:23px;
+		}
+		p {
+			font-family: $utopiareg;
+			color:$bluedark;
+			font-size:18px;
+			line-height: 25px;
 		}
 	}
 }
