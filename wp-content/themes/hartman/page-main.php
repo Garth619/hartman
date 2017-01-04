@@ -59,12 +59,23 @@
 				
 			</div><!-- video_thumb -->
 			
-			<div class="video_content"></div><!-- video_content -->
+			<div class="video_content">
+				
+				<span class="video_header">meet us in 80 seconds</span><!-- video_header -->
+				<p>Learn more about us and why you are in great hands with Dallas Hartman P.C.</p>
+				
+			</div><!-- video_content -->
 			
 			
 		</div><!-- video_wrapper -->
 		
 	</div><!-- lower_content -->
+	
+	<div class="arrow_scroll">
+		
+		<img src="<?php bloginfo('template_directory');?>/images/header_icon_scrollarrow.png"/>
+		
+	</div><!-- arrow_scroll -->
 	
 	</div><!-- main_inner_banner -->
 	

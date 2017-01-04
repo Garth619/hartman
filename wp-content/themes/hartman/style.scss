@@ -234,11 +234,12 @@ nav.desktop {
 		}
 		.lower_content {
 			margin-top:130px;
+			overflow: hidden;
 			.icon_wrapper {
-				width:54%;
+				width:55%;
 				float:left;
 				border-right:1px solid $red;
-				padding:10px 20px 10px 0px;
+				padding:10px 30px 10px 0px;
 				.single_icon {
 // 					width:33.333333%;
 					float:left;
@@ -273,16 +274,18 @@ nav.desktop {
 				}
 			}
 			.video_wrapper {
-				width:46%;
+				width:45%;
 				float:left;
 				padding-left:80px;
 				margin-top:10px;
+				
 				.video_thumb {
 					-webkit-box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.75);
 					-moz-box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.75);
 					box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.75);
 					width:209px;
 					position: relative;
+					float:left;
 					img.video_thumb_img {
 						height:137px;
 					}
@@ -293,6 +296,27 @@ nav.desktop {
 						z-index:5;
 					}
 				}
+				.video_content {
+					float:left;
+					padding-left:30px;
+					color:#fff;
+					line-height: 21px;
+					max-width:250px;
+					margin-top:20px;
+					span.video_header {
+						font-family: $montserratbold;
+						letter-spacing: 2px;
+						
+						font-size:13px;
+						text-transform: uppercase;
+						
+					}
+					p {
+						font-family: $utopiabold;
+						letter-spacing: 0.4px;
+						font-size:15.8px;
+					}
+				}
 				
 			}
 		}
@@ -301,7 +325,14 @@ nav.desktop {
 
 
 
-
+.arrow_scroll {
+	margin-top:59px;
+	width:100%;
+	text-align: center;
+	img {
+		
+	}
+}
 
 
 
