@@ -340,48 +340,126 @@ nav.desktop {
 	width:100%;
 	max-width:1595px;
 	margin: -227px auto 0px;
-	background: #fff;
-	-webkit-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
-	-moz-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
-	box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
-	.single_case_results {
-		padding:40px 35px;
-		border-right:1px solid #bdbdbd;
-		display: inline-block;
-		width:24.8%;
-		span.largeheader {
-			color:$bluedark;
-			font-size:50px;
-			font-family: $montserratbold;
-			display: block;
-			margin-bottom:15px;
-			letter-spacing: -0.6px;
-		}
-		span.subheader {
-			color:$bluelight;
-			font-family: $montserratreg;
-			text-transform: uppercase;
-			display: block;
-			margin-bottom:80px;
-		}
-		p {
-			font-family: $utopiareg;
-			font-size:17px;
-			line-height:27px;
-			color:$bluedark;
-		}
-		span.case_link {
-			font-family: $montserratreg;
-			font-size:15px;
-			text-transform: lowercase;
-			float:right;
-			margin-top:100px;
-			img.case_link_arrow {
-				width:25px;
-				margin:0px 0 0 10px;
-				position: relative;
-				top:4px;
+	
+	
+	position: relative;
+	.inner_case_wrapper {
+		overflow: hidden;
+		-webkit-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
+		-moz-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
+		box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
+	a.singe_case_results_link {
+		.single_case_results {
+			background: #fff;
+			padding:40px 35px;
+			border-right:1px solid #bdbdbd;
+			float:left;
+			width:25%;
+//	 		transition:all .5s ease-in-out;
+			
+			span.largeheader {
+				color:$bluedark;
+				font-size:50px;
+				font-family: $montserratbold;
+				display: block;
+				margin-bottom:15px;
+				letter-spacing: -0.6px;
+//	 			transition:all .5s ease-in-out;
 			}
+			span.subheader {
+				color:$bluelight;
+				font-family: $montserratreg;
+				text-transform: uppercase;
+				display: block;
+				margin-bottom:80px;
+			}
+			p {
+				font-family: $utopiareg;
+				font-size:17px;
+				line-height:27px;
+				color:$bluedark;
+//	 			transition:all .5s ease-in-out;
+			}
+			span.case_link {
+				font-family: $montserratreg;
+				font-size:15px;
+				text-transform: lowercase;
+				float:right;
+				margin-top:100px;
+				color:$black;
+//	 			transition:all .5s ease-in-out;
+				img.case_link_arrow {
+					width:25px;
+					margin:0px 0 0 10px;
+					position: relative;
+					top:4px;
+				}
+			}
+		}
+	}
+	a.singe_case_results_link:last-of-type {
+		.single_case_results {
+			border:none;
+			p {
+// 				padding-right:20px;
+			}
+			
+		}
+	}
+	.view_more {
+		a {
+			display: block;
+			float:right;
+			color:#fff;
+			font-family: $montserratreg;
+			font-size:16px;
+			text-transform: uppercase;
+			padding:25px 70px;
+			text-decoration: none;
+			position: absolute;
+			right: -120px;
+			top:197px;
+			 -ms-transform: rotate(90deg); /* IE 9 */
+			 -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+			 transform: rotate(90deg);
+			
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f34b23+100 */
+				background: #f32323; /* Old browsers */
+				background: -moz-linear-gradient(left,  #f32323 0%, #f34b23 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(left,  #f32323 0%,#f34b23 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to right,  #f32323 0%,#f34b23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f34b23',GradientType=1 ); /* IE6-9 */
+		}
+	}
+	}
+}
+
+
+.single_case_results:hover {
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f2236+0,075593+100 */
+	background: #0f2236; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #0f2236 0%, #075593 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  #0f2236 0%,#075593 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  #0f2236 0%,#075593 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f2236', endColorstr='#075593',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	span.largeheader {
+		color:#fff;	
+	}
+	span.subheader {
+			
+	}
+	p {
+		color:#fff;
+	}
+	span.case_link {
+		color:#fff;
+		img.case_link_arrow {
+			width:25px;
+			margin:0px 0 0 10px;
+			position: relative;
+			top:4px;
 		}
 	}
 }

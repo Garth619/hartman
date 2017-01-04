@@ -88,51 +88,76 @@
 
 <section class="case_results">
 	
-	<div class="single_case_results">
-		
-		<span class="largeheader">$18,000,000</span><!-- subheader -->
-		<span class="subheader">Bad Faith Settlement</span><!-- subheader -->
-		
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-		
-		<span class="case_link">Settlement <img class="case_link_arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/></span><!-- case_link -->
-		
-	</div><!-- single_case_results -->
+	<div class="inner_case_wrapper">
 	
-	<div class="single_case_results">
-		
-		<span class="largeheader">$18,000,000</span><!-- subheader -->
-		<span class="subheader">Bad Faith Settlement</span><!-- subheader -->
-		
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-		
-		<span class="case_link">Settlement <img class="case_link_arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/></span><!-- case_link -->
-		
-	</div><!-- single_case_results -->
+	<a class="singe_case_results_link" href="">
 	
-	<div class="single_case_results">
+		<div class="single_case_results">
 		
-		<span class="largeheader">$18,000,000</span><!-- subheader -->
-		<span class="subheader">Bad Faith Settlement</span><!-- subheader -->
+			<span class="largeheader">$18,000,000</span><!-- subheader -->
+			<span class="subheader">Bad Faith Settlement</span><!-- subheader -->
 		
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 		
-		<span class="case_link">Settlement <img class="case_link_arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/></span><!-- case_link -->
+			<span class="case_link">Settlement <img class="case_link_arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/></span><!-- case_link -->
 		
-		
-	</div><!-- single_case_results -->
+		</div><!-- single_case_results -->
 	
-	<div class="single_case_results">
-		
-		<span class="largeheader">$18,000,000</span><!-- subheader -->
-		<span class="subheader">Bad Faith Settlement</span><!-- subheader -->
-		
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-		
-		<span class="case_link">Settlement <img class="case_link_arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/></span><!-- case_link -->
-		
-	</div><!-- single_case_results -->
+	</a>
 	
+	<a class="singe_case_results_link" href="">
+	
+		<div class="single_case_results">
+		
+			<span class="largeheader">$15,600,000</span><!-- subheader -->
+			<span class="subheader">Personal Injury</span><!-- subheader -->
+		
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		
+			<span class="case_link">verdict <img class="case_link_arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/></span><!-- case_link -->
+		
+		</div><!-- single_case_results -->
+	
+	</a>
+	
+	<a class="singe_case_results_link" href="">
+	
+		<div class="single_case_results">
+		
+			<span class="largeheader">$9,500,000</span><!-- subheader -->
+			<span class="subheader">School Bus Rollover</span><!-- subheader -->
+		
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		
+			<span class="case_link">verdict <img class="case_link_arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/></span><!-- case_link -->
+		
+		</div><!-- single_case_results -->
+	
+	</a>
+	
+	<a class="singe_case_results_link" href="">
+	
+		<div class="single_case_results">
+		
+			<span class="largeheader">$8,900,000</span><!-- subheader -->
+			<span class="subheader">Workers' Comp Accident</span><!-- subheader -->
+		
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq.</p>
+		
+			<span class="case_link">Settlement <img class="case_link_arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/></span><!-- case_link -->
+		
+		</div><!-- single_case_results -->
+	
+	</a>
+	
+	<div class="view_more">
+		
+		<a href="">View More</a>
+		
+	</div><!-- view_more -->
+	
+	</div><!-- inner_case_wrapper -->
+
 	
 </section><!-- case_results -->
 
