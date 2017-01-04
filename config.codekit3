@@ -27,6 +27,18 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
+	"\/license.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/license.txt",
+		"oF": 0
+		},
+	"\/readme.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/readme.html",
+		"oF": 0
+		},
 	"\/wp-activate.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -4240,6 +4252,12 @@
 		"oAP": "\/wp-content\/plugins\/akismet\/wrapper.php",
 		"oF": 0
 		},
+	"\/wp-content\/plugins\/hello.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/hello.php",
+		"oF": 0
+		},
 	"\/wp-content\/plugins\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -4604,6 +4622,14 @@
 		"oAP": "\/wp-content\/themes\/hartman\/images\/content_video_thumb.jpg",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/dot.png": {
+		"ft": 32768,
+		"iS": 984,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/dot.png",
+		"oF": 0,
+		"opt": 1
 		},
 	"\/wp-content\/themes\/hartman\/images\/footer_bg.jpg": {
 		"ft": 16384,

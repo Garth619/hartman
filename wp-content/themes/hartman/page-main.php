@@ -162,6 +162,128 @@
 </section><!-- case_results -->
 
 
+<section class="about_content">
+	
+	<div class="blue_line"></div><!-- blue_line -->
+	
+	<div class="col_wrapper">
+	
+	
+		<div class="col">
+		
+			<span class="largeheader">Ohio and Pennsylvania Personal Injury Lawyer</span><!-- largeheader -->
+			
+			<span class="subheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</span><!-- subheader -->
+			
+			<span class="content_header">Lorem ipsum dolor sit amet</span><!-- content_header -->
+			
+			<div class="content">
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat.</p>
+		
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+			
+			
+			</div><!-- content -->
+			
+			
+		
+		</div><!-- col_1 -->
+		
+		<div class="col">
+			
+			<div class="content">
+			
+			<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat.</p>
+			
+			<ul>
+		
+				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor</li> 		   
+				<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris   
+  	   nisi ut aliquip ex ea commodo consequat.</li>
+  	   
+			</ul>
+		
+<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat. Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore. magnam aliquam quaerat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore. magnam aliquam quaerat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore. magnam aliquam quaerat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore. magnam aliquam quaerat.</p>
+		
+			</div><!-- content -->
+			
+			
+		</div><!-- col_2 -->
+	
+	</div><!-- col_wrapper -->
+	
+</section><!-- about_content -->
+
+<section class="practice_areas">
+	
+	<div class="practice_area_wrapper">
+		
+		<div class="single_practice_area">
+			
+			<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon1.png"/>
+			
+			<span class="subheader">Personal Injury</span><!-- subheader -->
+			
+			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			
+		</div><!-- single_practice_area -->
+		
+		<div class="single_practice_area">
+			
+			<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon2.png"/>
+			
+			<span class="subheader">Personal Injury</span><!-- subheader -->
+			
+			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			
+		</div><!-- single_practice_area -->
+		
+		<div class="single_practice_area">
+			
+			<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon3.png"/>
+			
+			<span class="subheader">Personal Injury</span><!-- subheader -->
+			
+			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			
+		</div><!-- single_practice_area -->
+		
+		<div class="single_practice_area">
+			
+			<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon4.png"/>
+			
+			<span class="subheader">Personal Injury</span><!-- subheader -->
+			
+			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			
+		</div><!-- single_practice_area -->
+		
+		<div class="single_practice_area">
+			
+			<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon5.png"/>
+			
+			<span class="subheader">Personal Injury</span><!-- subheader -->
+			
+			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			
+		</div><!-- single_practice_area -->
+		
+		<div class="single_practice_area">
+			
+			<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon6.png"/>
+			
+			<span class="subheader">Personal Injury</span><!-- subheader -->
+			
+			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			
+		</div><!-- single_practice_area -->
+		
+	</div><!-- practice_area_wrapper -->
+
+</section><!-- practice_areas -->
+
+
 
 
 			
