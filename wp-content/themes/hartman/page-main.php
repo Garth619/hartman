@@ -430,6 +430,27 @@
 			
 		</div><!-- video_wrapper -->
 		
+		<div class="blueline"></div><!-- blueline -->
+		
+		<div class="testimonial">
+			
+			<span class="large_header">Marlaina</span><!-- large_header -->
+			
+			<p>I contacted Dallas Hartman. It just wasn’t about, ok, we are going to go after this insurance company and that’s it. They always go a step further. I knew that my son was being taken care of and they made that happen.</p>
+			
+		</div><!-- testimonial -->
+		
+		<div class="more_clients">
+			
+			<a href="">
+				
+				<span>View More Client Testimonials</span>
+				<img src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
+				
+			</a>
+			
+		</div><!-- more_clients -->
+		
 	</div><!-- col_2 -->
 	
 </section><!-- addtional_about_content -->
