@@ -456,6 +456,95 @@
 </section><!-- addtional_about_content -->
 
 
+<section class="community">
+	
+	<div class="give_back">
+		
+		
+		<div class="give_back_inner">
+		
+			<div class="give_back_logo">
+			
+				<img src="<?php bloginfo('template_directory');?>/images/givebacklogo.png"/>
+			
+			</div><!-- give_back_logo -->
+			
+			
+			<span class="large_header_give_back">Dallas Gives Back</span><!-- large_header_give_back -->
+			<span class="redline"></span><!-- redline -->
+			
+			
+			<div class="headline_wrapper">
+			
+				<div class="headline">
+					
+					<a href="">
+						
+						<div class="title_wrapper">
+						
+							<span class="title">Dallas Helps Revitalize Bollinger Park in New Castle</span><!-- title -->
+							<span class="author">POSTED BY KATHLEEN ROBERTSOn</span><!-- author -->
+						
+						</div><!-- title_wrapper -->
+						
+						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
+					
+					</a>
+					
+				</div><!-- headline -->
+				
+				<div class="headline">
+					
+					<a href="">
+						
+						<div class="title_wrapper">
+						
+							<span class="title">Dallas Hartman provides funds to create lawrence county mentoring program</span><!-- title -->
+							<span class="author">POSTED BY Dallas Hartman</span><!-- author -->
+						
+						</div><!-- title_wrapper -->
+						
+						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
+					
+					</a>
+					
+				</div><!-- headline -->
+				
+				<div class="headline">
+					
+					<a href="">
+						
+						<div class="title_wrapper">
+						
+							<span class="title">Help us help the Union Police Department add a canine officer</span><!-- title -->
+							<span class="author">POSTED BY Dallas Hartman</span><!-- author -->
+						
+						</div><!-- title_wrapper -->
+						
+						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
+					
+					</a>
+					
+				</div><!-- headline -->
+			
+			</div><!-- headline_wrapper -->
+			
+		
+		</div><!-- give_back_inner -->
+		
+	
+	</div><!-- give_back -->
+	
+	<div class="video_wrapper">
+			
+			<img src="<?php bloginfo('template_directory');?>/images/community_image.jpg"/>
+			
+			
+		</div><!-- video_wrapper -->
+	
+</section><!-- community -->
+
+
 			
 
 <?php get_footer(); ?>
