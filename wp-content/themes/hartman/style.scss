@@ -666,12 +666,13 @@ nav.desktop {
 .addtional_about_content {
 	max-width:1280px;
 	margin:0 auto;
-	overflow: hidden;
+
+	padding-left:53px;
 	.col_1 {
-		padding-left:53px;
+		
 		width: 70%;
 		float:left;
-		padding-right:100px;
+		padding-right:175px;
 		padding-top:175px;
 		border-right:2px solid $grey;
 		span.large_header {
@@ -692,7 +693,7 @@ nav.desktop {
 	}
 	.col_2 {
 		width:30%;
-		float:right;
+		float:left;
 		height:300px;
 		margin-top: 240px;
 		background: red;
