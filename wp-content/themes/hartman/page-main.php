@@ -541,8 +541,40 @@
 			
 			
 		</div><!-- video_wrapper -->
+		
+		<div style="clear:both"></div>
 	
 </section><!-- community -->
+
+<section class="awards">
+	
+	
+	<div class="award_slide">
+		
+		<img src="<?php bloginfo('template_directory');?>/images/award_1.png"/>
+		
+	</div><!-- award_slide -->
+	
+	<div class="award_slide">
+		
+		<img src="<?php bloginfo('template_directory');?>/images/award_2.png"/>
+		
+	</div><!-- award_slide -->
+	
+	<div class="award_slide">
+		
+		<img src="<?php bloginfo('template_directory');?>/images/award_3.png"/>
+		
+	</div><!-- award_slide -->
+	
+	<div class="award_slide">
+		
+		<img src="<?php bloginfo('template_directory');?>/images/award_4.png"/>
+		
+	</div><!-- award_slide -->
+	
+	
+</section><!-- awards -->
 
 
 			
