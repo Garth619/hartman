@@ -944,6 +944,7 @@ nav.desktop {
 				margin:0;
 				li {
 					width:48%;
+					position: relative;
 					&:nth-of-type(2n + 1) {
 						float:left;
 					}
@@ -975,7 +976,7 @@ nav.desktop {
 						color:$bluedark;
 						font-size:17px;
 						padding-bottom:10px;
-						
+						background: transparent;
 						
 					}
 					input {
@@ -994,6 +995,18 @@ nav.desktop {
 				li#field_1_5 {
 					width:100%;
 					margin-top:-25px;
+					&:after {
+							content: "•";
+							width:5px;
+							height:5px;
+							float:right;
+							color:#b7b7b7;
+							display: block;
+							position: relative;
+							z-index: 5;
+							top:-112px;
+							right:9px;
+						}
 					
 				}
 				li#field_1_6 {
@@ -1021,26 +1034,45 @@ nav.desktop {
 }
 
 .gform_footer {
-clear:both;
-.gform_button {
-	font-family: $montserratbold;
-	border:none;
-	color:#fff;
-	font-size:18px;
-	text-transform: uppercase;
-	letter-spacing: 0.6px;
-	padding:16px 150px;
+	clear:both;
+	.gform_button {
+		font-family: $montserratbold;
+		border:none;
+		color:#fff;
+		font-size:18px;
+		text-transform: uppercase;
+		letter-spacing: 0.6px;
+		padding:16px 150px;
+		cursor: pointer;
 	
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f34b23+100 */
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f34b23+100 */
 				background: #f32323; /* Old browsers */
 				background: -moz-linear-gradient(left,  #f32323 0%, #f34b23 100%); /* FF3.6-15 */
 				background: -webkit-linear-gradient(left,  #f32323 0%,#f34b23 100%); /* Chrome10-25,Safari5.1-6 */
 				background: linear-gradient(to right,  #f32323 0%,#f34b23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f34b23',GradientType=1 ); /* IE6-9 */
 	
-}
-
-}
+		}
+	}
+	
+	
+	.validation_error {
+		display: none;
+	}
+	
+	.gfield_description, .validation_message {
+		color:$red;
+		font-family: $montserratreg;
+		text-transform: uppercase;
+		font-size:11px;
+		position: absolute;
+		top:40px;
+		left:0;
+	}
+	
+	.instruction.validation_message {
+		top:54px;
+	}
 
 
 
