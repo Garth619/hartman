@@ -919,6 +919,7 @@ nav.desktop {
 		box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
 		padding:60px;
 		text-align: center;
+		overflow: hidden;
 		span.gfrom_title {
 			font-family: $montserratlight;
 			font-size:30px;
@@ -935,54 +936,74 @@ nav.desktop {
 			color:#b7b7b7;
 			line-height: 28px;
 		}
-		ul {
-			text-align: left;
-			list-style: none;
-			margin:0;
-			li {
-				width:100%;
-				&:after {
-						content: "•";
-						width:5px;
-						height:5px;
-						float:right;
-						color:#b7b7b7;
-						display: block;
-						position: relative;
-						z-index: 5;
-						top:6px;
+		.gform_wrapper {
+			margin-top:60px;
+			ul {
+				text-align: left;
+				list-style: none;
+				margin:0;
+				li {
+					width:48%;
+					&:nth-of-type(2n + 1) {
+						float:left;
 					}
-				label {
-					display: none;
+					&:nth-of-type(2n + 2) {
+						float:right;
+					}
+					&:after {
+							content: "•";
+							width:5px;
+							height:5px;
+							float:right;
+							color:#b7b7b7;
+							display: block;
+							position: relative;
+							z-index: 5;
+							top:-82px;
+							right:9px;
+						}
+					label {
+						display: none;
+					}
+					input, textarea {
+						width:100%;
+						border-bottom:1px #b7b7b7 solid;
+						border-top:none;
+						border-left:none;
+						border-right:none;
+						font-family: $utopiareg;
+						color:$bluedark;
+						font-size:17px;
+						padding-bottom:10px;
+						
+						
+					}
+					input {
+						margin-bottom:47px;
+					}
+					textarea {
+						 resize: none;
+						 height:87px;
+						 margin-bottom:28px;
+					}
+					input:focus, textarea:focus {
+						border-bottom:1px solid #f32323;
+						outline: none;
+					}
 				}
-				input, textarea {
+				li#field_1_5 {
 					width:100%;
-					border-bottom:1px #b7b7b7 solid;
-					border-top:none;
-					border-left:none;
-					border-right:none;
-					font-family: $utopiareg;
-					color:$bluedark;
-					font-size:17px;
-					padding-bottom:15px;
-					margin-bottom:47px;
+					margin-top:-25px;
 					
 				}
-				textarea {
-					 resize: none;;
+				li#field_1_6 {
+					display: none;
+					
 				}
-				input:focus, textarea:focus {
-					border-bottom:1px solid #f32323;
-					outline: none;
-				}
-			}
-			li#field_1_6 {
-				display: none;
-				
 			}
 		}
 	}
-	.form ul li ::-webkit-input-placeholder {
+	.form ul li ::-webkit-input-plasceholder {
     color:$bluedark;
    }
    .form ul li ::-moz-placeholder {
@@ -999,7 +1020,8 @@ nav.desktop {
       }
 }
 
-
+.gform_footer {
+clear:both;
 .gform_button {
 	font-family: $montserratbold;
 	border:none;
@@ -1016,6 +1038,8 @@ nav.desktop {
 				background: linear-gradient(to right,  #f32323 0%,#f34b23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f34b23',GradientType=1 ); /* IE6-9 */
 	
+}
+
 }
 
 
