@@ -21,6 +21,12 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/hartman(2).sql.gz": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/hartman(2).sql.gz",
+		"oF": 0
+		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
