@@ -869,4 +869,154 @@ nav.desktop {
 	}
 }
 
+/* Awards */
+
+
+.awards {
+	width:100%;
+	margin:85px auto 250px;
+	.awards_inner {
+		margin:0px auto;
+		max-width: 1150px;
+		.award_slide {
+			text-align: center;
+			img {
+				display: block;
+				margin: 0 auto;
+			}
+		}
+	}
+	.slick-dots {
+		bottom:-72px;
+		
+		li.slick-active {
+			button {
+				&:before {
+					color:$bluelight;
+					opacity: 1;
+				}
+			}
+		}
+		li:hover {
+			button {
+				&:before {
+					color:$bluelight;
+					
+				}
+			}
+		}
+	}
+}
+
+/* Request */
+
+.request {
+	.form {
+		max-width: 1050px;
+		margin:-110px auto 0;
+		-webkit-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
+		-moz-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
+		box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
+		padding:60px;
+		text-align: center;
+		span.gfrom_title {
+			font-family: $montserratlight;
+			font-size:30px;
+			text-transform: uppercase;
+			color:$bluedark;
+			line-height:32px;
+			display: block;
+			margin-bottom: 5px;
+		}
+		span.gform_subheader {
+			font-family: $montserratreg;
+			text-transform: uppercase;
+			font-size:12px;
+			color:#b7b7b7;
+			line-height: 28px;
+		}
+		ul {
+			text-align: left;
+			list-style: none;
+			margin:0;
+			li {
+				width:100%;
+				&:after {
+						content: "•";
+						width:5px;
+						height:5px;
+						float:right;
+						color:#b7b7b7;
+						display: block;
+						position: relative;
+						z-index: 5;
+						top:6px;
+					}
+				label {
+					display: none;
+				}
+				input, textarea {
+					width:100%;
+					border-bottom:1px #b7b7b7 solid;
+					border-top:none;
+					border-left:none;
+					border-right:none;
+					font-family: $utopiareg;
+					color:$bluedark;
+					font-size:17px;
+					padding-bottom:15px;
+					margin-bottom:47px;
+					
+				}
+				textarea {
+					 resize: none;;
+				}
+				input:focus, textarea:focus {
+					border-bottom:1px solid #f32323;
+					outline: none;
+				}
+			}
+			li#field_1_6 {
+				display: none;
+				
+			}
+		}
+	}
+	.form ul li ::-webkit-input-placeholder {
+    color:$bluedark;
+   }
+   .form ul li ::-moz-placeholder {
+    color:$bluedark;
+   }
+   .form ul li :-moz-placeholder {
+      color:$bluedark;
+     }
+    .form ul li :-ms-input-placeholder {
+       color:$bluedark;
+     }
+     .form ul li ::-moz-placeholder {
+       opacity: 1;
+      }
+}
+
+
+.gform_button {
+	font-family: $montserratbold;
+	border:none;
+	color:#fff;
+	font-size:18px;
+	text-transform: uppercase;
+	letter-spacing: 0.6px;
+	padding:16px 150px;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f34b23+100 */
+				background: #f32323; /* Old browsers */
+				background: -moz-linear-gradient(left,  #f32323 0%, #f34b23 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(left,  #f32323 0%,#f34b23 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to right,  #f32323 0%,#f34b23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f34b23',GradientType=1 ); /* IE6-9 */
+	
+}
+
+
 

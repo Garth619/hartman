@@ -549,32 +549,75 @@
 <section class="awards">
 	
 	
-	<div class="award_slide">
-		
-		<img src="<?php bloginfo('template_directory');?>/images/award_1.png"/>
-		
-	</div><!-- award_slide -->
+	<div class="awards_inner">
 	
-	<div class="award_slide">
-		
-		<img src="<?php bloginfo('template_directory');?>/images/award_2.png"/>
-		
-	</div><!-- award_slide -->
 	
-	<div class="award_slide">
+		<div class="award_slide">
+			
+			<img src="<?php bloginfo('template_directory');?>/images/award_1.png"/>
+			
+		</div><!-- award_slide -->
 		
-		<img src="<?php bloginfo('template_directory');?>/images/award_3.png"/>
+		<div class="award_slide">
+			
+			<img src="<?php bloginfo('template_directory');?>/images/award_2.png"/>
+			
+		</div><!-- award_slide -->
 		
-	</div><!-- award_slide -->
+		<div class="award_slide">
+			
+			<img src="<?php bloginfo('template_directory');?>/images/award_3.png"/>
+			
+		</div><!-- award_slide -->
+		
+		<div class="award_slide">
+			
+			<img src="<?php bloginfo('template_directory');?>/images/award_4.png"/>
+			
+		</div><!-- award_slide -->
+		
+		<div class="award_slide">
+			
+			<img src="<?php bloginfo('template_directory');?>/images/award_1.png"/>
+			
+		</div><!-- award_slide -->
+		
+		<div class="award_slide">
+			
+			<img src="<?php bloginfo('template_directory');?>/images/award_2.png"/>
+			
+		</div><!-- award_slide -->
+		
+		<div class="award_slide">
+			
+			<img src="<?php bloginfo('template_directory');?>/images/award_3.png"/>
+			
+		</div><!-- award_slide -->
+		
+		<div class="award_slide">
+			
+			<img src="<?php bloginfo('template_directory');?>/images/award_4.png"/>
+			
+		</div><!-- award_slide -->
 	
-	<div class="award_slide">
-		
-		<img src="<?php bloginfo('template_directory');?>/images/award_4.png"/>
-		
-	</div><!-- award_slide -->
+	
+	</div><!-- awards_inner -->
 	
 	
 </section><!-- awards -->
+
+<section class="request">
+	
+	<div class="form">
+		
+		<span class="gfrom_title">schedule a free consultation</span><!-- gfrom_title -->
+		<span class="gform_subheader">all fields required *</span><!-- gform_subheader -->
+		<?php gravity_form(1, false, false, false, '', true, 12); ?>
+
+		
+	</div><!-- form -->
+	
+</section><!-- request -->
 
 
 			
