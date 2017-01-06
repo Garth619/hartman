@@ -619,6 +619,117 @@
 	
 </section><!-- request -->
 
+<section class="locations">
+	
+	<div class="locations_wrapper">
+		
+		<div class="single_location">
+			
+			
+			<div class="header_wrapper">
+			
+				<span class="large_header">New Castle</span><!-- large_header -->
+				<span class="blueline"></span><!-- blueline -->
+				
+			</div><!-- header_wrapper -->
+			
+			<a class="address" href="">1860 E. State St<br/>Hermitage, PA 16148</a><!-- address -->
+			<a class="tel" href="tel:724.652.4081 ">724.652.4081 </a>
+			
+			<a class="get_directions" href="">Get Directions</a><!-- get_directions -->
+			
+		</div><!-- single_location -->
+		
+		<div class="single_location">
+			
+			
+			<div class="header_wrapper">
+			
+				<span class="large_header">New Castle</span><!-- large_header -->
+				<span class="blueline"></span><!-- blueline -->
+				
+			</div><!-- header_wrapper -->
+			
+			<a class="address" href="">1860 E. State St<br/>Hermitage, PA 16148</a><!-- address -->
+			<a class="tel" href="tel:724.652.4081 ">724.652.4081 </a>
+			
+			<a class="get_directions" href="">Get Directions</a><!-- get_directions -->
+			
+		</div><!-- single_location -->
+		
+		<div class="single_location">
+			
+			
+			<div class="header_wrapper">
+			
+				<span class="large_header">New Castle</span><!-- large_header -->
+				<span class="blueline"></span><!-- blueline -->
+				
+			</div><!-- header_wrapper -->
+			
+			<a class="address" href="">1860 E. State St<br/>Hermitage, PA 16148</a><!-- address -->
+			<a class="tel" href="tel:724.652.4081 ">724.652.4081 </a>
+			
+			<a class="get_directions" href="">Get Directions</a><!-- get_directions -->
+			
+		</div><!-- single_location -->
+		
+		<div class="single_location">
+			
+			
+			<div class="header_wrapper">
+			
+				<span class="large_header">New Castle</span><!-- large_header -->
+				<span class="blueline"></span><!-- blueline -->
+				
+			</div><!-- header_wrapper -->
+			
+			<a class="address" href="">1860 E. State St<br/>Hermitage, PA 16148</a><!-- address -->
+			<a class="tel" href="tel:724.652.4081 ">724.652.4081 </a>
+			
+			<a class="get_directions" href="">Get Directions</a><!-- get_directions -->
+			
+		</div><!-- single_location -->
+		
+		<div class="single_location">
+			
+			
+			<div class="header_wrapper">
+			
+				<span class="large_header">New Castle</span><!-- large_header -->
+				<span class="blueline"></span><!-- blueline -->
+				
+			</div><!-- header_wrapper -->
+			
+			<a class="address" href="">1860 E. State St<br/>Hermitage, PA 16148</a><!-- address -->
+			<a class="tel" href="tel:724.652.4081 ">724.652.4081 </a>
+			
+			<a class="get_directions" href="">Get Directions</a><!-- get_directions -->
+			
+		</div><!-- single_location -->
+		
+		<div class="single_location">
+			
+			
+			<div class="header_wrapper">
+			
+				<span class="large_header">New Castle</span><!-- large_header -->
+				<span class="blueline"></span><!-- blueline -->
+				
+			</div><!-- header_wrapper -->
+			
+			<a class="address" href="">1860 E. State St<br/>Hermitage, PA 16148</a><!-- address -->
+			<a class="tel" href="tel:724.652.4081 ">724.652.4081 </a>
+			
+			<a class="get_directions" href="">Get Directions</a><!-- get_directions -->
+			
+		</div><!-- single_location -->
+		
+	</div><!-- locations_wrapper -->
+	
+	
+</section><!-- locations -->
+
 
 			
 

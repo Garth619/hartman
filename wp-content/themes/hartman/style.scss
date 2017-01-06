@@ -841,7 +841,7 @@ nav.desktop {
 							margin-bottom:3px;
 						}
 						span.author {
-							color:$bluelight;
+							color:#00a6e4;;
 							text-transform: uppercase;
 							font-family: $montserratreg;
 							font-size:12px;
@@ -911,6 +911,8 @@ nav.desktop {
 /* Request */
 
 .request {
+	
+	
 	.form {
 		max-width: 1050px;
 		margin:-110px auto 0;
@@ -920,6 +922,9 @@ nav.desktop {
 		padding:60px;
 		text-align: center;
 		overflow: hidden;
+		background: #fff;
+		position: relative;
+	z-index:5;
 		span.gfrom_title {
 			font-family: $montserratlight;
 			font-size:30px;
@@ -1072,6 +1077,71 @@ nav.desktop {
 	
 	.instruction.validation_message {
 		top:54px;
+	}
+	
+	
+	.locations {
+		background: url(images/footer_bg.jpg) top center no-repeat;
+		background-size: cover;
+		width:100%;
+		position: relative;
+		z-index: 1;
+		margin-top: -406px;
+		.locations_wrapper {
+			padding-top:480px;
+			max-width:942px;
+			margin:0 auto;
+			overflow: hidden;
+			.single_location {
+				width:33.3333%;
+				float:left;
+				margin-bottom: 85px;
+				.header_wrapper {
+					display: inline-block;
+					span.large_header {
+						color:#fff;
+						font-size:32px;
+						font-family: $utopiabold;
+						letter-spacing: 0.2px;
+						display: inline-block;
+						margin-bottom:8px;
+					}
+					span.blueline {
+						width:100%;
+						height:1px;
+						background:#00a6e4;;
+						display: block;
+					}
+				}
+				a.address {
+					color:#fff;
+					text-decoration: none;
+					font-family: $montserratlight;
+					display: block;
+					line-height: 23px;
+					font-size:18px;
+					margin-top:10px;
+				}
+				a.tel {
+					display: block;
+					color:#fff;
+					text-decoration: none;
+					font-family: $montserratreg;
+					margin-top:15px;
+				}
+				a.get_directions {
+					font-family: $montserratbold;
+					color:$bluelight;
+					text-transform: uppercase;
+					font-size:13px;
+					letter-spacing: 0.2px;
+					display: block;
+					margin-top:22px;
+					color:#00a6e4;
+					text-decoration: none;
+				}
+			}
+		}
 	}
 
 
