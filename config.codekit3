@@ -21,10 +21,10 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
-	"\/hartman-migrate-20170106162711.sql.gz": {
+	"\/hartman.sql.zip": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/hartman-migrate-20170106162711.sql.gz",
+		"oAP": "\/hartman.sql.zip",
 		"oF": 0
 		},
 	"\/index.php": {
