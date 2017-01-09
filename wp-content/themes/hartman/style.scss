@@ -1771,10 +1771,49 @@ header {
 	.case_results {
     margin: -443px auto 0;
     .inner_case_wrapper {
-	    width:95%;
+	    
     }
     
    }
+   
+   
+   
+ /* About Content */
+
+.about_content {
+	width:90%;
+	margin:0 auto;
+	padding-right:60px;
+	.blue_line {
+		margin-right:60px;
+	}
+	
+	.col_wrapper {
+		
+		.col {
+			width:100%;
+			span.largeheader {
+				
+			}
+			span.subheader {
+				
+			}
+			span.content_header {
+				
+			}
+		}
+		.col:first-of-type {
+			
+		}
+		.col:last-of-type {
+			
+		}
+	}
+}
+
+
+   
+     
 	
 	
 	
