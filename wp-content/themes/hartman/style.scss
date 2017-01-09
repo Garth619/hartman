@@ -761,7 +761,7 @@ nav.desktop {
 .more_clients {
 	width:100%;
 	overflow: hidden;
-	margin-left:40px;
+	padding-left:40px;
 	margin-top:43px;
 	a {
 		text-decoration: none;
@@ -1358,7 +1358,12 @@ footer {
 }
 
 
+/* Community */
 
+.community .give_back .give_back_inner {
+    
+    width: 95%;
+}
 
 	
 	
@@ -1523,6 +1528,60 @@ header {
 }
 
 
+
+
+
+
+/* Additional Content */
+
+.addtional_about_content {
+	
+	.col_1 {
+		padding-right: 125px;
+		span.large_header {
+			
+		}
+		p {
+/*
+			font-family: $utopiareg;
+			font-size:16px;
+			line-height
+*/
+		}
+	}
+	.col_2 {
+		padding-right:20px;
+			.video_wrapper {
+			
+			img.video_image {
+				
+			}
+			img.play {
+				
+			}
+		}
+		.blueline {
+			
+		}
+		.testimonial {
+						
+			
+		
+			span.large_header {
+				
+				
+			}
+			p {
+				
+				
+			}
+		}
+	}
+}
+
+
+
+
 	
 	
 	
@@ -1603,6 +1662,119 @@ header {
 	
 	}
 	
+		
+	
+	/* Main Banner */
+
+.main_banner {
+	background:url(images/tablet_mainimage.jpg) top center no-repeat;
+	height: 1727px;
+	.main_inner_banner {
+		padding-left:0;
+		text-align: center;
+		padding-top: 353px;
+		.welcome_content {
+			
+			span.subheader {
+				
+			}
+			span.largeheader {
+				
+			}
+			a.free_consultation {
+			}
+		}
+		.lower_content {
+			max-width:665px;
+			margin: 67px auto 0;
+			
+			.icon_wrapper {
+				width:100%;
+				border-right: none;
+				border-bottom: 1px solid #d11010;
+				padding-bottom:63px;
+				display: flex;
+				flex-direction: row;
+				.single_icon {
+
+					&:nth-of-type(1) {
+						width: 170px;
+					}
+					&:nth-of-type(2) {
+						flex-grow:1;
+					}
+					&:nth-of-type(3) {
+						width:190px;
+					}
+					span.largeheader {
+						
+					}
+					span.subheader {
+						
+					}
+					img {
+						
+					}
+				}
+			}
+			.video_wrapper {
+				width:100%;
+				margin:60px 0 0 0;
+				padding-left:0;
+				
+					
+					.video_thumb {
+						width:258px;
+						
+						img.video_thumb_img {
+							height:auto;
+							max-width:100%;
+						}
+						img.play {
+							
+						}
+					}
+					.video_content {
+						float: right;
+						max-width: 100%;
+						padding-right: 0;
+						padding-left:0;
+						text-align: left;
+						width: 50%;
+						margin-top: 44px;
+						span.video_header {
+							
+							
+						}
+						p {
+							
+						}
+					}
+				
+				
+			}
+		}
+	}
+}
+
+
+	
+	
+	.arrow_scroll {
+		display: none;
+	}
+	
+	
+	/* Case Results */
+	
+	
+	.case_results {
+    margin: -443px auto 0;
+    .inner_case_wrapper {
+	    width:95%;
+    }
+    
+   }
 	
 	
 	

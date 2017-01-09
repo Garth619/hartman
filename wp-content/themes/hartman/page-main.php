@@ -20,54 +20,58 @@
 		</div><!-- welcome_content -->
 		
 		<div class="lower_content">
+			
+			
 		
-		<div class="icon_wrapper">
+				<div class="icon_wrapper">
 			
 			
-			<div class="single_icon">
+				<div class="single_icon">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/header_icon_v2_sp1.svg"/>
+					<span class="largeheader">Record Setting</span><!-- largeheader -->
+					<span class="subheader">Verdicts</span><!-- subheader -->
+					
+				</div><!-- single_icon -->
 				
-				<img src="<?php bloginfo('template_directory');?>/images/header_icon_v2_sp1.svg"/>
-				<span class="largeheader">Record Setting</span><!-- largeheader -->
-				<span class="subheader">Verdicts</span><!-- subheader -->
+				<div class="single_icon">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/header_icon_v2_sp2.svg"/>
+					<span class="largeheader">Winner Of</span><!-- largeheader -->
+					<span class="subheader">Numerous Awards</span><!-- subheader -->
+					
+				</div><!-- single_icon -->
 				
-			</div><!-- single_icon -->
+				<div class="single_icon">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/header_icon_v2_sp3.svg"/>
+					<span class="largeheader">Dallas Gives Back</span><!-- largeheader -->
+					<span class="subheader">To the Community</span><!-- subheader -->
+					
+				</div><!-- single_icon -->
 			
-			<div class="single_icon">
-				
-				<img src="<?php bloginfo('template_directory');?>/images/header_icon_v2_sp2.svg"/>
-				<span class="largeheader">Winner Of</span><!-- largeheader -->
-				<span class="subheader">Numerous Awards</span><!-- subheader -->
-				
-			</div><!-- single_icon -->
-			
-			<div class="single_icon">
-				
-				<img src="<?php bloginfo('template_directory');?>/images/header_icon_v2_sp3.svg"/>
-				<span class="largeheader">Dallas Gives Back</span><!-- largeheader -->
-				<span class="subheader">To the Community</span><!-- subheader -->
-				
-			</div><!-- single_icon -->
-			
+		
 		</div><!-- icon_wrapper -->
+		
+	
 		
 		<div class="video_wrapper">
 			
 			<div class="video_thumb">
 				
-				<img class="video_thumb_img" src="<?php bloginfo('template_directory');?>/images/mobile_header_video_thumb.jpg"/>
-				<img class="play" src="<?php bloginfo('template_directory');?>/images/header_video_playbutton.png"/>
+					<img class="video_thumb_img" src="<?php bloginfo('template_directory');?>/images/mobile_header_video_thumb.jpg"/>
+					<img class="play" src="<?php bloginfo('template_directory');?>/images/header_video_playbutton.png"/>
 				
-			</div><!-- video_thumb -->
+				</div><!-- video_thumb -->
 			
-			<div class="video_content">
+				<div class="video_content">
 				
-				<span class="video_header">meet us in 80 seconds</span><!-- video_header -->
-				<p>Learn more about us and why you are in great hands with Dallas Hartman P.C.</p>
+					<span class="video_header">meet us in 80 seconds</span><!-- video_header -->
+					<p>Learn more about us and why you are in great hands with Dallas Hartman P.C.</p>
 				
-			</div><!-- video_content -->
+				</div><!-- video_content -->
 			
-			
-		</div><!-- video_wrapper -->
+	</div><!-- video_wrapper -->
 		
 	</div><!-- lower_content -->
 	
