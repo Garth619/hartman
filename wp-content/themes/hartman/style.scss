@@ -1261,16 +1261,17 @@ footer {
 
 			
 			span.largeheader {
-				
+				font-size:45px;
 			}
 			span.subheader {
-				
+				font-size:15px;
 			}
 			p {
-				
+				 font-size: 16px;
+				 line-height: 24px;
 			}
 			span.case_link {
-				
+				font-size:14px;
 				img.case_link_arrow {
 					
 				}
@@ -1299,6 +1300,7 @@ footer {
 			float:none;
 			margin:0 auto;
 			display: inline-block;
+			font-size:15px;
 		}
 	}
 	}
@@ -1339,7 +1341,8 @@ footer {
 		.col {
 			
 			span.largeheader {
-				
+				font-size:78px;
+// 				line-height:80px;
 			}
 			span.subheader {
 				
@@ -1489,8 +1492,13 @@ header {
 .reasons {
 	
 	.reasons_inner {
-		
+		padding: 0 20px;
+		width:100%;
 		.large_header_wrapper {
+			display: block;
+			margin: 0 auto;
+			max-width: 578px;
+			
 			span.large_header {
 				
 			}
@@ -1506,6 +1514,7 @@ header {
 	.single_reason {
 		width:49%;
 		margin-right: 2%;
+		margin-bottom: 20px;
 		&:nth-of-type(3n + 3) {
 			margin-right: 2%;
 		}
@@ -1519,10 +1528,10 @@ header {
 			
 		}
 		span.large_header {
-			
+			font-size:19px;
 		}
 		p {
-			
+			font-size:17px;
 		}
 	}
 }
@@ -1781,9 +1790,10 @@ header {
  /* About Content */
 
 .about_content {
-	width:90%;
+	width:87%;
 	margin:0 auto;
-	padding-right:60px;
+	padding-right:20px;
+	padding-bottom: 104px;
 	.blue_line {
 		margin-right:60px;
 	}
@@ -1806,6 +1816,112 @@ header {
 			
 		}
 		.col:last-of-type {
+			
+		}
+	}
+}
+
+
+
+/* Reasons */
+
+
+.reasons {
+		.reasons_inner {
+		
+		.large_header_wrapper {
+			span.large_header {
+				
+			}
+			span.red_line {
+				
+			}
+		}
+	}
+}
+
+.reasons_grid {
+	
+	.single_reason {
+		
+		
+		.icon {
+			
+		}
+		span.sm_red_line {
+			
+		}
+		span.large_header {
+			
+		}
+		p {
+			
+		}
+	}
+}
+
+
+
+
+/* Additional Content */
+
+.addtional_about_content {
+	 max-width: 1185px;
+	 margin: 0 auto;
+    padding-bottom: 104px;
+    padding-right: 20px;
+    width: 87%;
+    border-left: 2px solid #e8e8e8;
+	.col_1 {
+		width:100%;
+		padding-top: 133px;
+		padding-bottom: 0;
+		border-right:none;
+		span.large_header {
+			font-size:78px;
+		}
+		p {
+
+		}
+	}
+	.col_2 {
+		margin-top:0;
+		width:100%;
+		.video_wrapper {
+			margin:0;
+			float:right;
+			img.video_image {
+				
+			}
+			img.play {
+				
+			}
+		}
+		.blueline {
+			display: none;
+		}
+		.testimonial {
+			
+			span.large_header {
+				
+				
+			}
+			p {
+				
+				
+			}
+		}
+	}
+}
+
+.more_clients {
+	
+	a {
+		
+		span {
+			
+		}
+		img {
 			
 		}
 	}
