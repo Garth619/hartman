@@ -410,6 +410,7 @@
 
 <section class="addtional_about_content">
 	
+
 	
 	<div class="col_1">
 		
@@ -474,64 +475,69 @@
 			</div><!-- give_back_logo -->
 			
 			
-			<span class="large_header_give_back">Dallas Gives Back</span><!-- large_header_give_back -->
-			<span class="redline"></span><!-- redline -->
+			<div class="give_back_lower_content">
 			
 			
-			<div class="headline_wrapper">
-			
-				<div class="headline">
-					
-					<a href="">
-						
-						<div class="title_wrapper">
-						
-							<span class="title">Dallas Helps Revitalize Bollinger Park in New Castle</span><!-- title -->
-							<span class="author">POSTED BY KATHLEEN ROBERTSOn</span><!-- author -->
-						
-						</div><!-- title_wrapper -->
-						
-						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
-					
-					</a>
-					
-				</div><!-- headline -->
+				<span class="large_header_give_back">Dallas Gives Back</span><!-- large_header_give_back -->
+				<span class="redline"></span><!-- redline -->
 				
-				<div class="headline">
-					
-					<a href="">
-						
-						<div class="title_wrapper">
-						
-							<span class="title">Dallas Hartman provides funds to create lawrence county mentoring program</span><!-- title -->
-							<span class="author">POSTED BY Dallas Hartman</span><!-- author -->
-						
-						</div><!-- title_wrapper -->
-						
-						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
-					
-					</a>
-					
-				</div><!-- headline -->
 				
-				<div class="headline">
+				<div class="headline_wrapper">
+				
+					<div class="headline">
+						
+						<a href="">
+							
+							<div class="title_wrapper">
+							
+								<span class="title">Dallas Helps Revitalize Bollinger Park in New Castle</span><!-- title -->
+								<span class="author">POSTED BY KATHLEEN ROBERTSOn</span><!-- author -->
+							
+							</div><!-- title_wrapper -->
+							
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
+						
+						</a>
+						
+					</div><!-- headline -->
 					
-					<a href="">
+					<div class="headline">
 						
-						<div class="title_wrapper">
+						<a href="">
+							
+							<div class="title_wrapper">
+							
+								<span class="title">Dallas Hartman provides funds to create lawrence county mentoring program</span><!-- title -->
+								<span class="author">POSTED BY Dallas Hartman</span><!-- author -->
+							
+							</div><!-- title_wrapper -->
+							
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
 						
-							<span class="title">Help us help the Union Police Department add a canine officer</span><!-- title -->
-							<span class="author">POSTED BY Dallas Hartman</span><!-- author -->
+						</a>
 						
-						</div><!-- title_wrapper -->
-						
-						<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
+					</div><!-- headline -->
 					
-					</a>
-					
-				</div><!-- headline -->
+					<div class="headline">
+						
+						<a href="">
+							
+							<div class="title_wrapper">
+							
+								<span class="title">Help us help the Union Police Department add a canine officer</span><!-- title -->
+								<span class="author">POSTED BY Dallas Hartman</span><!-- author -->
+							
+							</div><!-- title_wrapper -->
+							
+							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
+						
+						</a>
+						
+					</div><!-- headline -->
+				
+				</div><!-- headline_wrapper -->
 			
-			</div><!-- headline_wrapper -->
+			</div><!-- give_back_lower_content -->
 			
 		
 		</div><!-- give_back_inner -->
