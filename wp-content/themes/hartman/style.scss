@@ -2336,10 +2336,14 @@ footer {
 	
 	
 	.inner_case_wrapper {
-		
+		width:100%;
 	a.singe_case_results_link {
 		.single_case_results {
-			
+			width:100%;
+			text-align: center;
+			height: 353px;
+			border-bottom: none;
+			border-right: none;
 			.dollar {
 				
 			}
@@ -2349,13 +2353,13 @@ footer {
 				
 			}
 			span.subheader {
-				
+				 margin-bottom: 48px;
 			}
 			p {
 			
 			}
 			span.case_link {
-				
+				display: none;
 				img.case_link_arrow {
 					
 				}
