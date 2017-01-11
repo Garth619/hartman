@@ -4,7 +4,7 @@
 		
 		<div class="footer_col footer_col1">
 			
-			<a href=""><img class="ilawyer" src="<?php bloginfo('template_directory');?>/images/footer_logo_ilawyer.svg"/></a>
+			<a href="//ilawyermarketing.com" target="_blank"><img class="ilawyer" src="<?php bloginfo('template_directory');?>/images/footer_logo_ilawyer.svg"/></a>
 			<span>Law Offices of Dallas W. Hartman &copy; 2016. All rights reserved. &nbsp;|&nbsp; <a href="">Disclaimer</a></span>
 		
 		</div><!-- footer_col -->
