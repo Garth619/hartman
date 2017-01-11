@@ -52,7 +52,7 @@
 	
 		<div class="logo_wrapper">
 		
-			<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo_hartman.png"/>
+			<a href="<?php bloginfo('url');?>"><img class="logo" src="<?php bloginfo('template_directory');?>/images/logo_hartman.png"/></a>
 		
 		</div><!-- logo_wrapper -->
 	

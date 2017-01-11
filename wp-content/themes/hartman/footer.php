@@ -1,3 +1,129 @@
+<section class="request">
+	
+	<div class="form">
+		
+		<span class="gfrom_title">schedule a free consultation</span><!-- gfrom_title -->
+		<span class="gform_subheader">all fields required *</span><!-- gform_subheader -->
+		<?php gravity_form(1, false, false, false, '', true, 12); ?>
+
+		
+	</div><!-- form -->
+	
+</section><!-- request -->
+
+<section class="locations">
+	
+	<div class="locations_wrapper">
+		
+		<div class="single_location">
+			
+			
+			<div class="header_wrapper">
+			
+				<span class="large_header">New Castle</span><!-- large_header -->
+				<span class="blueline"></span><!-- blueline -->
+				
+			</div><!-- header_wrapper -->
+			
+			<a class="address" href="">1860 E. State St<br/>Hermitage, PA 16148</a><!-- address -->
+			<a class="tel" href="tel:724.652.4081 ">724.652.4081 </a>
+			
+			<a class="get_directions" href="">Get Directions</a><!-- get_directions -->
+			
+		</div><!-- single_location -->
+		
+		<div class="single_location">
+			
+			
+			<div class="header_wrapper">
+			
+				<span class="large_header">Hermitage</span><!-- large_header -->
+				<span class="blueline"></span><!-- blueline -->
+				
+			</div><!-- header_wrapper -->
+			
+			<a class="address" href="">1860 E. State St<br/>Hermitage, PA 16148 </a><!-- address -->
+			<a class="tel" href="tel:724.652.4081 ">724.346.0616</a>
+			
+			<a class="get_directions" href="">Get Directions</a><!-- get_directions -->
+			
+		</div><!-- single_location -->
+		
+		<div class="single_location">
+			
+			
+			<div class="header_wrapper">
+			
+				<span class="large_header">Butler</span><!-- large_header -->
+				<span class="blueline"></span><!-- blueline -->
+				
+			</div><!-- header_wrapper -->
+			
+			<a class="address" href="">220 S. Main St, Suite B<br/>Butler, PA 16001 </a><!-- address -->
+			<a class="tel" href="tel:724.652.4081 ">724.283.6662</a>
+			
+			<a class="get_directions" href="">Get Directions</a><!-- get_directions -->
+			
+		</div><!-- single_location -->
+		
+		<div class="single_location">
+			
+			
+			<div class="header_wrapper">
+			
+				<span class="large_header">Pittsburgh</span><!-- large_header -->
+				<span class="blueline"></span><!-- blueline -->
+				
+			</div><!-- header_wrapper -->
+			
+			<a class="address" href="">301 Grant St<br/>Pittsburgh, PA 15219 </a><!-- address -->
+			<a class="tel" href="tel:724.652.4081 ">412.262.2888</a>
+			
+			<a class="get_directions" href="">Get Directions</a><!-- get_directions -->
+			
+		</div><!-- single_location -->
+		
+		<div class="single_location">
+			
+			
+			<div class="header_wrapper">
+			
+				<span class="large_header">Erie</span><!-- large_header -->
+				<span class="blueline"></span><!-- blueline -->
+				
+			</div><!-- header_wrapper -->
+			
+			<a class="address" href="">1001 State St, Suite 1430<br/>Erie, PA 16501 </a><!-- address -->
+			<a class="tel" href="tel:724.652.4081 ">814.461.8844</a>
+			
+			<a class="get_directions" href="">Get Directions</a><!-- get_directions -->
+			
+		</div><!-- single_location -->
+		
+		<div class="single_location">
+			
+			
+			<div class="header_wrapper">
+			
+				<span class="large_header">Youngstown</span><!-- large_header -->
+				<span class="blueline"></span><!-- blueline -->
+				
+			</div><!-- header_wrapper -->
+			
+			<a class="address" href="">4496 Mahoning Ave, Suite 502<br/>Youngstown, Ohio 44515</a><!-- address -->
+			<a class="tel" href="tel:724.652.4081 ">330.757.7707</a>
+			
+			<a class="get_directions" href="">Get Directions</a><!-- get_directions -->
+			
+		</div><!-- single_location -->
+		
+	</div><!-- locations_wrapper -->
+	
+	
+</section><!-- locations -->
+
+
+
 <footer>
 	
 	<div class="inner_footer">
