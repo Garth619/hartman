@@ -206,7 +206,7 @@ nav.desktop {
 }
 
 
-/* Main Page */
+
 
 
 /* Main Banner */
@@ -2210,6 +2210,75 @@ footer {
 
 	
  
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 545px) {
+	
+	
+	
+	
+/* Header */
+
+header {
+	height:200px;
+	.logo_wrapper {
+			width:100%;
+			img.logo {
+				display: block;
+				margin: 0 auto;
+			}
+		}
+		.header_col_right {
+			width:100%;
+			display: flex;
+			
+			.free_consultation_wrapper {
+				padding:12px;
+				height:63px;
+				flex-grow: 1;
+				margin-left:0;
+				span.sub_header {
+					font-size:11px;
+				}
+				a.large_header {
+					font-size:25px;
+				}
+			}
+			.mobile_wrapper {
+				background: $black;
+				 padding: 13px 14px 0;
+				 height:63px;
+				 width:112px;
+				 text-align: center;
+				.mobile_bar {
+					background: $bluelight;
+					height:1px;
+					margin-bottom:7px;
+					display: block;
+					margin:0 auto 7px;
+					
+				}
+				span {
+					color:#fff;
+					margin-top:7px;
+					font-size: 12px;
+					font-weight: 600;
+					
+				}
+			}
+		}
+		
+	}
+
+
+
+
+
+
 	
 	
 	
