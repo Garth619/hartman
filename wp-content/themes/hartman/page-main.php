@@ -339,7 +339,87 @@
 		</div><!-- large_header_wrapper -->
 		
 		
-		<div class="reasons_grid">
+		<div class="reasons_grid mobile">
+			
+			<div class="single_reason">
+				
+				<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
+				
+				<span class="sm_red_line"></span><!-- sm_red_line -->
+				
+				<span class="large_header">free consultations</span><!-- large_header -->
+				
+				<p>Wondering if you have a case? Call us for a free consultation! This way you can find out if you have a case or not. There is no obligation so contact us anytime.</p>
+				
+			</div><!-- single_reason -->
+			
+			<div class="single_reason">
+				
+				<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
+				
+				<span class="sm_red_line"></span><!-- sm_red_line -->
+				
+				<span class="large_header">free consultations</span><!-- large_header -->
+				
+				<p>Wondering if you have a case? Call us for a free consultation! This way you can find out if you have a case or not. There is no obligation so contact us anytime.</p>
+				
+			</div><!-- single_reason -->
+			
+			<div class="single_reason">
+				
+				<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
+				
+				<span class="sm_red_line"></span><!-- sm_red_line -->
+				
+				<span class="large_header">free consultations</span><!-- large_header -->
+				
+				<p>Wondering if you have a case? Call us for a free consultation! This way you can find out if you have a case or not. There is no obligation so contact us anytime.</p>
+				
+			</div><!-- single_reason -->
+			
+			<div class="single_reason">
+				
+				<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
+				
+				<span class="sm_red_line"></span><!-- sm_red_line -->
+				
+				<span class="large_header">free consultations</span><!-- large_header -->
+				
+				<p>Wondering if you have a case? Call us for a free consultation! This way you can find out if you have a case or not. There is no obligation so contact us anytime.</p>
+				
+			</div><!-- single_reason -->
+			
+			<div class="single_reason">
+				
+				<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
+				
+				<span class="sm_red_line"></span><!-- sm_red_line -->
+				
+				<span class="large_header">free consultations</span><!-- large_header -->
+				
+				<p>Wondering if you have a case? Call us for a free consultation! This way you can find out if you have a case or not. There is no obligation so contact us anytime.</p>
+				
+			</div><!-- single_reason -->
+			
+			<div class="single_reason">
+				
+				<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
+				
+				<span class="sm_red_line"></span><!-- sm_red_line -->
+				
+				<span class="large_header">free consultations</span><!-- large_header -->
+				
+				<p>Wondering if you have a case? Call us for a free consultation! This way you can find out if you have a case or not. There is no obligation so contact us anytime.</p>
+				
+			</div><!-- single_reason -->
+			
+		</div><!-- reasons_grid -->
+		
+		
+		
+		
+		
+		<div class="reasons_grid desktop">
 			
 			<div class="single_reason">
 				

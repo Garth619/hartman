@@ -356,7 +356,18 @@
 		slidesToScroll: 1,
   });
   
-
+  
+  jQuery('.reasons_grid.mobile').slick({
+		arrows:false,
+		slidesToShow: 1,
+		dots:true,
+		slidesToScroll: 1,
+  });
+  
+	
+	
+	
+	
   
   
 	
