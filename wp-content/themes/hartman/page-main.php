@@ -426,7 +426,7 @@
 	
 	<div class="col_1">
 		
-		<span class="large_header">Lorem Ipsum Eli Dolor Sit Amet Consectetur Adip</span><!-- large_header -->
+		<span class="large_header">Lorem Ipsum Eli Dolor Sit Amet Consect etur Adip</span><!-- large_header -->
 		
 		<div class="content">
 		
