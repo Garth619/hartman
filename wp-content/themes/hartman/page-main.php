@@ -154,7 +154,13 @@
 	
 	</a>
 	
-	<div class="view_more">
+	<div class="view_more mobile">
+		
+		<a href="">View All Case Studies</a>
+		
+	</div><!-- view_more -->
+	
+	<div class="view_more desktop">
 		
 		<a href="">View More</a>
 		
@@ -312,6 +318,12 @@
 		</div><!-- single_practice_area -->
 		
 	</div><!-- practice_area_wrapper -->
+	
+	<div class="view_pa">
+		
+		<a href="">View All Practice Areas</a>
+		
+	</div><!-- view_pa -->
 
 </section><!-- practice_areas -->
 

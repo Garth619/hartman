@@ -438,6 +438,9 @@ nav.desktop {
 			
 		}
 	}
+	.view_more.mobile {
+		display: none;
+	}
 	.view_more {
 		a {
 			display: block;
@@ -2383,8 +2386,16 @@ footer {
 			
 		}
 	}
+	.view_more.desktop {
+		display: none;
+	}
+	.view_more.mobile {
+		display: block;
+	}
 	.view_more {
+		bottom:0;
 		a {
+			padding:25px 20px;
 			
 		}
 	}
@@ -2412,6 +2423,154 @@ footer {
 		}
 	}
 }
+
+
+
+
+
+/* About Content */
+
+.about_content {
+	border:none;
+	margin-top:100px;
+	padding-right:0;
+	padding-top:0px;
+	border-top:2px solid #e8e8e8;
+	padding-bottom: 30px;
+	.blue_line {
+		float:none;
+		display: block;
+		margin:-6px auto 0;
+		width:80px;
+		height:10px;
+	}
+	
+	.col_wrapper {
+		
+		.col {
+			
+			span.largeheader {
+				font-size:40px;
+				line-height: 44px;
+				margin-top:45px;
+			}
+			span.subheader {
+				font-size:16px;
+				line-height: 28px;
+			}
+			span.content_header {
+				
+			}
+		}
+		.col:first-of-type {
+			
+		}
+		.col:last-of-type {
+			
+		}
+	}
+}
+
+
+
+/* Practice Areas */
+
+
+.practice_areas {
+	
+	.practice_area_wrapper {
+		.single_practice_area {
+			
+			span.subheader {
+				
+			
+			}
+			.pa_icon_wrapper {
+				
+				
+				img.pa_icon {
+					
+				}
+			}
+			img.arrow {
+				
+			}
+		}
+	}
+	.view_pa {
+		
+		a {
+			background: $bluelight;
+			width:100%;
+			display: block;
+			clear:both;
+			text-align: center;
+			color:#fff;
+			text-decoration: none;
+			font-size:15px;
+			font-family: $montserratreg;
+			padding:30px 0;
+			letter-spacing: 0.6px;
+			text-transform: uppercase;
+		}
+	}
+}
+
+
+
+/* Reasons */
+
+
+.reasons {
+	padding:100px 0;
+	.reasons_inner {
+		
+		.large_header_wrapper {
+			text-align: center;
+			padding:0 25px;
+			
+			span.large_header {
+				font-size:23px;
+				line-height: 28px;
+			}
+			span.red_line {
+				margin:17px auto 0;
+			}
+		}
+	}
+}
+
+.reasons_grid {
+	margin-top:45px;
+	.single_reason {
+		width:100%;
+		padding:45px 25px;
+		height:390px;
+		&:nth-of-type(3n + 3) {
+			
+		}
+		&:nth-of-type(2n + 2) {
+			
+		}
+		.icon {
+			width:55px;
+		}
+		span.sm_red_line {
+			margin-top:10px;
+			width:55px;
+		}
+		span.large_header {
+			margin:13px 0 20px;
+		}
+		p {
+			
+		}
+	}
+}
+
+
+
+
 
 
 
