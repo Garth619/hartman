@@ -33,6 +33,18 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
+	"\/license.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/license.txt",
+		"oF": 0
+		},
+	"\/readme.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/readme.html",
+		"oF": 0
+		},
 	"\/wp-activate.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -6755,10 +6767,40 @@
 		"oAP": "\/wp-content\/plugins\/gravityforms\/xml.php",
 		"oF": 0
 		},
+	"\/wp-content\/plugins\/hello.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/hello.php",
+		"oF": 0
+		},
 	"\/wp-content\/plugins\/index.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/index.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wordpress-importer\/languages\/wordpress-importer.pot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wordpress-importer\/languages\/wordpress-importer.pot",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wordpress-importer\/parsers.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wordpress-importer\/parsers.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wordpress-importer\/readme.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wordpress-importer\/readme.txt",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wordpress-importer\/wordpress-importer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wordpress-importer\/wordpress-importer.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/wp-migrate-db-pro\/asset\/css\/styles.css": {
@@ -8031,12 +8073,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/index.php",
-		"oF": 0
-		},
-	"\/wp-content\/uploads\/wp-migrate-db\/index.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/index.php",
 		"oF": 0
 		},
 	"\/wp-cron.php": {
@@ -13928,7 +13964,7 @@
 "projectAttributes": {
 	"creationDate": 505192161,
 	"displayValue": "hartman",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-confession"
 	},
 "projectSettings": {

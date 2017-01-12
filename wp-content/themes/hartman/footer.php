@@ -192,28 +192,37 @@
 			slidesToShow: 4,
 			dots:true,
 			slidesToScroll: 1,
-/*
+
 			responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 1200,
       settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
+        arrows:false,
+				slidesToShow: 3,
+				dots:true,
+				slidesToScroll: 1,
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 645,
       settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
+        arrows:false,
+				slidesToShow: 2,
+				dots:true,
+				slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        arrows:false,
+				slidesToShow: 1,
+				dots:true,
+				slidesToScroll: 1
       }
     }
   ]
-*/
+
   });
 	
 	
