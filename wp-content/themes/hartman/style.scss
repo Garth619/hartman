@@ -994,6 +994,7 @@ nav.desktop {
 						font-size:17px;
 						padding-bottom:10px;
 						background: transparent;
+						padding-right:25px;
 						
 					}
 					input {
@@ -2693,7 +2694,7 @@ footer {
 						}
 					}
 					.arrow {
-						
+						margin-top: 28px;
 					}
 				}
 				.headline:last-of-type {
@@ -2710,6 +2711,140 @@ footer {
 		}
 	}
 }
+
+
+/* Awards */
+
+
+.awards {
+	margin: 47px auto 209px;
+	.awards_inner {
+		
+		.award_slide {
+			
+			img {
+				
+			}
+		}
+	}
+	.slick-dots {
+		
+		
+		li.slick-active {
+			button {
+				&:before {
+					
+				}
+			}
+		}
+		li:hover {
+			button {
+				&:before {
+					
+					
+				}
+			}
+		}
+	}
+}
+
+
+/* Request */
+
+.request {
+	width:100%;
+	
+	.form {
+		padding: 60px 20px;
+		span.gfrom_title {
+			
+		}
+		span.gform_subheader {
+			
+		}
+		.gform_wrapper {
+			 margin-top: 34px;
+			ul {
+				
+				li {
+					width::100%;
+					&:nth-of-type(2n + 1) {
+						float:none;
+					}
+					&:nth-of-type(2n + 2) {
+						float:none;
+					}
+					&:after {
+							top: -56px;
+						}
+					label {
+						
+					}
+					input, textarea {
+						
+						
+					}
+					input {
+						padding-bottom: 19px;
+						margin-bottom: 18px;
+					}
+					textarea {
+						 
+					}
+					input:focus, textarea:focus {
+						
+					}
+				}
+				li#field_1_5 {
+					
+					&:after {
+							
+						}
+					
+				}
+				li#field_1_6 {
+					
+					
+				}
+			}
+		}
+	}
+	.form ul li ::-webkit-input-plasceholder {
+    
+   }
+   .form ul li ::-moz-placeholder {
+    
+   }
+   .form ul li :-moz-placeholder {
+     
+     }
+    .form ul li :-ms-input-placeholder {
+       
+     }
+     .form ul li ::-moz-placeholder {
+       
+      }
+}
+
+.gform_footer {
+	
+	.gform_button {
+			
+		}
+	}
+	
+	
+	.validation_error {
+		
+	}
+	
+	.gfield_description, .validation_message {
+		
+	}
+	
+	.instruction.validation_message {
+		
+	}
 
 
 
