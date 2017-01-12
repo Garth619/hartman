@@ -120,6 +120,13 @@
 	</div><!-- locations_wrapper -->
 	
 	
+	<div class="view_all_locations">
+		
+		<a href="">View All Locations</a>
+		
+	</div><!-- view_all_locations -->
+	
+	
 </section><!-- locations -->
 
 

@@ -1158,6 +1158,9 @@ nav.desktop {
 				}
 			}
 		}
+		.view_all_locations {
+			display: none;
+		}
 	}
 
 
@@ -1172,6 +1175,7 @@ footer {
 		flex-direction: row;
 		align-items: center;
 		padding:0 90px;
+		line-height: 16px;
 		.footer_col {
 			
 		}
@@ -1185,6 +1189,7 @@ footer {
 				width:270px;
 				display: block;
 				margin-bottom:5px;
+				
 			}
 			span {
 				font-family: $montserratreg;
@@ -2499,12 +2504,12 @@ footer {
 		}
 	}
 	.view_pa {
-		
+		clear:both;
 		a {
 			background: $bluelight;
 			width:100%;
 			display: block;
-			clear:both;
+			
 			text-align: center;
 			color:#fff;
 			text-decoration: none;
@@ -2648,7 +2653,179 @@ footer {
 
 
 
+/* Community */
+ 
+ 
 
+
+
+.community {
+	
+	.give_back {
+		
+		.give_back_inner {
+			
+			.give_back_logo {
+				width:86%;
+				padding: 14px 28px;
+				 margin-top: -67px;
+				 max-width:355px;
+				img {
+					max-width: 100%;
+					height: auto;
+				}
+			}
+			.give_back_lower_content {
+				
+			}
+			span.large_header_give_back {
+				text-align: center;
+				margin-top:70px;
+			}
+			span.redline {
+				margin:12px auto 0;
+			}
+			.headline_wrapper {
+				padding:0 20px;
+				margin-top: 64px;
+				.headline {
+					text-align: center;
+					a {}
+					.title_wrapper {
+						
+						span.title {
+							 margin-bottom: 5px;
+						}
+						span.author {
+							
+						}
+					}
+					.arrow {
+						margin-top: 28px;
+					}
+				}
+				.headline:last-of-type {
+					
+				}
+			}
+		}
+	}
+	.video_wrapper {
+		
+		
+		img {
+			
+		}
+	}
+}
+
+
+/* Location */
+	
+	
+	.locations {
+		
+		.locations_wrapper {
+			right:0;
+			 padding-top: 457px;
+			.single_location {
+				width:100%;
+				float:none;
+				text-align: center;
+				.header_wrapper {
+					
+					span.large_header {
+						
+					}
+					span.blueline {
+						
+					}
+				}
+				a.address {
+					
+				}
+				a.tel {
+					
+				}
+				a.get_directions {
+					
+				}
+			}
+		}
+	
+		.view_all_locations {
+			text-align: center;
+			width:100%;
+			display: block;
+			a {
+				color:#fff;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-family: $montserratreg;
+				font-size:	15px;
+				letter-spacing: 0.6px;
+				padding:23px 0;
+				display: block;
+				
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f34b23+100 */
+				background: #f32323; /* Old browsers */
+				background: -moz-linear-gradient(left,  #f32323 0%, #f34b23 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(left,  #f32323 0%,#f34b23 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to right,  #f32323 0%,#f34b23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f34b23',GradientType=1 ); /* IE6-9 */
+			}
+		}
+	}
+
+
+	
+	/* Footer */
+
+footer {
+	
+	.inner_footer {
+		
+		.footer_col {
+			
+		}
+		.footer_col1 {
+			
+			
+			
+			
+			.ilawyer {
+				
+				top:68px;
+			}
+			span {
+				
+			}
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+		.footer_col2 {
+			
+			img {
+				
+			}
+		}
+		.footer_col3 {
+			
+			.social_icon_wrapper {
+				
+				img.icon {
+					
+				}
+			}
+		}
+	}
+}
+
+	
 	
 	
 	
@@ -2715,71 +2892,7 @@ header {
 	
 	
 	
-	/* Community */
- 
- 
-
-
-
-.community {
 	
-	.give_back {
-		
-		.give_back_inner {
-			
-			.give_back_logo {
-				width:86%;
-				padding: 14px 28px;
-				 margin-top: -67px;
-				img {
-					max-width: 100%;
-					height: auto;
-				}
-			}
-			.give_back_lower_content {
-				
-			}
-			span.large_header_give_back {
-				text-align: center;
-				margin-top:70px;
-			}
-			span.redline {
-				margin:12px auto 0;
-			}
-			.headline_wrapper {
-				padding:0 20px;
-				margin-top: 64px;
-				.headline {
-					text-align: center;
-					a {}
-					.title_wrapper {
-						
-						span.title {
-							 margin-bottom: 5px;
-						}
-						span.author {
-							
-						}
-					}
-					.arrow {
-						margin-top: 28px;
-					}
-				}
-				.headline:last-of-type {
-					
-				}
-			}
-		}
-	}
-	.video_wrapper {
-		
-		
-		img {
-			
-		}
-	}
-}
-
 
 
 
@@ -2862,20 +2975,21 @@ header {
 						
 					}
 					input {
-						padding-bottom: 19px;
+						padding-bottom: 20px;
 						margin-bottom: 18px;
 					}
 					textarea {
-						 
+						height: 152px; 
 					}
 					input:focus, textarea:focus {
 						
 					}
 				}
 				li#field_1_5 {
+					margin-top:20px;
 					
 					&:after {
-							
+							top:-179px;
 						}
 					
 				}
