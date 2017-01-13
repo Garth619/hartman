@@ -1,10 +1,17 @@
 <div class="sidebar">
 	
-	<ul class="sidebar_menu">
+	<ul class="menu">
 		
 		<li><a href="">Practice Area</a></li>
 		<li><a href="">Practice Area</a></li>
-		<li><a href="">Practice Area</a></li>
+		<li class="menu-item-has-children"><a>Practice Area</a>
+			<ul class="sub-menu">
+				<li><a href="">Practice Area</a></li>
+				<li><a href="">Practice Area</a></li>
+				<li><a href="">Practice Area</a></li>
+				<li><a href="">Practice Area</a></li>
+			</ul>
+		</li>
 		<li><a href="">Practice Area</a></li>
 		<li><a href="">Practice Area</a></li>
 		<li><a href="">Practice Area</a></li>
