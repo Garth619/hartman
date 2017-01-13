@@ -1349,6 +1349,34 @@ footer {
 	ul.menu {
 		
 		> li.menu-item-has-children {
+			> a.active {
+				&:after {
+						content:"";
+						width: 0; 
+						height: 0; 
+						border-left: 6px solid transparent;
+						border-right: 6px solid transparent;
+						border-top: 6px solid $bluelight;
+						float:right;
+						margin-right:15px;
+						position: relative;
+						top:3px;
+				 }
+			}
+			> a:hover {
+				 &:after {
+						content:"";
+						width: 0; 
+						height: 0; 
+						border-left: 6px solid transparent;
+						border-right: 6px solid transparent;
+						border-top: 6px solid #fff;
+						float:right;
+						margin-right:15px;
+						position: relative;
+						top:3px;
+				 }
+			}
 			> a {
 				cursor: pointer;
 			}
@@ -1356,17 +1384,18 @@ footer {
 						content:"";
 						width: 0; 
 						height: 0; 
-						border-top: 6px solid transparent;
-						border-bottom: 6px solid transparent;
-						border-left: 6px solid $bluelight;
+						border-left: 6px solid transparent;
+						border-right: 6px solid transparent;
+						border-top: 6px solid $bluelight;
 						float:right;
 						margin-right:15px;
-						
+						transition:all .2s ease-in-out;
+						position: relative;
+						top:3px;
 					}
 				}
 		li {
 			width:100%;
-			
 			a {
 				color:$black;
 				text-decoration: none;
@@ -1380,11 +1409,9 @@ footer {
 				padding:24px 10px 20px 35px;
 				transition: all .2s ease-in-out;
 				&:hover {
-					
 					color:#fff;
 					
 					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#075593+0,072f51+100 */
-					
 					background: #075593; /* Old browsers */
 					background: -moz-linear-gradient(-45deg,  #075593 0%, #072f51 100%); /* FF3.6-15 */
 					background: -webkit-linear-gradient(-45deg,  #075593 0%,#072f51 100%); /* Chrome10-25,Safari5.1-6 */
@@ -1401,10 +1428,14 @@ footer {
 			}
 			ul.sub-menu {
 				li {
+					
 					a {
-						&:hover {
 							background:#e1e1e1;
+							border-top:1px #fff solid;
+						&:hover {
+						background:#fff;
 							color:$black;
+							
 						}
 					}
 					&:last-of-type {
@@ -1422,7 +1453,7 @@ footer {
 .inner_container {
 	width: 723px;
 	float:right;
-	margin: -16px 0 0;
+	margin: -13px 0 0;
 }
 
 
