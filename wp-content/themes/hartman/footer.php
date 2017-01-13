@@ -344,7 +344,7 @@
 		arrows:false,
 		slidesToShow: 1,
 		dots:true,
-		slidesToScroll: 1,
+		slidesToScroll: 1
   });
   
   
@@ -361,7 +361,7 @@
 		arrows:false,
 		slidesToShow: 1,
 		dots:true,
-		slidesToScroll: 1,
+		slidesToScroll: 1
   });
   
 	
@@ -402,6 +402,142 @@
   ]
 
   });
+  
+  
+  
+  
+  
+
+/*
+  jQuery('.inner_case_wrapper').slick({
+			arrows:false,
+			slidesToShow: 4,
+			dots:false,
+			slidesToScroll: 4,
+
+			responsive: [
+    {
+      breakpoint: 1775,
+      settings: "unslick"   
+      },
+    {
+      breakpoint: 730,
+      settings: {
+        arrows:false,
+				slidesToShow: 1,
+				dots:false,
+				slidesToScroll: 1
+      }
+    }
+  ]
+
+  });
+  
+
+
+
+
+
+  jQuery(window).on('resize', function() {
+    if (jQuery(window).width() > 730) {
+      if (jQuery('.inner_case_wrapper').hasClass('slick-initialized')) {
+        jQuery('.inner_case_wrapper').slick('unslick');
+      }
+      return
+    }
+
+    if (!jQuery('.inner_case_wrapper').hasClass('slick-initialized')) {
+      return jQuery('.inner_case_wrapper').slick({
+	      
+	      
+	      arrows:false,
+			slidesToShow: 4,
+			dots:false,
+			slidesToScroll: 4,
+
+			responsive: [
+    {
+      breakpoint: 1775,
+      settings: "unslick"   
+      },
+    {
+      breakpoint: 730,
+      settings: {
+        arrows:false,
+				slidesToShow: 1,
+				dots:false,
+				slidesToScroll: 1
+      }
+    }
+  ]
+	      
+	      
+	      
+	      
+      });
+    }
+  });
+*/
+
+
+
+$slick_slider = jQuery('.inner_case_wrapper');
+  
+  settings = {
+    
+    
+    arrows:false,
+			slidesToShow: 4,
+			dots:false,
+			slidesToScroll: 4,
+
+			responsive: [
+    {
+      breakpoint: 1775,
+      settings: "unslick"   
+      },
+    {
+      breakpoint: 730,
+      settings: {
+        arrows:false,
+				slidesToShow: 1,
+				dots:false,
+				slidesToScroll: 1
+      }
+    }
+		]
+
+  }
+  
+  
+  
+  $slick_slider.slick(settings);
+
+  
+  
+  // reslick only if it's not slick()
+  
+  jQuery(window).on('resize', function() {
+    
+    if (jQuery(window).width() > 730) {
+      
+      if ($slick_slider.hasClass('slick-initialized')) {
+        $slick_slider.slick('unslick');
+      }
+      
+      return
+    
+    }
+
+    if (!$slick_slider.hasClass('slick-initialized')) {
+      return $slick_slider.slick(settings);
+    }
+  
+  });
+
+
+ 
+  
 	
 	
   

@@ -154,6 +154,10 @@
 	
 	</a>
 	
+		
+	</div><!-- inner_case_wrapper -->
+	
+	
 	<div class="view_more mobile">
 		
 		<a href="">View All Case Studies</a>
@@ -165,8 +169,7 @@
 		<a href="">View More</a>
 		
 	</div><!-- view_more -->
-	
-	</div><!-- inner_case_wrapper -->
+
 
 	
 </section><!-- case_results -->

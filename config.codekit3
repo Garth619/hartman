@@ -7412,6 +7412,12 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp-content\/themes\/hartman\/images\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/index.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/hartman\/images\/internal_bio_hartman.jpg": {
 		"ft": 16384,
 		"iS": 56114,
@@ -7687,12 +7693,6 @@
 		"oAP": "\/wp-content\/themes\/hartman\/images\/tablet_sp_bg.jpg",
 		"oF": 0,
 		"opt": 0
-		},
-	"\/wp-content\/themes\/hartman\/index.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/themes\/hartman\/index.php",
-		"oF": 0
 		},
 	"\/wp-content\/themes\/hartman\/languages\/twentyten.pot": {
 		"ft": 8192,
