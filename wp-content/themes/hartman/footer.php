@@ -361,7 +361,7 @@
 		arrows:false,
 		slidesToShow: 1,
 		dots:true,
-		slidesToScroll: 1,
+		slidesToScroll: 1
   });
   
 	
