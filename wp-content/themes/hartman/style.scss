@@ -434,34 +434,7 @@ nav.desktop {
 		}
 	
 	
-	.view_more.mobile {
-		display: none;
-	}
-	.view_more {
-		a {
-			display: block;
-			float:right;
-			color:#fff;
-			font-family: $montserratreg;
-			font-size:16px;
-			text-transform: uppercase;
-			padding:25px 70px;
-			text-decoration: none;
-			position: absolute;
-			right: -120px;
-			top:197px;
-			 -ms-transform: rotate(90deg); /* IE 9 */
-			 -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-			 transform: rotate(90deg);
-			
-			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f34b23+100 */
-				background: #f32323; /* Old browsers */
-				background: -moz-linear-gradient(left,  #f32323 0%, #f34b23 100%); /* FF3.6-15 */
-				background: -webkit-linear-gradient(left,  #f32323 0%,#f34b23 100%); /* Chrome10-25,Safari5.1-6 */
-				background: linear-gradient(to right,  #f32323 0%,#f34b23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f34b23',GradientType=1 ); /* IE6-9 */
-		}
-	}
+	
 	}
 }
 
@@ -491,6 +464,37 @@ nav.desktop {
 			margin:0px 0 0 10px;
 			position: relative;
 			top:4px;
+		}
+	}
+}
+
+.case_results {
+	.view_more.mobile {
+		display: none;
+	}
+	.view_more {
+		a {
+			display: block;
+			float:right;
+			color:#fff;
+			font-family: $montserratreg;
+			font-size:16px;
+			text-transform: uppercase;
+			padding:25px 70px;
+			text-decoration: none;
+			position: absolute;
+			right: -120px;
+			top:190px;
+			 -ms-transform: rotate(90deg); /* IE 9 */
+			 -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+			 transform: rotate(90deg);
+			
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f34b23+100 */
+				background: #f32323; /* Old browsers */
+				background: -moz-linear-gradient(left,  #f32323 0%, #f34b23 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(left,  #f32323 0%,#f34b23 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to right,  #f32323 0%,#f34b23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f34b23',GradientType=1 ); /* IE6-9 */
 		}
 	}
 }
@@ -1309,22 +1313,7 @@ footer {
 		
 	}
 	
-	.view_more {
-		position: absolute;
-		bottom:0;
-		width:100%;
-		left:0;
-		a {
-			position: relative;
-			top:45px;
-			left:0;
-			transform: none;
-			float:none;
-			margin:0 auto;
-			display: inline-block;
-			font-size:15px;
-		}
-	}
+	
 	}
 }
 
@@ -1346,6 +1335,26 @@ footer {
 		
 		img.case_link_arrow {
 			
+		}
+	}
+}
+
+
+.case_results {
+	.view_more {
+		position: absolute;
+		bottom:0;
+		width:100%;
+		left:0;
+		a {
+			position: relative;
+			top:45px;
+			left:0;
+			transform: none;
+			float:none;
+			margin:0 auto;
+			display: inline-block;
+			font-size:15px;
 		}
 	}
 }
@@ -2436,7 +2445,8 @@ footer {
 				 margin-bottom: 48px;
 			}
 			p {
-			
+				max-width:400px;
+				margin:0 auto;
 			}
 			span.case_link {
 				display: none;
@@ -2447,19 +2457,7 @@ footer {
 		}
 	
 	
-	.view_more.desktop {
-		display: none;
-	}
-	.view_more.mobile {
-		display: block;
-	}
-	.view_more {
-		bottom:0;
-		a {
-			padding:25px 20px;
-			
-		}
-	}
+	
 	}
 }
 
@@ -2485,7 +2483,22 @@ footer {
 	}
 }
 
-
+.case_results {
+	.view_more.desktop {
+		display: none;
+	}
+	.view_more.mobile {
+		display: block;
+	}
+	.view_more {
+		bottom:0;
+		a {
+			padding:25px 20px;
+			top:30px;
+			
+		}
+	}
+}
 
 
 
@@ -2493,7 +2506,7 @@ footer {
 
 .about_content {
 	border:none;
-	margin-top:100px;
+	margin-top:94px;
 	padding-right:0;
 	padding-top:0px;
 	border-top:2px solid #e8e8e8;
