@@ -365,15 +365,13 @@ nav.desktop {
 	width:100%;
 	max-width:1595px;
 	margin: -227px auto 0px;
-	
-	
 	position: relative;
 	.inner_case_wrapper {
 		overflow: hidden;
 		-webkit-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
 		-moz-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
 		box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
-	a.singe_case_results_link {
+	
 		.single_case_results {
 			background: #fff;
 			padding:45px 35px;
@@ -382,6 +380,12 @@ nav.desktop {
 			width:25%;
 			height:439px;
 			position: relative;
+			&:last-of-type {
+				border-right:none;
+			}
+			a.case_results_link {
+				text-decoration: none;
+			}
 			.dollar {
 				font-size: 46px;
 			}
@@ -428,16 +432,8 @@ nav.desktop {
 				}
 			}
 		}
-	}
-	a.singe_case_results_link:last-of-type {
-		.single_case_results {
-			border:none;
-			p {
-// 				padding-right:20px;
-			}
-			
-		}
-	}
+	
+	
 	.view_more.mobile {
 		display: none;
 	}
@@ -1274,32 +1270,21 @@ footer {
 		margin:0 auto;
 		max-width:1250px;
 		width:97%;
-		a.singe_case_results_link {
-			&:nth-of-type(2) {
-				.single_case_results {
-					border-right:none;
-				}
-			}
-			&:nth-of-type(3), &:nth-of-type(4)  {
-				.single_case_results {
-					border-bottom:none;
-				}
-			}
-			
 		
 		
-		
-		
-		}
-		
-	a.singe_case_results_link {
+	
 		
 		.single_case_results {
 			width:50%;
 			text-align: left;
 			border-bottom: 1px solid #bdbdbd;
-			
 			padding-top:65px;
+			&:nth-of-type(2) {
+				border-right:none;
+			}
+			&:nth-of-type(n + 3) {
+				border-bottom: none;
+			}
 			.dollar {
 				
 			}
@@ -1321,17 +1306,9 @@ footer {
 					
 				}
 			}
-		}
+		
 	}
-	a.singe_case_results_link:last-of-type {
-		.single_case_results {
-			
-			p {
-
-			}
-			
-		}
-	}
+	
 	.view_more {
 		position: absolute;
 		bottom:0;
@@ -2440,7 +2417,7 @@ footer {
 	
 	.inner_case_wrapper {
 		width:100%;
-	a.singe_case_results_link {
+	
 		.single_case_results {
 			width:100%;
 			text-align: center;
@@ -2468,16 +2445,8 @@ footer {
 				}
 			}
 		}
-	}
-	a.singe_case_results_link:last-of-type {
-		.single_case_results {
-			
-			p {
-
-			}
-			
-		}
-	}
+	
+	
 	.view_more.desktop {
 		display: none;
 	}
