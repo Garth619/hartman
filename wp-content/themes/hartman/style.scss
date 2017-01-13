@@ -1358,6 +1358,18 @@ footer {
 				display: block;
 				border-top:1px solid $black;
 				padding:24px 10px 20px 35px;
+				&:hover {
+					
+					color:#fff;
+					
+					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#075593+0,072f51+100 */
+background: #075593; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #075593 0%, #072f51 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #075593 0%,#072f51 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #075593 0%,#072f51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#075593', endColorstr='#072f51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+				}
 			}
 			&:last-of-type {
 				a {
