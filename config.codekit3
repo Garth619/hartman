@@ -39,6 +39,12 @@
 		"oAP": "\/license.txt",
 		"oF": 0
 		},
+	"\/phpinfo.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/phpinfo.php",
+		"oF": 0
+		},
 	"\/readme.html": {
 		"ft": 8192,
 		"oA": 2,

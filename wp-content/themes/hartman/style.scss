@@ -2999,7 +2999,7 @@ header {
 	
 	
 .reasons {
-	 
+	 padding-bottom: 56px;
 	.reasons_inner {
 		
 		.large_header_wrapper {
@@ -3023,6 +3023,7 @@ header {
 	.single_reason {
 		margin-right:0;
 		padding-bottom:25px;
+		margin-bottom: 85px;
 			&:nth-of-type(3n + 3) {
 				margin-right: 0%;
 			}
@@ -3044,8 +3045,8 @@ header {
 		}
 	}
 	.slick-dots {
-		bottom: -30px;
-		
+		bottom: 8px;
+		position: none !important;
 		li.slick-active {
 			button {
 				&:before {
