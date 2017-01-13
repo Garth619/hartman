@@ -382,7 +382,7 @@
 		</div><!-- large_header_wrapper -->
 		
 		
-		<div class="reasons_grid mobile" style="display: none;">
+		<div class="reasons_grid mobile">
 			
 			<div class="single_reason">
 				

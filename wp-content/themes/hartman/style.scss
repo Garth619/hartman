@@ -1255,8 +1255,83 @@ footer {
 /* Internals */
 
 
-.inner_main {
+.banner_wrapper {
+	background:url(images/internal_header_mainimage.png) top center no-repeat;
+	background-size: cover;
+	width:100%;
+	
+	.inner_banner {
+		max-width:1150px;
+		margin:0 auto;
+		height:445px;
+		overflow: hidden;
+		.inner_content {
+			color:#fff;
+			font-family: $montserratlight;
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			width:50%;
+			float:left;
+			span.subheader {
+				display: block;
+				font-size:29px;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+			}
+			span.largeheader {
+				display: block;
+				font-size:89px;
+				font-family: $utopiabold;
+				letter-spacing: 0.2px;
+				margin-top:4px;
+			}
+			a.free_consultation {
+				color:#fff;
+				text-decoration: none;
+				font-family: $montserratreg;
+				text-transform: uppercase;
+				letter-spacing: 0.6px;
+				padding:22px 49px;
+				display: inline-block;
+				font-size:15px;
+				margin-top:32px;
+				
+				
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f34b23+100 */
+				background: #f32323; /* Old browsers */
+				background: -moz-linear-gradient(left,  #f32323 0%, #f34b23 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(left,  #f32323 0%,#f34b23 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to right,  #f32323 0%,#f34b23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f34b23',GradientType=1 ); /* IE6-9 */
+			}
+		}
+		.video_wrapper {
+			margin-left:230px;
+			margin-top:95px;
+			float:left;
+		}
+	}
+}
+
+.inner_main_with_sidebar {
 	min-height:800px;
+	max-width:1150px;
+	margin:0 auto;
+}
+
+.sidebar {
+	width:350px;
+	background: red;
+	float:left;
+	height:500px;
+}
+
+.inner_container {
+	width:700px;
+	background: black;
+	float:right;
+	height:500px;
 }
 
 
@@ -2627,6 +2702,7 @@ footer {
 		flex-direction: column;
 		border-top: 2px solid #e8e8e8;
 		margin-top:22px;
+		align-items: center;
 		.video_wrapper {
 			margin:0;
 			order:3;
@@ -2668,6 +2744,7 @@ footer {
 	padding:0;
 	order:4;
 	margin-top: 30px;
+	width: 283px;
 	a {
 		
 		span {
