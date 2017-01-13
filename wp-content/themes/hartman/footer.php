@@ -323,7 +323,7 @@
         arrows:false,
 				slidesToShow: 2,
 				dots:true,
-				slidesToScroll: 1
+				slidesToScroll: 1,
       }
     },
     {
@@ -365,7 +365,43 @@
   });
   
 	
-	
+	jQuery('.practice_area_wrapper').slick({
+			arrows:false,
+			slidesToShow: 6,
+			dots:false,
+			slidesToScroll: 1,
+
+			responsive: [
+    {
+      breakpoint: 1300,
+      settings: {
+        arrows:false,
+				slidesToShow: 3,
+				dots:false,
+				slidesToScroll: 3,
+      }
+    },
+    {
+      breakpoint: 790,
+      settings: {
+        arrows:false,
+				slidesToShow: 2,
+				dots:false,
+				slidesToScroll: 2,
+      }
+    },
+    {
+      breakpoint: 545,
+      settings: {
+        arrows:false,
+				slidesToShow: 1,
+				dots:false,
+				slidesToScroll: 1
+      }
+    }
+  ]
+
+  });
 	
 	
   

@@ -239,7 +239,11 @@
 			
 			<span class="subheader">Personal Injury</span><!-- subheader -->
 			
-			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			<div class="arrow_wrapper">
+			
+				<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			
+			</div><!-- arrow_wrapper -->
 			
 		</div><!-- single_practice_area -->
 		
@@ -253,7 +257,11 @@
 			
 			<span class="subheader">Motor Vehicle Accidents</span><!-- subheader -->
 			
-			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			<div class="arrow_wrapper">
+			
+				<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			
+			</div><!-- arrow_wrapper -->
 			
 		</div><!-- single_practice_area -->
 		
@@ -268,7 +276,11 @@
 			
 			<span class="subheader">Worker's Compensation</span><!-- subheader -->
 			
-			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			<div class="arrow_wrapper">
+			
+				<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			
+			</div><!-- arrow_wrapper -->
 			
 		</div><!-- single_practice_area -->
 		
@@ -283,7 +295,11 @@
 			
 			<span class="subheader">Medical Malpractice</span><!-- subheader -->
 			
-			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			<div class="arrow_wrapper">
+			
+				<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			
+			</div><!-- arrow_wrapper -->
 			
 		</div><!-- single_practice_area -->
 		
@@ -298,7 +314,11 @@
 			
 			<span class="subheader">Social Security Disability</span><!-- subheader -->
 			
-			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			<div class="arrow_wrapper">
+			
+				<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			
+			</div><!-- arrow_wrapper -->
 			
 		</div><!-- single_practice_area -->
 		
@@ -313,7 +333,11 @@
 			
 			<span class="subheader">Legal Malpractice</span><!-- subheader -->
 			
-			<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			<div class="arrow_wrapper">
+			
+				<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
+			
+			</div><!-- arrow_wrapper -->
 			
 		</div><!-- single_practice_area -->
 		
