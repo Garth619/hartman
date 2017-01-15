@@ -1493,6 +1493,24 @@ footer {
 }
 
 
+body.page-template-page-about {
+
+.inner_main_no_sidebar {
+	.inner_container {
+		.inner_content {
+			span.my_excerpt {
+				margin-top:22px;
+			}
+			
+		}
+	}
+}
+
+}
+
+
+
+
 
 .inner_main_no_sidebar {
 		overflow: hidden;
@@ -1512,7 +1530,7 @@ footer {
 					font-family: $montserratreg;
 					line-height:36px;
 					display: block;
-					margin:12px 0 65px;
+					margin:0px 0 45px;
 				}
 				.col {
 					width:48%;
@@ -1538,7 +1556,8 @@ footer {
 		flex-direction: row;
 		width:100%;
 		max-width: 1000px;
-		margin: 67px auto 15px;
+		margin: 0px auto;
+		padding:67px 0 0px;
 		.about_icon {
 			text-align: center;
 			color:$black;
@@ -1756,6 +1775,42 @@ ul.grid {
 			padding:25px 0;
 			display: block;
 			
+		}
+	}
+}
+
+
+/* Bio */
+
+
+body.page-template-page-bio {
+	.inner_main_no_sidebar {
+		.inner_container {
+			overflow: hidden;
+			.content {
+				.sidebar_bio {
+					width:34%;
+					float:left;
+					background:red;
+					height:500px;
+					table.blue_header_wrapper {
+						tr {
+							td {
+								img {
+									max-width: 100%;
+									height:auto;
+									padding-left:60px;
+								}
+							}
+						}
+					}
+				}
+				.inner_content {
+					width:66%;
+					float:right;
+					padding-left: 59px;
+				}
+			}
 		}
 	}
 }
@@ -3979,6 +4034,12 @@ footer {
 			}
 		}
 		
+	}
+	
+	
+	
+	.about_icons_wrapper {
+		padding-bottom: 155px;
 	}
 	
 	
