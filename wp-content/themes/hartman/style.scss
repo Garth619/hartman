@@ -1784,6 +1784,14 @@ ul.grid {
 
 
 body.page-template-page-bio {
+	.content {
+		h1 {
+			margin-bottom:10px;
+			font-size:65px;
+			line-height: 86px;
+			margin-top:-20px;
+		}
+	}
 	.inner_main_no_sidebar {
 		.inner_container {
 			overflow: hidden;
@@ -1791,15 +1799,46 @@ body.page-template-page-bio {
 				.sidebar_bio {
 					width:34%;
 					float:left;
-					background:red;
+					
 					height:500px;
 					table.blue_header_wrapper {
 						tr {
-							td {
+							td.header_blue_line {
+								position: relative;
+								top:-4px;
+							}
+							td.bio_cell {
+								margin-left:18%;
+								text-align: center;
+								position: relative;
+								display: block;
 								img {
 									max-width: 100%;
 									height:auto;
-									padding-left:60px;
+									
+								}
+								.email_wrapper {
+									
+									width:100%;
+									position: absolute;
+									bottom:0;
+									left:0;
+									a.email_attorney {
+										color:#fff;
+										text-decoration: none;
+										text-transform: uppercase;
+										font-size:15px;
+										font-family: $montserratreg;
+										letter-spacing: 0.6px;
+										padding:20px 44px;
+										margin-top:-45px;
+										/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f34b23+100 */
+										background: #f32323; /* Old browsers */
+										background: -moz-linear-gradient(left,  #f32323 0%, #f34b23 100%); /* FF3.6-15 */
+										background: -webkit-linear-gradient(left,  #f32323 0%,#f34b23 100%); /* Chrome10-25,Safari5.1-6 */
+										background: linear-gradient(to right,  #f32323 0%,#f34b23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+										filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f34b23',GradientType=1 ); /* IE6-9 */
+									}
 								}
 							}
 						}
@@ -1809,6 +1848,11 @@ body.page-template-page-bio {
 					width:66%;
 					float:right;
 					padding-left: 59px;
+					span.my_excerpt {
+						margin-bottom:30px;
+						line-height: 31px;
+						font-size:19px;
+					}
 				}
 			}
 		}

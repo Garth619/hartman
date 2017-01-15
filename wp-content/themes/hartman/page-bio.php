@@ -28,9 +28,16 @@
 								
 								<td class="header_blue_line"></td><!-- blue_line -->
 								
-								<td>
+								<td class="bio_cell">
+									
 									<img src="<?php bloginfo('template_directory');?>/images/internal_bio_hartman.jpg"/>
-									<a class="email_attorney" href="">Email Dallas</a><!-- email_attorney -->
+									
+									<div class="email_wrapper">
+									
+										<a class="email_attorney" href="">Email Dallas</a><!-- email_attorney -->
+									
+									</div><!-- email_wrapper -->
+								
 								</td>
 						
 							</tr>
@@ -45,19 +52,14 @@
 						
 					<h1>Dallas W. Hartman</h1>
 					
-					<span class="my_excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</span>
+					<span class="my_excerpt">Dallas W. Hartman, principal at the law firm bearing his name, focuses his practice on personal injury, medical malpractice, legal malpractice and workers' compensation in Pennsylvania and Ohio.</span>
 					
 					
-					
-					<h2>Lorem ipsum dolor sit amet</h2>
+					<p>"Not all attorneys are equal. Therefore, the attorney you chose does make a difference." From highly complex litigation to routine auto cases Attorney Hartman believes each client deserves the attention that a corporate attorney gives a major corporation.</p>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.</p>
-					
-					
-					
-						<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat.</p>
+					<p>An honors graduate of Youngstown State University and the Dickinson School of Law, Hartman began practicing law in the Commonwealth of Pennsylvania in 1984. Dallas has been listed as one of the top 5% of lawyers in Pennsylvania by Super Lawyers Magazine and has been selected as one of the Top 50 Super Lawyers in Pittsburgh since 2012. He was proud to be included as one of the Top 100 Super Lawyers in Pennsylvania in 2013 and 2016. In addition, he was recognized by Newsweek magazine as a Leader in Product Liability Litigation. He is a lifetime member of the Million Dollar Advocates and the Multi-Million Dollar Advocates and is listed as one of the Top 100 Trial Lawyers.</p>
 
-						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde</p> 
+					<p>"Maybe, my clients are more important to me because they are real people with real problems that all of us can understand," says Dallas. "Our legal system only works when clients are represented by attorneys with the knowledge, ability and resources to take a case to trial and through the appellate process."</p>
 					
 					
 					
