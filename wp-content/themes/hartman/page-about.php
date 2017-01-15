@@ -23,7 +23,7 @@
 					
 					<tr>
 						<td class="header_blue_line"></td><!-- blue_line -->
-						<td><h1>About Our Firm</h1></td>
+						<td><h1><?php the_title();?></h1></td>
 						
 						
 					</tr>
