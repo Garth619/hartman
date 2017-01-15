@@ -1,4 +1,14 @@
-<?php get_header(); ?>
+
+<?php 
+/**
+ * Template for displaying all default pages
+ *
+
+ *
+
+ */
+	
+	get_header(); ?>
 
 	<?php include('banner.php');?>
 	

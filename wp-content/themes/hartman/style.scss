@@ -68,6 +68,28 @@ body {
 		font-size:16px;
 		line-height: 27px;
 		color:#260801;
+		.blue_header_wrapper {
+			
+			.header_blue_line {
+				background:$bluelight;
+				width:12px;
+				margin-left:-2px;
+				margin-top:0px;
+				margin-right:43px;
+				position: relative;
+				left:-2px;
+			}
+			h1 {
+				color:$bluedark;
+				font-size:80px;
+				line-height: 86px;
+				font-family: $utopiabold;
+				font-style: none;
+				font-weight: normal;
+				margin-bottom:0px;
+				margin-left: 54px;
+			}
+		}
 		h1 {
 			color:$bluedark;
 			font-size:80px;
@@ -1452,12 +1474,93 @@ footer {
 	}
 }
 
+.inner_main_with_sidebar {
+
 .inner_container {
 	width: 70%;
 	float:right;
 	margin: -13px 0 0 0;
 	padding-left:70px;
 }
+
+}
+
+
+
+.inner_main_no_sidebar {
+		overflow: hidden;
+		max-width:1265px;
+		padding:135px 0px 280px;
+		margin: 0 auto -170px;
+		
+		 border-left: 2px solid #e8e8e8;
+		.inner_container {
+			margin: -13px 0 0 0;
+			.inner_content {
+				padding-left:72px;
+				overflow: hidden;
+				span.my_excerpt {
+					font-size:20px;
+					color:#798e9e;
+					font-family: $montserratreg;
+					line-height:36px;
+					display: block;
+					margin:12px 0 65px;
+				}
+				.col {
+					width:48%;
+					
+					&:first-of-type {
+						float:left;
+						padding-right:50px;
+					}
+					&:last-of-type {
+						float:left;
+						margin-top:30px;
+						padding-left:30px;
+					}
+				}
+			}
+		}
+		
+	}
+	
+	
+	.about_icons_wrapper {
+		display: flex;
+		flex-direction: row;
+		width:100%;
+		max-width: 1000px;
+		margin: 67px auto 15px;
+		.about_icon {
+			text-align: center;
+			color:$black;
+			flex-grow: 1;
+			width:33.33333%;
+			img {
+				height:80px;
+				width:80px;
+				display: block;
+				margin:0 auto;
+			}
+			span.large_header {
+				display: block;
+				font-family: $montserratreg;
+				font-size:13px;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				font-weight: 600;
+				margin-top:28px;
+				line-height: 1;
+			}
+			span.sub_header {
+				font-family: $montserratlight;
+				text-transform: uppercase;
+				font-size:13px;
+				display: block;
+			}
+		}
+	}
 
 
 @media screen and (max-width: 1730px) {
@@ -2620,10 +2723,14 @@ footer {
 	}
 }
 
+.inner_main_with_sidebar {
+
 .inner_container {
 	width:100%;
 	padding-left:0;
 	order:1;
+}
+
 }
 
 
@@ -3335,6 +3442,9 @@ footer {
 			margin-top:0;
 		}
 	}
+	
+	
+	
 	
 	.content {
 		h1 {
