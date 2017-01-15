@@ -1169,6 +1169,8 @@ nav.desktop {
 			max-width:942px;
 			margin:0 auto;
 			overflow: hidden;
+			position: relative;
+			right:-56px;
 			.slide_wrapper.mobile {
 				display: none;
 			}
@@ -1623,6 +1625,74 @@ footer {
 		
 	}
 }
+
+
+
+
+/* Contact */
+
+
+.contact_wrapper {
+	margin-top:45px;
+	.single_contact {
+		width:100%;
+		
+		
+		.contact_info {
+			-webkit-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
+			-moz-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
+			box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
+			float:left;
+			width:50%;
+			padding:47px;
+			span.large_header {
+				font-family: $utopiabold;
+				color:$bluedark;
+				font-size:44px;
+				display: block;
+				margin-bottom: 25px;
+			}
+			a.address {
+				font-family: $montserratlight;
+				font-size:19px;
+				color:$bluedark;
+				line-height: 30px;
+				text-decoration: none;
+				display: block;
+			}
+			a.tel {
+				font-family: $montserratbold;
+				color: $bluedark;
+				text-decoration: none;
+				display: block;
+				font-size:19px;
+				
+			}
+			a.get_directions {
+				color:#fff;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-family: $montserratlight;
+				letter-spacing: 0.8px;
+				padding:18px 45px;
+				display: block;
+				margin-top:45px;
+				width:285px;
+				text-align: center;
+				
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007ddc+39,0f2236+100 */
+				background: #007ddc; /* Old browsers */
+				background: -moz-linear-gradient(45deg,  #007ddc 39%, #0f2236 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(45deg,  #007ddc 39%,#0f2236 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(45deg,  #007ddc 39%,#0f2236 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007ddc', endColorstr='#0f2236',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+			}
+		}
+	}
+}
+
 
 
 @media screen and (max-width: 1730px) {
@@ -2626,7 +2696,7 @@ header {
 		
 		.locations_wrapper {
 			 max-width: 595px;
-			 position: relative;
+			 
 			 right: -58px;
 			.single_location {
 				width:50%;
