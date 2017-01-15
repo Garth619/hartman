@@ -1710,6 +1710,40 @@ footer {
 	}
 }
 
+/* Practice Areas */
+
+ul.grid {
+	list-style: none;
+	margin-top:75px;
+	overflow: hidden;
+	li {
+		background: none;
+		padding:0;
+		margin-bottom: 0;
+		width:30%;
+		float:left;
+		&:nth-of-type(3n + 1) {
+		margin-right:5%;
+		}
+		&:nth-of-type(3n + 2) {
+			margin-right:5%;
+		}
+		a {
+			color:$bluedark;
+			text-align: center;
+			text-decoration: none;
+			font-family: $montserratlight;
+			text-transform: uppercase;
+			letter-spacing: 0.2px;
+			line-height: 31px;
+			width:100%;
+			border-top:1px solid $bluedark;
+			padding:25px 0;
+			display: block;
+		}
+	}
+}
+
 
 
 @media screen and (max-width: 1730px) {
@@ -3047,7 +3081,34 @@ footer {
 }
 
 	
+/* Practice Areas */
+
+ul.grid {
 	
+	li {
+		
+		width:44%;
+		float:none;
+		&:nth-of-type(3n + 1) {
+		margin-right:0%;
+		
+		}
+		&:nth-of-type(3n + 2) {
+			margin-right:0%;
+		}
+		&:nth-of-type(2n + 2) {
+			margin-right:6%;
+			float:right;
+		}
+		&:nth-of-type(n + 1) {
+			margin-right:6%;
+			float:left;
+		}
+		a {
+			
+		}
+	}
+}
 	
 	
 	
@@ -3856,6 +3917,8 @@ footer {
 .inner_main_no_sidebar {
 		padding-top:70px;
 		width:96%;
+		padding-bottom: 130px;
+	
 		.inner_container {
 			
 			.inner_content {
@@ -3880,6 +3943,40 @@ footer {
 		}
 		
 	}
+	
+	
+	
+	/* Practice Areas */
+
+ul.grid {
+	margin-bottom: 130px;
+	li {
+		
+		width:100%;
+		float:none;
+		&:nth-of-type(3n + 1) {
+		margin-right:0%;
+		
+		}
+		&:nth-of-type(3n + 2) {
+			margin-right:0%;
+		}
+		&:nth-of-type(2n + 2) {
+			margin-right:0%;
+			float:none;
+		}
+		&:nth-of-type(n + 1) {
+			margin-right:0%;
+			float:none;
+		}
+		a {
+			
+		}
+	}
+}
+	
+	
+	
 
 
 } /* Media Query */
@@ -4296,14 +4393,14 @@ header {
 	padding-right:0px;
 	
 	.single_contact {
-		
+		padding:35px;
 		.contact_info {
 			
 			
 			
 			
 			span.large_header {
-				
+				line-height: 40px;
 			}
 			a.address {
 				
@@ -4313,9 +4410,9 @@ header {
 				
 			}
 			a.get_directions {
-				
-
-
+				padding-left:4px;
+				padding-right:4px;
+				width:100%;	
 			}
 		}
 		.map {
