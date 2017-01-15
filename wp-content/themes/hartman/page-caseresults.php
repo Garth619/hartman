@@ -32,71 +32,83 @@
 					
 					
 							<div class="case_results_page_wrapper">
-								
-								<div class="single_case_results_page">
-									
-									<span class="large_header">$18,000,000</span><!-- large_header -->
-									<span class="sub_header">Bad Faith Settlement</span><!-- sub_header -->
-									
-								</div><!-- single_case_results -->
-								
-								<div class="single_case_results_page">
-									
-									hello
-									
-								</div><!-- single_case_results -->
-								
-								<div class="single_case_results_page">
-									
-									hello
-									
-								</div><!-- single_case_results -->
-								
-							</div><!-- case_results_wrapper -->
 							
-							<div class="case_results_page_wrapper">
+								<div class="case_results_row">
+									
+									<div class="single_case_results_page">
+										
+										<span class="large_header">$18,000,000</span><!-- large_header -->
+										<span class="sub_header">Bad Faith Settlement</span><!-- sub_header -->
+										
+									</div><!-- single_case_results -->
+									
+									<div class="single_case_results_page">
+										
+										<span class="large_header">$18,000,000</span><!-- large_header -->
+										<span class="sub_header">Bad Faith Settlement</span><!-- sub_header -->
+										
+									</div><!-- single_case_results -->
+									
+									<div class="single_case_results_page">
+										
+										<span class="large_header">$18,000,000</span><!-- large_header -->
+										<span class="sub_header">Bad Faith Settlement</span><!-- sub_header -->
+										
+									</div><!-- single_case_results -->
+									
+								</div><!-- case_results_row -->
 								
-								<div class="single_case_results_page">
+								<div class="case_results_row">
 									
-									hello
+									<div class="single_case_results_page">
+										
+										<span class="large_header">$18,000,000</span><!-- large_header -->
+										<span class="sub_header">Bad Faith Settlement</span><!-- sub_header -->
+										
+									</div><!-- single_case_results -->
 									
-								</div><!-- single_case_results -->
+									<div class="single_case_results_page">
+										
+										<span class="large_header">$18,000,000</span><!-- large_header -->
+										<span class="sub_header">Bad Faith Settlement</span><!-- sub_header -->
+										
+									</div><!-- single_case_results -->
+									
+									<div class="single_case_results_page">
+										
+										<span class="large_header">$18,000,000</span><!-- large_header -->
+										<span class="sub_header">Bad Faith Settlement</span><!-- sub_header -->
+										
+									</div><!-- single_case_results -->
+									
+								</div><!-- case_results_row -->	
 								
-								<div class="single_case_results_page">
+								<div class="case_results_row">
 									
-									hello
+									<div class="single_case_results_page">
+										
+										<span class="large_header">$18,000,000</span><!-- large_header -->
+										<span class="sub_header">Bad Faith Settlement</span><!-- sub_header -->
+										
+									</div><!-- single_case_results -->
 									
-								</div><!-- single_case_results -->
-								
-								<div class="single_case_results_page">
+									<div class="single_case_results_page">
+										
+										<span class="large_header">$18,000,000</span><!-- large_header -->
+										<span class="sub_header">Bad Faith Settlement</span><!-- sub_header -->
+										
+									</div><!-- single_case_results -->
 									
-									hello
+									<div class="single_case_results_page">
+										
+										<span class="large_header">$18,000,000</span><!-- large_header -->
+										<span class="sub_header">Bad Faith Settlement</span><!-- sub_header -->
+										
+									</div><!-- single_case_results -->
 									
-								</div><!-- single_case_results -->
-								
-							</div><!-- case_results_wrapper -->	
+								</div><!-- case_results_row -->
 							
-							<div class="case_results_page_wrapper">
-								
-								<div class="single_case_results_page">
-									
-									hello
-									
-								</div><!-- single_case_results -->
-								
-								<div class="single_case_results_page">
-									
-									hello
-									
-								</div><!-- single_case_results -->
-								
-								<div class="single_case_results_page">
-									
-									hello
-									
-								</div><!-- single_case_results -->
-								
-							</div><!-- case_results_wrapper -->	
+							</div><!-- case_results_page_wrapper -->
 					
 					
 					</div><!-- inner_content -->
