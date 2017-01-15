@@ -1493,7 +1493,7 @@ footer {
 }
 
 
-body.page-template-page-about {
+body.page-template-page-about, body.page-template-page-attorneysdirectory {
 
 .inner_main_no_sidebar {
 	.inner_container {
@@ -1887,6 +1887,97 @@ body.page-template-page-bio {
 		}
 	}
 }
+
+/* Attorneys Directory */
+
+
+body.page-template-page-attorneysdirectory {
+
+	.inner_main_no_sidebar {
+	 	.inner_container {
+		  .inner_content {
+			  .col {
+				  margin:0;
+				  padding:0;
+				  &:last-of-type {
+					  float:right;
+				  }
+			  }
+		  }
+	 	}
+	}
+}
+
+
+
+.top_attorneys_wrapper {
+	clear: both;
+	text-align: center;
+	padding-top:75px;
+	position: relative;
+	right:-28px;
+	
+}
+
+
+.all_attorneys_wrapper {
+	margin-left:72px;
+	overflow: hidden;
+	margin-top:32px;
+}
+
+a.single_attorney_link:nth-of-type(4n + 4) {
+	.single_attorney.bottom {
+		margin-right:0;
+	}
+}
+
+
+a.single_attorney_link {
+		text-decoration: none;
+		.single_attorney.top {
+			display: inline-block;
+			margin:0 16px;
+		}
+		.single_attorney.bottom {
+			float: left;
+			margin-right:32px;
+			margin-bottom: 32px;
+			
+		}
+		.single_attorney {
+			width:269px;
+			text-align: center;
+			font-family: $montserratlight;
+			font-size:15px;
+			letter-spacing: 0.8px;
+			
+			font-weight: 600;
+			.image_wrapper {
+				img {
+					max-width:100%;
+					height:auto;
+					display: block;
+				}
+				span {
+					display: block;
+					width:100%;
+					color:#fff;
+					text-transform: uppercase;
+					padding:15px 5px;
+					margin-top:-57px;
+					position: relative;
+					z-index:5;
+					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007ddc+39,0f2236+100 */
+					background: #007ddc; /* Old browsers */
+					background: -moz-linear-gradient(45deg,  #007ddc 39%, #0f2236 100%); /* FF3.6-15 */
+					background: -webkit-linear-gradient(45deg,  #007ddc 39%,#0f2236 100%); /* Chrome10-25,Safari5.1-6 */
+					background: linear-gradient(45deg,  #007ddc 39%,#0f2236 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007ddc', endColorstr='#0f2236',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+				}
+			}
+		}
+	}
 
 
 
