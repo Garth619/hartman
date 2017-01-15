@@ -33,32 +33,7 @@
 					
 							<div class="case_results_page_wrapper">
 							
-								<div class="case_results_row">
-									
-									<div class="single_case_results_page">
-										
-										<span class="large_header">$18,000,000</span><!-- large_header -->
-										<span class="sub_header">Bad Faith Settlement</span><!-- sub_header -->
-										
-									</div><!-- single_case_results -->
-									
-									<div class="single_case_results_page">
-										
-										<span class="large_header">$18,000,000</span><!-- large_header -->
-										<span class="sub_header">Bad Faith Settlement</span><!-- sub_header -->
-										
-									</div><!-- single_case_results -->
-									
-									<div class="single_case_results_page">
-										
-										<span class="large_header">$18,000,000</span><!-- large_header -->
-										<span class="sub_header">Bad Faith Settlement</span><!-- sub_header -->
-										
-									</div><!-- single_case_results -->
-									
-								</div><!-- case_results_row -->
 								
-								<div class="case_results_row">
 									
 									<div class="single_case_results_page">
 										
@@ -69,44 +44,69 @@
 									
 									<div class="single_case_results_page">
 										
-										<span class="large_header">$18,000,000</span><!-- large_header -->
-										<span class="sub_header">Bad Faith Settlement</span><!-- sub_header -->
+										<span class="large_header">$15,600,000</span><!-- large_header -->
+										<span class="sub_header">Personal Injury Verdict</span><!-- sub_header -->
 										
 									</div><!-- single_case_results -->
 									
 									<div class="single_case_results_page">
 										
-										<span class="large_header">$18,000,000</span><!-- large_header -->
-										<span class="sub_header">Bad Faith Settlement</span><!-- sub_header -->
+										<span class="large_header">$19,500,000</span><!-- large_header -->
+										<span class="sub_header">School Bus Rollover</span><!-- sub_header -->
 										
 									</div><!-- single_case_results -->
 									
-								</div><!-- case_results_row -->	
+							
 								
-								<div class="case_results_row">
+							
 									
 									<div class="single_case_results_page">
 										
-										<span class="large_header">$18,000,000</span><!-- large_header -->
-										<span class="sub_header">Bad Faith Settlement</span><!-- sub_header -->
+										<span class="large_header">$8,900,000</span><!-- large_header -->
+										<span class="sub_header">Workers' Comp Accident</span><!-- sub_header -->
 										
 									</div><!-- single_case_results -->
 									
 									<div class="single_case_results_page">
 										
-										<span class="large_header">$18,000,000</span><!-- large_header -->
-										<span class="sub_header">Bad Faith Settlement</span><!-- sub_header -->
+										<span class="large_header">$2,800,000</span><!-- large_header -->
+										<span class="sub_header">Car Accident Verdict</span><!-- sub_header -->
 										
 									</div><!-- single_case_results -->
 									
 									<div class="single_case_results_page">
 										
-										<span class="large_header">$18,000,000</span><!-- large_header -->
-										<span class="sub_header">Bad Faith Settlement</span><!-- sub_header -->
+										<span class="large_header">$2,500,000</span><!-- large_header -->
+										<span class="sub_header">Brain Injury Settlement</span><!-- sub_header -->
 										
 									</div><!-- single_case_results -->
 									
-								</div><!-- case_results_row -->
+								
+								
+								
+									
+									<div class="single_case_results_page">
+										
+										<span class="large_header">$1,000,000</span><!-- large_header -->
+										<span class="sub_header">Truck Accident Verdict</span><!-- sub_header -->
+										
+									</div><!-- single_case_results -->
+									
+									<div class="single_case_results_page">
+										
+										<span class="large_header">$1,800,000</span><!-- large_header -->
+										<span class="sub_header">Personal Injury Settlement</span><!-- sub_header -->
+										
+									</div><!-- single_case_results -->
+									
+									<div class="single_case_results_page">
+										
+										<span class="large_header">$2,500,000</span><!-- large_header -->
+										<span class="sub_header">Brain Injury Settlement</span><!-- sub_header -->
+										
+									</div><!-- single_case_results -->
+									
+								
 							
 							</div><!-- case_results_page_wrapper -->
 					

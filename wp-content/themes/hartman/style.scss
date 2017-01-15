@@ -1083,7 +1083,7 @@ nav.desktop {
 							display: block;
 							position: relative;
 							z-index: 5;
-							top:-112px;
+							top:-116px;
 							right:9px;
 						}
 					
@@ -1565,24 +1565,28 @@ footer {
 	}
 	
 	
-	/* Inner Case Results */
+/* Inner Case Results */
 
 .case_results_page_wrapper {
-	margin:75px 0 85px;
-	.case_results_row {
-		display: flex;
-		justify-content: space-between;
-		margin-bottom:45px;
+	margin:65px 0 50px;
+	overflow: hidden;
 		.single_case_results_page {
 			-webkit-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
 			-moz-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
 			box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
 			width:31%;
-			margin-bottom:0px;
 			height:175px;
 			text-align: center;
 			padding:60px 0 0;
 			transition: all 0.2s ease-in-out;
+			float:left;
+			margin-bottom:40px;
+			&:nth-of-type(3n + 1) {
+				margin-right:3.5%;
+			}
+			&:nth-of-type(3n + 2) {
+				margin-right:3.5%;
+			}
 			span {
 				display: block;
 				transition: all 0.2s ease-in-out;
@@ -1616,7 +1620,7 @@ footer {
 					color:#fff;
 				}
 			}
-		}
+		
 	}
 }
 
@@ -2711,7 +2715,50 @@ footer {
 }
 
 	
- 
+ /* Inner Case Results */
+
+.case_results_page_wrapper {
+	
+	
+		
+		.single_case_results_page {
+			width:47%;
+			&:nth-of-type(3n + 1) {
+				margin-right:0%;
+			}
+			&:nth-of-type(3n + 2) {
+				margin-right:0%;
+			}
+			&:nth-of-type(n + 1) {
+				float:left;
+			}
+			&:nth-of-type(2n + 2) {
+				float:right;
+			}
+			span {
+				
+			}
+			span.large_header {
+				
+			}
+			span.sub_header {
+				
+			}
+			&:hover {
+				
+				
+				
+				
+
+
+				span {
+					
+				}
+			}
+		}
+	
+}
+
 	
 	
 	
@@ -3586,6 +3633,58 @@ footer {
 	}
 	
 	
+	
+	
+	/* Inner Case Results */
+
+.case_results_page_wrapper {
+	
+	
+		padding-right:30px;
+		.single_case_results_page {
+			width:100%;
+			&:nth-of-type(3n + 1) {
+				margin-right:0%;
+			}
+			&:nth-of-type(3n + 2) {
+				margin-right:0%;
+			}
+			&:nth-of-type(n + 1) {
+				float:none;
+			}
+			&:nth-of-type(2n + 2) {
+				float:none;
+			}
+			span {
+				
+			}
+			span.large_header {
+				
+			}
+			span.sub_header {
+				
+			}
+			&:hover {
+				
+				
+				
+				
+
+
+				span {
+					
+				}
+			}
+		}
+	
+}
+
+	
+	
+	
+	
+	
+	
 } /* Media Query */
 
 
@@ -4049,6 +4148,8 @@ header {
 		}
 	}
 }
+
+
 
 
 
