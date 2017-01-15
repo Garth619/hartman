@@ -41,17 +41,26 @@
 								</td>
 						
 							</tr>
+							
+							<tr>
+								<td></td>
+								<td class="bio_content_cell">
+									
+									<div class="sidebar_bio_content">
+							
+										<span class="bio_row">Title &nbsp;<span class="lightblue">|</span>&nbsp; <span class="description">Principal</span></span><!-- bio_row -->
+										<span class="bio_row">Location &nbsp;<span class="lightblue">|</span>&nbsp; <span class="description">New Castle, Pennsylvania</span></span><!-- bio_row -->
+										<span class="bio_row">Phone &nbsp;<span class="lightblue">|</span>&nbsp; <a class="description" href="tel:724-652-8380">724-652-8380</a></span><!-- bio_row -->
+										<span class="bio_row">Fax &nbsp;<span class="lightblue">|</span>&nbsp; <span class="description">724-652-8380</span></span><!-- bio_row -->
+							
+									</div><!-- sidebar_bio -->
+									
+								</td>
+							</tr>
 					
 						</table><!-- blue_header_wrapper -->
 						
-						<div class="sidebar_bio_content">
-							
-							<span class="bio_row">Title &nbsp;<span class="lightblue">|</span>&nbsp; <span class="description">Principal</span></span><!-- bio_row -->
-							<span class="bio_row">Location &nbsp;<span class="lightblue">|</span>&nbsp; <span class="description">New Castle, Pennsylvania</span></span><!-- bio_row -->
-							<span class="bio_row">Phone &nbsp;<span class="lightblue">|</span>&nbsp; <a class="description" href="tel:724-652-8380">724-652-8380</a></span><!-- bio_row -->
-							<span class="bio_row">Fax &nbsp;<span class="lightblue">|</span>&nbsp; <span class="description">724-652-8380</span></span><!-- bio_row -->
-							
-						</div><!-- sidebar_bio -->
+						
 					
 					
 					
@@ -70,6 +79,55 @@
 
 					<p>"Maybe, my clients are more important to me because they are real people with real problems that all of us can understand," says Dallas. "Our legal system only works when clients are represented by attorneys with the knowledge, ability and resources to take a case to trial and through the appellate process."</p>
 					
+					
+					<h2>areas of practice</h2>
+					
+					<ul>
+						<li>Personal Injury</li>
+						<li>Animal Bites</li>
+						<li>Legal Malpractice</li>
+						<li> Medical Malpractice</li>
+						<li>Personal Injury</li>
+						<li>Animal Bites</li>
+						<li>Legal Malpractice</li>
+						<li> Medical Malpractice</li>
+						<li>Personal Injury</li>
+						<li>Animal Bites</li>
+						<li>Legal Malpractice</li>
+						<li> Medical Malpractice</li>
+					</ul>
+					
+					<h2>litigation percentage</h2>
+					
+					<p>60% of practice devoted to litigation.</p>
+
+					<h2>bar admissions</h2>
+					
+					<ul>
+						<li>Pennsylvania, 1984</li>
+						<li>Ohio, 1998</li>
+					</ul>
+
+					<h2>education</h2>
+					
+					<ul>
+						<li>The Dickinson School of Law, Carlisle, Pennsylvania</li>
+						<li>Youngstown State University, Youngstown, Ohio</li>
+					</ul>
+
+					<h2>honors and awards</h2>
+
+					<ul>
+						<li>Volunteer of the Year Award - Erie County, 2010 - Present</li>
+						<li>Pennsylvania Super Lawyers 2011, 2012, 2013, 2014, 2015, 2016</li>
+						<li>Newsweek Magazine National Leaders in Product Liability, April 9, 2012 - Present</li>
+						<li>Top 50 Pittsburgh Super Lawyers, 2012, 2013, 2014, 2015, 2016</li>
+						<li>Top 100 Trial Lawyers, 2012-2016</li>
+						<li>Top 100 Super Lawyers Pennsylvania, 2013, 2016</li>
+						<li>Lead Counsel Rated, Personal Injury</li>
+						<li>Lead Counsel Rated, Medical Malpractice</li>
+						<li>Lead Counsel Rated, Workers' Compensation	</li>
+					</ul>			
 					
 					
 				</div><!-- content -->

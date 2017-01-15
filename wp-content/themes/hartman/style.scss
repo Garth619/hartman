@@ -1803,12 +1803,13 @@ body.page-template-page-bio {
 					height:500px;
 					table.blue_header_wrapper {
 						tr {
+							
 							td.header_blue_line {
 								position: relative;
 								top:-4px;
 							}
 							td.bio_cell {
-								margin-left:18%;
+								margin-left:14%;
 								text-align: center;
 								position: relative;
 								display: block;
@@ -1840,28 +1841,35 @@ body.page-template-page-bio {
 									}
 								}
 							}
+							
 						}
 					}
-					.sidebar_bio_content {
-						font-family: $utopiabold;
-						color:$bluedark;
-						font-size:20px;
-						span.bio_row {
-							display: block;
-							margin-bottom:7px;
-							span.lightblue {
-								color:$bluelight;
-								font-size:17px;
-								position: relative;
-								top:-2px;
-							}
-							.description {
-								font-family: $montserratlight;
-								text-transform: uppercase;
-								font-size:15px;
-								letter-spacing: 0.6px;
-								text-decoration: none;
-								color:$bluedark;
+					td.bio_content_cell {
+						
+						.sidebar_bio_content {
+							font-family: $utopiabold;
+							color:$bluedark;
+							font-size:20px;
+							margin-left:14%;
+							padding-top:35px;
+						
+							span.bio_row {
+								display: block;
+								margin-bottom:7px;
+								span.lightblue {
+									color:$bluelight;
+									font-size:17px;
+									position: relative;
+									top:-2px;
+								}
+								.description {
+									font-family: $montserratlight;
+									text-transform: uppercase;
+									font-size:15px;
+									letter-spacing: 0.6px;
+									text-decoration: none;
+									color:$bluedark;
+								}
 							}
 						}
 					}
