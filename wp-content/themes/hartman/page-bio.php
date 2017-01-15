@@ -43,6 +43,15 @@
 							</tr>
 					
 						</table><!-- blue_header_wrapper -->
+						
+						<div class="sidebar_bio_content">
+							
+							<span class="bio_row">Title &nbsp;<span class="lightblue">|</span>&nbsp; <span class="description">Principal</span></span><!-- bio_row -->
+							<span class="bio_row">Location &nbsp;<span class="lightblue">|</span>&nbsp; <span class="description">New Castle, Pennsylvania</span></span><!-- bio_row -->
+							<span class="bio_row">Phone &nbsp;<span class="lightblue">|</span>&nbsp; <a class="description" href="tel:724-652-8380">724-652-8380</a></span><!-- bio_row -->
+							<span class="bio_row">Fax &nbsp;<span class="lightblue">|</span>&nbsp; <span class="description">724-652-8380</span></span><!-- bio_row -->
+							
+						</div><!-- sidebar_bio -->
 					
 					
 					
