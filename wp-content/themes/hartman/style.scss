@@ -1500,7 +1500,7 @@ footer {
 			margin: -13px 0 0 0;
 			.inner_content {
 				padding-left:72px;
-				overflow: hidden;
+// 				overflow: hidden;
 				span.my_excerpt {
 					font-size:20px;
 					color:#798e9e;
@@ -1563,6 +1563,24 @@ footer {
 			}
 		}
 	}
+	
+	
+	/* Inner Case Results */
+
+
+.case_results_page_wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top:70px;
+	.single_case_results_page {
+		-webkit-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
+		-moz-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
+		box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
+		width:32%;
+		margin-bottom:45px;
+		height:200px;
+	}
+}
 
 
 @media screen and (max-width: 1730px) {
@@ -3993,6 +4011,7 @@ header {
 		}
 	}
 }
+
 
 
 	
