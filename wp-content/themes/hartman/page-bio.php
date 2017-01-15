@@ -22,6 +22,7 @@
 					<div class="sidebar_bio">
 					
 					
+					
 						<table class="blue_header_wrapper">
 					
 							<tr>
@@ -43,7 +44,7 @@
 							</tr>
 							
 							<tr>
-								<td></td>
+								<td class="spacer"></td><!-- spacer -->
 								<td class="bio_content_cell">
 									
 									<div class="sidebar_bio_content">

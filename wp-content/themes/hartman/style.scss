@@ -1800,7 +1800,7 @@ body.page-template-page-bio {
 					width:34%;
 					float:left;
 					
-					height:500px;
+					
 					table.blue_header_wrapper {
 						tr {
 							
@@ -1812,7 +1812,7 @@ body.page-template-page-bio {
 								margin-left:14%;
 								text-align: center;
 								position: relative;
-								display: block;
+								float:right;
 								img {
 									max-width: 100%;
 									height:auto;
@@ -1851,8 +1851,7 @@ body.page-template-page-bio {
 							color:$bluedark;
 							font-size:20px;
 							margin-left:14%;
-							padding-top:35px;
-						
+							padding-top:45px;
 							span.bio_row {
 								display: block;
 								margin-bottom:7px;
@@ -3276,6 +3275,76 @@ ul.grid {
 	}
 }
 	
+
+
+/* Bio */
+
+
+body.page-template-page-bio {
+	.content {
+		h1 {
+			
+		}
+	}
+	.inner_main_no_sidebar {
+		.inner_container {
+			
+			.content {
+				.sidebar_bio {
+					width:100%;
+					float:none;
+					
+				
+					table.blue_header_wrapper {
+						tr {
+							
+							td.header_blue_line {
+								
+							}
+							td.bio_cell {
+								
+								img {
+									
+									
+								}
+								.email_wrapper {
+									
+									a.email_attorney {
+										
+									}
+								}
+							}
+							
+						}
+					}
+					td.bio_content_cell {
+						
+						.sidebar_bio_content {
+													
+							span.bio_row {
+								
+								span.lightblue {
+									
+								}
+								.description {
+									
+								}
+							}
+						}
+					}
+				}
+				.inner_content {
+					width:100%;
+					float:none;
+					margin-top:35px;
+					span.my_excerpt {
+						
+					}
+				}
+			}
+		}
+	}
+}
 	
 	
 
@@ -4083,7 +4152,7 @@ footer {
 .inner_main_no_sidebar {
 		padding-top:70px;
 		width:96%;
-		padding-bottom: 130px;
+		padding-bottom: 260px;
 	
 		.inner_container {
 			
@@ -4152,6 +4221,82 @@ ul.grid {
 	}
 }
 	
+	
+	
+/* Bio */
+
+
+body.page-template-page-bio {
+	.content {
+		h1 {
+			
+		}
+	}
+	.inner_main_no_sidebar {
+		.inner_container {
+			
+			.content {
+				.sidebar_bio {
+					
+					
+				
+					table.blue_header_wrapper {
+						
+						
+						tr {
+							
+							td.header_blue_line {
+								
+							
+							}
+							td.bio_cell {
+								
+								 padding-left: 15px;
+								width:100%;
+								img {
+									
+									
+								}
+								.email_wrapper {
+									
+									a.email_attorney {
+										
+									}
+								}
+							}
+							
+						}
+					}
+					td.bio_content_cell {
+						
+						.sidebar_bio_content {
+						 margin-left:45px;		
+							span.bio_row {
+								
+								span.lightblue {
+									
+								}
+								.description {
+									
+								}
+							}
+						}
+					}
+				}
+				.inner_content {
+					
+					span.my_excerpt {
+						
+					}
+				}
+			}
+		}
+	}
+}
+	
+
+
+
 	
 	
 
@@ -4596,6 +4741,85 @@ header {
 			
 			iframe {
 				
+			}
+		}
+	}
+}
+
+
+
+
+
+/* Bio */
+
+
+body.page-template-page-bio {
+	.content {
+		h1 {
+			
+		}
+	}
+	.inner_main_no_sidebar {
+		.inner_container {
+			
+			.content {
+				.sidebar_bio {
+					
+					
+				
+					table.blue_header_wrapper {
+						
+						
+						tr {
+							
+							td.header_blue_line {
+							display: block;
+							width:1px;
+							}
+							td.bio_cell {
+								float:none;
+								margin:0;
+								padding:0;
+								display: block;
+								img {
+									
+									
+								}
+								.email_wrapper {
+									
+									a.email_attorney {
+										
+									}
+								}
+							}
+							
+						}
+					}
+					td.spacer {
+						display: block;
+					}
+					td.bio_content_cell {
+						display: block;
+						.sidebar_bio_content {
+						 margin-left:45px;		
+							span.bio_row {
+								
+								span.lightblue {
+									
+								}
+								.description {
+									
+								}
+							}
+						}
+					}
+				}
+				.inner_content {
+					
+					span.my_excerpt {
+						
+					}
+				}
 			}
 		}
 	}
