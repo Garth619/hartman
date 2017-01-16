@@ -93,6 +93,15 @@ body {
 				}
 			}
 		}
+		a {
+				color:$bluelight;
+				text-decoration: none;
+				transition:all 0.2s ease-in-out;
+				&:hover {
+					
+					color:#f32923;
+				}
+			}
 		h1 {
 			color:$bluedark;
 			font-size:80px;
@@ -110,6 +119,7 @@ body {
 			font-style: none;
 			font-weight: normal;
 			margin-bottom:3px;
+			
 		}
 		p {
 			margin-bottom: 30px;
@@ -124,6 +134,31 @@ body {
 			}
 		}
 	}
+	
+	/* Blog */
+	
+	.entry-meta {
+		display: block;
+		margin:6px 0;
+	}
+	
+	.entry-utility {
+		margin:6px 0;
+	}
+	
+	.post {
+		margin-bottom:30px;
+		border-bottom:1px solid #ccc;
+		padding-bottom:30px;
+		&:last-of-type {
+			border-bottom: none;
+		}
+	}
+	
+	#nav-above {
+		display: none;
+	}
+	
 
 /* Header */
 

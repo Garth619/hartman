@@ -9,10 +9,22 @@
 
 get_header(); ?>
 
-		<div id="container">
-			<div id="content" role="main">
 
-<?php
+
+<?php include('banner.php');?>
+		
+
+		<div class="inner_main_with_sidebar">
+			
+						
+			<?php include('sidebar.php');?>
+			
+			<div class="inner_container">
+				
+				
+				<div class="content">
+					
+					<?php
 	/*
 	 * Queue the first post, that way we know who
 	 * the author is when we try to get their name,
@@ -65,8 +77,20 @@ if ( get_the_author_meta( 'description' ) ) : ?>
 	 */
 	get_template_part( 'loop', 'author' );
 ?>
-			</div><!-- #content -->
-		</div><!-- #container -->
+			
+					
+				</div><!-- content -->
+				
+				
+			</div><!-- inner_container -->
+			
+			
+		</div><!-- inner_main_with_sidebar -->
+			
+	
+	<?php get_footer(); ?>
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+
+
+
+
