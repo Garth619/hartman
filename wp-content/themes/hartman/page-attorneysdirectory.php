@@ -50,9 +50,11 @@
 					
 				</div><!-- content -->
 				
+				<div class="attorneys_wrapper">
+				
 				<div class="top_attorneys_wrapper">
 					
-					<a class="single_attorney_link" href="">
+					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
 						
 						<div class="single_attorney top">
 							
@@ -62,12 +64,18 @@
 								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
 								
 							</div><!-- image_wrapper -->
+							
+							<div class="attorney_overlay">
+								
+								<span class="view_profile">View Profile</span><!-- view_profile -->
+								
+							</div><!-- attorney_overlay -->
 							
 						</div><!-- single_attorney -->
 						
 					</a><!-- single_attorney_link -->
 					
-					<a class="single_attorney_link" href="">
+					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
 						
 						<div class="single_attorney top">
 							
@@ -77,6 +85,12 @@
 								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
 								
 							</div><!-- image_wrapper -->
+							
+							<div class="attorney_overlay">
+								
+								<span class="view_profile">View Profile</span><!-- view_profile -->
+								
+							</div><!-- attorney_overlay -->
 							
 						</div><!-- single_attorney -->
 						
@@ -87,7 +101,7 @@
 				<div class="all_attorneys_wrapper">
 					
 					
-					<a class="single_attorney_link" href="">
+					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
 						
 						<div class="single_attorney bottom">
 							
@@ -97,12 +111,18 @@
 								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
 								
 							</div><!-- image_wrapper -->
+							
+							<div class="attorney_overlay">
+								
+								<span class="view_profile">View Profile</span><!-- view_profile -->
+								
+							</div><!-- attorney_overlay -->
 							
 						</div><!-- single_attorney -->
 						
 					</a><!-- single_attorney_link -->
 					
-					<a class="single_attorney_link" href="">
+					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
 						
 						<div class="single_attorney bottom">
 							
@@ -112,12 +132,18 @@
 								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
 								
 							</div><!-- image_wrapper -->
+							
+							<div class="attorney_overlay">
+								
+								<span class="view_profile">View Profile</span><!-- view_profile -->
+								
+							</div><!-- attorney_overlay -->
 							
 						</div><!-- single_attorney -->
 						
 					</a><!-- single_attorney_link -->
 					
-					<a class="single_attorney_link" href="">
+					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
 						
 						<div class="single_attorney bottom">
 							
@@ -127,12 +153,18 @@
 								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
 								
 							</div><!-- image_wrapper -->
+							
+							<div class="attorney_overlay">
+								
+								<span class="view_profile">View Profile</span><!-- view_profile -->
+								
+							</div><!-- attorney_overlay -->
 							
 						</div><!-- single_attorney -->
 						
 					</a><!-- single_attorney_link -->
 					
-					<a class="single_attorney_link" href="">
+					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
 						
 						<div class="single_attorney bottom">
 							
@@ -142,12 +174,18 @@
 								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
 								
 							</div><!-- image_wrapper -->
+							
+							<div class="attorney_overlay">
+								
+								<span class="view_profile">View Profile</span><!-- view_profile -->
+								
+							</div><!-- attorney_overlay -->
 							
 						</div><!-- single_attorney -->
 						
 					</a><!-- single_attorney_link -->
 					
-					<a class="single_attorney_link" href="">
+					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
 						
 						<div class="single_attorney bottom">
 							
@@ -157,12 +195,18 @@
 								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
 								
 							</div><!-- image_wrapper -->
+							
+							<div class="attorney_overlay">
+								
+								<span class="view_profile">View Profile</span><!-- view_profile -->
+								
+							</div><!-- attorney_overlay -->
 							
 						</div><!-- single_attorney -->
 						
 					</a><!-- single_attorney_link -->
 					
-					<a class="single_attorney_link" href="">
+					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
 						
 						<div class="single_attorney bottom">
 							
@@ -172,12 +216,18 @@
 								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
 								
 							</div><!-- image_wrapper -->
+							
+							<div class="attorney_overlay">
+								
+								<span class="view_profile">View Profile</span><!-- view_profile -->
+								
+							</div><!-- attorney_overlay -->
 							
 						</div><!-- single_attorney -->
 						
 					</a><!-- single_attorney_link -->
 					
-					<a class="single_attorney_link" href="">
+					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
 						
 						<div class="single_attorney bottom">
 							
@@ -187,12 +237,18 @@
 								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
 								
 							</div><!-- image_wrapper -->
+							
+							<div class="attorney_overlay">
+								
+								<span class="view_profile">View Profile</span><!-- view_profile -->
+								
+							</div><!-- attorney_overlay -->
 							
 						</div><!-- single_attorney -->
 						
 					</a><!-- single_attorney_link -->
 					
-					<a class="single_attorney_link" href="">
+					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
 						
 						<div class="single_attorney bottom">
 							
@@ -202,6 +258,12 @@
 								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
 								
 							</div><!-- image_wrapper -->
+							
+							<div class="attorney_overlay">
+								
+								<span class="view_profile">View Profile</span><!-- view_profile -->
+								
+							</div><!-- attorney_overlay -->
 							
 						</div><!-- single_attorney -->
 						
@@ -209,6 +271,8 @@
 					
 					
 				</div><!-- all_attorneys_wrapper -->
+				
+				</div>
 				
 								
 				</div><!-- inner_content -->
