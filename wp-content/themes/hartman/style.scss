@@ -2023,9 +2023,12 @@ a.single_attorney_link {
 	
 	.testimonials_wrapper {
 		width:100%;
+		padding:35px 0 0;
 		
 		.testimonials_column {
 			width:48.5%;
+			
+			margin-bottom:35px;
 			&:first-of-type {
 				float:left;
 			}
@@ -3610,7 +3613,47 @@ body.page-template-page-bio {
 	}
 }
 	
+
+
+
+/* Testimonials */
 	
+	
+	.testimonials_wrapper {
+		
+		
+		.testimonials_column {
+			width:100%;
+			&:first-of-type {
+				float:none;
+			}
+			&:last-of-type {
+				float:none;
+			}
+			.single_testimonial {
+				
+				.stars {
+					img.star {
+						
+					}
+				}
+				span.large_header {
+					
+				}
+				p {
+					
+				}
+				span.testimonial_name {
+					
+				}
+			}
+		}
+	}
+
+
+
+
+
 
 
 	
@@ -4627,6 +4670,46 @@ a.single_attorney_link {
 			}
 		}
 	}
+	
+	
+	
+	
+	
+	
+	/* Testimonials */
+	
+	
+	.testimonials_wrapper {
+		
+		padding-right:30px;
+		.testimonials_column {
+		
+			&:first-of-type {
+				
+			}
+			&:last-of-type {
+				
+			}
+			.single_testimonial {
+				
+				.stars {
+					img.star {
+						
+					}
+				}
+				span.large_header {
+					
+				}
+				p {
+					
+				}
+				span.testimonial_name {
+					
+				}
+			}
+		}
+	}
+
 
 	
 	
