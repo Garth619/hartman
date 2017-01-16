@@ -170,6 +170,7 @@ header {
 	display: flex;
 	z-index:10;
 	flex-direction: row;
+	
 	.logo_wrapper {
 			padding:14px 30px;
 			display: flex;
@@ -185,6 +186,9 @@ header {
 			flex-direction: row;
 			flex-grow: 3;
 			background:#fff;
+			.my_sticky {
+// 				display:flex;
+			}
 			.free_consultation_wrapper {
 				float:left;
 				color:#fff;
@@ -1175,6 +1179,7 @@ nav.desktop {
 						padding-bottom:10px;
 						background: transparent;
 						padding-right:25px;
+						border-radius: 0;
 						
 					}
 					input {
@@ -1242,7 +1247,7 @@ nav.desktop {
 		letter-spacing: 0.6px;
 		padding:16px 150px;
 		cursor: pointer;
-	
+		border-radius: 0;
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f34b23+100 */
 				background: #f32323; /* Old browsers */
 				background: -moz-linear-gradient(left,  #f32323 0%, #f34b23 100%); /* FF3.6-15 */
@@ -2459,7 +2464,7 @@ header {
 		.header_col_right {
 			
 			.free_consultation_wrapper {
-				padding:25px 15px;
+				padding:29px 15px;
 				span.sub_header {
 					font-size:12px;
 				}
@@ -2853,8 +2858,12 @@ a.single_attorney_link {
 	
 	header {
 		display: block;
-		overflow: hidden;
+	/* 	overflow: hidden; */
 		height:100px;
+		position: fixed;
+		top:0;
+		left:0;
+		z-index:5000;
 	.logo_wrapper {
 			display: block;
 			width:35%;
@@ -2878,7 +2887,7 @@ a.single_attorney_link {
 			display: block;
 			float:left;
 			text-align: center;
-			padding: 28px;
+			padding: 28px 28px 22px 28px;
 			.mobile_bar {
 				width:46px;
 				height:2px;
@@ -2923,6 +2932,7 @@ a.single_attorney_link {
 .main_banner {
 	background:url(images/tablet_mainimage.jpg) top center no-repeat;
 	height: 1727px;
+	margin-top:100px;
 	.main_inner_banner {
 		padding-left:0;
 		text-align: center;
@@ -4086,59 +4096,6 @@ a.single_attorney_link {
 @media screen and (max-width: 730px) {
 	
 
-/* Header */
-
-header {
-	height: 163px;
-	.logo_wrapper {
-			width:100%;
-			img.logo {
-				display: block;
-				margin: 0 auto;
-			}
-		}
-		.header_col_right {
-			width:100%;
-			display: flex;
-			
-			.free_consultation_wrapper {
-				padding:12px;
-				height:63px;
-				flex-grow: 1;
-				margin-left:0;
-				span.sub_header {
-					font-size:11px;
-				}
-				a.large_header {
-					font-size:25px;
-				}
-			}
-			.mobile_wrapper {
-				background: $black;
-				 padding: 13px 14px 0;
-				 height:63px;
-				 width:112px;
-				 text-align: center;
-				.mobile_bar {
-					background: $bluelight;
-					height:1px;
-					margin-bottom:7px;
-					display: block;
-					margin:0 auto 7px;
-					
-				}
-				span {
-					color:#fff;
-					margin-top:7px;
-					font-size: 12px;
-					font-weight: 600;
-					
-				}
-			}
-		}
-		
-	}
-
 
 
 	
@@ -5206,17 +5163,32 @@ body.page-template-page-bio {
 
 header {
 	height: 163px;
+	position: relative ;
+	
 	.logo_wrapper {
 			width:100%;
 			img.logo {
 				display: block;
 				margin: 0 auto;
+				transform :translate(0);
+				top:0;
 			}
 		}
 		.header_col_right {
 			width:100%;
-			display: flex;
-			
+			display: block;
+			.my_sticky {
+				display: flex;
+				width:100%;
+				position: relative;
+				z-index:500;
+			}
+			.my_sticky.stuck {
+				position: fixed;
+				top:0;
+				left:0;
+				z-index:500;
+			}
 			.free_consultation_wrapper {
 				padding:12px;
 				height:63px;
@@ -5253,6 +5225,14 @@ header {
 			}
 		}
 		
+	}
+	
+	
+	/* Main Banner */
+	
+	
+	.main_banner {
+		margin-top:0;
 	}
 	
 	

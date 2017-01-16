@@ -1,5 +1,21 @@
 	jQuery(document).ready(function(){
 	
+		
+		
+		// Sticky Mobile Header on scroll 
+		
+		
+		
+
+var sticky = new Waypoint.Sticky({
+  element: jQuery('.my_sticky')[0]
+})
+
+
+		
+		
+		
+		
 		jQuery('.awards_inner').slick({
 			arrows:false,
 			slidesToShow: 4,

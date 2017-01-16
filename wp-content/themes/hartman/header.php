@@ -66,6 +66,8 @@
 				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
 	
 			</nav>
+			
+			
 		
 			<div class="search_wrapper">
 		
@@ -75,12 +77,17 @@
 		
 			</div><!-- search_wrapper -->
 	
+			
+			<div class="my_sticky">
+			
 			<div class="free_consultation_wrapper">
 		
 				<span class="sub_header">Free Consultation</span><!-- sub_header -->
 				<a class="large_header" href="tel:866.586.1910">866.586.1910</a><!-- large_header -->
 			
 			</div><!-- free_consultation_wrapper -->
+			
+			
 			
 			<div class="mobile_wrapper">
 				
@@ -91,10 +98,12 @@
 				<span>Menu</span>
 				
 			</div><!-- mobile_wrapper -->
+			
+			</div><!-- my_sticky -->
 		
 		</div><!-- header_col_right -->
 	
-
+		
 	
 </header>
 
