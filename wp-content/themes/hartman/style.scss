@@ -1898,11 +1898,13 @@ body.page-template-page-attorneysdirectory {
 		  .inner_content {
 			  overflow: hidden;
 			  .col {
-				  margin:0;
 				  padding:0;
-				  &:last-of-type {
-					  float:right;
-				  }
+				 &:first-of-type {
+					 
+				 }
+				 &:nth-of-type(2n + 2) {
+					 float:right;
+				 }
 			  }
 		  }
 	 	}
@@ -1910,11 +1912,7 @@ body.page-template-page-attorneysdirectory {
 }
 
 
-.attorneys_wrapper {
-	width:100%;
-	padding-left: 50px;
-	
-}
+
 
 
 .top_attorneys_wrapper {
@@ -3562,6 +3560,176 @@ body.page-template-page-bio {
 } /* Media Query */
 
 
+
+
+@media screen and (max-width:1115px) {
+	
+
+
+/* Attorneys Directory */
+
+
+.top_attorneys_wrapper {
+	a.single_attorney_link {
+		.single_attorney.top {
+			margin-left:0;
+			margin-right:0;
+			}
+		}
+	a.single_attorney_link:nth-of-type(n + 1) {
+		.single_attorney.top {
+			margin-right:16px;
+		}
+	}
+	a.single_attorney_link:nth-of-type(2n + 2) {
+		.single_attorney.top {
+			margin-left:16px;
+			margin-right:0;
+		}
+	}
+}
+
+
+.all_attorneys_wrapper {
+	width:605px;
+	
+}
+
+a.single_attorney_link:nth-of-type(3n + 3) {
+	
+	.single_attorney.bottom {
+		margin-right:32px;
+	}
+}
+
+a.single_attorney_link:nth-of-type(2n + 2) {
+	
+	.single_attorney.bottom {
+		margin-right:0px;
+	}
+}
+
+
+
+a.single_attorney_link {
+		
+		.single_attorney.top {
+			
+		}
+		.single_attorney.bottom {
+			
+			
+		}
+		.single_attorney {
+			
+			&:hover {
+				.attorney_overlay {
+					
+				}
+			}
+			.image_wrapper {
+				img {
+					
+				}
+				span {
+					
+				}
+			}
+			.attorney_overlay {
+				span.view_profile {
+					
+				}
+			}
+		}
+	}
+
+
+
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 840px) {
+
+
+
+/* Attorneys Directory */
+
+
+.top_attorneys_wrapper {
+	a.single_attorney_link {
+		.single_attorney.top {
+			
+			}
+		}
+	a.single_attorney_link:nth-of-type(n + 1) {
+		.single_attorney.top {
+			
+		}
+	}
+	a.single_attorney_link:nth-of-type(2n + 2) {
+		.single_attorney.top {
+			
+		}
+	}
+}
+
+
+
+a.single_attorney_link:nth-of-type(3n + 3) {
+	
+	.single_attorney.bottom {
+		
+	}
+}
+
+a.single_attorney_link:nth-of-type(2n + 2) {
+	
+	.single_attorney.bottom {
+		
+	}
+}
+
+
+
+a.single_attorney_link {
+		
+		.single_attorney.top {
+			
+		}
+		.single_attorney.bottom {
+			
+			
+		}
+		.single_attorney {
+			width:40%;
+			&:hover {
+				.attorney_overlay {
+					
+				}
+			}
+			.image_wrapper {
+				img {
+					
+				}
+				span {
+					
+				}
+			}
+			.attorney_overlay {
+				span.view_profile {
+					
+				}
+			}
+		}
+	}
+
+} /* Media Query */
+
+
+
 @media screen and (max-width: 730px) {
 	
 
@@ -4323,7 +4491,86 @@ footer {
 }
 
 	
+	/* Attorneys Directory */
+
+
+.top_attorneys_wrapper {
+	width:269px;
+	a.single_attorney_link {
+		.single_attorney.top {
+			
+			}
+		}
+	a.single_attorney_link:nth-of-type(n + 1) {
+		.single_attorney.top {
+			margin-left:0;
+		
+		}
+	}
+	a.single_attorney_link:nth-of-type(2n + 2) {
+		.single_attorney.top {
+			margin-right:0;
+			margin-top:32px;
+		}
+	}
+}
+
+
+.all_attorneys_wrapper {
+	width:269px;
 	
+}
+
+
+
+a.single_attorney_link:nth-of-type(3n + 3) {
+	
+	.single_attorney.bottom {
+		
+	}
+}
+
+a.single_attorney_link:nth-of-type(2n + 2) {
+	
+	.single_attorney.bottom {
+		
+	}
+}
+
+
+
+a.single_attorney_link {
+		
+		.single_attorney.top {
+			
+		}
+		.single_attorney.bottom {
+			
+			
+		}
+		.single_attorney {
+			width:269px;
+			&:hover {
+				.attorney_overlay {
+					
+				}
+			}
+			.image_wrapper {
+				img {
+					
+				}
+				span {
+					
+				}
+			}
+			.attorney_overlay {
+				span.view_profile {
+					
+				}
+			}
+		}
+	}
+
 	
 	
 	

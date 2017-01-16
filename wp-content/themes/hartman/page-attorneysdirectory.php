@@ -48,9 +48,9 @@
 					
 					</div><!-- col -->
 					
-				</div><!-- content -->
 				
-				<div class="attorneys_wrapper">
+				
+				
 				
 				<div class="top_attorneys_wrapper">
 					
@@ -272,10 +272,12 @@
 					
 				</div><!-- all_attorneys_wrapper -->
 				
-				</div>
+			
 				
 								
 				</div><!-- inner_content -->
+				
+				</div><!-- content -->
 				
 				
 			</div><!-- inner_container -->
