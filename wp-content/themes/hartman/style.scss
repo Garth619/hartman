@@ -1537,12 +1537,12 @@ body.page-template-page-about, body.page-template-page-attorneysdirectory {
 					
 					&:first-of-type {
 						float:left;
-						padding-right:50px;
+						padding-right:15px;
 					}
-					&:last-of-type {
-						float:left;
+					&:nth-of-type(2n + 2) {
+						float:right;
 						margin-top:30px;
-						padding-left:30px;
+						padding-left:15px;
 					}
 				}
 			}
@@ -2074,7 +2074,59 @@ a.single_attorney_link {
 			}
 		}
 	}
+	
+	
+	/* Video */
+	
 
+	.video_wrapper {
+		margin-top:48px;
+		margin-bottom:38px;
+		overflow: hidden;
+		
+		a.video_link:nth-of-type(3n + 3) {
+			.single_video {
+				margin-right:0;
+			}
+		}
+		a.video_link {
+			text-decoration: none;
+			.single_video {
+				width:370px;
+				text-align: center;
+				float:left;
+				width:30%;
+				margin-right:2.5%;
+				margin-bottom:30px;
+				img {
+					display: block;
+					max-width: 100%;
+					height:auto;
+				}
+				span.video_title {
+					color:#fff;
+					display: block;
+					text-transform: uppercase;
+					font-size:15px;
+					font-family: $montserratlight;
+					font-weight: 600;
+					letter-spacing: 0.8px;
+					width:100%;
+					padding:15px 0;
+					position: relative;
+					z-index:5;
+					margin-top:-57px;
+				
+					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007ddc+39,0f2236+100 */
+						background: #007ddc; /* Old browsers */
+						background: -moz-linear-gradient(45deg,  #007ddc 39%, #0f2236 100%); /* FF3.6-15 */
+						background: -webkit-linear-gradient(45deg,  #007ddc 39%,#0f2236 100%); /* Chrome10-25,Safari5.1-6 */
+						background: linear-gradient(45deg,  #007ddc 39%,#0f2236 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+						filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007ddc', endColorstr='#0f2236',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+				}
+			}
+		}
+	}	
 
 
 @media screen and (max-width: 1730px) {
@@ -2621,6 +2673,7 @@ a.single_attorney_link {
 
 	}
 }
+
 
 
 
@@ -3291,6 +3344,13 @@ footer {
 	
 }
 
+
+
+
+
+
+
+
 	
 	
 	
@@ -3432,11 +3492,11 @@ footer {
 				}
 				.col {
 					width:100%;
-					
+					padding:0;
 					&:first-of-type {
-						padding:0;
+						
 					}
-					&:last-of-type {
+					&:nth-of-type(2n + 2) {
 						padding:0;
 						margin-top:0;
 					}
@@ -3742,6 +3802,47 @@ a.single_attorney_link {
 			}
 		}
 	}
+	
+	
+	
+	/* Video */
+	
+
+	.video_wrapper {
+		
+		
+		a.video_link:nth-of-type(3n + 3) {
+			.single_video {
+				margin-right:2.5%;
+			}
+		}
+	
+	a.video_link:nth-of-type(2n + 2) {
+			.single_video {
+				margin-right:0%;
+				float:right;
+			}
+		}
+	a.video_link:nth-of-type(2n + 1) {
+			.single_video {
+				margin-right:0%;
+				float:left;
+			}
+		}
+		a.video_link {
+			
+			.single_video {
+				width: 47.5%;
+				img {
+					width:100%;
+				}
+				span.video_title {
+					
+				}
+			}
+		}
+	}	
+
 
 
 
@@ -4709,6 +4810,47 @@ a.single_attorney_link {
 			}
 		}
 	}
+	
+	
+	
+	/* Video */
+	
+
+	.video_wrapper {
+		
+		
+		a.video_link:nth-of-type(3n + 3) {
+			.single_video {
+				margin-right:0%
+			}
+		}
+	
+	a.video_link:nth-of-type(2n + 2) {
+			.single_video {
+				
+				float:none;
+			}
+		}
+	a.video_link:nth-of-type(2n + 1) {
+			.single_video {
+				
+				float:none;
+			}
+		}
+		a.video_link {
+			
+			.single_video {
+				width: 100%;
+				img {
+					width:100%;
+				}
+				span.video_title {
+					
+				}
+			}
+		}
+	}	
+
 
 
 	

@@ -131,11 +131,13 @@
 					</ul>			
 					
 					
-				</div><!-- content -->
+			
 				
 				
 				
 				</div><!-- inner_content -->
+				
+					</div><!-- content -->
 				
 				
 			</div><!-- inner_container -->

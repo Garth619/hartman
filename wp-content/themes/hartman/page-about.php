@@ -50,7 +50,7 @@
 					
 					</div><!-- col -->
 					
-				</div><!-- content -->
+				
 				
 				<div class="about_icons_wrapper">
 					
@@ -81,6 +81,8 @@
 				</div><!-- about_icons_wrapper -->
 				
 				</div><!-- inner_content -->
+				
+				</div><!-- content -->
 				
 				
 			</div><!-- inner_container -->
