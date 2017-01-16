@@ -96,7 +96,7 @@ body {
 		a {
 				color:$bluelight;
 				text-decoration: none;
-				transition:all 0.2s ease-in-out;
+// 				transition:all 0.2s ease-in-out;
 				&:hover {
 					
 					color:#f32923;
@@ -324,7 +324,7 @@ nav.desktop {
 				display: inline-block;
 				font-size:15px;
 				margin-top:32px;
-				
+				transition:all .2s ease-in-out;
 				
 				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f34b23+100 */
 				background: #f32323; /* Old browsers */
@@ -332,6 +332,9 @@ nav.desktop {
 				background: -webkit-linear-gradient(left,  #f32323 0%,#f34b23 100%); /* Chrome10-25,Safari5.1-6 */
 				background: linear-gradient(to right,  #f32323 0%,#f34b23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f34b23',GradientType=1 ); /* IE6-9 */
+				&:hover {
+					background:$bluelight;
+				}
 			}
 		}
 		.lower_content {
@@ -501,12 +504,14 @@ nav.desktop {
 				bottom: 55px;
 				right:35px;
 				color:$black;
+				display: inline-block;
 //	 			transition:all .5s ease-in-out;
 				img.case_link_arrow {
 					width:25px;
 					margin:0px 0 0 10px;
 					position: relative;
 					top:4px;
+					display: inline-block;
 				}
 			}
 		}
@@ -516,6 +521,8 @@ nav.desktop {
 	}
 }
 
+
+.case_results {
 
 .single_case_results:hover {
 	
@@ -546,6 +553,8 @@ nav.desktop {
 	}
 }
 
+}
+
 .case_results {
 	.view_more.mobile {
 		display: none;
@@ -566,6 +575,7 @@ nav.desktop {
 			 -ms-transform: rotate(90deg); /* IE 9 */
 			 -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
 			 transform: rotate(90deg);
+			 
 			
 			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f34b23+100 */
 				background: #f32323; /* Old browsers */
@@ -573,6 +583,9 @@ nav.desktop {
 				background: -webkit-linear-gradient(left,  #f32323 0%,#f34b23 100%); /* Chrome10-25,Safari5.1-6 */
 				background: linear-gradient(to right,  #f32323 0%,#f34b23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f34b23',GradientType=1 ); /* IE6-9 */
+				&:hover {
+					background:$bluelight;
+				}
 		}
 	}
 }
@@ -1168,6 +1181,9 @@ nav.desktop {
 				background: -webkit-linear-gradient(left,  #f32323 0%,#f34b23 100%); /* Chrome10-25,Safari5.1-6 */
 				background: linear-gradient(to right,  #f32323 0%,#f34b23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f34b23',GradientType=1 ); /* IE6-9 */
+				&:hover {
+					background:$bluelight;
+				}
 	
 		}
 	}
@@ -1322,9 +1338,18 @@ footer {
 			width:415px;
 			.social_icon_wrapper {
 				float:right;
-				img.icon {
-					height:23px;
+				.social_icon {
 					margin-left:40px;
+					position: relative;
+					display: inline-block;
+					img {
+						height:23px;
+					}
+					img.icon_hover {
+						position: absolute;
+						top:0;
+						left:0;
+					}
 				}
 			}
 		}
@@ -1385,12 +1410,24 @@ footer {
 				background: -webkit-linear-gradient(left,  #f32323 0%,#f34b23 100%); /* Chrome10-25,Safari5.1-6 */
 				background: linear-gradient(to right,  #f32323 0%,#f34b23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f34b23',GradientType=1 ); /* IE6-9 */
+				&:hover {
+					background:$bluelight;
+				}
 			}
 		}
 		.video_wrapper {
 			margin-left:230px;
 			margin-top:95px;
 			float:left;
+			position: relative;
+			img.play_reg {
+				
+			}
+			img.play_hover {
+				position: absolute;
+				top:0;
+				left:0;
+			}
 		}
 	}
 }
@@ -1637,7 +1674,7 @@ body.page-template-page-about, body.page-template-page-attorneysdirectory {
 			height:175px;
 			text-align: center;
 			padding:60px 0 0;
-			transition: all 0.2s ease-in-out;
+		
 			float:left;
 			margin-bottom:40px;
 			&:nth-of-type(3n + 1) {
@@ -1648,7 +1685,7 @@ body.page-template-page-about, body.page-template-page-attorneysdirectory {
 			}
 			span {
 				display: block;
-				transition: all 0.2s ease-in-out;
+				
 			}
 			span.large_header {
 				color:$bluelight;
@@ -1809,6 +1846,15 @@ ul.grid {
 			border-top:1px solid $bluedark;
 			padding:25px 0;
 			display: block;
+			&:hover {
+				color:#fff;
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f2236+0,075593+100 */
+				background: #0f2236; /* Old browsers */
+				background: -moz-linear-gradient(45deg,  #0f2236 0%, #075593 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(45deg,  #0f2236 0%,#075593 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(45deg,  #0f2236 0%,#075593 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f2236', endColorstr='#075593',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+			}
 			
 		}
 	}
@@ -1873,6 +1919,9 @@ body.page-template-page-bio {
 										background: -webkit-linear-gradient(left,  #f32323 0%,#f34b23 100%); /* Chrome10-25,Safari5.1-6 */
 										background: linear-gradient(to right,  #f32323 0%,#f34b23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 										filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f34b23',GradientType=1 ); /* IE6-9 */
+										&:hover {
+											background: $bluelight;
+										}
 									}
 								}
 							}
@@ -2114,7 +2163,7 @@ a.single_attorney_link {
 	/* Video */
 	
 
-	.video_wrapper {
+	.video_page_wrapper {
 		margin-top:48px;
 		margin-bottom:38px;
 		overflow: hidden;
@@ -3843,7 +3892,7 @@ a.single_attorney_link {
 	/* Video */
 	
 
-	.video_wrapper {
+	.video_page_wrapper {
 		
 		
 		a.video_link:nth-of-type(3n + 3) {
@@ -4851,7 +4900,7 @@ a.single_attorney_link {
 	/* Video */
 	
 
-	.video_wrapper {
+	.video_page_wrapper {
 		
 		
 		a.video_link:nth-of-type(3n + 3) {

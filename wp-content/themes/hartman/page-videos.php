@@ -34,7 +34,7 @@
 					
 
 					
-					<div class="video_wrapper">
+					<div class="video_page_wrapper">
 						
 						<a class="video_link" href="">
 							

@@ -268,9 +268,47 @@ $slick_slider = jQuery('.inner_case_wrapper');
 */
 
   
-	
-	
+  // Inner Banner Play Button Hover
   
+  
+  jQuery('img.play_hover').hide();
+  
+  
+  jQuery('.inner_banner .video_wrapper').mouseenter(function(){
+	  
+	  jQuery('img.play_reg').fadeOut(200);
+	  jQuery('img.play_hover').fadeIn(200);
+	  
+  });
+  
+  
+  jQuery('.inner_banner .video_wrapper').mouseleave(function(){
+	  
+	  jQuery('img.play_reg').fadeIn(200);
+	  jQuery('img.play_hover').fadeOut(200);
+	  
+  });
+  
+  // Social Icon Hover in Footer
+  
+  
+  jQuery('img.icon_hover').hide();
+	
+	
+  jQuery('.social_icon').mouseenter(function(){
+	  
+	  jQuery(this).find('img.play_reg').fadeOut(200);
+	  jQuery(this).find('img.icon_hover').fadeIn(200);
+	  
+  });
+  
+  jQuery('.social_icon').mouseleave(function(){
+	  
+	  jQuery(this).find('img.play_reg').fadeIn(200);
+	  jQuery(this).find('img.icon_hover').fadeOut(200);
+	  
+  });
+
   
 	
 	

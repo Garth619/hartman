@@ -266,21 +266,41 @@
 			
 			<div class="social_icon_wrapper">
 				
-				<a href="" target="_blank">
-					<img class="icon" src="<?php bloginfo('template_directory');?>/images/social_fb.svg"/>
-				</a>
+				<div class="social_icon">
 				
-				<a href="" target="_blank">
-					<img class="icon" src="<?php bloginfo('template_directory');?>/images/social_twitter.svg"/>
-				</a>
+					<a href="http://facebook.com" target="_blank">
+						<img class="icon" src="<?php bloginfo('template_directory');?>/images/social_fb.svg"/>
+						<img class="icon_hover" src="<?php bloginfo('template_directory');?>/images/social_fb_hover.svg"/>
+					</a>
 				
-				<a href="" target="_blank">
-					<img class="icon" src="<?php bloginfo('template_directory');?>/images/social_linkedin.svg"/>
-				</a>
+				</div><!-- social_icon -->
 				
-				<a href="" target="_blank">
-					<img class="icon" src="<?php bloginfo('template_directory');?>/images/social_google.svg"/>
-				</a>
+				<div class="social_icon">
+				
+					<a href="" target="_blank">
+						<img class="icon" src="<?php bloginfo('template_directory');?>/images/social_twitter.svg"/>
+						<img class="icon_hover" src="<?php bloginfo('template_directory');?>/images/social_twitter_hover.svg"/>
+					</a>
+				
+				</div><!-- social_icon -->
+				
+				<div class="social_icon">
+				
+					<a href="" target="_blank">
+						<img class="icon" src="<?php bloginfo('template_directory');?>/images/social_linkedin.svg"/>
+						<img class="icon_hover" src="<?php bloginfo('template_directory');?>/images/social_linkedin_hover.svg"/>
+					</a>
+				
+				</div><!-- social_icon -->
+				
+				<div class="social_icon">
+				
+					<a href="" target="_blank">
+						<img class="icon" src="<?php bloginfo('template_directory');?>/images/social_google.svg"/>
+						<img class="icon_hover" src="<?php bloginfo('template_directory');?>/images/social_google_hover.svg"/>
+					</a>
+				
+				</div><!-- social_icon -->
 				
 			</div><!-- social_icon_wrapper -->
 		
