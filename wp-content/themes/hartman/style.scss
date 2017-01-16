@@ -165,13 +165,16 @@ body {
 header {
 	width:100%;
 	background: #fff;
-	overflow: hidden;
+// 	overflow: hidden;
+	position: relative;
 	display: flex;
+	z-index:10;
 	flex-direction: row;
 	.logo_wrapper {
 			padding:14px 30px;
 			display: flex;
 			flex-grow: 1;
+			background:#fff;
 			img.logo {
 				max-width:100%;
 				height:auto;
@@ -181,6 +184,7 @@ header {
 			display:flex;
 			flex-direction: row;
 			flex-grow: 3;
+			background:#fff;
 			.free_consultation_wrapper {
 				float:left;
 				color:#fff;
@@ -222,11 +226,11 @@ header {
 
 nav.desktop {
 	width:70%;
-	
 	font-family: $montserratlight;
 	font-size:13px;
 	text-transform: uppercase;
 	margin-top: 41px;
+
 	ul {
 		list-style: none;
 		margin:0;
@@ -239,15 +243,79 @@ nav.desktop {
 	ul.menu {
 		display: flex;
 		justify-content: space-around;
+		>li.menu-item-has-children {
+			&:after {
+				content:"";
+				width:0px;
+				height:0px;
+				float:right;
+				border-left: 5px solid transparent;
+				border-right: 5px solid transparent;
+				border-top: 5px solid $bluelight;
+				position: relative;
+				top:4px;
+				left:5px;
+			}
+			&:hover {
+				> ul.sub-menu {
+					bottom:-43px;
+					opacity:1;
+					visibility: visible;
+					z-index:0;
+				}
+			}
+		}
+		> li.current-menu-ancestor {
+				a {
+					color:$bluelight;
+				}
+		}
 		> li {
+			padding-bottom:43px;
+			cursor: pointer;
 			a {
 				color:$bluedark;
 				letter-spacing: 0.4px;
 				text-decoration: none;
+				&:hover {
+					color:$bluelight;
+				}
+			}
+			> ul.sub-menu {
+				background:$black;
+				position: absolute;
+				bottom:-0px;
+				transition:all .2s ease-in-out;
+				opacity:0;
+				visibility: hidden;
+				width:100%;
+				left:0;
+				padding-left:23%;
+				z-index:-1;
+				li.current-menu-item {
+					a {
+						color:$bluelight;
+					}
+				}
+				li {
+					display: inline-block;
+					font-size:13px;
+					letter-spacing: 0.4px;
+					a {
+						color:#fff;
+						padding:15px 0;
+						display: block;
+						margin-right:35px;
+						&:hover {
+							color:#007ddc;
+						}
+					}
+				}
 			}
 		}
 	}
 }
+
 
 
 .search_wrapper {
