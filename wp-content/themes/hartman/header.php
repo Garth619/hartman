@@ -53,7 +53,15 @@
 	
 		<div class="logo_wrapper">
 		
-			<a href="<?php bloginfo('url');?>"><img class="logo" src="<?php bloginfo('template_directory');?>/images/logo_hartman.png"/></a>
+			<a href="<?php bloginfo('url');?>">
+				
+				<?php $imageID = get_field('logo','option'); ?>
+				<?php $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true); ?>
+				<?php $menu_one = wp_get_attachment_image_src(get_field('logo','option'), 'logosize'); ?>
+
+				<img class="logo" src="<?php echo $menu_one[0]; ?>" alt="<?php echo $alt_text; ?>"/>
+				
+			</a>
 		
 		</div><!-- logo_wrapper -->
 	
@@ -87,7 +95,7 @@
 			<div class="free_consultation_wrapper">
 		
 				<span class="sub_header">Free Consultation</span><!-- sub_header -->
-				<a class="large_header" href="tel:866.586.1910">866.586.1910</a><!-- large_header -->
+				<a class="large_header" href="tel:<?php the_field('dwh_phone_numer','option');?>"><?php the_field('dwh_phone_numer','option');?></a><!-- large_header -->
 			
 			</div><!-- free_consultation_wrapper -->
 			

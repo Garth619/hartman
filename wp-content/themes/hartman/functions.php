@@ -636,3 +636,25 @@ function my_searchwp_live_search_posts_per_page() {
 add_filter( 'searchwp_live_search_posts_per_page', 'my_searchwp_live_search_posts_per_page' );
 
 
+
+
+
+// optons 
+
+
+
+if( function_exists('acf_add_options_page') ) {
+ 
+	$option_page = acf_add_options_page(array(
+		'page_title' 	=> 'Header, Footer, Banners',
+		'menu_title' 	=> 'Header, Footer, Banners',
+		'menu_slug' 	=> 'theme-general-settings',
+		'capability' 	=> 'edit_posts',
+		'redirect' 	=> false
+	));
+ 
+}
+
+
+
+
