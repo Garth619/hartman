@@ -30,22 +30,22 @@
 					
 					<div class="inner_content">
 					
-						<ul class="grid">
-							
-							<li><a href="">Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							<li><a href="">Practice Areas</a></li>
-							
-						</ul><!-- grid -->
+
+						<?php if(get_field('practice_areas_directory')): ?>
+						
+								<ul class="grid">
+							 
+								<?php while(has_sub_field('practice_areas_directory')): ?>
+							 
+									<li><a href="<?php the_sub_field('practice_area_link');?>"><?php the_sub_field('practice_areas_title');?></a></li>
+									<?php the_sub_field('');?>
+							    
+								<?php endwhile; ?>
+								
+								</ul><!-- grid -->
+							 
+							<?php endif; ?>
+
 													
 					</div><!-- inner_content -->
 				
