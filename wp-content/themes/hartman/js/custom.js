@@ -343,7 +343,7 @@ $slick_slider = jQuery('.inner_case_wrapper');
   
   
 
-jQuery( "<li class='search'><a>Search</a></li>" ).insertAfter( "ul.menu li:last-of-type" );
+jQuery( "<li class='search'><a>Search</a></li>" ).insertAfter( "nav.desktop ul.menu li:last-of-type" );
  
 jQuery( "<div class='close_wrapper'><div class='x_first'></div><div class='x_second'></div></div>" ).insertBefore( "nav.desktop ul.menu" );
 

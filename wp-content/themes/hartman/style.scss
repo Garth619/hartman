@@ -280,6 +280,9 @@ nav.desktop {
 					color:$bluelight;
 				}
 		}
+		li.search {
+			display: none;
+		}
 		> li {
 			padding-bottom:43px;
 			cursor: pointer;
@@ -307,6 +310,9 @@ nav.desktop {
 						color:$bluelight;
 					}
 				}
+				li.search {
+			display: none;
+		}
 				li {
 					display: inline-block;
 					font-size:13px;
