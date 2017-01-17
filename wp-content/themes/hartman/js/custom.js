@@ -324,6 +324,93 @@ $slick_slider = jQuery('.inner_case_wrapper');
 	  jQuery(this).find('img.icon_hover').fadeOut(200);
 	  
   });
+  
+  
+  
+  // Mobile Menu SlideToggle
+  
+  
+/*
+jQuery(function(){
+    
+    jQuery(window).bind("resize",function(){
+        console.log(jQuery(this).width())
+            if (jQuery(this).width() > 730){
+             jQuery('nav').removeClass('garrett')
+            }
+            else {
+                jQuery('nav').addClass('garrett')
+         }
+    })
+})
+*/
+	
+	
+	
+	
+
+/*
+	jQuery('nav.desktop li.menu-item-has-children a').click(function() {
+		
+		winWidth = jQuery(window).width();
+ 
+    if ( winWidth < 730 ) return;
+   
+   
+   
+		jQuery(this).next('ul.sub-menu').slideToggle(200);
+		
+		
+	});
+*/
+
+
+
+
+
+
+
+
+
+/*
+ var isLargeWindow;
+    
+    jQuery(window).on('resize', function() {
+        isLargeWindow = jQuery(this).width() > 730;
+    });
+
+    jQuery('nav.desktop li.menu-item-has-children a').on('click', function(e) {
+        if (isLargeWindow)
+          {
+	           
+          }
+        else
+          {
+	           jQuery(this).next('ul.sub-menu').slideToggle(200);
+           }
+    });
+*/
+
+
+
+// Maybe use modernizr 
+
+
+function checkWidth() {
+    if (jQuery(window).width() < 730) {
+        jQuery("nav.desktop li.menu-item-has-children a").click(function(){
+	        
+	        jQuery(this).next('ul.sub-menu').slideToggle(200);
+            
+        });
+    } else {
+
+    }
+};
+
+
+checkWidth();
+
 
   
 	

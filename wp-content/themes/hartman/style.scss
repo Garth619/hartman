@@ -2849,7 +2849,91 @@ a.single_attorney_link {
 	
 	
 	nav.desktop {
-		display: none;
+		display: block;
+		position: fixed;
+		width:100%;
+		top:0;
+		left:0;
+		background:$black;
+		height:100%;
+		margin-top:0;
+		z-index:200000;
+		padding:65px 30px;
+		font-size:18px;
+		letter-spacing: 0.4px;
+		
+		ul {
+		
+		li {
+			a {
+				
+			}
+		}
+	}
+	ul.menu {
+		display: block;
+		text-align: center;
+		>li.menu-item-has-children {
+			
+			&:after {
+				float:none;
+				position:relative;
+				top:14px;
+				left:17px;
+			;
+			}
+			&:hover {
+				> ul.sub-menu {
+					
+				}
+			}
+		}
+		> li.current-menu-ancestor {
+				a {
+					
+				}
+		}
+		> li {
+			padding:0;
+			display: block;
+			margin-bottom:38px;
+			a {
+				color:#fff;
+				
+				
+				&:hover {
+					
+				}
+			}
+			> ul.sub-menu {
+				position: relative;
+				top:0;
+				width:auto;
+				opacity: 1;
+				visibility: visible;
+				z-index:0;
+				background: none;
+				padding:0;
+				display:none;
+				li.current-menu-item {
+					a {
+						
+					}
+				}
+				li {
+					display: block;
+					a {
+						margin:0;
+						padding:0;
+						&:hover {
+							
+						}
+					}
+				}
+			}
+		}
+	}
+
 	}
 	
 	.search_wrapper {
@@ -2924,6 +3008,15 @@ a.single_attorney_link {
 	}
 	
 	}
+	
+	
+	
+	
+	/* Overlay Nav */
+	
+	
+	
+	
 	
 		
 	
