@@ -2885,7 +2885,7 @@ a.single_attorney_link {
 	
 	
 	nav.desktop {
-		display: block;
+		display: none;
 		position: fixed;
 		width:100%;
 		top:0;
@@ -3029,13 +3029,16 @@ a.single_attorney_link {
 	
 	
 	
+/*
 	body {
 		overflow: hidden;
 	}
+*/
 	
 	
 	
 	.search_wrapper {
+		display: none;
 		position:fixed;
 		top:0;
 		left:0;
