@@ -2121,6 +2121,9 @@ a.single_attorney_link:nth-of-type(4n + 4) {
 a.single_attorney_link {
 		text-decoration: none;
 		color:#fff;
+		&:hover {
+			color:#fff;
+		}
 		.single_attorney.top {
 			float:left;
 			margin:0 16px;
