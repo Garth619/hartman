@@ -397,10 +397,14 @@ jQuery(function(){
 
 
 function checkWidth() {
-    if (jQuery(window).width() < 730) {
+    if (jQuery(window).width() < 1200) {
         jQuery("nav.desktop li.menu-item-has-children a").click(function(){
 	        
 	        jQuery(this).next('ul.sub-menu').slideToggle(200);
+	        
+	        jQuery(this).toggleClass('active');
+	        
+	        
             
         });
     } else {

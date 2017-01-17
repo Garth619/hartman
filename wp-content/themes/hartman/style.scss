@@ -248,7 +248,8 @@ nav.desktop {
 		display: flex;
 		justify-content: space-around;
 		>li.menu-item-has-children {
-			&:after {
+			> a {
+				&:after {
 				content:"";
 				width:0px;
 				height:0px;
@@ -260,6 +261,8 @@ nav.desktop {
 				top:4px;
 				left:5px;
 			}
+			}
+			
 			&:hover {
 				> ul.sub-menu {
 					bottom:-43px;
@@ -2858,7 +2861,7 @@ a.single_attorney_link {
 		height:100%;
 		margin-top:0;
 		z-index:200000;
-		padding:65px 30px;
+		padding:65px 0px;
 		font-size:18px;
 		letter-spacing: 0.4px;
 		
@@ -2874,14 +2877,16 @@ a.single_attorney_link {
 		display: block;
 		text-align: center;
 		>li.menu-item-has-children {
-			
-			&:after {
+			> a {
+				&:after {
 				float:none;
 				position:relative;
 				top:14px;
 				left:17px;
-			;
+			
 			}
+			}
+			
 			&:hover {
 				> ul.sub-menu {
 					
@@ -2915,18 +2920,36 @@ a.single_attorney_link {
 				background: none;
 				padding:0;
 				display:none;
+				margin-top:19px;
+				padding-top:19px;
+				padding-bottom:19px;
+				margin-bottom:-19px;
+				
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#075593+52,072f51+100 */
+				background: #075593; /* Old browsers */
+				background: -moz-linear-gradient(45deg,  #075593 52%, #072f51 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(45deg,  #075593 52%,#072f51 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(45deg,  #075593 52%,#072f51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#075593', endColorstr='#072f51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 				li.current-menu-item {
 					a {
+						color:#00a6e4;
 						
 					}
 				}
 				li {
 					display: block;
+					font-size:18px;
+					margin-bottom:38px;
+					&:last-of-type {
+						margin-bottom:0;
+					}
 					a {
 						margin:0;
 						padding:0;
 						&:hover {
-							
+							color:#00a6e4;
 						}
 					}
 				}
