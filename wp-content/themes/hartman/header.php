@@ -70,10 +70,14 @@
 			
 		
 			<div class="search_wrapper">
+				
+				<div class="inner_search_wrapper">
 		
 				<?php get_search_form(); ?>
 			
 <!-- 			<input type="text" onfocus="if(this.value=='<?php _e( 'Search here..' ); ?>'){this.value='';}" onblur="if(this.value==''){this.value='<?php _e( 'Search here..' ); ?>';}" value="<?php _e( 'Search here..' ); ?>"> -->
+
+				</div><!-- inner_search_wrapper -->
 		
 			</div><!-- search_wrapper -->
 	

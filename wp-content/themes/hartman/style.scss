@@ -243,6 +243,9 @@ nav.desktop {
 				
 			}
 		}
+		li.search {
+			display: none;
+		}
 	}
 	ul.menu {
 		display: flex;
@@ -1430,6 +1433,13 @@ footer {
 			}
 		}
 	}
+}
+
+/* Search Overlay */
+
+
+.search_overlay {
+	display: none;
 }
 
 
@@ -2897,6 +2907,9 @@ a.single_attorney_link {
 				display: block;
 			}
 		}
+		li.search {
+			display: block;
+		}
 	}
 	ul.menu {
 		display: block;
@@ -3001,8 +3014,61 @@ a.single_attorney_link {
 
 	}
 	
+	
+	.search_overlay {
+		display: block;
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		background: $black;
+		color:#fff;
+		z-index:5000000;
+	}
+	
+	
+	
+	body {
+		overflow: hidden;
+	}
+	
+	
+	
 	.search_wrapper {
-		display: none;
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		background: $black;
+		z-index:100000000;
+		max-width:100%;
+		padding:0 30px;
+		overflow-y: scroll;
+		.inner_search_wrapper {
+			
+			form {
+				margin-top:57px;
+				position: relative;
+				input[type="text"]  {
+					background:none;
+					border-bottom:1px solid $bluelight;
+					color:#fff;
+					font-size:22px;
+					letter-spacing: 0.4px;
+					padding-bottom:13px;
+					padding-left:0;
+					padding-right:30px;
+					
+					font-family: $montserratlight;
+				}
+				input[type="submit"] {
+					right:0;
+					top: 18px;
+				}
+			}
+		}
 	}
 	
 	header {

@@ -624,3 +624,14 @@ return $content;
 
 
 
+// disables search css results
+
+// add_filter( 'searchwp_live_search_base_styles', '__return_false' );
+
+
+function my_searchwp_live_search_posts_per_page() {
+	return 10; // return 20 results
+}
+add_filter( 'searchwp_live_search_posts_per_page', 'my_searchwp_live_search_posts_per_page' );
+
+

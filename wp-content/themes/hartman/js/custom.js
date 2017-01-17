@@ -329,7 +329,7 @@ $slick_slider = jQuery('.inner_case_wrapper');
   // Open Mobile Overlay
   
   
-  jQuery('nav.desktop').hide();
+  
   
   jQuery('.mobile_wrapper').click(function() {
 	  
@@ -343,30 +343,30 @@ $slick_slider = jQuery('.inner_case_wrapper');
   
   
 
-
+jQuery( "<li class='search'><a>Search</a></li>" ).insertAfter( "ul.menu li:last-of-type" );
  
+jQuery( "<div class='close_wrapper'><div class='x_first'></div><div class='x_second'></div></div>" ).insertBefore( "nav.desktop ul.menu" );
+
+jQuery(".close_wrapper").click(function(){
+	        
+	        jQuery('nav.desktop').fadeOut();
+     
+    		});
+
+
 
 
 function checkWidth() {
+    
     if (jQuery(window).width() < 1200) {
         
-        
-        jQuery("nav.desktop li.menu-item-has-children a").click(function(){
+       jQuery("nav.desktop li.menu-item-has-children a").click(function(){
 	        
 	        jQuery(this).next('ul.sub-menu').slideToggle(200);
      
     		});
     		
-    		
-    		jQuery( "<div class='close_wrapper'><div class='x_first'></div><div class='x_second'></div></div>" ).insertBefore( "ul.menu" );
-    		
-    		
-    		jQuery(".close_wrapper").click(function(){
-	        
-	        jQuery('nav.desktop').fadeOut();
-     
-    		});
-    		
+    	   		
     		
     } else {
 
