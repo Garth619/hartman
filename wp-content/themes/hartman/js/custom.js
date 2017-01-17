@@ -398,15 +398,25 @@ jQuery(function(){
 
 function checkWidth() {
     if (jQuery(window).width() < 1200) {
+        
+        
         jQuery("nav.desktop li.menu-item-has-children a").click(function(){
 	        
 	        jQuery(this).next('ul.sub-menu').slideToggle(200);
+     
+    		});
+    		
+    		
+    		jQuery( "<div class='close_wrapper'><div class='x_first'></div><div class='x_second'></div></div>" ).insertBefore( "ul.menu" );
+    		
+    		
+    		jQuery(".close_wrapper").click(function(){
 	        
-	        jQuery(this).toggleClass('active');
-	        
-	        
-            
-        });
+	        jQuery('nav.desktop').fadeOut();
+     
+    		});
+    		
+    		
     } else {
 
     }
@@ -415,9 +425,6 @@ function checkWidth() {
 
 checkWidth();
 
-
-  
-	
 	
 	
 	}); // document ready

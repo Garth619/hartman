@@ -2850,6 +2850,29 @@ a.single_attorney_link {
 @media screen and (max-width: 1200px) {
 	
 	
+
+	
+.close_wrapper {
+	position: absolute;
+	top:50px;
+	right:30px;
+	cursor: pointer;
+	div {
+		width:45px;
+		height:2px;
+		background: #fff;
+	}
+	.x_first {
+		 transform: rotate(45deg);
+    transform-origin: 21px 3px 0;
+    transition: all 0.2s ease 0s;
+	}
+	.x_second {
+		transform: rotate(-45deg);
+     transform-origin: 22px 0 0;
+	}
+}
+	
 	
 	nav.desktop {
 		display: block;
@@ -2861,7 +2884,7 @@ a.single_attorney_link {
 		height:100%;
 		margin-top:0;
 		z-index:200000;
-		padding:65px 0px;
+		padding:75px 0px;
 		font-size:18px;
 		letter-spacing: 0.4px;
 		
@@ -2869,15 +2892,21 @@ a.single_attorney_link {
 		
 		li {
 			a {
-				
+				padding-left:10px;
+				padding-right:10px;
+				display: block;
 			}
 		}
 	}
 	ul.menu {
 		display: block;
 		text-align: center;
+		
 		>li.menu-item-has-children {
 			> a {
+
+// 				padding-bottom:19px;
+
 				&:after {
 				float:none;
 				position:relative;
@@ -2920,10 +2949,13 @@ a.single_attorney_link {
 				background: none;
 				padding:0;
 				display:none;
+				overflow:hidden;
 				margin-top:19px;
-				padding-top:19px;
-				padding-bottom:19px;
-				margin-bottom:-19px;
+
+				//padding-top:19px;
+				/*padding-bottom:19px;
+*/
+// 				margin-bottom:-19px;
 				
 				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#075593+52,072f51+100 */
 				background: #075593; /* Old browsers */
@@ -2938,16 +2970,26 @@ a.single_attorney_link {
 						
 					}
 				}
+				
 				li {
 					display: block;
 					font-size:18px;
 					margin-bottom:38px;
+					&:first-of-type {
+						a {
+							margin-top:19px;
+						}
+					}
 					&:last-of-type {
-						margin-bottom:0;
+						margin-bottom:19px;
+						a {
+							margin-bottom:0;
+						}
 					}
 					a {
 						margin:0;
 						padding:0;
+						
 						&:hover {
 							color:#00a6e4;
 						}
@@ -5544,7 +5586,7 @@ header {
 			ul {
 				
 				li {
-					width::100%;
+					width:100%;
 					&:nth-of-type(2n + 1) {
 						float:none;
 					}
