@@ -32,19 +32,19 @@
 					
 					<div class="inner_content">
 					
-					<span class="my_excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</span>
+					<span class="my_excerpt"><?php the_field('att_excerpt');?></span>
 					
 					<div class="col">
 					
 					
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis  es so nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Du Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id. </p>
+					<?php the_field('att_col_1');?>
 					
 					</div><!-- col -->
 					
 					<div class="col">
 					
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis  es so nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Du Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+						<?php the_field('att_col_2');?>
 					
 					</div><!-- col -->
 					
@@ -54,9 +54,62 @@
 				
 				<div class="top_attorneys_wrapper">
 					
-					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
+					
 						
-						<div class="single_attorney top">
+					
+							
+							
+							
+							<?php
+
+							$post_object = get_field('dallas');
+
+							if( $post_object ): 
+
+							// override $post
+							$post = $post_object;
+							setup_postdata( $post ); 
+
+							?>
+							
+							
+							
+							
+							<a class="single_attorney_link" href="<?php the_permalink();?>">	
+							
+					<div class="single_attorney top">
+							
+							
+							<div class="image_wrapper">
+								
+								<img src="<?php the_field('attorney_image');?>"/>
+								<span class="attorney_name"><?php the_title();?></span><!-- attorney_name -->
+								
+							</div><!-- image_wrapper -->
+							
+							<div class="attorney_overlay">
+								
+								<span class="view_profile">View Profile</span><!-- view_profile -->
+								
+							</div><!-- attorney_overlay -->
+							
+						</div><!-- single_attorney -->
+						
+					</a><!-- single_attorney_link -->
+    
+							
+							
+    
+    
+    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+<?php endif; ?>
+							
+							
+							
+				<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">	
+							
+					<div class="single_attorney top">
+							
 							
 							<div class="image_wrapper">
 								

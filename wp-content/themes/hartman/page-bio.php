@@ -69,7 +69,7 @@
 					
 					<div class="inner_content">
 						
-					<h1>Dallas W. Hartman</h1>
+					<h1><?php the_title();?></h1>
 					
 					<span class="my_excerpt"><?php the_field('attorney_bio_excerpt');?></span>
 					

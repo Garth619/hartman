@@ -32,13 +32,20 @@
 					
 					<div class="inner_content">
 					
-						<span class="my_excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</span>
+
+						<span class="my_excerpt"><?php the_field('testimmonials_excerpt');?></span>
 					
 										
 						<div class="testimonials_wrapper">
 							
 							<div class="testimonials_column">
 								
+								
+								
+								<?php if(get_field('testimonials_column_1')): ?>
+								 
+									<?php while(has_sub_field('testimonials_column_1')): ?>
+								 
 								<div class="single_testimonial">
 									
 									<div class="stars">
@@ -51,58 +58,32 @@
 									
 									</div><!-- stars -->
 									
-									<span class="large_header">Lorem ipsum dolor sit amet</span><!-- large_header -->
+									<span class="large_header"><?php the_sub_field('testimonail_title');?></span><!-- large_header -->
 									
-									<p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.”</p>
+									<p><?php the_sub_field('testimonial_content');?></p>
 									
-									<span class="testimonial_name">Firstname N.</span><!-- testimonial_name -->
+									<span class="testimonial_name"><?php the_sub_field('first_name');?></span><!-- testimonial_name -->
 									
 								</div><!-- single_testimonial -->
-								
-								<div class="single_testimonial">
-									
-									<div class="stars">
 										
-										<img class="star" src="<?php bloginfo('template_directory');?>/images/star.png"/>
-										<img class="star" src="<?php bloginfo('template_directory');?>/images/star.png"/>
-										<img class="star" src="<?php bloginfo('template_directory');?>/images/star.png"/>
-										<img class="star" src="<?php bloginfo('template_directory');?>/images/star.png"/>
-										<img class="star" src="<?php bloginfo('template_directory');?>/images/star.png"/>
-									
-									</div><!-- stars -->
-									
-									<span class="large_header">Lorem ipsum dolor sit amet</span><!-- large_header -->
-									
-									<p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.”</p>
-									
-									<span class="testimonial_name">Firstname N.</span><!-- testimonial_name -->
-									
-								</div><!-- single_testimonial -->
+										
+										
+										<?php the_sub_field('');?>
+								    
+									<?php endwhile; ?>
+								 
+								<?php endif; ?>
 								
+
 							</div><!-- testimonials_column -->
 							
 							<div class="testimonials_column">
 								
-								<div class="single_testimonial">
-									
-									<div class="stars">
-										
-										<img class="star" src="<?php bloginfo('template_directory');?>/images/star.png"/>
-										<img class="star" src="<?php bloginfo('template_directory');?>/images/star.png"/>
-										<img class="star" src="<?php bloginfo('template_directory');?>/images/star.png"/>
-										<img class="star" src="<?php bloginfo('template_directory');?>/images/star.png"/>
-										<img class="star" src="<?php bloginfo('template_directory');?>/images/star.png"/>
-									
-									</div><!-- stars -->
-									
-									<span class="large_header">Lorem ipsum dolor sit amet</span><!-- large_header -->
-									
-									<p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”</p>
-									
-									<span class="testimonial_name">Firstname N.</span><!-- testimonial_name -->
-									
-								</div><!-- single_testimonial -->
 								
+								<?php if(get_field('testimonials_column_2')): ?>
+								 
+									<?php while(has_sub_field('testimonials_column_2')): ?>
+								 
 								<div class="single_testimonial">
 									
 									<div class="stars">
@@ -115,14 +96,22 @@
 									
 									</div><!-- stars -->
 									
-									<span class="large_header">Lorem ipsum dolor sit amet</span><!-- large_header -->
+									<span class="large_header"><?php the_sub_field('testimonail_title');?></span><!-- large_header -->
 									
-									<p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-Duis aute irure dolor in reprehenderit in voluptate velit esse.”</p>
+									<p><?php the_sub_field('testimonial_content');?></p>
 									
-									<span class="testimonial_name">Firstname N.</span><!-- testimonial_name -->
+									<span class="testimonial_name"><?php the_sub_field('first_name');?></span><!-- testimonial_name -->
 									
 								</div><!-- single_testimonial -->
+										
+										
+										
+										<?php the_sub_field('');?>
+								    
+									<?php endwhile; ?>
+								 
+								<?php endif; ?>
+								
 								
 							</div><!-- testimonials_column -->
 							
