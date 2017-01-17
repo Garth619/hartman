@@ -31,7 +31,18 @@
 								
 								<td class="bio_cell">
 									
-									<img src="<?php the_field('attorney_image');?>"/>
+									
+									<?php if(get_field('attorney_image')):?>
+								
+										<img src="<?php the_field('attorney_image');?>"/>
+								
+										<?php else:?>
+								
+										<img src="<?php bloginfo('url');?>/wp-content/uploads/2017/01/placeholder.jpg"/>
+								
+										<?php endif;?>
+									
+	
 									
 									<div class="email_wrapper">
 									
@@ -48,11 +59,34 @@
 								<td class="bio_content_cell">
 									
 									<div class="sidebar_bio_content">
-							
+										
+										
+										
+										<?php if(get_field('attorney_title')):?>
+										
 										<span class="bio_row">Title &nbsp;<span class="lightblue">|</span>&nbsp; <span class="description"><?php the_field('attorney_title');?></span></span><!-- bio_row -->
+										
+										<?php endif;?>
+										
+										
+										<?php if(get_field('attorney_location')):?>
+										
 										<span class="bio_row">Location &nbsp;<span class="lightblue">|</span>&nbsp; <span class="description"><?php the_field('attorney_location');?></span></span><!-- bio_row -->
+										
+										<?php endif;?>
+										
+										
+										<?php if(get_field('attorney_phone_number')):?>
+										
 										<span class="bio_row">Phone &nbsp;<span class="lightblue">|</span>&nbsp; <a class="description" href="tel:<?php the_field('attorney_phone_number');?>"><?php the_field('attorney_phone_number');?></a></span><!-- bio_row -->
-										<span class="bio_row">Fax &nbsp;<span class="lightblue">|</span>&nbsp; <span class="description"><?php the_field('attorney_fax_number');?></span></span><!-- bio_row -->
+										
+										<?php endif;?>
+										
+										<?php if(get_field('attorney_phone_number')):?>
+										
+											<span class="bio_row">Fax &nbsp;<span class="lightblue">|</span>&nbsp; <span class="description"><?php the_field('attorney_fax_number');?></span></span><!-- bio_row -->
+										
+										<?php endif;?>
 							
 									</div><!-- sidebar_bio -->
 									

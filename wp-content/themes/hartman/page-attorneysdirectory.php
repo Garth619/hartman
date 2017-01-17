@@ -54,35 +54,40 @@
 				
 				<div class="top_attorneys_wrapper">
 					
-					
-						
-					
-							
-							
-							
-							<?php
 
-							$post_object = get_field('dallas');
+							
+					<?php
 
-							if( $post_object ): 
+						$post_object = get_field('dallas');
 
-							// override $post
-							$post = $post_object;
-							setup_postdata( $post ); 
+						if( $post_object ): 
 
-							?>
+						// override $post
+						$post = $post_object;
+						setup_postdata( $post ); 
+
+					?>
 							
-							
-							
-							
-							<a class="single_attorney_link" href="<?php the_permalink();?>">	
+	
+				<a class="single_attorney_link" href="<?php the_permalink();?>">	
 							
 					<div class="single_attorney top">
 							
 							
 							<div class="image_wrapper">
 								
-								<img src="<?php the_field('attorney_image');?>"/>
+								<?php if(get_field('attorney_image')):?>
+								
+									<img src="<?php the_field('attorney_image');?>"/>
+								
+								<?php else:?>
+								
+									<img src="<?php bloginfo('url');?>/wp-content/uploads/2017/01/placeholder.jpg"/>
+								
+								<?php endif;?>
+								
+								
+								
 								<span class="attorney_name"><?php the_title();?></span><!-- attorney_name -->
 								
 							</div><!-- image_wrapper -->
@@ -98,23 +103,42 @@
 					</a><!-- single_attorney_link -->
     
 							
-							
-    
-    
-    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+				<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
 <?php endif; ?>
+
+
+
+				<?php
+
+						$post_object = get_field('douglas');
+
+						if( $post_object ): 
+
+						// override $post
+						$post = $post_object;
+						setup_postdata( $post ); 
+
+					?>
 							
-							
-							
-				<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">	
+	
+				<a class="single_attorney_link" href="<?php the_permalink();?>">	
 							
 					<div class="single_attorney top">
 							
 							
 							<div class="image_wrapper">
 								
-								<img src="<?php bloginfo('template_directory');?>/images/internal_profilepic_hartman.jpg"/>
-								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
+								<?php if(get_field('attorney_image')):?>
+								
+									<img src="<?php the_field('attorney_image');?>"/>
+								
+								<?php else:?>
+								
+									<img src="<?php bloginfo('url');?>/wp-content/uploads/2017/01/placeholder.jpg"/>
+								
+								<?php endif;?>
+								
+								<span class="attorney_name"><?php the_title();?></span><!-- attorney_name -->
 								
 							</div><!-- image_wrapper -->
 							
@@ -127,203 +151,64 @@
 						</div><!-- single_attorney -->
 						
 					</a><!-- single_attorney_link -->
-					
-					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
-						
-						<div class="single_attorney top">
+    
 							
-							<div class="image_wrapper">
-								
-								<img src="<?php bloginfo('template_directory');?>/images/internal_profilepic_hartman.jpg"/>
-								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
-								
-							</div><!-- image_wrapper -->
+				<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+<?php endif; ?>
 							
-							<div class="attorney_overlay">
-								
-								<span class="view_profile">View Profile</span><!-- view_profile -->
-								
-							</div><!-- attorney_overlay -->
-							
-						</div><!-- single_attorney -->
-						
-					</a><!-- single_attorney_link -->
+	
 					
 				</div><!-- top_attorneys_wrapper -->
 				
 				<div class="all_attorneys_wrapper">
 					
 					
-					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
-						
-						<div class="single_attorney bottom">
-							
-							<div class="image_wrapper">
-								
-								<img src="<?php bloginfo('template_directory');?>/images/internal_profilepic_hartman.jpg"/>
-								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
-								
-							</div><!-- image_wrapper -->
-							
-							<div class="attorney_overlay">
-								
-								<span class="view_profile">View Profile</span><!-- view_profile -->
-								
-							</div><!-- attorney_overlay -->
-							
-						</div><!-- single_attorney -->
-						
-					</a><!-- single_attorney_link -->
+					<?php $posts = get_field('attorneys_directory');
 					
-					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
+					if( $posts ): ?>
+					   
+					    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+					        <?php setup_postdata($post); ?>
+					        
+					        
+					        	<a class="single_attorney_link" href="<?php the_permalink();?>">
 						
-						<div class="single_attorney bottom">
+											<div class="single_attorney bottom">
 							
-							<div class="image_wrapper">
+												<div class="image_wrapper">
 								
-								<img src="<?php bloginfo('template_directory');?>/images/internal_profilepic_hartman.jpg"/>
-								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
+													<?php if(get_field('attorney_image')):?>
 								
-							</div><!-- image_wrapper -->
+														<img src="<?php the_field('attorney_image');?>"/>
+								
+														<?php else:?>
+								
+														<img src="<?php bloginfo('url');?>/wp-content/uploads/2017/01/placeholder.jpg"/>
+								
+													<?php endif;?>
+													
+													<span class="attorney_name"><?php the_title();?></span><!-- attorney_name -->
+								
+												</div><!-- image_wrapper -->
 							
-							<div class="attorney_overlay">
+												<div class="attorney_overlay">
 								
-								<span class="view_profile">View Profile</span><!-- view_profile -->
+													<span class="view_profile">View Profile</span><!-- view_profile -->
 								
-							</div><!-- attorney_overlay -->
+												</div><!-- attorney_overlay -->
 							
-						</div><!-- single_attorney -->
+										</div><!-- single_attorney -->
 						
-					</a><!-- single_attorney_link -->
+								</a><!-- single_attorney_link -->
+
+								
+								<?php endforeach; ?>
+					    
+					    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+					<?php endif; ?>
 					
-					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
-						
-						<div class="single_attorney bottom">
-							
-							<div class="image_wrapper">
-								
-								<img src="<?php bloginfo('template_directory');?>/images/internal_profilepic_hartman.jpg"/>
-								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
-								
-							</div><!-- image_wrapper -->
-							
-							<div class="attorney_overlay">
-								
-								<span class="view_profile">View Profile</span><!-- view_profile -->
-								
-							</div><!-- attorney_overlay -->
-							
-						</div><!-- single_attorney -->
-						
-					</a><!-- single_attorney_link -->
-					
-					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
-						
-						<div class="single_attorney bottom">
-							
-							<div class="image_wrapper">
-								
-								<img src="<?php bloginfo('template_directory');?>/images/internal_profilepic_hartman.jpg"/>
-								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
-								
-							</div><!-- image_wrapper -->
-							
-							<div class="attorney_overlay">
-								
-								<span class="view_profile">View Profile</span><!-- view_profile -->
-								
-							</div><!-- attorney_overlay -->
-							
-						</div><!-- single_attorney -->
-						
-					</a><!-- single_attorney_link -->
-					
-					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
-						
-						<div class="single_attorney bottom">
-							
-							<div class="image_wrapper">
-								
-								<img src="<?php bloginfo('template_directory');?>/images/internal_profilepic_hartman.jpg"/>
-								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
-								
-							</div><!-- image_wrapper -->
-							
-							<div class="attorney_overlay">
-								
-								<span class="view_profile">View Profile</span><!-- view_profile -->
-								
-							</div><!-- attorney_overlay -->
-							
-						</div><!-- single_attorney -->
-						
-					</a><!-- single_attorney_link -->
-					
-					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
-						
-						<div class="single_attorney bottom">
-							
-							<div class="image_wrapper">
-								
-								<img src="<?php bloginfo('template_directory');?>/images/internal_profilepic_hartman.jpg"/>
-								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
-								
-							</div><!-- image_wrapper -->
-							
-							<div class="attorney_overlay">
-								
-								<span class="view_profile">View Profile</span><!-- view_profile -->
-								
-							</div><!-- attorney_overlay -->
-							
-						</div><!-- single_attorney -->
-						
-					</a><!-- single_attorney_link -->
-					
-					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
-						
-						<div class="single_attorney bottom">
-							
-							<div class="image_wrapper">
-								
-								<img src="<?php bloginfo('template_directory');?>/images/internal_profilepic_hartman.jpg"/>
-								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
-								
-							</div><!-- image_wrapper -->
-							
-							<div class="attorney_overlay">
-								
-								<span class="view_profile">View Profile</span><!-- view_profile -->
-								
-							</div><!-- attorney_overlay -->
-							
-						</div><!-- single_attorney -->
-						
-					</a><!-- single_attorney_link -->
-					
-					<a class="single_attorney_link" href="<?php bloginfo('url');?>/bio">
-						
-						<div class="single_attorney bottom">
-							
-							<div class="image_wrapper">
-								
-								<img src="<?php bloginfo('template_directory');?>/images/internal_profilepic_hartman.jpg"/>
-								<span class="attorney_name">Dallas W. Hartman</span><!-- attorney_name -->
-								
-							</div><!-- image_wrapper -->
-							
-							<div class="attorney_overlay">
-								
-								<span class="view_profile">View Profile</span><!-- view_profile -->
-								
-							</div><!-- attorney_overlay -->
-							
-						</div><!-- single_attorney -->
-						
-					</a><!-- single_attorney_link -->
-					
-					
-				</div><!-- all_attorneys_wrapper -->
+
+					</div><!-- all_attorneys_wrapper -->
 				
 			
 				
