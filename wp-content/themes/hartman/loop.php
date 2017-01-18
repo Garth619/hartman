@@ -161,9 +161,8 @@ echo wp_trim_words( get_the_content(), 40, '...' );
 	<?php else : ?>
 			
 			
-				<?php
-echo wp_trim_words( get_the_content(), 40, '...' );
-?>
+				<?php echo wp_trim_words( get_the_content(), 40, '...' );?>
+				
 				<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'twentyten' ), 'after' => '</div>' ) ); ?>
 		
 	
@@ -174,7 +173,7 @@ echo wp_trim_words( get_the_content(), 40, '...' );
 	
 	
 	
-	<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="meta-sep">|</span> <span class="edit-link">', '</span>' ); ?>
+	<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
 
 					</div><!-- #post-## -->
 
