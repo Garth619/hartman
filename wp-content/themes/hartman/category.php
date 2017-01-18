@@ -19,7 +19,7 @@ get_header(); ?>
 		<div class="inner_main_with_sidebar">
 			
 						
-			<?php include('sidebar.php');?>
+			<?php include('sidebar-blog.php');?>
 			
 			<div class="inner_container">
 				

@@ -139,20 +139,33 @@ body {
 	
 	.entry-meta {
 		display: block;
-		margin:6px 0;
+		margin:6px 0 32px;
+		font-family: $montserratlight;
+		text-transform: uppercase;
+		font-size:14px;
+		
 	}
 	
 	.entry-utility {
 		margin:6px 0;
+		
 	}
 	
 	.post {
 		margin-bottom:30px;
-		border-bottom:1px solid #ccc;
+		border-bottom:1px solid $bluedark;
 		padding-bottom:30px;
 		&:last-of-type {
 			border-bottom: none;
 		}
+	}
+	
+	.read_more_post {
+		display: block;
+		font-family: $montserratlight;
+		text-transform: uppercase;
+		font-size: 14px;
+		margin:27px 0 18px;;
 	}
 	
 	#nav-above {
@@ -1537,6 +1550,68 @@ footer {
 	margin:130px auto 220px;
 	padding:0 30px;
 }
+
+
+.sidebar_blog {
+	width:30%;
+	float:left;
+	ul.blog_list {
+		list-style: none;
+		margin:0 0 80px 0;
+		> li.widget-container {
+				h3 {
+					font-family: $utopiabold;
+					color:$bluedark;
+					font-size:45px;
+					padding-bottom:15px;
+					border-bottom: 2px solid $bluelight;
+				}
+			}
+		> li {
+			width:100%;
+				> ul {
+					> li {
+						list-style: none;
+						
+						&:last-of-type {
+							a {
+								border-bottom: 1px solid $black;
+							}
+						}
+						&:first-of-type {
+							a {
+								border-top:none;
+							}
+						}
+						a {
+							color:$black;
+							text-decoration: none;
+							text-transform: uppercase;
+							font-family: $montserratlight;
+							font-size:14px;
+							letter-spacing: 1px;
+							width:100%;
+							display: block;
+							border-top:1px solid $black;
+							padding:24px 10px 20px 35px;
+							transition: all .2s ease-in-out;
+							line-height: 19px;
+							&:hover {
+								color:#fff;
+					
+								/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#075593+0,072f51+100 */
+								background: #075593; /* Old browsers */
+								background: -moz-linear-gradient(-45deg,  #075593 0%, #072f51 100%); /* FF3.6-15 */
+								background: -webkit-linear-gradient(-45deg,  #075593 0%,#072f51 100%); /* Chrome10-25,Safari5.1-6 */
+								background: linear-gradient(135deg,  #075593 0%,#072f51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#075593', endColorstr='#072f51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 
 .sidebar {
 	width:30%;
@@ -3781,10 +3856,16 @@ footer {
 
 }
 
+.sidebar_blog {
+	width:100%;
+	order:2;
+	margin-top:45px;
+}
+
 .sidebar {
 	width:100%;
-		order:2;
-		margin-top:45px;
+	order:2;
+	margin-top:45px;
 	ul {
 		
 	}
