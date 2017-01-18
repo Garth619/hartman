@@ -61,6 +61,8 @@
 				
 					<img class="video_thumb_img" src="<?php the_field('video_thumb');?>"alt="Learn about Dallas W. Hartman in 80 Seconds"/>
 					<img class="play" src="<?php bloginfo('template_directory');?>/images/header_video_playbutton.png"/>
+					
+					<div class="video_thumb_overlay"></div><!-- video_thumb_overlay -->
 				
 				</div><!-- video_thumb -->
 			
@@ -334,6 +336,8 @@
 			
 			<img class="video_image" src="<?php the_field('additonal_video_thumb');?>" alt="Dallas W. Hartman Testimonial Video"/>
 			<img class="play" src="<?php bloginfo('template_directory');?>/images/play.png"/>
+			
+			<div class="video_overlay"></div><!-- video_overlay -->
 			
 		</div><!-- video_wrapper -->
 		

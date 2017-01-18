@@ -426,6 +426,47 @@ jQuery('.more_clients').mouseleave(function(){
 });
 
 
+
+// Video Overlay Hovers
+
+
+// Main Content Hover
+
+jQuery('.video_thumb .video_thumb_overlay').hide();
+
+
+jQuery('.video_wrapper .video_thumb').mouseenter(function() {
+	
+	jQuery(this).children('.video_thumb_overlay').fadeIn(100);
+	
+});
+
+jQuery('.video_wrapper .video_thumb').mouseleave(function() {
+	
+	jQuery(this).children('.video_thumb_overlay').fadeOut(100);
+	
+});
+
+
+// Additional Content Main Page Video
+
+
+jQuery('.col_2 .video_wrapper .video_overlay').hide();
+
+
+jQuery('.col_2 .video_wrapper').mouseenter(function() {
+	
+	jQuery(this).children('.video_overlay').fadeIn(100);
+	
+});
+
+jQuery('.col_2 .video_wrapper').mouseleave(function() {
+	
+	jQuery(this).children('.video_overlay').fadeOut(100);
+	
+});
+
+
 	
 	
 	}); // document ready
