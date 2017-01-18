@@ -5,9 +5,9 @@
 		
 		<div class="inner_content">
 			
-			<span class="subheader">the attorney you choose</span><!-- subheader -->
-			<span class="largeheader">Does Make<br/>a Difference</span><!-- largeheader -->
-			<a class="free_consultation" href="">Schedule Your Free Consultation</a><!-- free_consultation -->
+			<span class="subheader"><?php the_field('banner_sub_title','option');?></span><!-- subheader -->
+			<span class="largeheader"><?php the_field('banner_large_title','option');?></span><!-- largeheader -->
+			<a class="free_consultation" href="#request_scroll"><?php the_field('consultation_button_title','option');?></a><!-- free_consultation -->
 			
 		</div><!-- inner_content -->
 		

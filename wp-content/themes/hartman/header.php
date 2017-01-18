@@ -37,6 +37,55 @@
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
+
+
+<style type="text/css">
+
+
+.main_banner {
+	background: rgba(0, 0, 0, 0) url(<?php the_field('main_banner_desktop_image');?>) no-repeat scroll center top / cover ;
+}
+
+.banner_wrapper {
+	background: rgba(0, 0, 0, 0) url(<?php the_field('inner_banner_desktop_image','option');?>) no-repeat scroll center top / cover ;
+}
+
+@media screen and (max-width: 1200px) {
+	
+	.main_banner {
+		background: rgba(0, 0, 0, 0) url(<?php the_field('main_banner_tablet_image');?>) no-repeat scroll center top;
+	}
+
+
+
+} /* Media Query */
+
+
+@media screen and (max-width: 1090px) {
+
+
+.banner_wrapper {
+	background: rgba(0, 0, 0, 0) url(<?php the_field('inner_banner_tablet_image','option');?>) no-repeat scroll center top / cover;
+}
+
+} /* Media Query */
+
+
+
+@media screen and (max-width: 730px) {
+	
+	.main_banner {
+		background: rgba(0, 0, 0, 0) url(<?php the_field('main_banner_mobile_image');?>) no-repeat scroll center top / cover ;
+	}
+	
+} /* Media Query */
+
+
+</style>
+
+
+
+
 <?php wp_head(); ?>
 
 

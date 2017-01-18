@@ -13,9 +13,9 @@
 	
 		<div class="welcome_content">
 		
-			<span class="subheader">the attorney you choose</span><!-- subheader -->
-			<span class="largeheader">Does Make<br/>a Difference</span>
-			<a href="" class="free_consultation">Schedule your free consultation</a>
+			<span class="subheader"><?php the_field('main_content_sub_header');?></span><!-- subheader -->
+			<span class="largeheader"><?php the_field('main_content_large_header');?></span>
+			<a href="" class="free_consultation"><?php the_field('consultation_wrapper');?></a>
 		
 		</div><!-- welcome_content -->
 		
@@ -29,24 +29,24 @@
 				<div class="single_icon">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/header_icon_v2_sp1.svg"/>
-					<span class="largeheader">Record Setting</span><!-- largeheader -->
-					<span class="subheader">Verdicts</span><!-- subheader -->
+					<span class="largeheader"><?php the_field('main_content_icon_1_title');?></span><!-- largeheader -->
+					<span class="subheader"><?php the_field('main_content_icon_1_sub_title');?></span><!-- subheader -->
 					
 				</div><!-- single_icon -->
 				
 				<div class="single_icon">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/header_icon_v2_sp2.svg"/>
-					<span class="largeheader">Winner Of</span><!-- largeheader -->
-					<span class="subheader">Numerous Awards</span><!-- subheader -->
+					<span class="largeheader"><?php the_field('main_content_icon_2_title');?></span><!-- largeheader -->
+					<span class="subheader"><?php the_field('main_content_icon_2_sub_title');?></span><!-- subheader -->
 					
 				</div><!-- single_icon -->
 				
 				<div class="single_icon">
 					
 					<img src="<?php bloginfo('template_directory');?>/images/header_icon_v2_sp3.svg"/>
-					<span class="largeheader">Dallas Gives Back</span><!-- largeheader -->
-					<span class="subheader">To the Community</span><!-- subheader -->
+					<span class="largeheader"><?php the_field('main_content_icon_3_title');?></span><!-- largeheader -->
+					<span class="subheader"><?php the_field('main_content_icon_3_sub_title');?></span><!-- subheader -->
 					
 				</div><!-- single_icon -->
 			
@@ -59,15 +59,15 @@
 			
 			<div class="video_thumb">
 				
-					<img class="video_thumb_img" src="<?php bloginfo('template_directory');?>/images/mobile_header_video_thumb.jpg"/>
+					<img class="video_thumb_img" src="<?php the_field('video_thumb');?>"/>
 					<img class="play" src="<?php bloginfo('template_directory');?>/images/header_video_playbutton.png"/>
 				
 				</div><!-- video_thumb -->
 			
 				<div class="video_content">
 				
-					<span class="video_header">meet us in 80 seconds</span><!-- video_header -->
-					<p>Learn more about us and why you are in great hands with Dallas Hartman P.C.</p>
+					<span class="video_header"><?php the_field('video_content_header');?></span><!-- video_header -->
+					<p><?php the_field('video_content_body');?></p>
 				
 				</div><!-- video_content -->
 			
@@ -95,94 +95,43 @@
 	<div class="inner_case_wrapper">
 	
 	
-	
-		<div class="single_case_results">
+		<?php if(get_field('case_results_main_page')): ?>
+		 
+			<?php while(has_sub_field('case_results_main_page')): ?>
+		 
+				<div class="single_case_results">
 			
-			<a class="case_results_link" href="">
+					<a class="case_results_link" href="">
 		
-				<span class="largeheader"><span class="dollar">$</span>18,000,000</span><!-- subheader -->
-				<span class="subheader">Bad Faith Settlement</span><!-- subheader -->
+					<span class="largeheader"><span class="dollar">$</span><?php the_sub_field('case_results_number');?></span><!-- subheader -->
+					<span class="subheader"><?php the_sub_field('case_results_title');?></span><!-- subheader -->
 		
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p><?php the_sub_field('case_results_description');?></p>
 		
-				<span class="case_link">Settlement <img class="case_link_arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/></span><!-- case_link -->
+					<span class="case_link"><?php the_sub_field('case_results_category');?> <img class="case_link_arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/></span><!-- case_link -->
 			
-			</a><!-- case_results_link -->
+					</a><!-- case_results_link -->
 		
-		</div><!-- single_case_results -->
-	
-	
-	
-	
-	
-		<div class="single_case_results">
+				</div><!-- single_case_results -->
+				
+
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
 		
-			<a class="case_results_link" href="">
-			
-				<span class="largeheader"><span class="dollar">$</span>15,600,000</span><!-- subheader -->
-				<span class="subheader">Personal Injury</span><!-- subheader -->
-		
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-		
-				<span class="case_link">verdict <img class="case_link_arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/></span><!-- case_link -->
-			
-			</a><!-- case_results_link -->
-		
-		</div><!-- single_case_results -->
-	
-	
-	
-	
-	
-		<div class="single_case_results">
-			
-			<a class="case_results_link" href="">
-		
-				<span class="largeheader"><span class="dollar">$</span>9,500,000</span><!-- subheader -->
-				<span class="subheader">School Bus Rollover</span><!-- subheader -->
-		
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-		
-				<span class="case_link">verdict <img class="case_link_arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/></span><!-- case_link -->
-			
-			</a><!-- case_results_link -->
-		
-		</div><!-- single_case_results -->
-	
-	
-	
-	
-	
-		<div class="single_case_results">
-			
-			<a class="case_results_link" href="">
-		
-				<span class="largeheader"><span class="dollar">$</span>8,900,000</span><!-- subheader -->
-				<span class="subheader">Workers' Comp Accident</span><!-- subheader -->
-		
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq.</p>
-		
-				<span class="case_link">Settlement <img class="case_link_arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/></span><!-- case_link -->
-			
-			</a><!-- case_results_link -->
-		
-		</div><!-- single_case_results -->
-	
-	
-	
-		
+
 	</div><!-- inner_case_wrapper -->
 	
 	
 	<div class="view_more mobile">
 		
-		<a href="">View All Case Studies</a>
+		<a href="<?php the_field('case_results_view_all_link');?>"><?php the_field('case_results_mobile_button');?></a>
 		
 	</div><!-- view_more -->
 	
 	<div class="view_more desktop">
 		
-		<a href="">View More</a>
+		<a href="<?php the_field('case_results_view_all_link');?>"><?php the_field('case_results_desktp_button');?></a>
 		
 	</div><!-- view_more -->
 
@@ -200,43 +149,27 @@
 	
 		<div class="col">
 		
-			<span class="largeheader">Ohio and Pennsylvania Personal Injury Lawyer</span><!-- largeheader -->
+			<span class="largeheader"><?php the_field('about_content_header');?></span><!-- largeheader -->
 			
-			<span class="subheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</span><!-- subheader -->
+			<span class="subheader"><?php the_field('about_excerpt_main_page');?></span><!-- subheader -->
 			
 			<span class="content_header">Lorem ipsum dolor sit amet</span><!-- content_header -->
 			
 			<div class="content">
 			
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat.</p>
-		
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
-			
+				<?php the_field('about_col1_main');?>
 			
 			</div><!-- content -->
 			
-			
-		
 		</div><!-- col_1 -->
 		
 		<div class="col">
 			
 			<div class="content">
 			
-			<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat.</p>
-			
-			<ul>
-		
-				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit tempor</li> 		   
-				<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris   
-  	   nisi ut aliquip ex ea commodo consequat.</li>
-  	   
-			</ul>
-		
-<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat. Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore. magnam aliquam quaerat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore. magnam aliquam quaerat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore. magnam aliquam quaerat. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore. magnam aliquam quaerat.</p>
+			<?php the_field('about_col2_main');?>
 		
 			</div><!-- content -->
-			
 			
 		</div><!-- col_2 -->
 	
@@ -248,52 +181,24 @@
 	
 	<div class="practice_area_wrapper">
 		
-		<div class="single_practice_area">
-			
-			<div class="pa_icon_wrapper">
-			
-				<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon1.png"/>
-			
-			</div>
-			
-			<span class="subheader">Personal Injury</span><!-- subheader -->
-			
-			<div class="arrow_wrapper">
-			
-				<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
-			
-			</div><!-- arrow_wrapper -->
-			
-		</div><!-- single_practice_area -->
 		
-		<div class="single_practice_area">
-			
-			<div class="pa_icon_wrapper">
-			
-				<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon2.png"/>
-			
-			</div>
-			
-			<span class="subheader">Motor Vehicle Accidents</span><!-- subheader -->
-			
-			<div class="arrow_wrapper">
-			
-				<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
-			
-			</div><!-- arrow_wrapper -->
-			
-		</div><!-- single_practice_area -->
 		
+		<?php if(get_field('practice_areas_main_slider')): ?>
+		 
+			<?php while(has_sub_field('practice_areas_main_slider')): ?>
+		 
+				
 		<div class="single_practice_area">
+			
+			<a href="<?php the_sub_field('pa_page_link');?>">
 			
 			<div class="pa_icon_wrapper">
 			
-				<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon3.png"/>
+				<img class="pa_icon" src="<?php the_sub_field('pa_image');?>"/>
 			
 			</div>
-
 			
-			<span class="subheader">Worker's Compensation</span><!-- subheader -->
+			<span class="subheader"><?php the_sub_field('pa_title');?></span><!-- subheader -->
 			
 			<div class="arrow_wrapper">
 			
@@ -301,70 +206,30 @@
 			
 			</div><!-- arrow_wrapper -->
 			
+			</a>
+			
 		</div><!-- single_practice_area -->
+				
+				
+				
+				
+		    
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
 		
-		<div class="single_practice_area">
-			
-			<div class="pa_icon_wrapper">
-			
-				<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon4.png"/>
-			
-			</div>
-
-			
-			<span class="subheader">Medical Malpractice</span><!-- subheader -->
-			
-			<div class="arrow_wrapper">
-			
-				<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
-			
-			</div><!-- arrow_wrapper -->
-			
-		</div><!-- single_practice_area -->
 		
-		<div class="single_practice_area">
-			
-			<div class="pa_icon_wrapper">
-			
-				<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon5.png"/>
-			
-			</div>
-
-			
-			<span class="subheader">Social Security Disability</span><!-- subheader -->
-			
-			<div class="arrow_wrapper">
-			
-				<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
-			
-			</div><!-- arrow_wrapper -->
-			
-		</div><!-- single_practice_area -->
 		
-		<div class="single_practice_area">
-			
-			<div class="pa_icon_wrapper">
-			
-				<img class="pa_icon" src="<?php bloginfo('template_directory');?>/images/pa_icon6.png"/>
-			
-			</div>
-
-			
-			<span class="subheader">Legal Malpractice</span><!-- subheader -->
-			
-			<div class="arrow_wrapper">
-			
-				<img class="arrow" src="<?php bloginfo('template_directory');?>/images/pa_arrow-01.svg"/>
-			
-			</div><!-- arrow_wrapper -->
-			
-		</div><!-- single_practice_area -->
+		
+		
+		
+		
 		
 	</div><!-- practice_area_wrapper -->
 	
 	<div class="view_pa">
 		
-		<a href="">View All Practice Areas</a>
+		<a href="<?php the_field('pa_view_button_link');?>"><?php the_field('pa_view_button');?></a>
 		
 	</div><!-- view_pa -->
 
