@@ -402,6 +402,30 @@ jQuery(function() {
 
 
 
+
+// Hover View More Clients svg arrows
+
+
+
+jQuery('img.light_blue_icon').hide();
+
+
+jQuery('.more_clients').mouseenter(function(){
+	
+	jQuery('img.dark_blue_icon').fadeOut(200);
+	jQuery('img.light_blue_icon').fadeIn(200);
+	
+});
+
+
+jQuery('.more_clients').mouseleave(function(){
+	
+	jQuery('img.light_blue_icon').fadeOut(200);
+	jQuery('img.dark_blue_icon').fadeIn(200);
+	
+});
+
+
 	
 	
 	}); // document ready

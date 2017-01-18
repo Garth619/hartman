@@ -352,7 +352,13 @@
 			<a href="<?php the_field('view_more_testimonials_page_link');?>">
 				
 				<span><?php the_field('view_more_testimonials_verbiage');?></span>
-				<img src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
+				
+				<div class="more_clients_img_wrapper">
+				
+					<img class="dark_blue_icon" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
+					<img class="light_blue_icon" src="<?php bloginfo('template_directory');?>/images/content_test_arrow_hover.svg"/>
+				
+				</div><!-- more_clients_img_wrapper -->
 				
 			</a>
 			
@@ -408,7 +414,7 @@
 							
 												</div><!-- title_wrapper -->
 							
-												<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
+												<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow_lightblue.svg"/>
 						
 											</a>
 						
@@ -452,7 +458,7 @@
 							
 												</div><!-- title_wrapper -->
 							
-												<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
+												<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow_lightblue.svg"/>
 						
 											</a>
 						
