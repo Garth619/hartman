@@ -1570,6 +1570,7 @@ footer {
 		> li {
 			width:100%;
 				> ul {
+					
 					> li {
 						list-style: none;
 						
@@ -1624,6 +1625,14 @@ footer {
 	ul.menu {
 		
 		> li.menu-item-has-children {
+			> ul.sub-menu {
+				display: block !important;
+				li.current-menu-item {
+					a {
+						background: #fff;
+					}
+				}
+			}
 			> a.active {
 				&:after {
 						content:"";

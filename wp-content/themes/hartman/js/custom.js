@@ -266,6 +266,9 @@ $slick_slider = jQuery('.inner_case_wrapper');
 	});
 	
 	
+
+	
+	
 	
 /*
 	jQuery('.sidebar ul.sub-menu li').mouseenter(function(){
@@ -349,9 +352,9 @@ jQuery( "<div class='close_wrapper'><div class='x_first'></div><div class='x_sec
 
 jQuery(".close_wrapper").click(function(){
 	        
-	        jQuery('nav.desktop').fadeOut();
+	  jQuery('nav.desktop').fadeOut();
      
-    		});
+ });
 
 
 
