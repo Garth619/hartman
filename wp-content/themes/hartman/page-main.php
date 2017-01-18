@@ -59,7 +59,7 @@
 			
 			<div class="video_thumb">
 				
-					<img class="video_thumb_img" src="<?php the_field('video_thumb');?>"/>
+					<img class="video_thumb_img" src="<?php the_field('video_thumb');?>"alt="Learn about Dallas W. Hartman in 80 Seconds"/>
 					<img class="play" src="<?php bloginfo('template_directory');?>/images/header_video_playbutton.png"/>
 				
 				</div><!-- video_thumb -->
@@ -153,7 +153,7 @@
 			
 			<span class="subheader"><?php the_field('about_excerpt_main_page');?></span><!-- subheader -->
 			
-			<span class="content_header">Lorem ipsum dolor sit amet</span><!-- content_header -->
+			<span class="content_header"><?php the_field('about_subheader');?></span><!-- content_header -->
 			
 			<div class="content">
 			
@@ -241,7 +241,7 @@
 	
 		<div class="large_header_wrapper">
 	
-			<span class="large_header">6 Reasons to Choose Our Law Office</span><!-- large_header -->
+			<span class="large_header"><?php the_field('six_resaons_title');?></span><!-- large_header -->
 			<span class="red_line"></span><!-- red_line -->
 	
 		</div><!-- large_header_wrapper -->
@@ -249,78 +249,32 @@
 		
 		<div class="reasons_grid mobile">
 			
-			<div class="single_reason">
-				
-				<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
-				
-				<span class="sm_red_line"></span><!-- sm_red_line -->
-				
-				<span class="large_header">free consultations</span><!-- large_header -->
-				
-				<p>Wondering if you have a case? Call us for a free consultation! This way you can find out if you have a case or not. There is no obligation so contact us anytime.</p>
-				
-			</div><!-- single_reason -->
 			
-			<div class="single_reason">
-				
-				<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
-				
-				<span class="sm_red_line"></span><!-- sm_red_line -->
-				
-				<span class="large_header">free consultations</span><!-- large_header -->
-				
-				<p>Wondering if you have a case? Call us for a free consultation! This way you can find out if you have a case or not. There is no obligation so contact us anytime.</p>
-				
-			</div><!-- single_reason -->
 			
-			<div class="single_reason">
+			<?php if(get_field('six_reasons')): ?>
+			 
+				<?php while(has_sub_field('six_reasons')): ?>
+			 
+					
+					<div class="single_reason">
 				
-				<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
+						<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
 				
-				<span class="sm_red_line"></span><!-- sm_red_line -->
+						<span class="sm_red_line"></span><!-- sm_red_line -->
 				
-				<span class="large_header">free consultations</span><!-- large_header -->
+						<span class="large_header"><?php the_sub_field('single_reason_title');?></span><!-- large_header -->
 				
-				<p>Wondering if you have a case? Call us for a free consultation! This way you can find out if you have a case or not. There is no obligation so contact us anytime.</p>
+						<p><?php the_sub_field('single_reason_content');?></p>
 				
-			</div><!-- single_reason -->
+					</div><!-- single_reason -->
+					
+	
+			   <?php endwhile; ?>
+			 
+			<?php endif; ?>
 			
-			<div class="single_reason">
-				
-				<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
-				
-				<span class="sm_red_line"></span><!-- sm_red_line -->
-				
-				<span class="large_header">free consultations</span><!-- large_header -->
-				
-				<p>Wondering if you have a case? Call us for a free consultation! This way you can find out if you have a case or not. There is no obligation so contact us anytime.</p>
-				
-			</div><!-- single_reason -->
 			
-			<div class="single_reason">
-				
-				<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
-				
-				<span class="sm_red_line"></span><!-- sm_red_line -->
-				
-				<span class="large_header">free consultations</span><!-- large_header -->
-				
-				<p>Wondering if you have a case? Call us for a free consultation! This way you can find out if you have a case or not. There is no obligation so contact us anytime.</p>
-				
-			</div><!-- single_reason -->
-			
-			<div class="single_reason">
-				
-				<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
-				
-				<span class="sm_red_line"></span><!-- sm_red_line -->
-				
-				<span class="large_header">free consultations</span><!-- large_header -->
-				
-				<p>Wondering if you have a case? Call us for a free consultation! This way you can find out if you have a case or not. There is no obligation so contact us anytime.</p>
-				
-			</div><!-- single_reason -->
-			
+						
 		</div><!-- reasons_grid -->
 		
 		
@@ -329,77 +283,32 @@
 		
 		<div class="reasons_grid desktop">
 			
-			<div class="single_reason">
+		
+			<?php if(get_field('six_reasons')): ?>
+			 
+				<?php while(has_sub_field('six_reasons')): ?>
 				
-				<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
 				
-				<span class="sm_red_line"></span><!-- sm_red_line -->
+					<div class="single_reason">
 				
-				<span class="large_header">free consultations</span><!-- large_header -->
+						<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
 				
-				<p>Wondering if you have a case? Call us for a free consultation! This way you can find out if you have a case or not. There is no obligation so contact us anytime.</p>
+						<span class="sm_red_line"></span><!-- sm_red_line -->
+				
+						<span class="large_header"><?php the_sub_field('single_reason_title');?></span><!-- large_header -->
+				
+						<p><?php the_sub_field('single_reason_content');?></p>
 				
 			</div><!-- single_reason -->
+				
+				
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
+
+		
+
 			
-			<div class="single_reason">
-				
-				<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
-				
-				<span class="sm_red_line"></span><!-- sm_red_line -->
-				
-				<span class="large_header">free consultations</span><!-- large_header -->
-				
-				<p>Wondering if you have a case? Call us for a free consultation! This way you can find out if you have a case or not. There is no obligation so contact us anytime.</p>
-				
-			</div><!-- single_reason -->
-			
-			<div class="single_reason">
-				
-				<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
-				
-				<span class="sm_red_line"></span><!-- sm_red_line -->
-				
-				<span class="large_header">free consultations</span><!-- large_header -->
-				
-				<p>Wondering if you have a case? Call us for a free consultation! This way you can find out if you have a case or not. There is no obligation so contact us anytime.</p>
-				
-			</div><!-- single_reason -->
-			
-			<div class="single_reason">
-				
-				<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
-				
-				<span class="sm_red_line"></span><!-- sm_red_line -->
-				
-				<span class="large_header">free consultations</span><!-- large_header -->
-				
-				<p>Wondering if you have a case? Call us for a free consultation! This way you can find out if you have a case or not. There is no obligation so contact us anytime.</p>
-				
-			</div><!-- single_reason -->
-			
-			<div class="single_reason">
-				
-				<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
-				
-				<span class="sm_red_line"></span><!-- sm_red_line -->
-				
-				<span class="large_header">free consultations</span><!-- large_header -->
-				
-				<p>Wondering if you have a case? Call us for a free consultation! This way you can find out if you have a case or not. There is no obligation so contact us anytime.</p>
-				
-			</div><!-- single_reason -->
-			
-			<div class="single_reason">
-				
-				<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
-				
-				<span class="sm_red_line"></span><!-- sm_red_line -->
-				
-				<span class="large_header">free consultations</span><!-- large_header -->
-				
-				<p>Wondering if you have a case? Call us for a free consultation! This way you can find out if you have a case or not. There is no obligation so contact us anytime.</p>
-				
-			</div><!-- single_reason -->
 			
 		</div><!-- reasons_grid -->
 		
@@ -414,13 +323,11 @@
 	
 	<div class="col_1">
 		
-		<span class="large_header">Lorem Ipsum Eli Dolor Sit Amet Consect etur Adip</span><!-- large_header -->
+		<span class="large_header"><?php the_field('additonal_content_header');?></span><!-- large_header -->
 		
 		<div class="content">
 		
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat.</p>
-
-		<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat.</p>
+			<?php the_field('additional_content');?>
 		
 		</div><!-- content -->
 		
@@ -430,7 +337,7 @@
 		
 		<div class="video_wrapper">
 			
-			<img class="video_image" src="<?php bloginfo('template_directory');?>/images/content_video_thumb.jpg"/>
+			<img class="video_image" src="<?php the_field('additonal_video_thumb');?>" alt="Dallas W. Hartman Testimonial Video"/>
 			<img class="play" src="<?php bloginfo('template_directory');?>/images/play.png"/>
 			
 		</div><!-- video_wrapper -->
@@ -439,17 +346,17 @@
 		
 		<div class="testimonial">
 			
-			<span class="large_header">Marlaina</span><!-- large_header -->
+			<span class="large_header"><?php the_field('video_content_title');?></span><!-- large_header -->
 			
-			<p>I contacted Dallas Hartman. It just wasn’t about, ok, we are going to go after this insurance company and that’s it. They always go a step further. I knew that my son was being taken care of and they made that happen.</p>
+			<p><?php the_field('video_content');?></p>
 			
 		</div><!-- testimonial -->
 		
 		<div class="more_clients">
 			
-			<a href="">
+			<a href="<?php the_field('view_more_testimonials_page_link');?>">
 				
-				<span>View More Client Testimonials</span>
+				<span><?php the_field('view_more_testimonials_verbiage');?></span>
 				<img src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
 				
 			</a>
@@ -478,62 +385,49 @@
 			<div class="give_back_lower_content">
 			
 			
-				<span class="large_header_give_back">Dallas Gives Back</span><!-- large_header_give_back -->
+				<span class="large_header_give_back"><?php the_field('dallas_gives_back_title');?></span><!-- large_header_give_back -->
 				<span class="redline"></span><!-- redline -->
 				
 				
 				<div class="headline_wrapper mobile">
 				
-					<div class="headline">
-						
-						<a href="">
-							
-							<div class="title_wrapper">
-							
-								<span class="title">Dallas Helps Revitalize Bollinger Park in New Castle</span><!-- title -->
-								<span class="author">POSTED BY KATHLEEN ROBERTSOn</span><!-- author -->
-							
-							</div><!-- title_wrapper -->
-							
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
-						
-						</a>
-						
-					</div><!-- headline -->
 					
-					<div class="headline">
-						
-						<a href="">
-							
-							<div class="title_wrapper">
-							
-								<span class="title">Dallas Hartman provides funds to create lawrence county mentoring program</span><!-- title -->
-								<span class="author">POSTED BY Dallas Hartman</span><!-- author -->
-							
-							</div><!-- title_wrapper -->
-							
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
-						
-						</a>
-						
-					</div><!-- headline -->
 					
-					<div class="headline">
+					
+				<?php $posts = get_field('dallas_gives_back');
+					
+					if( $posts ): ?>
+					   
+					    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+					        <?php setup_postdata($post); ?>
+					        
+					        
+					        	<div class="headline">
 						
-						<a href="">
+											<a href="<?php the_permalink();?>">
 							
-							<div class="title_wrapper">
+												<div class="title_wrapper">
 							
-								<span class="title">Help us help the Union Police Department add a canine officer</span><!-- title -->
-								<span class="author">POSTED BY Dallas Hartman</span><!-- author -->
+													<span class="title"><?php the_title();?></span><!-- title -->
+													<span class="author">POSTED BY <?php the_author();?></span><!-- author -->
 							
-							</div><!-- title_wrapper -->
+												</div><!-- title_wrapper -->
 							
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
+												<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
 						
-						</a>
+											</a>
 						
-					</div><!-- headline -->
+										</div><!-- headline -->
+					        
+					        
+					    <?php endforeach; ?>
+					    
+					    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+					<?php endif; ?>
+					
+					
+					
+					
 				
 				</div><!-- headline_wrapper -->
 				
@@ -541,56 +435,44 @@
 				
 				<div class="headline_wrapper desktop">
 				
-					<div class="headline">
-						
-						<a href="">
-							
-							<div class="title_wrapper">
-							
-								<span class="title">Dallas Helps Revitalize Bollinger Park in New Castle</span><!-- title -->
-								<span class="author">POSTED BY KATHLEEN ROBERTSOn</span><!-- author -->
-							
-							</div><!-- title_wrapper -->
-							
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
-						
-						</a>
-						
-					</div><!-- headline -->
 					
-					<div class="headline">
-						
-						<a href="">
-							
-							<div class="title_wrapper">
-							
-								<span class="title">Dallas Hartman provides funds to create lawrence county mentoring program</span><!-- title -->
-								<span class="author">POSTED BY Dallas Hartman</span><!-- author -->
-							
-							</div><!-- title_wrapper -->
-							
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
-						
-						</a>
-						
-					</div><!-- headline -->
 					
-					<div class="headline">
+					
+					<?php $posts = get_field('dallas_gives_back');
+					
+					if( $posts ): ?>
+					   
+					    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+					        <?php setup_postdata($post); ?>
+					        
+					        
+					        	<div class="headline">
 						
-						<a href="">
+											<a href="<?php the_permalink();?>">
 							
-							<div class="title_wrapper">
+												<div class="title_wrapper">
 							
-								<span class="title">Help us help the Union Police Department add a canine officer</span><!-- title -->
-								<span class="author">POSTED BY Dallas Hartman</span><!-- author -->
+													<span class="title"><?php the_title();?></span><!-- title -->
+													<span class="author">POSTED BY <?php the_author();?></span><!-- author -->
 							
-							</div><!-- title_wrapper -->
+												</div><!-- title_wrapper -->
 							
-							<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
+												<img class="arrow" src="<?php bloginfo('template_directory');?>/images/content_test_arrow.svg"/>
 						
-						</a>
+											</a>
 						
-					</div><!-- headline -->
+										</div><!-- headline -->
+					        
+					        
+					    <?php endforeach; ?>
+					    
+					    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+					<?php endif; ?>
+					
+					
+					
+					
+					
 				
 				</div><!-- headline_wrapper -->
 
@@ -620,53 +502,25 @@
 	<div class="awards_inner">
 	
 	
-		<div class="award_slide">
+	
+	
+	<?php if(get_field('awards_slider')): ?>
+	 
+		<?php while(has_sub_field('awards_slider')): ?>
+	 
 			
-			<img src="<?php bloginfo('template_directory');?>/images/award_1.png"/>
+			<div class="award_slide">
 			
-		</div><!-- award_slide -->
+				<img src="<?php the_sub_field('awards_image');?>"/>
+			
+			</div><!-- award_slide -->
+
+	    
+		<?php endwhile; ?>
+	 
+	<?php endif; ?>
+	
 		
-		<div class="award_slide">
-			
-			<img src="<?php bloginfo('template_directory');?>/images/award_2.png"/>
-			
-		</div><!-- award_slide -->
-		
-		<div class="award_slide">
-			
-			<img src="<?php bloginfo('template_directory');?>/images/award_3.png"/>
-			
-		</div><!-- award_slide -->
-		
-		<div class="award_slide">
-			
-			<img src="<?php bloginfo('template_directory');?>/images/award_4.png"/>
-			
-		</div><!-- award_slide -->
-		
-		<div class="award_slide">
-			
-			<img src="<?php bloginfo('template_directory');?>/images/award_1.png"/>
-			
-		</div><!-- award_slide -->
-		
-		<div class="award_slide">
-			
-			<img src="<?php bloginfo('template_directory');?>/images/award_2.png"/>
-			
-		</div><!-- award_slide -->
-		
-		<div class="award_slide">
-			
-			<img src="<?php bloginfo('template_directory');?>/images/award_3.png"/>
-			
-		</div><!-- award_slide -->
-		
-		<div class="award_slide">
-			
-			<img src="<?php bloginfo('template_directory');?>/images/award_4.png"/>
-			
-		</div><!-- award_slide -->
 	
 	
 	</div><!-- awards_inner -->
