@@ -218,12 +218,7 @@
 		 
 		<?php endif; ?>
 		
-		
-		
-		
-		
-		
-		
+
 		
 	</div><!-- practice_area_wrapper -->
 	

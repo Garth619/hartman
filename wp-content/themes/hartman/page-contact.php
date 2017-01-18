@@ -33,43 +33,35 @@
 						<div class="contact_wrapper">
 							
 							
-							
 							<?php if(get_field('contacts')): ?>
 							 
 								<?php while(has_sub_field('contacts')): ?>
 							 
 									
-									<div class="single_contact">
+								<div class="single_contact">
 								
-								<div class="contact_info">
+										<div class="contact_info">
 									
-									<span class="large_header"><?php the_sub_field('location_title');?></span><!-- large_header -->
-									<a class="address" href="<?php the_sub_field('address_link');?>" target="_blank"><?php the_sub_field('address');?></a><!-- address -->
+										<span class="large_header"><?php the_sub_field('location_title');?></span><!-- large_header -->
+										<a class="address" href="<?php the_sub_field('address_link');?>" target="_blank"><?php the_sub_field('address');?></a><!-- address -->
 									
-									<a class="tel" href="tel:<?php the_sub_field('phone');?>"><?php the_sub_field('phone');?></a>
+										<a class="tel" href="tel:<?php the_sub_field('phone');?>"><?php the_sub_field('phone');?></a>
 									
-									<a class="get_directions" href="<?php the_sub_field('address_link');?>" target="_blank">Get Directions</a><!-- get_directions -->
+										<a class="get_directions" href="<?php the_sub_field('address_link');?>" target="_blank">Get Directions</a><!-- get_directions -->
 									
-								</div><!-- contact_info -->
+									</div><!-- contact_info -->
 								
-								<div class="map">
+									<div class="map">
 									
+										<?php the_sub_field('iframe_map');?>
 									
-									<?php the_sub_field('iframe_map');?>
-									
-																	
-								</div><!-- map -->
+									</div><!-- map -->
 								
 							</div><!-- single_contact -->
 									
-									
-									
-									
-									<?php the_sub_field('');?>
-							    
-								<?php endwhile; ?>
+						<?php endwhile; ?>
 							 
-							<?php endif; ?>
+					<?php endif; ?>
 							
 
 							
@@ -85,7 +77,7 @@
 			
 		</div><!-- inner_main_with_sidebar -->
 
-			<?php  // get_template_part( 'loop', 'page' );?>
+		
 
 			
 
