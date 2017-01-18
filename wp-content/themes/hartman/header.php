@@ -26,7 +26,7 @@
 	?></title>
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?v=4" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?v=5" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory');?>/fonts/montserrat/stylesheet.css" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory');?>/fonts/utopia/demo-async.css" />
 
