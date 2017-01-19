@@ -154,10 +154,14 @@
 
 	<?php if ( is_archive() || is_search() ) : // Only display excerpts for archives and search. ?>
 			<div class="entry-summary">
-					<?php
-echo wp_trim_words( get_the_content(), 40, '...' );
-?>
+					<?php echo wp_trim_words( get_the_content(), 40, '...' ); ?>
 			</div><!-- .entry-summary -->
+			
+			<a class="read_more_post" href="<?php the_permalink();?>">Read More</a>
+			
+			
+			
+			
 	<?php else : ?>
 			
 			

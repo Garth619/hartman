@@ -139,7 +139,7 @@ body {
 	
 	.entry-meta {
 		display: block;
-		margin:6px 0 32px;
+		margin:6px 0 28px;
 		font-family: $montserratlight;
 		text-transform: uppercase;
 		font-size:14px;
@@ -152,7 +152,7 @@ body {
 	}
 	
 	.post {
-		margin-bottom:30px;
+		margin-bottom:45px;
 		border-bottom:1px solid $bluedark;
 		padding-bottom:30px;
 		&:last-of-type {
@@ -171,6 +171,17 @@ body {
 	#nav-above {
 		display: none;
 	}
+	
+	
+/* Search */
+
+body.search-results {
+	.status-publish {
+		padding-bottom:30px;
+		margin-bottom:45px;
+		border-bottom: 1px solid $bluedark;
+	}
+}
 	
 
 /* Header */

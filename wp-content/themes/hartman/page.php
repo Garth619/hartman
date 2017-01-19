@@ -35,8 +35,4 @@
 			
 		</div><!-- inner_main_with_sidebar -->
 
-			
-
-			
-
-<?php get_footer(); ?>
+	<?php get_footer(); ?>
