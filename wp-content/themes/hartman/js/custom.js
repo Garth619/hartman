@@ -355,8 +355,28 @@ jQuery(".close_wrapper").click(function(){
 	  jQuery('nav.desktop').fadeOut();
      
  });
+ 
+ 
+ // Search Overlay
+ 
+ jQuery( "<div class='search_close_wrapper'><div class='x_first'></div><div class='x_second'></div></div>" ).insertBefore( ".inner_search_wrapper form" );
+ 
+ jQuery('li.search').click(function(){
+	 
+	 jQuery('.search_wrapper').fadeIn();
+	 
+ });
+ 
+ jQuery('.search_close_wrapper').click(function(){
+	 
+	 jQuery('.search_wrapper').fadeOut();
+	 
+ });
+ 
 
 
+
+// Disables nav cick function on smaller screens after page load only
 
 
 function checkWidth() {

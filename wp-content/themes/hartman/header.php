@@ -26,7 +26,7 @@
 	?></title>
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?v=9" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?v=10" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory');?>/fonts/montserrat/stylesheet.css" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory');?>/fonts/utopia/demo-async.css" />
 
@@ -132,8 +132,6 @@
 		
 				<?php get_search_form(); ?>
 			
-<!-- 			<input type="text" onfocus="if(this.value=='<?php _e( 'Search here..' ); ?>'){this.value='';}" onblur="if(this.value==''){this.value='<?php _e( 'Search here..' ); ?>';}" value="<?php _e( 'Search here..' ); ?>"> -->
-
 				</div><!-- inner_search_wrapper -->
 		
 			</div><!-- search_wrapper -->

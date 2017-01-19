@@ -175,7 +175,7 @@
 
 
 	
-</div><!-- search_overlay -->
+
 
 <?php wp_footer(); ?>
 	
