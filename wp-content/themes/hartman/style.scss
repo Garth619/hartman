@@ -2418,6 +2418,7 @@ a.single_attorney_link {
 					color:#260801;
 					font-family: $utopiareg;
 					line-height:27px;
+					margin-bottom:25px !important;
 				}
 				span.testimonial_name {
 					text-transform: uppercase;
@@ -5521,7 +5522,7 @@ a.single_attorney_link {
 	
 	.testimonials_wrapper {
 		
-		padding-right:30px;
+// 		padding-right:30px;
 		.testimonials_column {
 		
 			&:first-of-type {
@@ -5531,7 +5532,7 @@ a.single_attorney_link {
 				
 			}
 			.single_testimonial {
-				
+				padding: 65px 25px;
 				.stars {
 					img.star {
 						
@@ -5596,7 +5597,9 @@ a.single_attorney_link {
 }
 
 
-	
+	.about_icons_wrapper {
+				padding:67px 0px 85px;
+		}
 	
 	
 	
@@ -5661,11 +5664,7 @@ a.single_attorney_link {
 	
 	
 	
-	.about_icons_wrapper {
-		padding-bottom: 155px;
-	}
-	
-	
+
 	
 	/* Practice Areas */
 
@@ -6123,7 +6122,7 @@ header {
 						float:none;
 					}
 					&:after {
-							top: -56px;
+							top: -58px;
 						}
 					label {
 						
@@ -6147,7 +6146,7 @@ header {
 					margin-top:20px;
 					
 					&:after {
-							top:-179px;
+							top:-182px;
 						}
 					
 				}
