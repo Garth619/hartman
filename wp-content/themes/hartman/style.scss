@@ -3281,6 +3281,7 @@ a.single_attorney_link {
 			float:left;
 			text-align: center;
 			padding: 28px 28px 22px 28px;
+			cursor: pointer;
 			.mobile_bar {
 				width:46px;
 				height:2px;
@@ -3857,11 +3858,10 @@ footer {
 			.social_icon_wrapper {
 				float:none;
 				margin-bottom:17px;
-				&:last-of-type {
-					margin-right:20px;
-				}
-				img.icon {
-
+				.social_icon {
+					&:last-of-type {
+						margin-right:20px;
+					}
 				}
 			}
 		}
@@ -4530,6 +4530,7 @@ a.single_attorney_link {
 	.logo_wrapper {
 			height:70px;
 			padding: 6px 0 0 10px;
+			background: none;
 			img.logo {
 				padding: 0px 0 0 0px;
 				width:185px;
@@ -4537,9 +4538,10 @@ a.single_attorney_link {
 			}
 		}
 	.header_col_right {
-		
+			background: none;
 		 .mobile_wrapper {
 			padding: 12px 28px 8px;
+			background: none;
 			.mobile_bar {
 				
 				&:last-of-type {
@@ -4569,6 +4571,16 @@ a.single_attorney_link {
 
 	.banner_wrapper {
 		margin-top:70px;
+	}
+	
+	.main_banner {
+		margin-top:70px;
+	}
+	
+	
+	.close_wrapper {
+		top:30px;
+		right:29px;
 	}
 	
 	
@@ -5203,8 +5215,8 @@ footer {
 			
 			.social_icon_wrapper {
 				
-				img.icon {
-					
+				.social_icon {
+					margin:0 18px;
 				}
 			}
 		}
@@ -5626,7 +5638,56 @@ body.page-template-page-bio {
 
 
 
+
+/* Footer */
+
+footer {
 	
+	.inner_footer {
+		
+		.footer_col {
+			
+		}
+		.footer_col1 {
+			
+			
+			
+			
+			.ilawyer {
+				
+				
+			}
+			span {
+				
+			}
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+		.footer_col2 {
+			
+			img {
+				
+			}
+		}
+		.footer_col3 {
+			
+			.social_icon_wrapper {
+				
+				.social_icon {
+					
+				}
+				
+			}
+		}
+	}
+}
+
+
+ 	
 	
 
 
@@ -5650,10 +5711,12 @@ header {
 	.logo_wrapper {
 			width:100%;
 			padding: 18px 0px;
+			height:100px;
+			
 			img.logo {
 				display: block;
 				margin: 0 auto;
-				
+				width:205px;
 			}
 		}
 		.header_col_right {
@@ -5664,6 +5727,7 @@ header {
 				width:100%;
 				position: relative;
 				z-index:500;
+				
 			}
 			.my_sticky.stuck {
 				position: fixed;
