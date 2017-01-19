@@ -395,6 +395,60 @@ nav.desktop {
 
 
 
+
+.searchwp-live-search-results {
+		background: $black !important;
+		border-radius: 0 !important;
+		top: 97px!important;
+		box-shadow: none !important;
+		
+// 		width:570px !important;
+		.searchwp-live-search-no-results {
+			font-family: $montserratlight;
+			font-size:16px;
+			color:#fff;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+		.searchwp-live-search-result {
+			font-family: $montserratlight;
+			font-style:normal;
+			font-weight:none;
+			letter-spacing:0.4px;
+			margin:18px 0 0;
+			padding-bottom:18px;
+			border-bottom: 1px solid #003b6b;
+			padding-left:25px;
+			&:last-of-type {
+				border-bottom: none;
+			}
+			h2 {
+				a {
+					font-size:13px;
+					color:#fff;
+					text-transform: uppercase;
+					text-decoration: none;
+					padding-right:40px;
+				}
+			}
+			
+			p {
+			
+				display: none;
+				
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
 /* Main Banner */
 
 .main_banner {
@@ -1696,9 +1750,20 @@ footer {
 	}
 	ul.menu {
 		
+		>li.current-menu-ancestor {
+			
+			> ul.sub-menu { 
+				display: block !important;
+				 li.current-menu-item {
+					 a {
+						 background: #fff;
+					 }
+				 }
+				}
+		}
 		> li.menu-item-has-children {
 			> ul.sub-menu {
-				display: block !important;
+
 				li.current-menu-item {
 					a {
 						background: #fff;
@@ -2219,6 +2284,9 @@ body.page-template-page-bio {
 									letter-spacing: 0.6px;
 									text-decoration: none;
 									color:$bluedark;
+									a {
+										color:$bluedark;
+									}
 								}
 							}
 						}
@@ -3053,6 +3121,7 @@ a.single_attorney_link {
 	top:50px;
 	right:30px;
 	cursor: pointer;
+	z-index:20000000;
 	div {
 		width:45px;
 		height:2px;
@@ -3199,32 +3268,14 @@ a.single_attorney_link {
 	}
 
 	}
-	
-/*
-	
-	.search_overlay {
-		display: block;
-		position:fixed;
-		top:0;
-		left:0;
-		width:100%;
-		height:100%;
-		background: $black;
-		color:#fff;
-		z-index:5000000;
-	}
-	
-*/
-	
-	
-/*
 
-	html, body {
-		overflow: hidden;
-		position:relative; //that's it
-overflow:hidden;
-	}
-*/
+	
+	
+
+html.fixed, body.fixed {
+  height: 100%;
+  overflow: hidden;
+}
 
 	
 	
@@ -3250,16 +3301,23 @@ overflow:hidden;
 	
 	.searchwp-live-search-results {
 		background: none !important;
+		top: 170px!important;
+// 		width:auto !important;
 		.searchwp-live-search-result {
 			font-family: $montserratlight;
 			font-size:18px;
-			
 			color:#0270c5;
 			letter-spacing:0.4px;
 			font-style:normal;
 			font-weight:none;
 			letter-spacing:0.4px;
-			margin-top:43px;
+			margin-bottom:43px;
+			border-bottom: none;
+			padding-left:0;
+			padding-bottom:0;
+			&:last-of-type {
+				padding-bottom:250px !important;
+			}
 			
 			h2 {
 				a {
@@ -3271,6 +3329,7 @@ overflow:hidden;
 			}
 			
 			p {
+				display: block;
 				padding:0;
 				color:#fff;
 				font-size:16px;
@@ -3299,14 +3358,20 @@ overflow:hidden;
 		background: $black;
 		z-index:100000000;
 		max-width:100%;
-		padding:0 30px;
+		padding:0;
 // 		overflow-y: scroll;
 		margin-top:0px;
 		.inner_search_wrapper {
-			margin-top:90px;
+			
+			
 			form {
-				
+				padding:0 30px;
 				position: relative;
+				padding:90px 30px 0;
+				background:$black;
+				position: relative;
+				z-index:10000000;
+				margin-bottom:43px;
 				input[type="text"]  {
 					background:none;
 					border-bottom:1px solid $bluelight;
@@ -3320,8 +3385,8 @@ overflow:hidden;
 					font-family: $montserratlight;
 				}
 				input[type="submit"] {
-					right:0;
-					top: 18px;
+					right:30px;
+					top: 110px;
 					background:url(images/header_icon_search-02.png) top left no-repeat;
 					background-size: 18px 18px;
 					
@@ -5664,7 +5729,11 @@ a.single_attorney_link {
 	
 	
 	
-
+	.about_icons_wrapper {
+		padding-bottom: 65px;
+	}
+	
+	
 	
 	/* Practice Areas */
 

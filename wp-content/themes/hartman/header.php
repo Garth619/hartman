@@ -131,6 +131,8 @@
 				<div class="inner_search_wrapper">
 		
 				<?php get_search_form(); ?>
+				
+			
 			
 				</div><!-- inner_search_wrapper -->
 		

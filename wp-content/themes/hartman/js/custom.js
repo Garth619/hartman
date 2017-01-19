@@ -331,9 +331,7 @@ $slick_slider = jQuery('.inner_case_wrapper');
   
   // Open Mobile Overlay
   
-  
-  
-  
+
   jQuery('.mobile_wrapper').click(function() {
 	  
 	  jQuery('nav.desktop').fadeIn();
@@ -364,12 +362,14 @@ jQuery(".close_wrapper").click(function(){
  jQuery('li.search').click(function(){
 	 
 	 jQuery('.search_wrapper').fadeIn();
+	 jQuery('html, body').addClass('fixed')
 	 
  });
  
  jQuery('.search_close_wrapper').click(function(){
 	 
 	 jQuery('.search_wrapper').fadeOut();
+	 jQuery('html, body').removeClass('fixed')
 	 
  });
  
