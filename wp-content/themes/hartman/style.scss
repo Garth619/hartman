@@ -258,7 +258,7 @@ nav.desktop {
 	font-size:13px;
 	text-transform: uppercase;
 	margin-top: 41px;
-// 	display: block !important;
+
 	ul {
 		list-style: none;
 		margin:0;
@@ -307,16 +307,36 @@ nav.desktop {
 		li.search {
 			display: none;
 		}
+		> li:after {
+				content:"";
+				width:0;
+				height:1px;
+				background:$bluedark !important;
+				float:left;
+				display: block;
+				margin-top:7px;
+				transition:all .2s ease-in-out;
+			}
 		> li {
-			padding-bottom:43px;
+			padding-bottom: 35px;
 			cursor: pointer;
+			&:hover:after {
+				content:"";
+				width:100%;
+				height:1px;
+				background:$bluedark;
+				float:left;
+				display: block;
+				margin-top:7px;
+			}
 			a {
 				color:$bluedark;
 				letter-spacing: 0.4px;
 				text-decoration: none;
 				&:hover {
-					color:$bluelight;
+					color:$bluedark;
 				}
+			
 			}
 			> ul.sub-menu {
 				background:$black;
@@ -335,8 +355,8 @@ nav.desktop {
 					}
 				}
 				li.search {
-			display: none;
-		}
+					display: none;
+				}
 				li {
 					display: inline-block;
 					font-size:13px;
@@ -409,6 +429,10 @@ nav.desktop {
 			color:#fff;
 			text-transform: uppercase;
 			text-decoration: none;
+			em {
+				font-style: normal !important;
+			}
+			
 		}
 		.searchwp-live-search-result {
 			font-family: $montserratlight;
@@ -488,15 +512,35 @@ nav.desktop {
 				display: inline-block;
 				font-size:15px;
 				margin-top:32px;
-				transition:all .2s ease-in-out;
-				
+				position:relative;
+				z-index:1;
 				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f35123+62 */
 				background: #f32323; /* Old browsers */
 				background: -moz-linear-gradient(-45deg,  #f32323 0%, #f35123 62%); /* FF3.6-15 */
 				background: -webkit-linear-gradient(-45deg,  #f32323 0%,#f35123 62%); /* Chrome10-25,Safari5.1-6 */
 				background: linear-gradient(135deg,  #f32323 0%,#f35123 62%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f35123',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */				&:hover {
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f35123',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+				&:before {
 					background:$bluelight;
+					content:"";
+					width:100%;
+					height:100%;
+					position: absolute;
+					top:0;
+					left:0;
+					z-index: -1;
+					opacity: 0;
+					-webkit-transform: scale3d(0.7, 1, 1);
+					transform: scale3d(0.7, 1, 1);
+					-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+					transition: transform 0.4s, opacity 0.4s;
+					-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+					transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+				}
+				&:hover:before {
+					opacity: 1;
+					-webkit-transform: translate3d(0, 0, 0);
+					transform: translate3d(0, 0, 0);
 				}
 			}
 		}
@@ -627,15 +671,9 @@ nav.desktop {
 	position: relative;
 	.inner_case_wrapper {
 		overflow: hidden;
--webkit-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.26);
--moz-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.26);
-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.26);
-/*
-		-webkit-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
-		-moz-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
-		box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
-*/
-	
+		-webkit-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.26);
+		-moz-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.26);
+		box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.26);
 		.single_case_results {
 			background: #fff;
 			padding:45px 35px;
@@ -644,6 +682,7 @@ box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.26);
 			width:25%;
 			height:439px;
 			position: relative;
+			z-index:1;
 			&:last-of-type {
 				border-right:none;
 			}
@@ -653,7 +692,7 @@ box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.26);
 			.dollar {
 				font-size: 46px;
 			}
-//	 		transition:all .5s ease-in-out;
+
 			
 			span.largeheader {
 				color:$bluedark;
@@ -662,7 +701,9 @@ box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.26);
 				display: block;
 				margin-bottom:10px;
 				letter-spacing: -0.6px;
-//	 			transition:all .5s ease-in-out;
+				position: relative;
+				z-index:1;
+
 			}
 			span.subheader {
 				color:$bluelight;
@@ -670,13 +711,17 @@ box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.26);
 				text-transform: uppercase;
 				display: block;
 				margin-bottom:70px;
+				position: relative;
+				z-index:1;
 			}
 			p {
 				font-family: $utopiareg;
 				font-size:17px;
 				line-height:27px;
 				color:$bluedark;
-//	 			transition:all .5s ease-in-out;
+				position: relative;
+				z-index:1;
+
 			}
 			span.case_link {
 				font-family: $montserratreg;
@@ -688,7 +733,8 @@ box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.26);
 				right:35px;
 				color:$black;
 				display: inline-block;
-//	 			transition:all .5s ease-in-out;
+				
+
 				img.case_link_arrow {
 					width:25px;
 					margin:0px 0 0 10px;
@@ -706,6 +752,24 @@ box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.26);
 
 
 .case_results {
+	
+	
+.single_case_results:before {
+	content:"";
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:-1px;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f2236+0,075593+100 */
+	background: #0f2236; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #0f2236 0%, #075593 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  #0f2236 0%,#075593 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  #0f2236 0%,#075593 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f2236', endColorstr='#075593',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
 
 .single_case_results:hover {
 	
@@ -2641,7 +2705,7 @@ a.single_attorney_link {
 		left:0;
 		a {
 			position: relative;
-			top:45px;
+			top:33px;
 			left:0;
 			transform: none;
 			float:none;
@@ -3113,7 +3177,7 @@ a.single_attorney_link {
 
 @media screen and (max-width: 1200px) {
 	
-	
+.search_close_wrapper {}	
 
 	
 .search_close_wrapper, .close_wrapper {
@@ -3199,12 +3263,24 @@ a.single_attorney_link {
 			padding:0;
 			display: block;
 			margin-bottom:38px;
+			&:after {
+				content:"";
+				width:0;
+				height:0;
+				background: none;
+			}
+			&:hover:after {
+				content:"";
+				width:0;
+				height:0;
+				background: none;
+			}
 			a {
 				color:#fff;
 				
 				
 				&:hover {
-					
+					color:#007ddc;
 				}
 			}
 			> ul.sub-menu {
@@ -4774,7 +4850,7 @@ a.single_attorney_link {
 	}
 	
 	
-	.close_wrapper {
+	.search_close_wrapper, .close_wrapper {
 		top:30px;
 		right:29px;
 	}

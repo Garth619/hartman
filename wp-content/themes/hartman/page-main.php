@@ -15,7 +15,23 @@
 		
 			<span class="subheader"><?php the_field('main_content_sub_header');?></span><!-- subheader -->
 			<span class="largeheader"><?php the_field('main_content_large_header');?></span>
-			<a href="" class="free_consultation"><?php the_field('consultation_wrapper');?></a>
+			
+			<a href="#request_scroll" class="free_consultation">
+				<?php the_field('consultation_wrapper');?>
+			</a>
+			
+			
+			
+<!--
+			<a href="#request_scroll" class="free_consultation">
+				<?php the_field('consultation_wrapper');?>
+				<div class="free_consultation_inner_wrapper">
+					
+					<?php the_field('consultation_wrapper');?>
+					
+				</div>
+			</a>
+-->
 		
 		</div><!-- welcome_content -->
 		
