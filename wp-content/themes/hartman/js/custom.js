@@ -37,15 +37,16 @@ new Vivus('text3',
  new Vivus('reason1',
    {
      type: 'oneByOne',
-     duration: 40,
-		 forceRender: false,
-     dashGap: 2
+     duration: 40
+		
+    
    }
  );
  
 
 
 /*
+
 jQuery(function () {
         // Define your callback
         var myCallback = function () {};
@@ -60,6 +61,7 @@ jQuery(function () {
         }
       });
 */
+
 
 	
 
@@ -514,6 +516,13 @@ var bluelines = new Waypoint({
 // wow.js
 
 new WOW().init();
+
+// Matchheight 
+
+
+
+    jQuery('.mymatch').matchHeight();
+
 
 	
 	

@@ -190,6 +190,7 @@
 <script src="<?php bloginfo('template_directory');?>/js/waypoints/lib/shortcuts/sticky.min.js"></script>
 <script src="<?php bloginfo('template_directory');?>/js/vivus/dist/vivus.min.js"></script>
 <script src="<?php bloginfo('template_directory');?>/js/wow/dist/wow.min.js"></script>
+<script src="<?php bloginfo('template_directory');?>/js/jquery-match-height/jquery.matchHeight.js"></script>
 
 
 </body>

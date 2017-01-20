@@ -412,7 +412,7 @@
 
 <section class="community">
 	
-	<div class="give_back">
+	<div class="give_back mymatch">
 		
 		
 		<div class="give_back_inner">
@@ -527,9 +527,9 @@
 	
 	</div><!-- give_back -->
 	
-	<div class="video_wrapper">
+	<div class="video_wrapper mymatch">
 			
-			<img src="<?php bloginfo('template_directory');?>/images/community_image.jpg"/>
+<!-- 			<img src="<?php bloginfo('template_directory');?>/images/community_image.jpg"/> -->
 			
 			
 		</div><!-- video_wrapper -->
