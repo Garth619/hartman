@@ -21,6 +21,8 @@
 			
 			
 			<?php if(get_field('contacts', 21)): ?>
+			
+					
 							 
 				<?php while(has_sub_field('contacts', 21)): ?>
 			
@@ -57,6 +59,8 @@
 		
 
 				<?php if(get_field('contacts', 21)): ?>
+					
+					<?php $count=1;?>
 							 
 				<?php while(has_sub_field('contacts', 21)): ?>
 			
@@ -67,7 +71,7 @@
 						<div class="header_wrapper">
 				
 							<span class="large_header"><?php the_sub_field('location_title');?></span><!-- large_header -->
-							<span class="blueline"></span><!-- blueline -->
+							<span class="blueline blueline_<?php echo $count; ?>"></span><!-- blueline -->
 					
 						</div><!-- header_wrapper -->
 				
@@ -78,6 +82,7 @@
 				
 					</div><!-- single_location -->
 				
+					<?php $count++; ?>
 				
 				<?php endwhile; ?>
 							 

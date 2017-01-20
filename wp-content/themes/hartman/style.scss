@@ -781,6 +781,7 @@ nav.desktop {
 .case_results {
 	
 	
+	
 .single_case_results:before {
 	content:"";
 	position:absolute;
@@ -852,6 +853,7 @@ nav.desktop {
 			 -ms-transform: rotate(90deg); /* IE 9 */
 			 -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
 			 transform: rotate(90deg);
+			 z-index:5;
 			 
 			
 			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f35123+62 */
@@ -931,54 +933,83 @@ nav.desktop {
 
 .practice_areas {
 	overflow: hidden;
+	margin-top:-27px;
 	.practice_area_wrapper {
-		.single_practice_area {
-			text-align: center;
-			background:$black;
-			width:16.6666667%;
-			float:left;
-			padding:115px 10px 90px;
-			position: relative;
-			height:435px;
-			a {
-				text-decoration: none;
-			}
-			span.subheader {
-				font-family: $montserratlight;
-				text-transform: uppercase;
-				color:#fff;
-				letter-spacing: 1.6px;
-				display: block;
-				margin-bottom:95px;
-				font-size:14px;
-				line-height:19px;
-			}
-			.pa_icon_wrapper {
-				height:80px;
-				width:80px;
-				margin:0 auto 18px;
-				img.pa_icon {
-					position: relative;
-					top: 50%;
-					transform: translateY(-50%);
-					display: inline-block;
-				}
-			}
-			.arrow_wrapper {
-				position: absolute;
-				bottom:80px;
-				width: 100%;
-				img.arrow {
-					width:22px;
-					margin: 0 auto;
-				}
-			}
+		.slick-list {
+			padding-top:27px;
+			.single_practice_area {
+		 		text-align: center;
+		 		background:$black;
+		 		width:16.6666667%;
+		 		float:left;
+		 		padding:115px 10px 90px;
+		 		position: relative;
+		 		height:435px;
+		 		transition: all .2s ease-in-out;
+		 		
+		 		a {
+		 			text-decoration: none;
+		 		}
+		 		span.subheader {
+		 			font-family: $montserratlight;
+		 			text-transform: uppercase;
+		 			color:#fff;
+		 			letter-spacing: 1.6px;
+		 			display: block;
+		 			margin-bottom:95px;
+		 			font-size:14px;
+		 			line-height:19px;
+		 		}
+		 		.pa_icon_wrapper {
+		 			height:80px;
+		 			width:80px;
+		 			margin:0 auto 18px;
+		 			img.pa_icon {
+		 				position: relative;
+		 				top: 50%;
+		 				transform: translateY(-50%);
+		 				display: inline-block;
+		 			}
+		 		}
+		 		.arrow_wrapper {
+		 			position: absolute;
+		 			bottom:80px;
+		 			width: 100%;
+		 			img.arrow {
+		 				width:22px;
+		 				margin: 0 auto;
+		 			}
+		 		}
+			}	
 		}
 	}
 	.view_pa {
 		display: none;
 	}
 }
+
+
+.practice_areas {
+	
+	.practice_area_wrapper {
+		.single_practice_area {
+			&:hover {
+				background:#fff;
+				border-top:8px solid $bluelight;
+				height:462px;
+				margin-top:-27px;
+				padding-top:132px;
+				-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+				-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+				box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+				span.subheader {
+					color:$bluedark;
+				}
+			}
+		}
+	}
+}
+
 
 
 /* Reasons */
@@ -1001,7 +1032,7 @@ nav.desktop {
 				font-size:25px;
 			}
 			span.red_line {
-				width:155px;
+				width:0px;
 				margin-top:16px;
 				height:1px;
 				background: $red;
@@ -1028,7 +1059,7 @@ nav.desktop {
 		&:nth-of-type(3n + 3) {
 			margin-right:0;
 		}
-		.icon {
+		svg {
 			width:60px;
 		}
 		span.sm_red_line {
@@ -2661,10 +2692,33 @@ a.single_attorney_link {
 		margin:0 auto;
 		max-width:1250px;
 		width:97%;
-		
-		
-	
-		
+		.single_case_results.case_results_active {
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f2236+0,075593+100 */
+			background: #0f2236; /* Old browsers */
+			background: -moz-linear-gradient(45deg,  #0f2236 0%, #075593 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(45deg,  #0f2236 0%,#075593 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(45deg,  #0f2236 0%,#075593 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f2236', endColorstr='#075593',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+			span.largeheader {
+				color:#fff;	
+			}
+			span.subheader {
+			
+			}
+			p {
+			color:#fff;
+		}
+		span.case_link {
+			color:#fff;
+			img.case_link_arrow {
+				width:25px;
+				margin:0px 0 0 10px;
+				position: relative;
+				top:4px;
+			}
+		}
+	}
+
 		.single_case_results {
 			width:50%;
 			text-align: left;
@@ -5042,18 +5096,49 @@ a.single_attorney_link {
 }
 
 
-.single_case_results:hover {
-	
-	
 
+.case_results {
+	
+	
+.single_case_results.case_results_active {
+	background: #fff;
 	span.largeheader {
-		
+		color:$bluedark;	
 	}
 	span.subheader {
 			
 	}
 	p {
-		
+		color:$bluedark;
+	}
+	span.case_link {
+		color:#fff;
+		img.case_link_arrow {
+			width:25px;
+			margin:0px 0 0 10px;
+			position: relative;
+			top:4px;
+		}
+	}
+}
+}
+
+
+
+
+
+.single_case_results:hover {
+	
+	
+
+	span.largeheader {
+		color:#fff
+	}
+	span.subheader {
+			
+	}
+	p {
+		color:#fff;
 	}
 	span.case_link {
 		
@@ -6143,6 +6228,33 @@ header {
 		}
 	}
 }
+
+
+.practice_areas {
+	
+	.practice_area_wrapper {
+		.slick-list {
+			padding:0;
+		
+		.single_practice_area {
+			&:hover {
+				background:$black;
+				border-top:none;
+				height:435px;
+				margin-top:0px;
+				padding-top:115px;
+				-webkit-box-shadow: none;
+				-moz-box-shadow: none;
+				box-shadow: none;
+				span.subheader {
+					color:#fff;
+				}
+			}
+		}
+		}
+	}
+}
+
 	
 	
 	

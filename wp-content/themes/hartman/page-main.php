@@ -44,36 +44,10 @@
 			
 				<div class="single_icon">
 					
-					<svg version="1.1" id="text" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1052.9 918.7" style="enable-background:new 0 0 1052.9 918.7;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#007DDC;stroke-width:16;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-</style>
-<polygon class="st0" points="525.8,8 99.8,168 953.8,168 "/>
-<polyline class="st0" points="223.1,168 526.5,55.3 825.1,166.7 "/>
-<line class="st0" x1="99.8" y1="212" x2="952.5" y2="212"/>
-<path class="st0" d="M149.8,353.3c0,0-48-3.3-48-48s36.7-50.7,44-50.7c7.3,0,141.7,0,149.3,0s52.7,5.3,52.7,47.3c0,51.3-52,52-52,52
-	"/>
-<line class="st0" x1="177.1" y1="280.7" x2="177.1" y2="760.7"/>
-<line class="st0" x1="223.8" y1="280.7" x2="223.8" y2="760.7"/>
-<line class="st0" x1="271.1" y1="280.7" x2="271.1" y2="760.7"/>
-<path class="st0" d="M452.5,353.3c0,0-48-3.3-48-48s36.7-50.7,44-50.7c7.3,0,141.7,0,149.3,0c7.7,0,52.7,5.3,52.7,47.3
-	c0,51.3-52,52-52,52"/>
-<line class="st0" x1="479.8" y1="280.7" x2="479.8" y2="760.7"/>
-<line class="st0" x1="526.5" y1="280.7" x2="526.5" y2="760.7"/>
-<line class="st0" x1="573.8" y1="280.7" x2="573.8" y2="760.7"/>
-<path class="st0" d="M753.5,353.3c0,0-48-3.3-48-48s36.7-50.7,44-50.7c7.3,0,141.7,0,149.3,0c7.7,0,52.7,5.3,52.7,47.3
-	c0,51.3-52,52-52,52"/>
-<line class="st0" x1="780.8" y1="280.7" x2="780.8" y2="760.7"/>
-<line class="st0" x1="827.5" y1="280.7" x2="827.5" y2="760.7"/>
-<line class="st0" x1="874.8" y1="280.7" x2="874.8" y2="760.7"/>
-<polyline class="st0" points="113.1,810.3 113.1,765.7 938.5,765.7 938.5,811 "/>
-<polyline class="st0" points="47.8,860.7 47.8,814.7 1002.5,814.7 1002.5,859.3 "/>
-<rect x="8" y="862.7" class="st0" width="1036.9" height="48"/>
-</svg>
+<svg id="text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1051.4 919.52"><defs><style>.cls-1{fill:#007ddc;}</style></defs><title>header_icon_sp1</title><path class="cls-1" d="M150.3,362.1a58,58,0,1,1,0-116H185a8,8,0,1,1,0,16H150.3a42,42,0,0,0,0,84,8,8,0,1,1,0,16Z" transform="translate(0 0.02)"/><path class="cls-1" d="M298,362.1a8,8,0,0,1,0-16,42,42,0,0,0,0-84H185a8,8,0,0,1,0-16H298a58,58,0,1,1,0,116Z" transform="translate(0 0.02)"/><path class="cls-1" d="M177.6,774a8,8,0,0,1-8-8V281.1a8,8,0,0,1,16,0V766A8,8,0,0,1,177.6,774Z" transform="translate(0 0.02)"/><path class="cls-1" d="M224.1,774a8,8,0,0,1-8-8V281.1a8,8,0,0,1,16,0V766A8,8,0,0,1,224.1,774Z" transform="translate(0 0.02)"/><path class="cls-1" d="M270.6,774a8,8,0,0,1-8-8V281.1a8,8,0,0,1,16,0V766A8,8,0,0,1,270.6,774Z" transform="translate(0 0.02)"/><path class="cls-1" d="M451.9,362.1a58,58,0,0,1,0-116h34.7a8,8,0,1,1,0,16H451.9a42,42,0,0,0,0,84,8,8,0,0,1,0,16Z" transform="translate(0 0.02)"/><path class="cls-1" d="M599.5,362.1a8,8,0,0,1,0-16,42,42,0,0,0,0-84h-113a8,8,0,0,1,0-16h113a58,58,0,1,1,0,116Z" transform="translate(0 0.02)"/><path class="cls-1" d="M479.2,774a8,8,0,0,1-8-8V281.1a8,8,0,0,1,16,0V766A8,8,0,0,1,479.2,774Z" transform="translate(0 0.02)"/><path class="cls-1" d="M525.7,774a8,8,0,0,1-8-8V281.1a8,8,0,0,1,16,0V766A8,8,0,0,1,525.7,774Z" transform="translate(0 0.02)"/><path class="cls-1" d="M572.2,774a8,8,0,0,1-8-8V281.1a8,8,0,0,1,16,0V766A8,8,0,0,1,572.2,774Z" transform="translate(0 0.02)"/><path class="cls-1" d="M753.4,362.1a58,58,0,0,1,0-116h34.7a8,8,0,1,1,0,16H753.4a42,42,0,1,0,0,84,8,8,0,0,1,0,16Z" transform="translate(0 0.02)"/><path class="cls-1" d="M901.1,362.1a8,8,0,0,1,0-16,42,42,0,1,0,0-84h-113a8,8,0,0,1,0-16h113a58,58,0,1,1,0,116Z" transform="translate(0 0.02)"/><path class="cls-1" d="M780.8,774a8,8,0,0,1-8-8V281.1a8,8,0,0,1,16,0V766A8,8,0,0,1,780.8,774Z" transform="translate(0 0.02)"/><path class="cls-1" d="M827.3,774a8,8,0,0,1-8-8V281.1a8,8,0,0,1,16,0V766A8,8,0,0,1,827.3,774Z" transform="translate(0 0.02)"/><path class="cls-1" d="M873.8,774a8,8,0,0,1-8-8V281.1a8,8,0,0,1,16,0V766A8,8,0,0,1,873.8,774Z" transform="translate(0 0.02)"/><path class="cls-1" d="M938,822.5H113.4a8,8,0,0,1-8-8V766a8,8,0,0,1,8-8H938a8,8,0,0,1,8,8v48.5A8,8,0,0,1,938,822.5Zm-816.6-16H930V774H121.4Z" transform="translate(0 0.02)"/><path class="cls-1" d="M1002.9,871H48.5a8,8,0,0,1-8-8V814.5a8,8,0,0,1,8-8H1003a8,8,0,0,1,8,8V863A8.11,8.11,0,0,1,1002.9,871ZM56.5,855H995V822.5H56.5Z" transform="translate(0 0.02)"/><path class="cls-1" d="M1043.4,919.5H8a8,8,0,0,1-8-8V863a8,8,0,0,1,8-8H1043.4a8,8,0,0,1,8,8v48.5A8,8,0,0,1,1043.4,919.5ZM16,903.5H1035.4V871H16Z" transform="translate(0 0.02)"/><path class="cls-1" d="M951.1,220.4H100.3a8,8,0,1,1,0-16H951.1a8,8,0,0,1,0,16Z" transform="translate(0 0.02)"/><path class="cls-1" d="M953.7,176.3H97.7a8,8,0,0,1-7.9-6.6,7.88,7.88,0,0,1,5.1-8.9L522.9.5a7.73,7.73,0,0,1,5.6,0L956.2,160.6a8.08,8.08,0,0,1,5.6,7.6A8.2,8.2,0,0,1,953.7,176.3Zm-811.8-16H909.6L525.7,16.5Z" transform="translate(0 0.02)"/><path class="cls-1" d="M828.7,176.3h-606a8,8,0,0,1-7.9-6.6,7.88,7.88,0,0,1,5.1-8.9l303-113.5a7.73,7.73,0,0,1,5.6,0L831.2,160.6a8,8,0,0,1-2.5,15.7Zm-561.8-16H784.6l-258.9-97Z" transform="translate(0 0.02)"/></svg>
 
 					
-<!-- 					<img src="<?php bloginfo('template_directory');?>/images/header_icon_v2_sp1_animated.svg"/> -->
+<!-- 		<img src="<?php bloginfo('template_directory');?>/images/header_icon_v2_sp1_animated.svg"/> -->
 					<span class="largeheader"><?php the_field('main_content_icon_1_title');?></span><!-- largeheader -->
 					<span class="subheader"><?php the_field('main_content_icon_1_sub_title');?></span><!-- subheader -->
 					
@@ -81,46 +55,7 @@
 				
 				<div class="single_icon">
 					
-					<svg version="1.1" id="text2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 896.6 862.7" style="enable-background:new 0 0 896.6 862.7;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#007DDC;stroke-width:19;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-</style>
-<path class="st0" d="M301,102.5c0,0-230.1,84.1-224,349c6,261,238.3,352,325.7,358.7"/>
-<path class="st0" d="M292.7,102.2c19.3,4,29.3-22,31.3-42s-9.3-50.7-9.3-50.7S293.2,29.7,284,46.8C274,65.5,273.3,98.2,292.7,102.2z
-	"/>
-<path class="st0" d="M187.3,73.5c0,0-26,37.3-24.7,60c1.3,22.7,20,40.7,26.7,40c6.7-0.7,26.7-24,22.7-49.3S187.3,73.5,187.3,73.5z"
-	/>
-<circle class="st0" cx="446.3" cy="513.6" r="21.7"/>
-<line class="st0" x1="447.3" y1="302.8" x2="447.3" y2="484.8"/>
-<path class="st0" d="M446,538.8v193.9h20c0,0,22.7-109.9,44.7-151.9c22-42,70.7-74.7,70.7-74.7l-66-204"/>
-<line class="st0" x1="413.3" y1="305.5" x2="356" y2="483.5"/>
-<polygon class="st0" points="334,258.8 555.3,258.8 537.3,301.5 356,301.5 "/>
-<path class="st0" d="M375.3,304.2l-64.7,203.3c0,0,44,31.1,67.3,64.7c33.3,48,44.7,160.7,44.7,160.7h22.7V543.5"/>
-<rect x="333.3" y="175.3" class="st0" width="222.7" height="82.7"/>
-<path class="st0" d="M110.5,274c0,0,24-19.5,11-50s-37-45.5-37-45.5s-13.5,37-7,64.5S110.5,274,110.5,274z"/>
-<path class="st0" d="M73.5,409.5c0,0,6.5-35-6.5-52s-46-33-46-33S17.5,361,29.5,386S73.5,409.5,73.5,409.5z"/>
-<path class="st0" d="M149.7,676.5c1-2.3-7-32.3-33.3-44.7c-26.3-12.3-56.9-5.5-56.9-5.5s16.9,34,40.3,48.9
-	C123.1,690,148.7,678.8,149.7,676.5z"/>
-<path class="st0" d="M80.5,542.5c3.5-1.5,6.5-32-16.5-51S9.5,470,9.5,470s8.5,42.5,24,56.5S77,544,80.5,542.5z"/>
-<path class="st0" d="M151,759.8c0,0,32-19.7,54.7-19c32.3,1,45.7,25.3,45.7,25.3s-5.3,21-39.3,21C177,787.2,151,759.8,151,759.8z"/>
-<path class="st0" d="M373.3,811.2c-8.7-9.3-20.7-11.7-44.7-1.7s-41.3,41.3-41.3,41.3s47.7,7.3,67.3-4
-	C371.5,837.2,382,820.5,373.3,811.2z"/>
-<path class="st0" d="M595.6,102.5c0,0,230.1,84.1,224,349c-6,261-238.3,352-325.7,358.7"/>
-<path class="st0" d="M604,102.2c-19.3,4-29.3-22-31.3-42S582,9.5,582,9.5s21.5,20.2,30.7,37.3C622.6,65.5,623.3,98.2,604,102.2z"/>
-<path class="st0" d="M709.3,73.5c0,0,26,37.3,24.7,60s-20,40.7-26.7,40c-6.7-0.7-26.7-24-22.7-49.3S709.3,73.5,709.3,73.5z"/>
-<path class="st0" d="M786.1,274c0,0-24-19.5-11-50s37-45.5,37-45.5s13.5,37,7,64.5S786.1,274,786.1,274z"/>
-<path class="st0" d="M823.1,409.5c0,0-6.5-35,6.5-52s46-33,46-33s3.5,36.5-8.5,61.5S823.1,409.5,823.1,409.5z"/>
-<path class="st0" d="M747,676.5c-1-2.3,7-32.3,33.3-44.7c26.3-12.3,56.9-5.5,56.9-5.5s-16.9,34-40.3,48.9
-	C773.6,690,748,678.8,747,676.5z"/>
-<path class="st0" d="M816.1,542.5c-3.5-1.5-6.5-32,16.5-51s54.5-21.5,54.5-21.5s-8.5,42.5-24,56.5S819.6,544,816.1,542.5z"/>
-<path class="st0" d="M745.6,759.8c0,0-32-19.7-54.7-19c-32.3,1-45.7,25.3-45.7,25.3s5.3,21,39.3,21
-	C719.6,787.2,745.6,759.8,745.6,759.8z"/>
-<path class="st0" d="M523.3,811.2c8.7-9.3,20.7-11.7,44.7-1.7s41.3,41.3,41.3,41.3s-47.7,7.3-67.3-4
-	C525.2,837.2,514.6,820.5,523.3,811.2z"/>
-</svg>
-
-					
+					<svg id="text2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 896.6 862.62"><defs><style>.cls-1{fill:none;stroke:#007ddc;stroke-linecap:round;stroke-linejoin:round;stroke-width:19px;}</style></defs><title>header_icon_v2_sp2</title><path class="cls-1" d="M301,102.5S70.9,186.6,77,451.5c6,261,238.3,352,325.7,358.7" transform="translate(0 0)"/><path class="cls-1" d="M292.7,102.2c19.3,4,29.3-22,31.3-42s-9.3-50.7-9.3-50.7S293.2,29.7,284,46.8C274,65.5,273.3,98.2,292.7,102.2Z" transform="translate(0 0)"/><path class="cls-1" d="M187.3,73.5s-26,37.3-24.7,60,20,40.7,26.7,40,26.7-24,22.7-49.3S187.3,73.5,187.3,73.5Z" transform="translate(0 0)"/><circle class="cls-1" cx="446.3" cy="513.6" r="21.7"/><line class="cls-1" x1="447.3" y1="302.8" x2="447.3" y2="484.8"/><path class="cls-1" d="M446,538.8V732.7h20s22.7-109.9,44.7-151.9,70.7-74.7,70.7-74.7l-66-204" transform="translate(0 0)"/><line class="cls-1" x1="413.3" y1="305.5" x2="356" y2="483.5"/><polygon class="cls-1" points="334 258.8 555.3 258.8 537.3 301.5 356 301.5 334 258.8"/><path class="cls-1" d="M375.3,304.2,310.6,507.5s44,31.1,67.3,64.7c33.3,48,44.7,160.7,44.7,160.7h22.7V543.5" transform="translate(0 0)"/><rect class="cls-1" x="333.3" y="175.3" width="222.7" height="82.7"/><path class="cls-1" d="M110.5,274s24-19.5,11-50-37-45.5-37-45.5-13.5,37-7,64.5S110.5,274,110.5,274Z" transform="translate(0 0)"/><path class="cls-1" d="M73.5,409.5s6.5-35-6.5-52-46-33-46-33S17.5,361,29.5,386,73.5,409.5,73.5,409.5Z" transform="translate(0 0)"/><path class="cls-1" d="M149.7,676.5c1-2.3-7-32.3-33.3-44.7s-56.9-5.5-56.9-5.5,16.9,34,40.3,48.9S148.7,678.8,149.7,676.5Z" transform="translate(0 0)"/><path class="cls-1" d="M80.5,542.5c3.5-1.5,6.5-32-16.5-51S9.5,470,9.5,470s8.5,42.5,24,56.5S77,544,80.5,542.5Z" transform="translate(0 0)"/><path class="cls-1" d="M151,759.8s32-19.7,54.7-19c32.3,1,45.7,25.3,45.7,25.3s-5.3,21-39.3,21C177,787.2,151,759.8,151,759.8Z" transform="translate(0 0)"/><path class="cls-1" d="M373.3,811.2c-8.7-9.3-20.7-11.7-44.7-1.7s-41.3,41.3-41.3,41.3,47.7,7.3,67.3-4C371.5,837.2,382,820.5,373.3,811.2Z" transform="translate(0 0)"/><path class="cls-1" d="M595.6,102.5s230.1,84.1,224,349c-6,261-238.3,352-325.7,358.7" transform="translate(0 0)"/><path class="cls-1" d="M604,102.2c-19.3,4-29.3-22-31.3-42S582,9.5,582,9.5s21.5,20.2,30.7,37.3C622.6,65.5,623.3,98.2,604,102.2Z" transform="translate(0 0)"/><path class="cls-1" d="M709.3,73.5s26,37.3,24.7,60-20,40.7-26.7,40-26.7-24-22.7-49.3S709.3,73.5,709.3,73.5Z" transform="translate(0 0)"/><path class="cls-1" d="M786.1,274s-24-19.5-11-50,37-45.5,37-45.5,13.5,37,7,64.5S786.1,274,786.1,274Z" transform="translate(0 0)"/><path class="cls-1" d="M823.1,409.5s-6.5-35,6.5-52,46-33,46-33,3.5,36.5-8.5,61.5S823.1,409.5,823.1,409.5Z" transform="translate(0 0)"/><path class="cls-1" d="M747,676.5c-1-2.3,7-32.3,33.3-44.7s56.9-5.5,56.9-5.5-16.9,34-40.3,48.9S748,678.8,747,676.5Z" transform="translate(0 0)"/><path class="cls-1" d="M816.1,542.5c-3.5-1.5-6.5-32,16.5-51S887.1,470,887.1,470s-8.5,42.5-24,56.5S819.6,544,816.1,542.5Z" transform="translate(0 0)"/><path class="cls-1" d="M745.6,759.8s-32-19.7-54.7-19c-32.3,1-45.7,25.3-45.7,25.3s5.3,21,39.3,21C719.6,787.2,745.6,759.8,745.6,759.8Z" transform="translate(0 0)"/><path class="cls-1" d="M523.3,811.2c8.7-9.3,20.7-11.7,44.7-1.7s41.3,41.3,41.3,41.3-47.7,7.3-67.3-4C525.2,837.2,514.6,820.5,523.3,811.2Z" transform="translate(0 0)"/></svg>					
 					
 <!-- 					<img src="<?php bloginfo('template_directory');?>/images/header_icon_v2_sp2.svg"/> -->
 					<span class="largeheader"><?php the_field('main_content_icon_2_title');?></span><!-- largeheader -->
@@ -320,7 +255,7 @@
 
 </section><!-- practice_areas -->
 
-<section class="reasons">
+<section id="reasons_trigger" class="reasons">
 	
 	<div class="reasons_inner">
 	
@@ -368,15 +303,29 @@
 		
 		<div class="reasons_grid desktop">
 			
+			
+						
 		
 			<?php if(get_field('six_reasons')): ?>
+			
 			 
 				<?php while(has_sub_field('six_reasons')): ?>
 				
 				
 					<div class="single_reason">
+						
+						<svg version="1.1" id="reason1" class="svg-icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 357.3 357.3" style="enable-background:new 0 0 357.3 357.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#327ABE;stroke-width:12;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#327ABE;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<circle class="st0" cx="178.6" cy="178.6" r="172.6"/>
+<polyline class="st1" points="102.3,171.8 144.5,224.3 254.9,139.2 "/>
+</svg>
+
 				
-						<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
+<!-- 						<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/> -->
 				
 						<span class="sm_red_line"></span><!-- sm_red_line -->
 				

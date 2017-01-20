@@ -32,7 +32,35 @@ new Vivus('text3',
      dashGap: 2
    }
  );
-	
+ 
+ 
+ new Vivus('reason1',
+   {
+     type: 'oneByOne',
+     duration: 40,
+		 forceRender: false,
+     dashGap: 2
+   }
+ );
+ 
+
+
+/*
+jQuery(function () {
+        // Define your callback
+        var myCallback = function () {};
+
+        // Get your HTMLCollection of SVG to animate
+        var myElements = document.getElementsByClassName("svg-icons");
+
+        // Go across them to create a Vivus instance
+        // with each of them
+        for (var i = myElements.length - 1; i >= 0; i--) {
+          new Vivus(myElements[i], {duration: 180, type: 'onyByOne' }, myCallback);
+        }
+      });
+*/
+
 	
 
 
@@ -427,6 +455,54 @@ jQuery('.col_2 .video_wrapper').mouseleave(function() {
 	jQuery(this).children('.video_overlay').fadeOut(100);
 	
 });
+
+
+// Starts the Third Case Result to have a blue background as requested by the designer 
+
+
+jQuery('.case_results .single_case_results:nth-of-type(3)').addClass('case_results_active');
+
+jQuery('.case_results .inner_case_wrapper').mouseenter(function() {
+	
+	jQuery('.case_results .single_case_results:nth-of-type(3)').removeClass('case_results_active');
+	
+	
+});
+
+
+/*
+jQuery('.case_results .inner_case_wrapper').mouseleave(function() {
+	
+	jQuery('.case_results .single_case_results:nth-of-type(3)').addClass('case_results_active');
+	
+	
+});
+*/
+
+
+
+// Six reasons red line Animation
+
+
+
+
+var waypoint = new Waypoint({
+  element: document.getElementById('reasons_trigger'),
+  handler: function(direction) {
+    
+//     jQuery('.reasons_inner .red_line').fadeOut();
+
+			jQuery(".red_line").animate({
+        
+        
+        
+        width: '155px'
+			});
+		}
+})
+
+
+
 
 
 	
