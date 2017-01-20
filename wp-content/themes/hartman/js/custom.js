@@ -2,7 +2,41 @@
 	
 		
 		
-		// Sticky Mobile Header on scroll 
+
+new Vivus('text',
+   {
+     type: 'oneByOne',
+     duration: 180,
+     forceRender: false,
+     dashGap: 2
+   }
+ );
+ 
+ 
+new Vivus('text2',
+   {
+     type: 'oneByOne',
+     duration: 180,
+     forceRender: false,
+     dashGap: 2
+   }
+ );
+
+
+
+new Vivus('text3',
+   {
+     type: 'oneByOne',
+     duration: 180,
+		 forceRender: false,
+     dashGap: 2
+   }
+ );
+	
+	
+
+
+// Sticky Mobile Header on scroll 
 		
 		
 		
@@ -121,80 +155,7 @@ var sticky = new Waypoint.Sticky({
   
   
   
-  
-
-/*
-  jQuery('.inner_case_wrapper').slick({
-			arrows:false,
-			slidesToShow: 4,
-			dots:false,
-			slidesToScroll: 4,
-
-			responsive: [
-    {
-      breakpoint: 1775,
-      settings: "unslick"   
-      },
-    {
-      breakpoint: 730,
-      settings: {
-        arrows:false,
-				slidesToShow: 1,
-				dots:false,
-				slidesToScroll: 1
-      }
-    }
-  ]
-
-  });
-  
-
-
-
-
-
-  jQuery(window).on('resize', function() {
-    if (jQuery(window).width() > 730) {
-      if (jQuery('.inner_case_wrapper').hasClass('slick-initialized')) {
-        jQuery('.inner_case_wrapper').slick('unslick');
-      }
-      return
-    }
-
-    if (!jQuery('.inner_case_wrapper').hasClass('slick-initialized')) {
-      return jQuery('.inner_case_wrapper').slick({
-	      
-	      
-	      arrows:false,
-			slidesToShow: 4,
-			dots:false,
-			slidesToScroll: 4,
-
-			responsive: [
-    {
-      breakpoint: 1775,
-      settings: "unslick"   
-      },
-    {
-      breakpoint: 730,
-      settings: {
-        arrows:false,
-				slidesToShow: 1,
-				dots:false,
-				slidesToScroll: 1
-      }
-    }
-  ]
-	      
-	      
-	      
-	      
-      });
-    }
-  });
-*/
-
-
+// Unslick Custom Function 
 
 $slick_slider = jQuery('.inner_case_wrapper');
   
@@ -266,25 +227,6 @@ $slick_slider = jQuery('.inner_case_wrapper');
 	});
 	
 	
-
-	
-	
-	
-/*
-	jQuery('.sidebar ul.sub-menu li').mouseenter(function(){
-		
-		jQuery(this).next('li').children('a').addClass('subactive')
-
-	});
-	
-	
-
-	jQuery('.sidebar ul.sub-menu li').mouseout(function(){
-		
-		jQuery(this).next('li').children('a').removeClass('subactive');
-
-	});
-*/
 
   
   // Inner Banner Play Button Hover
