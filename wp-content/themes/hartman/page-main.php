@@ -126,7 +126,7 @@
 		 
 				<div class="single_case_results">
 			
-					<a class="case_results_link" href="">
+					<a class="case_results_link">
 		
 					<span class="largeheader"><span class="dollar">$</span><?php the_sub_field('case_results_number');?></span><!-- subheader -->
 					<span class="subheader"><?php the_sub_field('case_results_title');?></span><!-- subheader -->

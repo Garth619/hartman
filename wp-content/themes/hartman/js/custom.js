@@ -452,11 +452,7 @@ var bluelines = new Waypoint({
   element: document.getElementById('location_trigger'),
   handler: function(direction) {
     
-    
-   
-    
-
-		}
+	}
 })
 
 
