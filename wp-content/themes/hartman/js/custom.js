@@ -483,27 +483,37 @@ jQuery('.case_results .inner_case_wrapper').mouseleave(function() {
 
 // Six reasons red line Animation
 
-
-
-
 var waypoint = new Waypoint({
   element: document.getElementById('reasons_trigger'),
   handler: function(direction) {
     
-//     jQuery('.reasons_inner .red_line').fadeOut();
-
-			jQuery(".red_line").animate({
-        
-        
+	jQuery(".red_line").animate({
         
         width: '155px'
+			
 			});
 		}
 })
 
 
+// Triggers CSS Keyframes for the locatons in the footer
+
+var bluelines = new Waypoint({
+  element: document.getElementById('location_trigger'),
+  handler: function(direction) {
+    
+    
+   
+    
+
+		}
+})
 
 
+
+// wow.js
+
+new WOW().init();
 
 	
 	

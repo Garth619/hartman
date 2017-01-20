@@ -11,7 +11,7 @@
 	
 </section><!-- request -->
 
-<section class="locations">
+<section id="location_trigger" class="locations">
 	
 	<div class="locations_wrapper">
 		
@@ -71,7 +71,7 @@
 						<div class="header_wrapper">
 				
 							<span class="large_header"><?php the_sub_field('location_title');?></span><!-- large_header -->
-							<span class="blueline blueline_<?php echo $count; ?>"></span><!-- blueline -->
+							<span class="wow slideInLeft blueline blueline_<?php echo $count; ?>"></span><!-- blueline -->
 					
 						</div><!-- header_wrapper -->
 				
@@ -189,6 +189,7 @@
 <script src="<?php bloginfo('template_directory');?>/js/waypoints/lib/jquery.waypoints.min.js"></script>
 <script src="<?php bloginfo('template_directory');?>/js/waypoints/lib/shortcuts/sticky.min.js"></script>
 <script src="<?php bloginfo('template_directory');?>/js/vivus/dist/vivus.min.js"></script>
+<script src="<?php bloginfo('template_directory');?>/js/wow/dist/wow.min.js"></script>
 
 
 </body>
