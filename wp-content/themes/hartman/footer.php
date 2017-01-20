@@ -188,9 +188,86 @@
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/custom-min.js?v=12"></script>
 <script src="<?php bloginfo('template_directory');?>/js/waypoints/lib/jquery.waypoints.min.js"></script>
 <script src="<?php bloginfo('template_directory');?>/js/waypoints/lib/shortcuts/sticky.min.js"></script>
-<script src="<?php bloginfo('template_directory');?>/js/vivus/dist/vivus.min.js"></script>
+
 <script src="<?php bloginfo('template_directory');?>/js/wow/dist/wow.min.js"></script>
 <script src="<?php bloginfo('template_directory');?>/js/jquery-match-height/jquery.matchHeight.js"></script>
+
+<?php if(is_front_page()):?>
+
+<script src="<?php bloginfo('template_directory');?>/js/vivus/dist/vivus.min.js"></script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+
+		
+
+new Vivus('text',
+   {
+     type: 'oneByOne',
+     duration: 180,
+     forceRender: false,
+     dashGap: 2
+   }
+ );
+ 
+ 
+new Vivus('text2',
+   {
+     type: 'oneByOne',
+     duration: 180,
+     forceRender: false,
+     dashGap: 2
+   }
+ );
+
+
+
+new Vivus('text3',
+   {
+     type: 'oneByOne',
+     duration: 180,
+		 forceRender: false,
+     dashGap: 2
+   }
+ );
+ 
+ 
+
+ new Vivus('reason1',
+   {
+     type: 'oneByOne',
+     duration: 40
+		
+    
+   }
+ );
+ 
+ 
+ 
+ // Six reasons red line Animation
+
+
+var waypoint = new Waypoint({
+  element: document.getElementById('reasons_trigger'),
+  handler: function(direction) {
+    
+	jQuery(".red_line").animate({
+        
+        width: '155px'
+			
+			});
+		}
+})	
+
+ 
+ 
+
+}); // Doucment Ready
+
+</script>
+
+<?php endif;?>
 
 
 </body>

@@ -1219,29 +1219,29 @@ nav.desktop {
           background: #00a6e4;
           display: block; }
         .locations .locations_wrapper .single_location .header_wrapper span.blueline_1 {
+          -webkit-animation-delay: .5s;
+          /* Safari 4.0 - 8.0 */
+          animation-delay: .5s; }
+        .locations .locations_wrapper .single_location .header_wrapper span.blueline_2 {
           -webkit-animation-delay: 1s;
           /* Safari 4.0 - 8.0 */
           animation-delay: 1s; }
-        .locations .locations_wrapper .single_location .header_wrapper span.blueline_2 {
+        .locations .locations_wrapper .single_location .header_wrapper span.blueline_3 {
           -webkit-animation-delay: 1.5s;
           /* Safari 4.0 - 8.0 */
           animation-delay: 1.5s; }
-        .locations .locations_wrapper .single_location .header_wrapper span.blueline_3 {
+        .locations .locations_wrapper .single_location .header_wrapper span.blueline_4 {
           -webkit-animation-delay: 2s;
           /* Safari 4.0 - 8.0 */
           animation-delay: 2s; }
-        .locations .locations_wrapper .single_location .header_wrapper span.blueline_4 {
+        .locations .locations_wrapper .single_location .header_wrapper span.blueline_5 {
           -webkit-animation-delay: 2.5s;
           /* Safari 4.0 - 8.0 */
           animation-delay: 2.5s; }
-        .locations .locations_wrapper .single_location .header_wrapper span.blueline_5 {
+        .locations .locations_wrapper .single_location .header_wrapper span.blueline_6 {
           -webkit-animation-delay: 3s;
           /* Safari 4.0 - 8.0 */
           animation-delay: 3s; }
-        .locations .locations_wrapper .single_location .header_wrapper span.blueline_6 {
-          -webkit-animation-delay: 3.5s;
-          /* Safari 4.0 - 8.0 */
-          animation-delay: 3.5s; }
       .locations .locations_wrapper .single_location a.address {
         color: #fff;
         text-decoration: none;
@@ -2027,21 +2027,44 @@ a.single_attorney_link {
     margin-right: 0; }
   .video_page_wrapper a.video_link {
     text-decoration: none;
-    position: relative; }
+    position: relative;
+    display: block; }
     .video_page_wrapper a.video_link .video_page_overlay {
       position: absolute;
       top: 0;
       left: 0;
+      z-index: 5;
       width: 100%;
       height: 100%;
-      background: red; }
+      display: none;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f2236+0,075593+100 */
+      background: #0f2236;
+      /* Old browsers */
+      background: -moz-linear-gradient(45deg, #0f2236 0%, #075593 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(45deg, #0f2236 0%, #075593 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(45deg, #0f2236 0%, #075593 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f2236', endColorstr='#075593',GradientType=1 );
+      /* IE6-9 fallback on horizontal gradient */ }
+      .video_page_wrapper a.video_link .video_page_overlay span {
+        color: #fff;
+        text-transform: uppercase;
+        font-family: "Montserrat-Light";
+        font-size: 15px;
+        letter-spacing: 0.8px;
+        padding-top: 140px;
+        display: inline-block; }
     .video_page_wrapper a.video_link .single_video {
       width: 370px;
       text-align: center;
       float: left;
       width: 30%;
       margin-right: 2.5%;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      position: relative;
+      z-index: 1; }
       .video_page_wrapper a.video_link .single_video img {
         display: block;
         max-width: 100%;
@@ -2052,7 +2075,6 @@ a.single_attorney_link {
         text-transform: uppercase;
         font-size: 15px;
         font-family: "Montserrat-Light";
-        font-weight: 600;
         letter-spacing: 0.8px;
         width: 100%;
         padding: 15px 0;

@@ -1,48 +1,8 @@
 	jQuery(document).ready(function(){
 	
 		
-		
-
-new Vivus('text',
-   {
-     type: 'oneByOne',
-     duration: 180,
-     forceRender: false,
-     dashGap: 2
-   }
- );
- 
- 
-new Vivus('text2',
-   {
-     type: 'oneByOne',
-     duration: 180,
-     forceRender: false,
-     dashGap: 2
-   }
- );
 
 
-
-new Vivus('text3',
-   {
-     type: 'oneByOne',
-     duration: 180,
-		 forceRender: false,
-     dashGap: 2
-   }
- );
- 
- 
- new Vivus('reason1',
-   {
-     type: 'oneByOne',
-     duration: 40
-		
-    
-   }
- );
- 
 
 
 /*
@@ -76,7 +36,7 @@ var sticky = new Waypoint.Sticky({
 })
 
 
-		
+
 		
 		
 		
@@ -483,19 +443,7 @@ jQuery('.case_results .inner_case_wrapper').mouseleave(function() {
 
 
 
-// Six reasons red line Animation
 
-var waypoint = new Waypoint({
-  element: document.getElementById('reasons_trigger'),
-  handler: function(direction) {
-    
-	jQuery(".red_line").animate({
-        
-        width: '155px'
-			
-			});
-		}
-})
 
 
 // Triggers CSS Keyframes for the locatons in the footer
@@ -517,13 +465,25 @@ var bluelines = new Waypoint({
 
 new WOW().init();
 
-// Matchheight 
+// Matchheight for Dallas Gives Back and and Video Wrapper
 
+jQuery('.mymatch').matchHeight();
 
+// Video Page Overlay Hover
 
-    jQuery('.mymatch').matchHeight();
+jQuery('.video_page_overlay').hide();
 
+jQuery('a.video_link').mouseenter(function(){
+	
+	jQuery(this).find('.video_page_overlay').fadeIn(200);
+	
+});
 
+jQuery('a.video_link').mouseleave(function(){
+	
+	jQuery(this).find('.video_page_overlay').fadeOut(200);
+	
+});
 	
 	
-	}); // document ready
+}); // document ready

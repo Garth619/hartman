@@ -43,6 +43,32 @@
 								<img src="<?php bloginfo('template_directory');?>/images/video_ph.png"/>
 								<span class="video_title">Video Title Goes Here</span><!-- video_title -->
 								
+							
+							<div class="video_page_overlay">
+								
+								<span>View Video</span>
+							
+							</div><!-- video_page_overlay -->
+							
+							
+						</div><!-- single_video -->
+							
+							
+					</a><!-- video_link -->
+						
+						<a class="video_link" href="">
+							
+							<div class="single_video">
+								
+								<img src="<?php bloginfo('template_directory');?>/images/video_ph.png"/>
+								<span class="video_title">Video Title Goes Here</span><!-- video_title -->
+								
+								<div class="video_page_overlay">
+								
+								<span>View Video</span>
+							
+							</div><!-- video_page_overlay -->							
+							
 							</div><!-- single_video -->
 							
 						</a><!-- video_link -->
@@ -54,16 +80,11 @@
 								<img src="<?php bloginfo('template_directory');?>/images/video_ph.png"/>
 								<span class="video_title">Video Title Goes Here</span><!-- video_title -->
 								
-							</div><!-- single_video -->
-							
-						</a><!-- video_link -->
-						
-						<a class="video_link" href="">
-							
-							<div class="single_video">
+								<div class="video_page_overlay">
 								
-								<img src="<?php bloginfo('template_directory');?>/images/video_ph.png"/>
-								<span class="video_title">Video Title Goes Here</span><!-- video_title -->
+								<span>View Video</span>
+							
+							</div><!-- video_page_overlay -->
 								
 							</div><!-- single_video -->
 							
@@ -76,16 +97,11 @@
 								<img src="<?php bloginfo('template_directory');?>/images/video_ph.png"/>
 								<span class="video_title">Video Title Goes Here</span><!-- video_title -->
 								
-							</div><!-- single_video -->
-							
-						</a><!-- video_link -->
-						
-						<a class="video_link" href="">
-							
-							<div class="single_video">
+								<div class="video_page_overlay">
 								
-								<img src="<?php bloginfo('template_directory');?>/images/video_ph.png"/>
-								<span class="video_title">Video Title Goes Here</span><!-- video_title -->
+								<span>View Video</span>
+							
+							</div><!-- video_page_overlay -->
 								
 							</div><!-- single_video -->
 							
@@ -97,6 +113,29 @@
 								
 								<img src="<?php bloginfo('template_directory');?>/images/video_ph.png"/>
 								<span class="video_title">Video Title Goes Here</span><!-- video_title -->
+								
+								<div class="video_page_overlay">
+								
+								<span>View Video</span>
+							
+							</div><!-- video_page_overlay -->
+								
+							</div><!-- single_video -->
+							
+						</a><!-- video_link -->
+						
+						<a class="video_link" href="">
+							
+							<div class="single_video">
+								
+								<img src="<?php bloginfo('template_directory');?>/images/video_ph.png"/>
+								<span class="video_title">Video Title Goes Here</span><!-- video_title -->
+								
+								<div class="video_page_overlay">
+								
+								<span>View Video</span>
+							
+							</div><!-- video_page_overlay -->
 								
 							</div><!-- single_video -->
 							
