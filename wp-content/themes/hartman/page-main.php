@@ -304,9 +304,18 @@
 		<div class="reasons_grid desktop">
 			
 			
-					<div class="single_reason">
+			
+			
+			<?php if(get_field('six_reasons')): ?>
+			
+			<?php $count=1;?>
+			 
+				<?php while(has_sub_field('six_reasons')): ?>
+			 
 						
-						<div id="svg_1">
+						<div class="single_reason">
+						
+						<div id="svg_<?php echo $count ?>">
 							
 							<div class="svg_hover_wrapper">
 							
@@ -317,150 +326,23 @@
 
 						</div><!-- svg_1 -->
 						
-				
 						<span class="sm_red_line"></span><!-- sm_red_line -->
 				
-						<span class="large_header">test</span><!-- large_header -->
+						<span class="large_header"><?php the_sub_field('single_reason_title');?></span><!-- large_header -->
 				
-						<p>test</p>
+						<p><?php the_sub_field('single_reason_content');?></p>
 				
 			</div><!-- single_reason -->
+						
+						<?php $count++?>
+			
+			<?php endwhile; ?>
+			 
+			<?php endif; ?>
 			
 			
 			
-			
-					<div class="single_reason">
-						
-						
-						<div id="svg_2">
-							
-							<div class="svg_hover_wrapper">
-							
-								<img class="check_hover" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.png"/>
-							
-							</div><!-- svg_hover_wrapper -->
-
-							
-						</div><!-- svg_2 -->
-						
-						
-						<span class="sm_red_line"></span><!-- sm_red_line -->
-				
-						<span class="large_header">test</span><!-- large_header -->
-				
-						<p>test</p>
-				
-				
-				</div><!-- single_reason -->
-
-
-
-
-
-					<div class="single_reason">
-						
-						
-						<div id="svg_3">
-						
-							<div class="svg_hover_wrapper">
-							
-								<img class="check_hover" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.png"/>
-							
-							</div><!-- svg_hover_wrapper -->
-						
-						
-						</div><!-- svg_3 -->
-						
-										
-						<span class="sm_red_line"></span><!-- sm_red_line -->
-				
-						<span class="large_header">test</span><!-- large_header -->
-				
-						<p>test</p>
-				
-				</div><!-- single_reason -->
-			
-			
-				
-				
-				<div class="single_reason">
-						
-						
-						<div id="svg_4">
-							
-
-							<div class="svg_hover_wrapper">
-							
-								<img class="check_hover" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.png"/>
-							
-							</div><!-- svg_hover_wrapper -->
-
-							
-						</div><!-- svg_4 -->
-						
-										
-						<span class="sm_red_line"></span><!-- sm_red_line -->
-				
-						<span class="large_header">test</span><!-- large_header -->
-				
-						<p>test</p>
-				
-			
-			</div><!-- single_reason -->
-			
-			
-			<div class="single_reason">
-						
-						
-						<div id="svg_5">
-							
-
-							<div class="svg_hover_wrapper">
-							
-								<img class="check_hover" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.png"/>
-							
-							</div><!-- svg_hover_wrapper -->
-
-							
-						</div><!-- svg_5 -->
-						
-										
-						<span class="sm_red_line"></span><!-- sm_red_line -->
-				
-						<span class="large_header">test</span><!-- large_header -->
-				
-						<p>test</p>
-				
-			</div><!-- single_reason -->
-			
-			
-			
-			<div class="single_reason">
-						
-						
-						<div id="svg_6">
-							
-
-							<div class="svg_hover_wrapper">
-							
-								<img class="check_hover" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.png"/>
-							
-							</div><!-- svg_hover_wrapper -->
-
-
-							
-						</div><!-- svg_6 -->
-						
-										
-						<span class="sm_red_line"></span><!-- sm_red_line -->
-				
-						<span class="large_header">test</span><!-- large_header -->
-				
-						<p>test</p>
-				
-			</div><!-- single_reason -->
-			
-
+					
 		</div><!-- reasons_grid -->
 		
 	
