@@ -96,7 +96,7 @@
 	
 	<div class="view_all_locations">
 		
-		<a href="<?php the_field('mobile_locations_link');?>"><?php the_field('mobile_locations_button_title');?></a>
+		<a href="<?php the_field('mobile_locations_link','options');?>"><?php the_field('mobile_locations_button_title','options');?></a>
 		
 	</div><!-- view_all_locations -->
 	
