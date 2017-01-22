@@ -338,13 +338,15 @@ nav.desktop {
 			> ul.sub-menu {
 				background:$black;
 				position: absolute;
-				bottom:-0px;
+ 				bottom:0px;
+ text-align: center;
+// bottom:-43px;
 				transition:all .2s ease-in-out;
 				opacity:0;
 				visibility: hidden;
 				width:100%;
 				left:0;
-				padding-left:23%;
+				padding-left:0%;
 				z-index:-1;
 				li.current-menu-item {
 					a {
@@ -362,7 +364,8 @@ nav.desktop {
 						color:#fff;
 						padding:15px 0;
 						display: block;
-						margin-right:35px;
+						margin-left:20px;
+						margin-right:20px;
 						&:hover {
 							color:#007ddc;
 						}
@@ -2022,6 +2025,7 @@ footer {
 						margin-right:15px;
 						position: relative;
 						top:3px;
+						right: -29px;
 				 }
 			}
 			> a:hover {
@@ -2036,6 +2040,7 @@ footer {
 						margin-right:15px;
 						position: relative;
 						top:3px;
+						right: -29px;
 				 }
 			}
 			> a {
@@ -2053,6 +2058,7 @@ footer {
 						transition:all .2s ease-in-out;
 						position: relative;
 						top:3px;
+						right: -29px;
 					}
 				}
 		li {
@@ -2067,7 +2073,7 @@ footer {
 				width:100%;
 				display: block;
 				border-top:1px solid $black;
-				padding:24px 10px 20px 35px;
+				padding:24px 40px 20px 35px;
 				transition: all .2s ease-in-out;
 				line-height: 19px;
 				
@@ -2916,6 +2922,7 @@ a.single_attorney_link {
 			text-align: left;
 			border-bottom: 1px solid #bdbdbd;
 			padding-top:65px;
+			height:395px;
 			&:nth-of-type(2) {
 				border-right:none;
 			}
@@ -5052,7 +5059,18 @@ a.single_attorney_link {
 			}
 		}
 		
-
+		
+.case_results {
+	
+	.inner_case_wrapper {
+		
+		.single_case_results {
+			height:439px;
+		}
+		
+		}
+		
+	}
 	
 	
 	
