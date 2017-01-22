@@ -830,7 +830,7 @@ nav.desktop {
       position: absolute;
       top: 0;
       left: 0; }
-    .reasons_grid .single_reason svg#Layer_1 {
+    .reasons_grid .single_reason svg {
       width: 60px;
       height: 60px; }
     .reasons_grid .single_reason .svg_hover_wrapper {
@@ -863,9 +863,9 @@ nav.desktop {
         -webkit-transition-delay: .2s;
         /* Safari */
         transition-delay: .2s; }
-      .reasons_grid .single_reason .svg_hover_wrapper svg#Layer_1_hover {
+      .reasons_grid .single_reason .svg_hover_wrapper img.check_hover {
         width: 30px;
-        margin: 20px 0 0 15px; }
+        margin: 20px 0 0 0px; }
     .reasons_grid .single_reason .svg_hover_wrapper.svg_delay {
       box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.4);
       color: #fff; }

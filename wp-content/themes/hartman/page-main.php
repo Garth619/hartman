@@ -310,7 +310,7 @@
 							
 							<div class="svg_hover_wrapper">
 							
-								<svg id="Layer_1_hover" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.6 97.1"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:12px;}</style></defs><title>sp_checkmark</title><polyline class="cls-1" points="6 38.6 48.2 91.1 158.6 6"/></svg>
+								<img class="check_hover" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.png"/>
 							
 							</div><!-- svg_hover_wrapper -->
 
@@ -336,7 +336,7 @@
 							
 							<div class="svg_hover_wrapper">
 							
-								<svg id="Layer_1_hover" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.6 97.1"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:12px;}</style></defs><title>sp_checkmark</title><polyline class="cls-1" points="6 38.6 48.2 91.1 158.6 6"/></svg>
+								<img class="check_hover" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.png"/>
 							
 							</div><!-- svg_hover_wrapper -->
 
@@ -364,7 +364,7 @@
 						
 							<div class="svg_hover_wrapper">
 							
-								<svg id="Layer_1_hover" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.6 97.1"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:12px;}</style></defs><title>sp_checkmark</title><polyline class="cls-1" points="6 38.6 48.2 91.1 158.6 6"/></svg>
+								<img class="check_hover" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.png"/>
 							
 							</div><!-- svg_hover_wrapper -->
 						
@@ -391,7 +391,7 @@
 
 							<div class="svg_hover_wrapper">
 							
-								<svg id="Layer_1_hover" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.6 97.1"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:12px;}</style></defs><title>sp_checkmark</title><polyline class="cls-1" points="6 38.6 48.2 91.1 158.6 6"/></svg>
+								<img class="check_hover" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.png"/>
 							
 							</div><!-- svg_hover_wrapper -->
 
@@ -417,7 +417,7 @@
 
 							<div class="svg_hover_wrapper">
 							
-								<svg id="Layer_1_hover" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.6 97.1"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:12px;}</style></defs><title>sp_checkmark</title><polyline class="cls-1" points="6 38.6 48.2 91.1 158.6 6"/></svg>
+								<img class="check_hover" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.png"/>
 							
 							</div><!-- svg_hover_wrapper -->
 
@@ -443,7 +443,7 @@
 
 							<div class="svg_hover_wrapper">
 							
-								<svg id="Layer_1_hover" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.6 97.1"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:12px;}</style></defs><title>sp_checkmark</title><polyline class="cls-1" points="6 38.6 48.2 91.1 158.6 6"/></svg>
+								<img class="check_hover" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.png"/>
 							
 							</div><!-- svg_hover_wrapper -->
 
