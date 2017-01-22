@@ -1078,6 +1078,13 @@ nav.desktop {
 		float:left;
 		margin-bottom:38px;
 		height: 430px;
+		transition:all .2s ease-in-out;
+		&:hover {
+			background:$black;
+			span.large_header, p {
+				color:#fff;
+			}
+		}
 		&:nth-of-type(3n + 3) {
 			margin-right:0;
 		}

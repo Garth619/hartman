@@ -813,7 +813,12 @@ nav.desktop {
     margin-right: 3.5%;
     float: left;
     margin-bottom: 38px;
-    height: 430px; }
+    height: 430px;
+    transition: all .2s ease-in-out; }
+    .reasons_grid .single_reason:hover {
+      background: #101e2e; }
+      .reasons_grid .single_reason:hover span.large_header, .reasons_grid .single_reason:hover p {
+        color: #fff; }
     .reasons_grid .single_reason:nth-of-type(3n + 3) {
       margin-right: 0; }
     .reasons_grid .single_reason svg {
