@@ -200,6 +200,37 @@ $slick_slider = jQuery('.inner_case_wrapper');
     }
   
   });
+  
+  
+  // Mouse Enter Six Reasons
+  
+  
+	jQuery('.svg_hover_wrapper').hide();
+  
+  jQuery('.single_reason').mouseenter(function(){
+	  
+	  jQuery(this).find('svg.mycheckmark').fadeOut(200);
+		jQuery(this).find('.svg_hover_wrapper').fadeIn(200);
+		
+		
+			
+			jQuery(this).find('.svg_hover_wrapper').addClass('svg_delay');
+			
+	
+	
+	});
+	
+
+
+	
+	jQuery('.single_reason').mouseleave(function(){
+	  
+	  jQuery(this).find('svg.mycheckmark').fadeIn(200);
+		jQuery(this).find('.svg_hover_wrapper').fadeOut(200);
+		
+		jQuery('.svg_hover_wrapper').removeClass('svg_delay');
+		
+	});
 
 
 
@@ -480,6 +511,12 @@ jQuery('a.video_link').mouseleave(function(){
 	jQuery(this).find('.video_page_overlay').fadeOut(200);
 	
 });
+
+
+
+
+
+
 	
 	
 }); // document ready

@@ -304,46 +304,163 @@
 		<div class="reasons_grid desktop">
 			
 			
-						
-		
-			<?php if(get_field('six_reasons')): ?>
-			
-			 
-				<?php while(has_sub_field('six_reasons')): ?>
-				
-				
 					<div class="single_reason">
 						
-						<svg version="1.1" id="reason1" class="svg-icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 357.3 357.3" style="enable-background:new 0 0 357.3 357.3;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#327ABE;stroke-width:12;stroke-miterlimit:10;}
-	.st1{fill:none;stroke:#327ABE;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-</style>
-<circle class="st0" cx="178.6" cy="178.6" r="172.6"/>
-<polyline class="st1" points="102.3,171.8 144.5,224.3 254.9,139.2 "/>
-</svg>
+						<div id="svg_1">
+							
+							<div class="svg_hover_wrapper">
+							
+								<svg id="Layer_1_hover" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.6 97.1"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:12px;}</style></defs><title>sp_checkmark</title><polyline class="cls-1" points="6 38.6 48.2 91.1 158.6 6"/></svg>
+							
+							</div><!-- svg_hover_wrapper -->
 
-				
-<!-- 						<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/> -->
+
+						</div><!-- svg_1 -->
+						
 				
 						<span class="sm_red_line"></span><!-- sm_red_line -->
 				
-						<span class="large_header"><?php the_sub_field('single_reason_title');?></span><!-- large_header -->
+						<span class="large_header">test</span><!-- large_header -->
 				
-						<p><?php the_sub_field('single_reason_content');?></p>
+						<p>test</p>
 				
 			</div><!-- single_reason -->
-				
-				
-				<?php endwhile; ?>
-			 
-			<?php endif; ?>
-
-		
-
 			
 			
+			
+			
+					<div class="single_reason">
+						
+						
+						<div id="svg_2">
+							
+							<div class="svg_hover_wrapper">
+							
+								<svg id="Layer_1_hover" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.6 97.1"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:12px;}</style></defs><title>sp_checkmark</title><polyline class="cls-1" points="6 38.6 48.2 91.1 158.6 6"/></svg>
+							
+							</div><!-- svg_hover_wrapper -->
+
+							
+						</div><!-- svg_2 -->
+						
+						
+						<span class="sm_red_line"></span><!-- sm_red_line -->
+				
+						<span class="large_header">test</span><!-- large_header -->
+				
+						<p>test</p>
+				
+				
+				</div><!-- single_reason -->
+
+
+
+
+
+					<div class="single_reason">
+						
+						
+						<div id="svg_3">
+						
+							<div class="svg_hover_wrapper">
+							
+								<svg id="Layer_1_hover" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.6 97.1"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:12px;}</style></defs><title>sp_checkmark</title><polyline class="cls-1" points="6 38.6 48.2 91.1 158.6 6"/></svg>
+							
+							</div><!-- svg_hover_wrapper -->
+						
+						
+						</div><!-- svg_3 -->
+						
+										
+						<span class="sm_red_line"></span><!-- sm_red_line -->
+				
+						<span class="large_header">test</span><!-- large_header -->
+				
+						<p>test</p>
+				
+				</div><!-- single_reason -->
+			
+			
+				
+				
+				<div class="single_reason">
+						
+						
+						<div id="svg_4">
+							
+
+							<div class="svg_hover_wrapper">
+							
+								<svg id="Layer_1_hover" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.6 97.1"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:12px;}</style></defs><title>sp_checkmark</title><polyline class="cls-1" points="6 38.6 48.2 91.1 158.6 6"/></svg>
+							
+							</div><!-- svg_hover_wrapper -->
+
+							
+						</div><!-- svg_4 -->
+						
+										
+						<span class="sm_red_line"></span><!-- sm_red_line -->
+				
+						<span class="large_header">test</span><!-- large_header -->
+				
+						<p>test</p>
+				
+			
+			</div><!-- single_reason -->
+			
+			
+			<div class="single_reason">
+						
+						
+						<div id="svg_5">
+							
+
+							<div class="svg_hover_wrapper">
+							
+								<svg id="Layer_1_hover" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.6 97.1"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:12px;}</style></defs><title>sp_checkmark</title><polyline class="cls-1" points="6 38.6 48.2 91.1 158.6 6"/></svg>
+							
+							</div><!-- svg_hover_wrapper -->
+
+							
+						</div><!-- svg_5 -->
+						
+										
+						<span class="sm_red_line"></span><!-- sm_red_line -->
+				
+						<span class="large_header">test</span><!-- large_header -->
+				
+						<p>test</p>
+				
+			</div><!-- single_reason -->
+			
+			
+			
+			<div class="single_reason">
+						
+						
+						<div id="svg_6">
+							
+
+							<div class="svg_hover_wrapper">
+							
+								<svg id="Layer_1_hover" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.6 97.1"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:12px;}</style></defs><title>sp_checkmark</title><polyline class="cls-1" points="6 38.6 48.2 91.1 158.6 6"/></svg>
+							
+							</div><!-- svg_hover_wrapper -->
+
+
+							
+						</div><!-- svg_6 -->
+						
+										
+						<span class="sm_red_line"></span><!-- sm_red_line -->
+				
+						<span class="large_header">test</span><!-- large_header -->
+				
+						<p>test</p>
+				
+			</div><!-- single_reason -->
+			
+
 		</div><!-- reasons_grid -->
 		
 	

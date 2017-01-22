@@ -234,10 +234,47 @@ new Vivus('text3',
  
  
 
- new Vivus('reason1',
+
+
+
+ new Vivus('svg_1',
    {
      type: 'oneByOne',
-     duration: 40
+     duration: 40,
+     file: '<?php bloginfo('template_directory');?>/images/sp_checkmark.svg'
+		
+    
+   }
+ );
+ 
+ 
+ new Vivus('svg_2',
+   {
+     type: 'oneByOne',
+     duration: 40,
+     file: '<?php bloginfo('template_directory');?>/images/sp_checkmark.svg'
+		
+    
+   }
+ );
+ 
+ 
+ new Vivus('svg_3',
+   {
+     type: 'oneByOne',
+     duration: 40,
+     file: '<?php bloginfo('template_directory');?>/images/sp_checkmark.svg'
+		
+    
+   }
+ );
+ 
+ 
+ new Vivus('svg_4',
+   {
+     type: 'oneByOne',
+     duration: 40,
+     file: '<?php bloginfo('template_directory');?>/images/sp_checkmark.svg'
 		
     
    }
@@ -245,7 +282,34 @@ new Vivus('text3',
  
  
  
- // Six reasons red line Animation
+ new Vivus('svg_5',
+   {
+     type: 'oneByOne',
+     duration: 40,
+     file: '<?php bloginfo('template_directory');?>/images/sp_checkmark.svg'
+		
+    
+   }
+ );
+ 
+ 
+ 
+ 
+ new Vivus('svg_6',
+   {
+     type: 'oneByOne',
+     duration: 40,
+     file: '<?php bloginfo('template_directory');?>/images/sp_checkmark.svg'
+		
+    
+   }
+ );
+
+
+
+
+
+// Six reasons red line Animation
 
 
 var waypoint = new Waypoint({
@@ -259,8 +323,6 @@ var waypoint = new Waypoint({
 			});
 		}
 })	
-
- 
  
 
 }); // Doucment Ready

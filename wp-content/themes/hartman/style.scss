@@ -1084,13 +1084,78 @@ nav.desktop {
 			span.large_header, p {
 				color:#fff;
 			}
+			
 		}
 		&:nth-of-type(3n + 3) {
 			margin-right:0;
 		}
-		svg {
+		#svg_1, #svg_2, #svg_3, #svg_4, #svg_5, #svg_6 {
 			width:60px;
+			margin:0 auto;
+			height:60px;
+			position: relative;
 		}
+		svg {
+			
+			position: absolute;
+			top:0;
+			left:0;
+		}
+		svg#Layer_1 {
+			width:60px;
+			height:60px;
+		}
+		.svg_hover_wrapper {
+			width:60px;
+			height:60px;
+			border-radius: 50%;
+			color: #fff;
+			display: inline-block;
+			font-size: 0;
+			position: relative;
+			text-align: center;
+			z-index: 1;
+   
+			transition: box-shadow 0.2s ease 0s;
+			 -webkit-transition-delay: .2s; /* Safari */
+			 transition-delay: .2s;
+			&:after {
+	    	border-radius: 50%;
+				box-sizing: content-box;
+				content: "";
+				height: 100%;
+				pointer-events: none;
+				position: absolute;
+				width: 100%;
+    
+				box-shadow: 0 0 0 2px #fff;
+				left: 0;
+				padding: 0;
+				top: 0;
+				transition: transform 0.2s ease 0s, opacity 0.2s ease 0s;
+				-webkit-transition-delay: .2s; /* Safari */
+				transition-delay: .2s;
+			}
+			svg#Layer_1_hover {
+				width:30px;
+				margin: 20px 0 0 15px;
+			}
+		}
+		
+		.svg_hover_wrapper.svg_delay {
+			box-shadow: 0 0 0 7px rgba(255,255,255,0.4);
+			color: #fff;
+			
+		}
+		.svg_hover_wrapper.svg_delay:after {
+			-webkit-transform: scale(0.85);
+			-moz-transform: scale(0.85);
+			-ms-transform: scale(0.85);
+			transform: scale(0.85);
+		}
+
+		
+		
 		span.sm_red_line {
 			height:1px;
 			width:70px;

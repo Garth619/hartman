@@ -821,8 +821,59 @@ nav.desktop {
         color: #fff; }
     .reasons_grid .single_reason:nth-of-type(3n + 3) {
       margin-right: 0; }
+    .reasons_grid .single_reason #svg_1, .reasons_grid .single_reason #svg_2, .reasons_grid .single_reason #svg_3, .reasons_grid .single_reason #svg_4, .reasons_grid .single_reason #svg_5, .reasons_grid .single_reason #svg_6 {
+      width: 60px;
+      margin: 0 auto;
+      height: 60px;
+      position: relative; }
     .reasons_grid .single_reason svg {
-      width: 60px; }
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .reasons_grid .single_reason svg#Layer_1 {
+      width: 60px;
+      height: 60px; }
+    .reasons_grid .single_reason .svg_hover_wrapper {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      color: #fff;
+      display: inline-block;
+      font-size: 0;
+      position: relative;
+      text-align: center;
+      z-index: 1;
+      transition: box-shadow 0.2s ease 0s;
+      -webkit-transition-delay: .2s;
+      /* Safari */
+      transition-delay: .2s; }
+      .reasons_grid .single_reason .svg_hover_wrapper:after {
+        border-radius: 50%;
+        box-sizing: content-box;
+        content: "";
+        height: 100%;
+        pointer-events: none;
+        position: absolute;
+        width: 100%;
+        box-shadow: 0 0 0 2px #fff;
+        left: 0;
+        padding: 0;
+        top: 0;
+        transition: transform 0.2s ease 0s, opacity 0.2s ease 0s;
+        -webkit-transition-delay: .2s;
+        /* Safari */
+        transition-delay: .2s; }
+      .reasons_grid .single_reason .svg_hover_wrapper svg#Layer_1_hover {
+        width: 30px;
+        margin: 20px 0 0 15px; }
+    .reasons_grid .single_reason .svg_hover_wrapper.svg_delay {
+      box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.4);
+      color: #fff; }
+    .reasons_grid .single_reason .svg_hover_wrapper.svg_delay:after {
+      -webkit-transform: scale(0.85);
+      -moz-transform: scale(0.85);
+      -ms-transform: scale(0.85);
+      transform: scale(0.85); }
     .reasons_grid .single_reason span.sm_red_line {
       height: 1px;
       width: 70px;
