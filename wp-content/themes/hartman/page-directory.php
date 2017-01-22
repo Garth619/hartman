@@ -31,9 +31,20 @@
 					<div class="inner_content">
 					
 
+						<div class="pracrice_areas_wrapper">
+						
+							<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'sidebar' ) ); ?>
+						
+						</div>
+						
+						
+<!--
 						<?php if(get_field('practice_areas_directory')): ?>
 						
-								<ul class="grid">
+								
+							<h2>Header</h2>
+							
+							<ul class="grid">
 							 
 								<?php while(has_sub_field('practice_areas_directory')): ?>
 							 
@@ -45,7 +56,12 @@
 								</ul><!-- grid -->
 							 
 							<?php endif; ?>
+							
 
+							
+														
+							
+						
 													
 					</div><!-- inner_content -->
 				

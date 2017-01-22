@@ -1161,8 +1161,45 @@ nav.desktop {
   .request .form ul li ::-moz-placeholder {
     opacity: 1; }
 
+body img.gform_ajax_spinner {
+  display: none !important; }
+
 .gform_footer {
-  clear: both; }
+  clear: both;
+  margin: 0 auto;
+  width: 381px;
+  position: relative;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f35123+62 */
+  background: #f32323;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #f32323 0%, #f35123 62%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #f32323 0%, #f35123 62%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #f32323 0%, #f35123 62%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f35123',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+  .gform_footer:before {
+    background: #007ddc;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    -webkit-transform: scale3d(0.7, 1, 1);
+    transform: scale3d(0.7, 1, 1);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+    transition: transform 0.4s, opacity 0.4s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1); }
+  .gform_footer:hover:before {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
   .gform_footer .gform_button {
     font-family: "Montserrat-Bold";
     border: none;
@@ -1175,17 +1212,7 @@ nav.desktop {
     border-radius: 0;
     position: relative;
     z-index: 1;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f35123+62 */
-    background: #f32323;
-    /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #f32323 0%, #f35123 62%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #f32323 0%, #f35123 62%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #f32323 0%, #f35123 62%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f35123',GradientType=1 );
-    /* IE6-9 fallback on horizontal gradient */ }
+    background: none; }
 
 .validation_error {
   display: none; }
@@ -1819,10 +1846,74 @@ body.page-template-page-about .inner_main_no_sidebar .inner_container .inner_con
         height: 245px; }
 
 /* Practice Areas */
+.pracrice_areas_wrapper ul {
+  list-style: none; }
+  .pracrice_areas_wrapper ul li {
+    background: none;
+    padding: 0; }
+
+.pracrice_areas_wrapper ul.menu > li {
+  width: 100%;
+  clear: both;
+  margin: 75px 0; }
+  .pracrice_areas_wrapper ul.menu > li > a {
+    margin: 30px 0;
+    display: block;
+    color: #007ddc;
+    text-transform: uppercase;
+    font-family: "Montserrat-Bold";
+    font-size: 20px;
+    font-style: none;
+    font-weight: normal; }
+  .pracrice_areas_wrapper ul.menu > li > ul.sub-menu {
+    overflow: hidden; }
+    .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li {
+      background: none;
+      padding: 0;
+      margin-bottom: 0;
+      width: 30%;
+      float: left; }
+      .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li:nth-of-type(3n + 1) {
+        margin-right: 5%; }
+      .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li:nth-of-type(3n + 2) {
+        margin-right: 5%; }
+      .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li:nth-last-of-type(-n+2) a {
+        border-bottom: 1px solid #003b6b; }
+      .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li:nth-last-of-type(-n+3) a {
+        border-bottom: 1px solid #003b6b; }
+      .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li:last-of-type a {
+        border-bottom: 1px solid #003b6b; }
+      .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li > a {
+        color: #003b6b;
+        text-align: center;
+        text-decoration: none;
+        font-family: "Montserrat-Light";
+        text-transform: uppercase;
+        letter-spacing: 0.2px;
+        line-height: 31px;
+        width: 100%;
+        border-top: 1px solid #003b6b;
+        padding: 25px 0;
+        display: block; }
+        .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li > a:hover {
+          color: #fff;
+          /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f2236+0,075593+100 */
+          background: #0f2236;
+          /* Old browsers */
+          background: -moz-linear-gradient(45deg, #0f2236 0%, #075593 100%);
+          /* FF3.6-15 */
+          background: -webkit-linear-gradient(45deg, #0f2236 0%, #075593 100%);
+          /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(45deg, #0f2236 0%, #075593 100%);
+          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f2236', endColorstr='#075593',GradientType=1 );
+          /* IE6-9 fallback on horizontal gradient */ }
+
 ul.grid {
   list-style: none;
   margin-top: 75px;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-bottom: 200px; }
   ul.grid li {
     background: none;
     padding: 0;
@@ -2024,6 +2115,7 @@ a.single_attorney_link {
       width: 100%;
       padding: 15px 5px;
       margin-top: -57px;
+      height: 57px;
       position: relative;
       z-index: 5;
       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007ddc+39,0f2236+100 */
@@ -2861,6 +2953,25 @@ a.single_attorney_link {
         float: none;
         margin-top: 45px; }
   /* Practice Areas */
+  .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li {
+    width: 44%;
+    float: none; }
+    .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li:nth-of-type(3n + 1) {
+      margin-right: 0%; }
+    .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li:nth-of-type(3n + 2) {
+      margin-right: 0%; }
+    .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li:nth-of-type(2n + 2) {
+      margin-right: 6%;
+      float: right; }
+    .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li:nth-of-type(n + 1) {
+      margin-right: 6%;
+      float: left; }
+    .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li:nth-last-of-type(-n + 3) a {
+      border-bottom: none; }
+    .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li:nth-last-of-type(-n + 2) a {
+      border-bottom: 1px solid #003b6b; }
+    .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li:last-of-type a {
+      border-bottom: 1px solid #003b6b; }
   ul.grid li {
     width: 44%;
     float: none; }
@@ -3430,6 +3541,23 @@ a.single_attorney_link {
   .about_icons_wrapper {
     padding-bottom: 65px; }
   /* Practice Areas */
+  .pracrice_areas_wrapper ul.menu {
+    margin-bottom: 130px; }
+    .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li {
+      width: 100%;
+      float: none; }
+      .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li:nth-of-type(3n + 1) {
+        margin-right: 0%; }
+      .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li:nth-of-type(3n + 2) {
+        margin-right: 0%; }
+      .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li:nth-of-type(2n + 2) {
+        margin-right: 0%;
+        float: none; }
+      .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li:nth-of-type(n + 1) {
+        margin-right: 0%;
+        float: none; }
+      .pracrice_areas_wrapper ul.menu > li > ul.sub-menu > li:nth-last-of-type(-n + 1) a {
+        border-top: none; }
   ul.grid {
     margin-bottom: 130px; }
     ul.grid li {
