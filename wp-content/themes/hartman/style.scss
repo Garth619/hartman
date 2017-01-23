@@ -546,7 +546,7 @@ nav.desktop {
 		}
 		.lower_content {
 			margin-top:123px;
-			overflow: hidden;
+// 			overflow: hidden;
 			.icon_wrapper {
 				width:55%;
 				float:left;
@@ -659,6 +659,7 @@ nav.desktop {
 	width:100%;
 	text-align: center;
 	height:66px;
+	clear:both;
 	img {
 		-webkit-animation: 3s ease 0s normal none infinite running myscroll;
 		-moz-animation: 3s ease 0s normal none infinite running myscroll;
@@ -1189,7 +1190,7 @@ nav.desktop {
 .addtional_about_content {
 	max-width:1280px;
 	margin:0 auto;
-	overflow: hidden;
+// 	overflow: hidden;
 	padding-left:53px;
 	.col_1 {
 		
@@ -2336,7 +2337,7 @@ body.page-template-page-about, body.page-template-page-attorneysdirectory {
 
 .case_results_page_wrapper {
 	margin:65px 0 50px;
-	overflow: hidden;
+	padding-right:20px;
 		.single_case_results_page {
 			-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.22);
 			-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.22);
@@ -2399,6 +2400,7 @@ body.page-template-page-about, body.page-template-page-attorneysdirectory {
 .contact_wrapper {
 	margin-top:45px;
 	margin-bottom:110px;
+	padding-right: 15px;
 	.single_contact {
 		width:100%;
 		-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
@@ -2937,7 +2939,7 @@ a.single_attorney_link {
 	
 	.testimonials_wrapper {
 		width:100%;
-		padding:35px 0 0;
+		padding:35px 20px 0 0;
 		
 		.testimonials_column {
 			width:48.5%;
@@ -4293,6 +4295,7 @@ html.fixed, body.fixed {
     width: 91%;
     border-left: 2px solid #e8e8e8;
     padding-left:0;
+    overflow: hidden;
     .bluelinetwo {
 	    background: $bluelight;
 	    float: left;
@@ -6371,8 +6374,7 @@ a.single_attorney_link {
 	
 	
 	.testimonials_wrapper {
-		
-// 		padding-right:30px;
+
 		.testimonials_column {
 		
 			&:first-of-type {
@@ -6751,7 +6753,7 @@ footer {
 
 @media screen and (max-width: 545px) {
 	
-	
+
 	
 	
 /* Header */
@@ -7330,6 +7332,11 @@ body.page-template-page-bio {
 .inner_main_with_sidebar {
     margin-top: 55px;
 }
+
+
+	.testimonials_wrapper, .contact_wrapper, .case_results_page_wrapper {
+		padding-right:0px;
+	}
 	
 	
 	

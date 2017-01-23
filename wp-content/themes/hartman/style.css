@@ -400,8 +400,7 @@ nav.desktop {
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0); }
     .main_banner .main_inner_banner .lower_content {
-      margin-top: 123px;
-      overflow: hidden; }
+      margin-top: 123px; }
       .main_banner .main_inner_banner .lower_content .icon_wrapper {
         width: 55%;
         float: left;
@@ -483,7 +482,8 @@ nav.desktop {
   margin-top: 59px;
   width: 100%;
   text-align: center;
-  height: 66px; }
+  height: 66px;
+  clear: both; }
   .arrow_scroll img {
     -webkit-animation: 3s ease 0s normal none infinite running myscroll;
     -moz-animation: 3s ease 0s normal none infinite running myscroll;
@@ -901,7 +901,6 @@ nav.desktop {
 .addtional_about_content {
   max-width: 1280px;
   margin: 0 auto;
-  overflow: hidden;
   padding-left: 53px; }
   .addtional_about_content .col_1 {
     width: 70%;
@@ -1762,7 +1761,7 @@ body.page-template-page-about .inner_main_no_sidebar .inner_container .inner_con
 /* Inner Case Results */
 .case_results_page_wrapper {
   margin: 65px 0 50px;
-  overflow: hidden; }
+  padding-right: 20px; }
   .case_results_page_wrapper .single_case_results_page {
     -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.22);
     -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.22);
@@ -1809,7 +1808,8 @@ body.page-template-page-about .inner_main_no_sidebar .inner_container .inner_con
 /* Contact */
 .contact_wrapper {
   margin-top: 45px;
-  margin-bottom: 110px; }
+  margin-bottom: 110px;
+  padding-right: 15px; }
   .contact_wrapper .single_contact {
     width: 100%;
     -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
@@ -2214,7 +2214,7 @@ a.single_attorney_link {
 /* Testimonials */
 .testimonials_wrapper {
   width: 100%;
-  padding: 35px 0 0; }
+  padding: 35px 20px 0 0; }
   .testimonials_wrapper .testimonials_column {
     width: 48.5%;
     margin-bottom: 35px; }
@@ -2867,7 +2867,8 @@ a.single_attorney_link {
     padding-right: 0px;
     width: 91%;
     border-left: 2px solid #e8e8e8;
-    padding-left: 0; }
+    padding-left: 0;
+    overflow: hidden; }
     .addtional_about_content .bluelinetwo {
       background: #007ddc;
       float: left;
@@ -3859,6 +3860,8 @@ a.single_attorney_link {
   body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .inner_content {
     padding-left: 25px; }
   .inner_main_with_sidebar {
-    margin-top: 55px; } }
+    margin-top: 55px; }
+  .testimonials_wrapper, .contact_wrapper, .case_results_page_wrapper {
+    padding-right: 0px; } }
 
 /* Media Query */
