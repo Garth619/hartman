@@ -11,16 +11,23 @@
 			
 		</div><!-- inner_content -->
 		
+		
+<!-- 		<script src="//fast.wistia.com/embed/medias/fvynu51wm6.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_fvynu51wm6 popover=true popoverContent=link" style="display:inline"><a href="#"> -->
+		
+		
+		
 		<div class="video_wrapper">
 			
-			<a href="">
+	
 			
 				<img class="play_reg" src="<?php bloginfo('template_directory');?>/images/internal_header_button.png"/>
 				<img class="play_hover" src="<?php bloginfo('template_directory');?>/images/internal_header_button_hover.png"/>
 			
-			</a>
+			
 			
 		</div><!-- video_wrapper -->
+		
+<!-- 		</a></span> -->
 		
 	</div><!-- inner_banner -->
 	

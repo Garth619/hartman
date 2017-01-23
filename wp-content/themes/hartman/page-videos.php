@@ -36,27 +36,9 @@
 					
 					<div class="video_page_wrapper">
 						
-						<a class="video_link" href="">
-							
-							<div class="single_video">
-								
-								<img src="<?php bloginfo('template_directory');?>/images/video_ph.png"/>
-								<span class="video_title">Video Title Goes Here</span><!-- video_title -->
-								
-							
-							<div class="video_page_overlay">
-								
-								<span>View Video</span>
-							
-							</div><!-- video_page_overlay -->
-							
-							
-						</div><!-- single_video -->
-							
-							
-					</a><!-- video_link -->
-						
-						<a class="video_link" href="">
+
+												
+						<div class="video_link">
 							
 							<div class="single_video">
 								
@@ -65,15 +47,15 @@
 								
 								<div class="video_page_overlay">
 								
-								<span>View Video</span>
+								<span class="video_page_title">View Video</span>
 							
 							</div><!-- video_page_overlay -->							
 							
 							</div><!-- single_video -->
 							
-						</a><!-- video_link -->
+						</div><!-- video_link -->
 						
-						<a class="video_link" href="">
+						<div class="video_link">
 							
 							<div class="single_video">
 								
@@ -82,15 +64,15 @@
 								
 								<div class="video_page_overlay">
 								
-								<span>View Video</span>
+								<span class="video_page_title">View Video</span>
 							
-							</div><!-- video_page_overlay -->
-								
+							</div><!-- video_page_overlay -->							
+							
 							</div><!-- single_video -->
 							
-						</a><!-- video_link -->
+						</div><!-- video_link -->
 						
-						<a class="video_link" href="">
+						<div class="video_link">
 							
 							<div class="single_video">
 								
@@ -99,15 +81,15 @@
 								
 								<div class="video_page_overlay">
 								
-								<span>View Video</span>
+								<span class="video_page_title">View Video</span>
 							
-							</div><!-- video_page_overlay -->
-								
+							</div><!-- video_page_overlay -->							
+							
 							</div><!-- single_video -->
 							
-						</a><!-- video_link -->
+						</div><!-- video_link -->
 						
-						<a class="video_link" href="">
+						<div class="video_link">
 							
 							<div class="single_video">
 								
@@ -116,15 +98,15 @@
 								
 								<div class="video_page_overlay">
 								
-								<span>View Video</span>
+								<span class="video_page_title">View Video</span>
 							
-							</div><!-- video_page_overlay -->
-								
+							</div><!-- video_page_overlay -->							
+							
 							</div><!-- single_video -->
 							
-						</a><!-- video_link -->
+						</div><!-- video_link -->
 						
-						<a class="video_link" href="">
+						<div class="video_link">
 							
 							<div class="single_video">
 								
@@ -133,13 +115,33 @@
 								
 								<div class="video_page_overlay">
 								
-								<span>View Video</span>
+								<span class="video_page_title">View Video</span>
 							
-							</div><!-- video_page_overlay -->
-								
+							</div><!-- video_page_overlay -->							
+							
 							</div><!-- single_video -->
 							
-						</a><!-- video_link -->
+						</div><!-- video_link -->
+						
+						<div class="video_link">
+							
+							<div class="single_video">
+								
+								<img src="<?php bloginfo('template_directory');?>/images/video_ph.png"/>
+								<span class="video_title">Video Title Goes Here</span><!-- video_title -->
+								
+								<div class="video_page_overlay">
+								
+								<span class="video_page_title">View Video</span>
+							
+							</div><!-- video_page_overlay -->							
+							
+							</div><!-- single_video -->
+							
+						</div><!-- video_link -->
+						
+																								
+						
 						
 					</div><!-- video_wrapper -->
 				

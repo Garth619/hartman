@@ -934,9 +934,12 @@ nav.desktop {
       -webkit-box-shadow: 0px 0px 48px -16px black;
       -moz-box-shadow: 0px 0px 48px -16px black;
       box-shadow: 0px 0px 48px -16px black; }
+      .addtional_about_content .col_2 .video_wrapper a {
+        display: block;
+        position: relative; }
       .addtional_about_content .col_2 .video_wrapper img.video_image {
         max-width: 100%;
-        height: auto;
+        height: 232px;
         display: block; }
       .addtional_about_content .col_2 .video_wrapper img.play {
         position: absolute;
@@ -2256,13 +2259,13 @@ a.single_attorney_link {
   margin-top: 48px;
   margin-bottom: 38px;
   overflow: hidden; }
-  .video_page_wrapper a.video_link:nth-of-type(3n + 3) .single_video {
+  .video_page_wrapper .video_link:nth-of-type(3n + 3) .single_video {
     margin-right: 0; }
-  .video_page_wrapper a.video_link {
+  .video_page_wrapper .video_link {
     text-decoration: none;
     position: relative;
     display: block; }
-    .video_page_wrapper a.video_link .video_page_overlay {
+    .video_page_wrapper .video_link .video_page_overlay {
       position: absolute;
       top: 0;
       left: 0;
@@ -2281,7 +2284,7 @@ a.single_attorney_link {
       /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f2236', endColorstr='#075593',GradientType=1 );
       /* IE6-9 fallback on horizontal gradient */ }
-      .video_page_wrapper a.video_link .video_page_overlay span {
+      .video_page_wrapper .video_link .video_page_overlay span.video_page_title {
         color: #fff;
         text-transform: uppercase;
         font-family: "Montserrat-Light";
@@ -2289,7 +2292,9 @@ a.single_attorney_link {
         letter-spacing: 0.8px;
         padding-top: 140px;
         display: inline-block; }
-    .video_page_wrapper a.video_link .single_video {
+        .video_page_wrapper .video_link .video_page_overlay span.video_page_title a {
+          color: #fff; }
+    .video_page_wrapper .video_link .single_video {
       width: 370px;
       text-align: center;
       float: left;
@@ -2298,11 +2303,11 @@ a.single_attorney_link {
       margin-bottom: 30px;
       position: relative;
       z-index: 1; }
-      .video_page_wrapper a.video_link .single_video img {
+      .video_page_wrapper .video_link .single_video img {
         display: block;
         max-width: 100%;
         height: auto; }
-      .video_page_wrapper a.video_link .single_video span.video_title {
+      .video_page_wrapper .video_link .single_video span.video_title {
         color: #fff;
         display: block;
         text-transform: uppercase;
@@ -3081,42 +3086,37 @@ a.single_attorney_link {
   a.single_attorney_link:nth-of-type(2n + 2) .single_attorney.bottom {
     margin-right: 0px; }
   /* Video */
-  .video_page_wrapper a.video_link:nth-of-type(3n + 3) .single_video {
+  .video_page_wrapper .video_link:nth-of-type(3n + 3) .single_video {
     margin-right: 2.5%; }
-  .video_page_wrapper a.video_link:nth-of-type(2n + 2) .single_video {
+  .video_page_wrapper .video_link:nth-of-type(2n + 2) .single_video {
     margin-right: 0%;
     float: right; }
-  .video_page_wrapper a.video_link:nth-of-type(2n + 1) .single_video {
+  .video_page_wrapper .video_link:nth-of-type(2n + 1) .single_video {
     margin-right: 0%;
     float: left; }
-  .video_page_wrapper a.video_link .single_video {
+  .video_page_wrapper .video_link .single_video {
     width: 47.5%; }
-    .video_page_wrapper a.video_link .single_video img {
+    .video_page_wrapper .video_link .single_video img {
       width: 100%; } }
 
 /* Media Query */
 @media screen and (max-width: 1090px) {
-  .banner_wrapper {
-    /*
-	background:url(images/internal_tablet_mainimage.jpg) top center no-repeat;
-	background-size:cover;
-*/ }
-    .banner_wrapper .inner_banner {
-      padding: 0;
-      height: 450px; }
-      .banner_wrapper .inner_banner .inner_content {
+  .banner_wrapper .inner_banner {
+    padding: 0;
+    height: 450px; }
+    .banner_wrapper .inner_banner .inner_content {
+      width: 100%;
+      text-align: center;
+      float: none;
+      transform: none;
+      top: 0;
+      padding-top: 200px; }
+      .banner_wrapper .inner_banner .inner_content a.free_consultation {
         width: 100%;
-        text-align: center;
-        float: none;
-        transform: none;
-        top: 0;
-        padding-top: 200px; }
-        .banner_wrapper .inner_banner .inner_content a.free_consultation {
-          width: 100%;
-          display: block;
-          margin-top: 39px; }
-      .banner_wrapper .inner_banner .video_wrapper {
-        display: none; }
+        display: block;
+        margin-top: 39px; }
+    .banner_wrapper .inner_banner .video_wrapper {
+      display: none; }
   .content {
     font-family: "Utopia W01 Regular";
     font-size: 16px;
@@ -3557,15 +3557,15 @@ a.single_attorney_link {
   .testimonials_wrapper .testimonials_column .single_testimonial {
     padding: 65px 25px; }
   /* Video */
-  .video_page_wrapper a.video_link:nth-of-type(3n + 3) .single_video {
+  .video_page_wrapper .video_link:nth-of-type(3n + 3) .single_video {
     margin-right: 0%; }
-  .video_page_wrapper a.video_link:nth-of-type(2n + 2) .single_video {
+  .video_page_wrapper .video_link:nth-of-type(2n + 2) .single_video {
     float: none; }
-  .video_page_wrapper a.video_link:nth-of-type(2n + 1) .single_video {
+  .video_page_wrapper .video_link:nth-of-type(2n + 1) .single_video {
     float: none; }
-  .video_page_wrapper a.video_link .single_video {
+  .video_page_wrapper .video_link .single_video {
     width: 100%; }
-    .video_page_wrapper a.video_link .single_video img {
+    .video_page_wrapper .video_link .single_video img {
       width: 100%; }
   .inner_main_with_sidebar {
     margin-top: 135px; }

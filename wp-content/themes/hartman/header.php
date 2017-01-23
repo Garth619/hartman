@@ -65,7 +65,7 @@
 
 
 .banner_wrapper {
-	background: rgba(0, 0, 0, 0) url(<?php the_field('inner_banner_tablet_image','option');?>) no-repeat scroll center top / cover;
+	background: rgba(0, 0, 0, 0) url(<?php the_field('inner_banner_tablet_image','option');?>) no-repeat scroll center top;
 }
 
 } /* Media Query */

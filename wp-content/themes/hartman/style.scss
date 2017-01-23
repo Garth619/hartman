@@ -1226,9 +1226,10 @@ nav.desktop {
 			-webkit-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
 			-moz-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
 			box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
+			a {display: block;position: relative;}
 			img.video_image {
 				max-width:100%;
-				height:auto;
+				height: 232px;
 				display: block;
 			}
 			img.play {
@@ -2998,12 +2999,12 @@ a.single_attorney_link {
 		margin-bottom:38px;
 		overflow: hidden;
 		
-		a.video_link:nth-of-type(3n + 3) {
+		.video_link:nth-of-type(3n + 3) {
 			.single_video {
 				margin-right:0;
 			}
 		}
-		a.video_link {
+		.video_link {
 			text-decoration: none;
 			position: relative;
 			display: block;
@@ -3021,7 +3022,7 @@ a.single_attorney_link {
 				background: -webkit-linear-gradient(45deg,  #0f2236 0%,#075593 100%); /* Chrome10-25,Safari5.1-6 */
 				background: linear-gradient(45deg,  #0f2236 0%,#075593 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f2236', endColorstr='#075593',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-				span {
+				span.video_page_title {
 					color:#fff;
 					text-transform: uppercase;
 					font-family: $montserratlight;
@@ -3029,6 +3030,9 @@ a.single_attorney_link {
 					letter-spacing: 0.8px;
 					padding-top:140px;
 					display: inline-block;
+					a {
+						color:#fff;
+					}
 				}
 			}
 			.single_video {
@@ -5210,25 +5214,25 @@ a.single_attorney_link {
 	.video_page_wrapper {
 		
 		
-		a.video_link:nth-of-type(3n + 3) {
+		.video_link:nth-of-type(3n + 3) {
 			.single_video {
 				margin-right:2.5%;
 			}
 		}
 	
-	a.video_link:nth-of-type(2n + 2) {
+	.video_link:nth-of-type(2n + 2) {
 			.single_video {
 				margin-right:0%;
 				float:right;
 			}
 		}
-	a.video_link:nth-of-type(2n + 1) {
+	.video_link:nth-of-type(2n + 1) {
 			.single_video {
 				margin-right:0%;
 				float:left;
 			}
 		}
-		a.video_link {
+		.video_link {
 			
 			.single_video {
 				width: 47.5%;
@@ -5254,10 +5258,7 @@ a.single_attorney_link {
 	
 	.banner_wrapper {
 	
-/*
-	background:url(images/internal_tablet_mainimage.jpg) top center no-repeat;
-	background-size:cover;
-*/
+
 
 	.inner_banner {
 		padding:0;
@@ -6404,25 +6405,25 @@ a.single_attorney_link {
 	.video_page_wrapper {
 		
 		
-		a.video_link:nth-of-type(3n + 3) {
+		.video_link:nth-of-type(3n + 3) {
 			.single_video {
 				margin-right:0%
 			}
 		}
 	
-	a.video_link:nth-of-type(2n + 2) {
+	.video_link:nth-of-type(2n + 2) {
 			.single_video {
 				
 				float:none;
 			}
 		}
-	a.video_link:nth-of-type(2n + 1) {
+	.video_link:nth-of-type(2n + 1) {
 			.single_video {
 				
 				float:none;
 			}
 		}
-		a.video_link {
+		.video_link {
 			
 			.single_video {
 				width: 100%;

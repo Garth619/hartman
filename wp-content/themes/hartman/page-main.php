@@ -80,21 +80,36 @@
 		
 		<div class="video_wrapper">
 			
+<!--
+			<script src="//fast.wistia.com/embed/medias/crm9n3xcu0.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_crm9n3xcu0 popover=true popoverContent=link" style="display:inline">
+			
+			<a href="#">
+-->
+			
 			<div class="video_thumb">
 				
-					<img class="video_thumb_img" src="<?php the_field('video_thumb');?>"alt="Learn about Dallas W. Hartman in 80 Seconds"/>
-					<img class="play" src="<?php bloginfo('template_directory');?>/images/header_video_playbutton.png"/>
+				<img class="video_thumb_img" src="<?php the_field('video_thumb');?>"alt="Learn about Dallas W. Hartman in 80 Seconds"/>
+				<img class="play" src="<?php bloginfo('template_directory');?>/images/header_video_playbutton.png"/>
 					
-					<div class="video_thumb_overlay"></div><!-- video_thumb_overlay -->
+					
+				<div class="video_thumb_overlay"></div><!-- video_thumb_overlay -->
 				
-				</div><!-- video_thumb -->
-			
-				<div class="video_content">
+			</div><!-- video_thumb -->
 				
-					<span class="video_header"><?php the_field('video_content_header');?></span><!-- video_header -->
-					<p><?php the_field('video_content_body');?></p>
 				
-				</div><!-- video_content -->
+				
+<!-- 		</a></span> -->
+				
+				
+		<div class="video_content">
+				
+			<span class="video_header"><?php the_field('video_content_header');?></span><!-- video_header -->
+			<p><?php the_field('video_content_body');?></p>
+				
+		</div><!-- video_content -->
+				
+				
+				
 			
 	</div><!-- video_wrapper -->
 		
@@ -368,12 +383,18 @@
 	
 	<div class="col_2">
 		
+		
 		<div class="video_wrapper">
+			
+<!-- 			<script src="//fast.wistia.com/embed/medias/fvynu51wm6.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_fvynu51wm6 popover=true popoverAnimateThumbnail=true popoverContent=link videoFoam=true" style="display:inline"><a href="#"> -->
 			
 			<img class="video_image" src="<?php the_field('additonal_video_thumb');?>" alt="Dallas W. Hartman Testimonial Video"/>
 			<img class="play" src="<?php bloginfo('template_directory');?>/images/play.png"/>
 			
 			<div class="video_overlay"></div><!-- video_overlay -->
+			
+			
+<!-- 			</a></span></div></div> -->
 			
 		</div><!-- video_wrapper -->
 		

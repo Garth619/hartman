@@ -78,7 +78,7 @@
 								
 								<?php if(get_field('attorney_image')):?>
 								
-									<img src="<?php the_field('attorney_image');?>"/>
+									<img src="<?php the_field('attorney_image');?>" alt="Dallas W. Hartman"/>
 								
 								<?php else:?>
 								
@@ -130,7 +130,7 @@
 								
 								<?php if(get_field('attorney_image')):?>
 								
-									<img src="<?php the_field('attorney_image');?>"/>
+									<img src="<?php the_field('attorney_image');?>" alt="Douglas J. Olcott"/>
 								
 								<?php else:?>
 								
@@ -179,7 +179,7 @@
 								
 													<?php if(get_field('attorney_image')):?>
 								
-														<img src="<?php the_field('attorney_image');?>"/>
+														<img src="<?php the_field('attorney_image');?>" alt="<?php the_title();?>"/>
 								
 														<?php else:?>
 								

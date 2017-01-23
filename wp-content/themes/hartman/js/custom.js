@@ -439,13 +439,13 @@ jQuery('.col_2 .video_wrapper .video_overlay').hide();
 
 jQuery('.col_2 .video_wrapper').mouseenter(function() {
 	
-	jQuery(this).children('.video_overlay').fadeIn(100);
+	jQuery(this).find('.video_overlay').fadeIn(100);
 	
 });
 
 jQuery('.col_2 .video_wrapper').mouseleave(function() {
 	
-	jQuery(this).children('.video_overlay').fadeOut(100);
+	jQuery(this).find('.video_overlay').fadeOut(100);
 	
 });
 
@@ -500,13 +500,13 @@ jQuery('.mymatch').matchHeight();
 
 jQuery('.video_page_overlay').hide();
 
-jQuery('a.video_link').mouseenter(function(){
+jQuery('.video_link').mouseenter(function(){
 	
 	jQuery(this).find('.video_page_overlay').fadeIn(200);
 	
 });
 
-jQuery('a.video_link').mouseleave(function(){
+jQuery('.video_link').mouseleave(function(){
 	
 	jQuery(this).find('.video_page_overlay').fadeOut(200);
 	
