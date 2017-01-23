@@ -251,6 +251,8 @@ nav.desktop {
           color: #003b6b; }
       nav.desktop ul.menu > li > ul.sub-menu.active {
         bottom: -43px; }
+      nav.desktop ul.menu > li > ul.sub-menu.hide {
+        bottom: 0; }
       nav.desktop ul.menu > li > ul.sub-menu {
         background: #101e2e;
         position: absolute;
@@ -307,39 +309,6 @@ nav.desktop {
     position: absolute;
     top: 9px;
     right: 18px; }
-
-.searchwp-live-search-results {
-  background: #101e2e !important;
-  border-radius: 0 !important;
-  top: 97px !important;
-  box-shadow: none !important; }
-  .searchwp-live-search-results .searchwp-live-search-no-results {
-    font-family: "Montserrat-Light";
-    font-size: 16px;
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none; }
-    .searchwp-live-search-results .searchwp-live-search-no-results em {
-      font-style: normal !important; }
-  .searchwp-live-search-results .searchwp-live-search-result {
-    font-family: "Montserrat-Light";
-    font-style: normal;
-    font-weight: none;
-    letter-spacing: 0.4px;
-    margin: 18px 0 0;
-    padding-bottom: 18px;
-    border-bottom: 1px solid #003b6b;
-    padding-left: 25px; }
-    .searchwp-live-search-results .searchwp-live-search-result:last-of-type {
-      border-bottom: none; }
-    .searchwp-live-search-results .searchwp-live-search-result h2 a {
-      font-size: 13px;
-      color: #fff;
-      text-transform: uppercase;
-      text-decoration: none;
-      padding-right: 40px; }
-    .searchwp-live-search-results .searchwp-live-search-result p {
-      display: none; }
 
 /* Main Banner */
 .main_banner {
@@ -2772,38 +2741,6 @@ a.single_attorney_link {
     color: #fff; }
   .search_wrapper .inner_search_wrapper .form ul li::-moz-placeholder {
     opacity: 1; }
-  .searchwp-live-search-results {
-    background: none !important;
-    top: 170px !important; }
-    .searchwp-live-search-results .searchwp-live-search-result {
-      font-family: "Montserrat-Light";
-      font-size: 18px;
-      color: #0270c5;
-      letter-spacing: 0.4px;
-      font-style: normal;
-      font-weight: none;
-      letter-spacing: 0.4px;
-      margin-bottom: 43px;
-      border-bottom: none;
-      padding-left: 0;
-      padding-bottom: 0; }
-      .searchwp-live-search-results .searchwp-live-search-result:last-of-type {
-        padding-bottom: 250px !important; }
-      .searchwp-live-search-results .searchwp-live-search-result h2 a {
-        font-size: 18px;
-        color: #0270c5;
-        text-transform: uppercase;
-        text-decoration: none; }
-      .searchwp-live-search-results .searchwp-live-search-result p {
-        display: block;
-        padding: 0;
-        color: #fff;
-        font-size: 16px;
-        margin-top: 14px;
-        line-height: 20px; }
-        .searchwp-live-search-results .searchwp-live-search-result p a {
-          color: #fff;
-          text-decoration: none; }
   .search_wrapper {
     display: none;
     position: fixed;
@@ -3992,5 +3929,119 @@ a.single_attorney_link {
     margin-top: 55px; }
   .testimonials_wrapper, .contact_wrapper, .case_results_page_wrapper {
     padding-right: 0px; } }
+
+/* Media Query */
+/* Min Width for Search Plugin */
+.searchwp-live-search-results {
+  background: none !important;
+  top: 170px !important; }
+  .searchwp-live-search-results .searchwp-live-search-result {
+    font-family: "Montserrat-Light";
+    font-size: 18px;
+    color: #0270c5;
+    letter-spacing: 0.4px;
+    font-style: normal;
+    font-weight: none;
+    letter-spacing: 0.4px;
+    margin-bottom: 43px;
+    border-bottom: none;
+    padding-left: 0;
+    padding-bottom: 0; }
+    .searchwp-live-search-results .searchwp-live-search-result:last-of-type {
+      padding-bottom: 250px !important; }
+    .searchwp-live-search-results .searchwp-live-search-result h2 a {
+      font-size: 18px;
+      color: #0270c5;
+      text-transform: uppercase;
+      text-decoration: none; }
+    .searchwp-live-search-results .searchwp-live-search-result p {
+      display: block;
+      padding: 0;
+      color: #fff;
+      font-size: 16px;
+      margin-top: 14px;
+      line-height: 20px; }
+      .searchwp-live-search-results .searchwp-live-search-result p a {
+        color: #fff;
+        text-decoration: none; }
+
+@media screen and (min-width: 1200px) {
+  .searchwp-live-search-results {
+    background: #101e2e !important;
+    border-radius: 0 !important;
+    top: 97px !important;
+    box-shadow: none !important;
+    width: 350px !important; }
+    .searchwp-live-search-results .searchwp-live-search-no-results {
+      font-family: "Montserrat-Light";
+      font-size: 16px;
+      color: #fff;
+      text-transform: uppercase;
+      text-decoration: none; }
+      .searchwp-live-search-results .searchwp-live-search-no-results em {
+        font-style: normal !important; }
+    .searchwp-live-search-results .searchwp-live-search-result {
+      font-family: "Montserrat-Light";
+      font-style: normal;
+      font-weight: none;
+      letter-spacing: 0.4px;
+      margin: 0px 0 0;
+      padding-top: 23px;
+      padding-bottom: 23px;
+      border-bottom: 1px solid #003b6b;
+      padding-left: 25px;
+      position: relative;
+      z-index: 1; }
+      .searchwp-live-search-results .searchwp-live-search-result:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0;
+        -webkit-transform: scale3d(0.7, 1, 1);
+        transform: scale3d(0.7, 1, 1);
+        -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+        transition: transform 0.4s, opacity 0.4s;
+        -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+        transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#007ddc+0,003b6b+79 */
+        background: #007ddc;
+        /* Old browsers */
+        background: -moz-linear-gradient(45deg, #007ddc 0%, #003b6b 79%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(45deg, #007ddc 0%, #003b6b 79%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(45deg, #007ddc 0%, #003b6b 79%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007ddc', endColorstr='#003b6b',GradientType=1 );
+        /* IE6-9 fallback on horizontal gradient */ }
+      .searchwp-live-search-results .searchwp-live-search-result:hover:before {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0); }
+      .searchwp-live-search-results .searchwp-live-search-result:last-of-type {
+        border-bottom: none;
+        padding-bottom: 20px !important; }
+      .searchwp-live-search-results .searchwp-live-search-result h2 a {
+        font-size: 13px;
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding-right: 40px; }
+      .searchwp-live-search-results .searchwp-live-search-result p {
+        display: none; } }
+
+/* Media Query */
+@media screen and (min-width: 1400px) {
+  .searchwp-live-search-results {
+    width: 525px !important; } }
+
+/* Media Query */
+@media screen and (min-width: 1775px) {
+  .searchwp-live-search-results {
+    width: 550px !important; } }
 
 /* Media Query */

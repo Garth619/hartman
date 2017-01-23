@@ -337,8 +337,7 @@ jQuery(".close_wrapper").click(function(){
  });
  
 
-
-
+ 
 // Disables nav cick function on smaller screens after page load only
 
 
@@ -363,11 +362,28 @@ function checkWidth() {
 	    
        jQuery("nav.desktop li.menu-item-has-children a").click(function(){
 	        
- 	       	jQuery('ul.sub-menu').removeClass('active');
- 	        jQuery(this).next('ul.sub-menu').toggleClass('active');
+					
+					
+					
+					
+		jQuery('ul.sub-menu').removeClass('active');
+		jQuery(this).next('ul.sub-menu').addClass('active');
+		
+		
+		
+		
+		 // jQuery(this).next('ul.sub-menu').toggleClass('active');
+ 	   // jQuery('ul.sub-menu').not(this).toggleClass('hide'); something along these lines needs to target correctly http://www.w3schools.com/jquery/jquery_traversing_siblings.asp
+					
+					
+					
+					
+					
+
+ 	        
 
 
-// 						jQuery(this).next('ul.sub-menu').slideToggle();
+
 	        
 	     });
     		
@@ -381,30 +397,6 @@ function checkWidth() {
 checkWidth();
 
 
-
-
-
-
-
-
-
-
-
-        
-/*
-       jQuery("nav.desktop li.menu-item-has-children a").click(function(){
-	        
-// 	       	jQuery('ul.sub-menu').removeClass('active');
-// 	        jQuery(this).next('ul.sub-menu').toggleClass('active');
-
-
-						jQuery(this).next('ul.sub-menu').slideToggle();
-	        
-	     });
-    		
-*/
-    	   		
-    		
    
 
 
