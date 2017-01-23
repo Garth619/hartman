@@ -169,7 +169,7 @@
 		
 	</div><!-- view_more -->
 	
-	<div class="view_more desktop">
+	<div id="about_line_animation" class="view_more desktop">
 		
 		<a href="<?php the_field('case_results_view_all_link');?>"><?php the_field('case_results_desktp_button');?></a>
 		
@@ -182,6 +182,8 @@
 
 <section class="about_content">
 	
+	<div class="greyline"></div>
+	
 	<div class="blue_line"></div><!-- blue_line -->
 	
 	<div class="col_wrapper">
@@ -189,7 +191,19 @@
 	
 		<div class="col">
 		
-			<span class="largeheader"><?php the_field('about_content_header');?></span><!-- largeheader -->
+			
+			
+			<table class="blue_header_main">
+					
+					<tr>
+						<td class="header_blueline_main"></td><!-- blue_line -->
+						<td><h1><?php the_field('about_content_header');?></h1></td>
+					</tr>
+					
+			</table><!-- header_wrapper -->
+			
+			
+<!-- 			<span class="largeheader"><?php the_field('about_content_header');?></span> -->
 			
 			<span class="subheader"><?php the_field('about_excerpt_main_page');?></span><!-- subheader -->
 			
@@ -426,6 +440,8 @@
 		</div><!-- more_clients -->
 		
 	</div><!-- col_2 -->
+	
+	<div style="clear:both"></div>
 	
 </section><!-- addtional_about_content -->
 

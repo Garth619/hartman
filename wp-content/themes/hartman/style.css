@@ -51,7 +51,7 @@ body {
     left: -14px;
     opacity: 0;
     visibility: hidden;
-    transition: all .4s ease-in-out; }
+    transition: all .5s ease-in-out; }
   .content .blue_header_wrapper h1 {
     color: #003b6b;
     font-size: 80px;
@@ -482,7 +482,7 @@ nav.desktop {
             font-size: 15.8px; }
 
 .arrow_scroll {
-  margin-top: 59px;
+  padding-top: 59px;
   width: 100%;
   text-align: center;
   height: 66px;
@@ -679,24 +679,58 @@ nav.desktop {
     transform: translate3d(0, 0, 0); }
 
 /* About Content */
+.blue_header_main {
+  margin-left: -56px; }
+  .blue_header_main .header_blueline_main {
+    background: #007ddc;
+    width: 12px;
+    margin-left: -2px;
+    margin-top: 0px;
+    position: relative;
+    left: -12px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease-in-out; }
+  .blue_header_main h1 {
+    color: #003b6b;
+    font-size: 80px;
+    line-height: 86px;
+    font-family: "Utopia W01 Bd";
+    font-style: none;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-left: 43px; }
+
 .about_content {
   max-width: 1265px;
   margin: 0 auto;
-  border-left: 2px solid #e8e8e8;
   padding-top: 160px;
-  padding-bottom: 185px; }
+  padding-bottom: 185px;
+  position: relative;
+  overflow: hidden; }
+  .about_content .greyline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 0;
+    background: #e8e8e8;
+    z-index: 5; }
   .about_content .blue_line {
-    background: #007ddc;
-    width: 10px;
-    height: 310px;
-    float: left;
-    margin-left: -2px;
-    margin-top: 13px;
-    margin-right: 43px; }
+    /*
+		background:$bluelight;
+		width:10px;
+		height:310px;
+		float:left;
+		margin-left:-8px;
+		margin-top:13px;
+		margin-right:43px;
+*/ }
   .about_content .col_wrapper {
     overflow: hidden; }
     .about_content .col_wrapper .col {
-      width: 48%; }
+      width: 48%;
+      padding-left: 56px; }
       .about_content .col_wrapper .col span.largeheader {
         color: #003b6b;
         font-size: 85px;
@@ -941,7 +975,7 @@ nav.desktop {
         position: relative; }
       .addtional_about_content .col_2 .video_wrapper img.video_image {
         max-width: 100%;
-        height: 232px;
+        height: 200px;
         display: block; }
       .addtional_about_content .col_2 .video_wrapper img.play {
         position: absolute;
@@ -1743,7 +1777,9 @@ body.page-template-page-about .inner_main_no_sidebar .inner_container .inner_con
   width: 100%;
   max-width: 1000px;
   margin: 0px auto;
-  padding: 67px 0 0px; }
+  padding: 67px 0 0px;
+  position: relative;
+  left: -50px; }
   .about_icons_wrapper .about_icon {
     text-align: center;
     color: #101e2e;
@@ -2409,6 +2445,8 @@ a.single_attorney_link {
       display: inline-block;
       font-size: 15px; }
   /* About Content */
+  .blue_header_main h1 {
+    font-size: 78px; }
   .about_content {
     max-width: 1185px;
     width: 94%; }
@@ -2878,8 +2916,7 @@ a.single_attorney_link {
     padding-right: 0px;
     width: 91%;
     border-left: 2px solid #e8e8e8;
-    padding-left: 0;
-    overflow: hidden; }
+    padding-left: 0; }
     .addtional_about_content .bluelinetwo {
       background: #007ddc;
       float: left;
@@ -2985,7 +3022,9 @@ a.single_attorney_link {
   .inner_main_no_sidebar .inner_container .inner_content {
     padding-left: 7%; }
   .content .blue_header_wrapper h1 {
-    margin-left: 7%; } }
+    margin-left: 7%; }
+  .about_icons_wrapper {
+    left: 0; } }
 
 /* Media Query */
 @media screen and (max-width: 1145px) {
@@ -3310,26 +3349,41 @@ a.single_attorney_link {
       padding: 25px 20px;
       top: 30px; }
   /* About Content */
+  .blue_header_main {
+    margin-left: 0; }
+    .blue_header_main .header_blueline_main {
+      display: none; }
+    .blue_header_main h1 {
+      font-size: 40px;
+      line-height: 44px;
+      margin-left: 0;
+      margin-top: 48px; }
   .about_content {
     border: none;
     margin-top: 94px;
     padding-right: 0;
     padding-top: 0px;
     border-top: 2px solid #e8e8e8;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+    overflow: visible; }
+    .about_content .greyline {
+      display: none; }
     .about_content .blue_line {
       float: none;
       display: block;
       margin: -6px auto 0;
       width: 80px;
-      height: 10px; }
-    .about_content .col_wrapper .col span.largeheader {
-      font-size: 40px;
-      line-height: 44px;
-      margin-top: 45px; }
-    .about_content .col_wrapper .col span.subheader {
-      font-size: 16px;
-      line-height: 28px; }
+      height: 10px;
+      background: #007ddc; }
+    .about_content .col_wrapper .col {
+      padding-left: 0; }
+      .about_content .col_wrapper .col span.largeheader {
+        font-size: 40px;
+        line-height: 44px;
+        margin-top: 45px; }
+      .about_content .col_wrapper .col span.subheader {
+        font-size: 16px;
+        line-height: 28px; }
   /* Reasons */
   .reasons {
     padding: 100px 0; }
@@ -3651,7 +3705,17 @@ a.single_attorney_link {
     width: 100%; }
   body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio td.bio_content_cell .sidebar_bio_content {
     margin-left: 45px; }
-  /* Footer */ }
+  /* Footer */
+  .about_icons_wrapper {
+    flex-direction: column; }
+    .about_icons_wrapper .about_icon {
+      width: 100%;
+      margin-bottom: 75px; }
+      .about_icons_wrapper .about_icon:last-of-type {
+        margin-bottom: 0; }
+      .about_icons_wrapper .about_icon img {
+        width: 100px;
+        height: 100px; } }
 
 /* Media Query */
 @media screen and (max-width: 545px) {
@@ -3832,16 +3896,6 @@ a.single_attorney_link {
         .inner_main_no_sidebar .inner_container .inner_content .col:last-of-type {
           padding: 0;
           margin-top: 0; }
-  .about_icons_wrapper {
-    flex-direction: column; }
-    .about_icons_wrapper .about_icon {
-      width: 100%;
-      margin-bottom: 75px; }
-      .about_icons_wrapper .about_icon:last-of-type {
-        margin-bottom: 0; }
-      .about_icons_wrapper .about_icon img {
-        width: 100px;
-        height: 100px; }
   /* Contact */
   .contact_wrapper {
     padding-right: 0px; }

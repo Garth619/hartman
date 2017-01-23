@@ -200,7 +200,32 @@
 
 jQuery(document).ready(function(){
 
+	
+	
+// Greyline Animation inAboiut Section
+
+
+var waypointabout = new Waypoint({
+  element: document.getElementById('about_line_animation'),
+  handler: function(direction) {
+    
+	
+	jQuery(".about_content .greyline").animate({height: '100%'}, 1200);
+// 	jQuery(".header_blue_line").delay(200).animate({left: '-2px'}, 500);
+	jQuery(".about_content .header_blueline_main").delay(800).queue(function(){
 		
+		
+		jQuery(this).css({"opacity":"1","visibility":"visible","left":"-2px"});
+		
+		
+	});
+
+	
+	
+		}
+})	
+
+	
 
 new Vivus('text',
    {
@@ -304,6 +329,8 @@ new Vivus('text3',
     
    }
  );
+ 
+
 
 
 // Six reasons red line Animation
@@ -328,7 +355,7 @@ var waypoint = new Waypoint({
 
 <?php endif;?>
 
-<?php if(is_page_template( 'page-about.php') || is_page_template('page-attorneysdirectory.php') || is_page_template('page-bio.php')): ?>
+<?php if(is_page_template( 'page-about.php') || is_page_template('page-contact.php') || is_page_template('page-videos.php') || is_page_template('page-testimonials.php') || is_page_template('page-attorneysdirectory.php') || is_page_template('page-bio.php') || is_page_template('page-caseresults.php')): ?>
 
 <script type="text/javascript">
 

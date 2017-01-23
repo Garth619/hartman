@@ -79,7 +79,7 @@ body {
 				left:-14px;
 				opacity:0;
 				visibility: hidden;
-				transition:all .4s ease-in-out;
+				transition:all .5s ease-in-out;
 				
 			}
 			h1 {
@@ -659,7 +659,7 @@ nav.desktop {
 
 
 .arrow_scroll {
-	margin-top:59px;
+	 padding-top: 59px;
 	width:100%;
 	text-align: center;
 	height:66px;
@@ -899,27 +899,79 @@ nav.desktop {
 
 /* About Content */
 
+
+
+
+.blue_header_main {
+	margin-left:-56px;
+	.header_blueline_main {
+		background:$bluelight;
+		width:12px;
+		margin-left:-2px;
+		margin-top:0px;
+		position: relative;
+		left:-12px;
+		opacity:0;
+		visibility: hidden;
+		transition:all .5s ease-in-out;
+	}
+	h1 {
+		color:$bluedark;
+		font-size:80px;
+		line-height: 86px;
+		font-family: $utopiabold;
+		font-style: none;
+		font-weight: normal;
+		margin-bottom:0px;
+		margin-left: 43px;
+	}
+}
+
+
+
+
 .about_content {
 	max-width:1265px;
 	margin:0 auto;
-	border-left:2px solid $grey;
+// 	border-left:2px solid $grey;
 	padding-top:160px;
 	padding-bottom:185px;
 	
+	position: relative;
+	overflow: hidden;
+	.greyline {
+			position: absolute;
+			top:0;
+			left:0;
+			width:2px;
+			height:0;
+			background: #e8e8e8;
+			z-index:5;
+		}
+
 	.blue_line {
+
+/*
 		background:$bluelight;
 		width:10px;
 		height:310px;
 		float:left;
-		margin-left:-2px;
+		margin-left:-8px;
 		margin-top:13px;
 		margin-right:43px;
+*/
+
 	}
 	
 	.col_wrapper {
 		overflow: hidden;
+		
+		.col:first-of-type {
+			 
+		}
 		.col {
 			width:48%;
+			padding-left:56px;
 			span.largeheader {
 				color:$bluedark;
 				font-size:85px;
@@ -936,6 +988,7 @@ nav.desktop {
 				display: block;
 				margin-bottom:35px;
 				 margin-top: 25px;
+				
 			}
 			span.content_header {
 				color:$bluelight;
@@ -943,7 +996,9 @@ nav.desktop {
 				text-transform: uppercase;
 				font-size:20px;
 				line-height: 31px;
+				
 			}
+			
 		}
 		.col:first-of-type {
 			float:left;
@@ -1234,7 +1289,7 @@ nav.desktop {
 			a {display: block;position: relative;}
 			img.video_image {
 				max-width:100%;
-				height: 232px;
+				height: 200px;
 				display: block;
 			}
 			img.play {
@@ -2317,6 +2372,8 @@ body.page-template-page-about, body.page-template-page-attorneysdirectory {
 		max-width: 1000px;
 		margin: 0px auto;
 		padding:67px 0 0px;
+		position: relative;
+		left:-50px;
 		.about_icon {
 			text-align: center;
 			color:$black;
@@ -3220,6 +3277,18 @@ a.single_attorney_link {
 }
 
 /* About Content */
+
+
+.blue_header_main {
+
+	.header_blueline_main {
+		
+	}
+	h1 {
+		font-size:78px;
+		
+	}
+}
 
 .about_content {
 	 max-width: 1185px;
@@ -4302,6 +4371,11 @@ html.fixed, body.fixed {
 
 /* Additional Content */
 
+
+
+
+
+
 .addtional_about_content {
 	 max-width: 1185px;
 	 margin: 0 auto;
@@ -4310,7 +4384,7 @@ html.fixed, body.fixed {
     width: 91%;
     border-left: 2px solid #e8e8e8;
     padding-left:0;
-    overflow: hidden;
+//     overflow: hidden;
     .bluelinetwo {
 	    background: $bluelight;
 	    float: left;
@@ -4714,6 +4788,10 @@ footer {
 			margin-left: 7%;
 		}
 	}
+}
+
+.about_icons_wrapper {
+	left:0;
 }
 
 
@@ -5748,6 +5826,22 @@ a.single_attorney_link {
 
 /* About Content */
 
+.blue_header_main {
+	margin-left:0;
+	.header_blueline_main {
+		display: none;
+	}
+	h1 {
+		font-size:40px;
+		line-height: 44px;
+		margin-left:0;
+		margin-top: 48px;
+	}
+}
+
+
+
+
 .about_content {
 	border:none;
 	margin-top:94px;
@@ -5755,18 +5849,29 @@ a.single_attorney_link {
 	padding-top:0px;
 	border-top:2px solid #e8e8e8;
 	padding-bottom: 30px;
+	overflow:visible;
+	.greyline {
+		display: none;
+	}
 	.blue_line {
 		float:none;
 		display: block;
 		margin:-6px auto 0;
 		width:80px;
 		height:10px;
+		background:$bluelight;
+		
+		
+		
+		
+
+
 	}
 	
 	.col_wrapper {
 		
 		.col {
-			
+			padding-left:0;
 			span.largeheader {
 				font-size:40px;
 				line-height: 44px;
@@ -6756,7 +6861,20 @@ footer {
 }
 
 
- 	
+ 	.about_icons_wrapper {
+	flex-direction: column;
+	.about_icon {
+		width:100%;
+		margin-bottom:75px;
+		&:last-of-type {
+			margin-bottom:0;
+		}
+		img {
+			width:100px;
+			height:100px;
+		}
+	}
+}
 	
 
 
@@ -7207,20 +7325,7 @@ header {
 	}
 
 
-.about_icons_wrapper {
-	flex-direction: column;
-	.about_icon {
-		width:100%;
-		margin-bottom:75px;
-		&:last-of-type {
-			margin-bottom:0;
-		}
-		img {
-			width:100px;
-			height:100px;
-		}
-	}
-}
+
 
 
 
