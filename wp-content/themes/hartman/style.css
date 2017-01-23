@@ -54,7 +54,7 @@ body {
     transition: all .5s ease-in-out; }
   .content .blue_header_wrapper h1 {
     color: #003b6b;
-    font-size: 80px;
+    font-size: 85px;
     line-height: 86px;
     font-family: "Utopia W01 Bd";
     font-style: none;
@@ -70,7 +70,7 @@ body {
       color: #f32923; }
   .content h1 {
     color: #003b6b;
-    font-size: 80px;
+    font-size: 85px;
     line-height: 86px;
     font-family: "Utopia W01 Bd";
     font-style: none;
@@ -197,22 +197,28 @@ nav.desktop {
   nav.desktop ul.menu {
     display: flex;
     justify-content: space-around; }
-    nav.desktop ul.menu > li.menu-item-has-children > a:after {
-      content: "";
-      width: 0px;
-      height: 0px;
-      float: right;
-      border-left: 5px solid transparent;
-      border-right: 5px solid transparent;
-      border-top: 5px solid #007ddc;
-      position: relative;
-      top: 4px;
-      left: 5px; }
-    nav.desktop ul.menu > li.menu-item-has-children:hover > ul.sub-menu {
-      bottom: -43px;
-      opacity: 1;
-      visibility: visible;
-      z-index: 0; }
+    nav.desktop ul.menu > li.menu-item-has-children {
+      /*
+			&:hover {
+				> ul.sub-menu {
+					bottom:-43px;
+					opacity:1;
+					visibility: visible;
+					z-index:0;
+				}
+			}
+*/ }
+      nav.desktop ul.menu > li.menu-item-has-children > a:after {
+        content: "";
+        width: 0px;
+        height: 0px;
+        float: right;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #007ddc;
+        position: relative;
+        top: 4px;
+        left: 5px; }
     nav.desktop ul.menu > li.current-menu-ancestor a {
       color: #007ddc; }
     nav.desktop ul.menu li.search {
@@ -243,14 +249,16 @@ nav.desktop {
         text-decoration: none; }
         nav.desktop ul.menu > li a:hover {
           color: #003b6b; }
+      nav.desktop ul.menu > li > ul.sub-menu.active {
+        bottom: -43px; }
       nav.desktop ul.menu > li > ul.sub-menu {
         background: #101e2e;
         position: absolute;
         bottom: 0px;
         text-align: center;
         transition: all .2s ease-in-out;
-        opacity: 0;
-        visibility: hidden;
+        opacity: 1;
+        visibility: visible;
         width: 100%;
         left: 0;
         padding-left: 0%;
@@ -694,7 +702,7 @@ nav.desktop {
     z-index: 10; }
   .blue_header_main h1 {
     color: #003b6b;
-    font-size: 80px;
+    font-size: 85px;
     line-height: 86px;
     font-family: "Utopia W01 Bd";
     font-style: none;

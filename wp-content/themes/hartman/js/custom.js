@@ -342,6 +342,10 @@ jQuery(".close_wrapper").click(function(){
 // Disables nav cick function on smaller screens after page load only
 
 
+
+
+
+
 function checkWidth() {
     
     if (jQuery(window).width() < 1200) {
@@ -355,12 +359,55 @@ function checkWidth() {
     	   		
     		
     } else {
+	    
+	    
+       jQuery("nav.desktop li.menu-item-has-children a").click(function(){
+	        
+ 	       	jQuery('ul.sub-menu').removeClass('active');
+ 	        jQuery(this).next('ul.sub-menu').toggleClass('active');
 
-    }
+
+// 						jQuery(this).next('ul.sub-menu').slideToggle();
+	        
+	     });
+    		
+
+	    	 
+ 	      
+ 	  }
 };
 
 
 checkWidth();
+
+
+
+
+
+
+
+
+
+
+
+        
+/*
+       jQuery("nav.desktop li.menu-item-has-children a").click(function(){
+	        
+// 	       	jQuery('ul.sub-menu').removeClass('active');
+// 	        jQuery(this).next('ul.sub-menu').toggleClass('active');
+
+
+						jQuery(this).next('ul.sub-menu').slideToggle();
+	        
+	     });
+    		
+*/
+    	   		
+    		
+   
+
+
 
 
 

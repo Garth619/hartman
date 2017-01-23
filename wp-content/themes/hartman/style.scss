@@ -84,7 +84,7 @@ body {
 			}
 			h1 {
 				color:$bluedark;
-				font-size:80px;
+				font-size:85px;
 				line-height: 86px;
 				font-family: $utopiabold;
 				font-style: none;
@@ -105,7 +105,7 @@ body {
 			}
 		h1 {
 			color:$bluedark;
-			font-size:80px;
+			font-size:85px;
 			line-height: 86px;
 			font-family: $utopiabold;
 			font-style: none;
@@ -291,6 +291,7 @@ nav.desktop {
 			}
 			}
 			
+/*
 			&:hover {
 				> ul.sub-menu {
 					bottom:-43px;
@@ -299,6 +300,7 @@ nav.desktop {
 					z-index:0;
 				}
 			}
+*/
 		}
 		> li.current-menu-ancestor {
 				a {
@@ -339,15 +341,19 @@ nav.desktop {
 				}
 			
 			}
+			> ul.sub-menu.active {
+				bottom:-43px;
+			
+			}
 			> ul.sub-menu {
 				background:$black;
 				position: absolute;
  				bottom:0px;
- text-align: center;
-// bottom:-43px;
+ 				text-align: center;
+ 				// bottom:-43px;
 				transition:all .2s ease-in-out;
-				opacity:0;
-				visibility: hidden;
+				opacity:1;
+				visibility: visible;
 				width:100%;
 				left:0;
 				padding-left:0%;
@@ -918,7 +924,7 @@ nav.desktop {
 	}
 	h1 {
 		color:$bluedark;
-		font-size:80px;
+		font-size:85px;
 		line-height: 86px;
 		font-family: $utopiabold;
 		font-style: none;
