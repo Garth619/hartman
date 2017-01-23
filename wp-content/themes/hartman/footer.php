@@ -306,9 +306,6 @@ new Vivus('text3',
  );
 
 
-
-
-
 // Six reasons red line Animation
 
 
@@ -328,6 +325,45 @@ var waypoint = new Waypoint({
 }); // Doucment Ready
 
 </script>
+
+<?php endif;?>
+
+<?php if(is_page_template( 'page-about.php') || is_page_template('page-attorneysdirectory.php') || is_page_template('page-bio.php')): ?>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function(){
+
+	
+	// greyline that grows on content areas
+	
+	
+	var waypointthree = new Waypoint({
+  element: document.getElementById('greylinestart'),
+  handler: function(direction) {
+    
+	jQuery(".greyline").animate({height: '100%'}, 1200);
+// 	jQuery(".header_blue_line").delay(200).animate({left: '-2px'}, 500);
+	jQuery(".header_blue_line").delay(800).queue(function(){
+		
+		
+		jQuery(this).css({"opacity":"1","visibility":"visible","left":"-2px"});
+		
+		
+	});
+	
+	
+		
+		
+		}
+})	
+	
+
+
+}); // document ready
+
+</script>
+
 
 <?php endif;?>
 

@@ -48,7 +48,10 @@ body {
     margin-top: 0px;
     margin-right: 43px;
     position: relative;
-    left: -2px; }
+    left: -14px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease-in-out; }
   .content .blue_header_wrapper h1 {
     color: #003b6b;
     font-size: 80px;
@@ -151,7 +154,7 @@ header {
       float: left;
       color: #fff;
       text-align: center;
-      padding: 25px 55px;
+      padding: 25px 55px 26px;
       margin-left: 25px;
       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f35123+62 */
       background: #f32323;
@@ -1182,7 +1185,8 @@ nav.desktop {
             padding-bottom: 10px;
             background: transparent;
             padding-right: 25px;
-            border-radius: 0; }
+            border-radius: 0;
+            -webkit-appearance: none; }
           .request .form .gform_wrapper ul li input {
             margin-bottom: 47px; }
           .request .form .gform_wrapper ul li textarea {
@@ -1208,7 +1212,7 @@ nav.desktop {
             right: 9px; }
         .request .form .gform_wrapper ul li#field_1_6 {
           display: none; }
-  .request .form ul li ::-webkit-input-plasceholder {
+  .request .form ul li ::-webkit-input-placeholder {
     color: #003b6b; }
   .request .form ul li ::-moz-placeholder {
     color: #003b6b; }
@@ -1704,7 +1708,14 @@ body.page-template-page-about .inner_main_no_sidebar .inner_container .inner_con
   padding: 148px 0px 280px;
   margin: 0 auto -170px;
   min-height: 700px;
-  border-left: 2px solid #e8e8e8; }
+  position: relative; }
+  .inner_main_no_sidebar .greyline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 0;
+    background: #e8e8e8; }
   .inner_main_no_sidebar .inner_container {
     margin: -13px 0 0 0; }
     .inner_main_no_sidebar .inner_container .inner_content {

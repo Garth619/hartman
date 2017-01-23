@@ -13,6 +13,8 @@
 
 		<div class="inner_main_no_sidebar">
 			
+			<div class="greyline"></div>
+			
 			<div class="inner_container">
 				
 				
@@ -34,7 +36,7 @@
 									
 									<?php if(get_field('attorney_image')):?>
 								
-										<img src="<?php the_field('attorney_image');?>" alt="<?php the_title();?>/>
+										<img src="<?php the_field('attorney_image');?>" alt="<?php the_title();?>"/>
 								
 										<?php else:?>
 								

@@ -76,7 +76,11 @@ body {
 				margin-top:0px;
 				margin-right:43px;
 				position: relative;
-				left:-2px;
+				left:-14px;
+				opacity:0;
+				visibility: hidden;
+				transition:all .4s ease-in-out;
+				
 			}
 			h1 {
 				color:$bluedark;
@@ -215,7 +219,7 @@ header {
 				float:left;
 				color:#fff;
 				text-align: center;
-				padding: 25px 55px;
+				padding: 25px 55px 26px;
 				margin-left:25px;
 				
 				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f35123+62 */
@@ -1557,6 +1561,7 @@ box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.2);
 						background: transparent;
 						padding-right:25px;
 						border-radius: 0;
+						-webkit-appearance: none;
 						
 					}
 					input {
@@ -1596,8 +1601,9 @@ box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.2);
 			}
 		}
 	}
-	.form ul li ::-webkit-input-plasceholder {
+	.form ul li ::-webkit-input-placeholder {
     color:$bluedark;
+    
    }
    .form ul li ::-moz-placeholder {
     color:$bluedark;
@@ -2262,7 +2268,16 @@ body.page-template-page-about, body.page-template-page-attorneysdirectory {
 		padding:148px 0px 280px;
 		margin: 0 auto -170px;
 		min-height:700px;
-		border-left: 2px solid #e8e8e8;
+// 		border-left: 2px solid #e8e8e8;
+		position: relative;
+		.greyline {
+			position: absolute;
+			top:0;
+			left:0;
+			width:2px;
+			height:0;
+			background: #e8e8e8;
+		}
 		.inner_container {
 			margin: -13px 0 0 0;
 			.inner_content {
@@ -7246,6 +7261,9 @@ header {
 		}
 	}
 }
+
+
+
 
 
 
