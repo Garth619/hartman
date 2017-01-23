@@ -36,8 +36,40 @@
 					
 					<div class="video_page_wrapper">
 						
-
-												
+					
+					
+					
+						
+				
+<!--
+						
+						
+						
+						
+						
+						
+						
+						<div class="video_link">
+							
+							<div class="single_video">
+								
+								<img src="<?php bloginfo('template_directory');?>/images/video_ph.png"/>
+								<span class="video_title">Video Title Goes Here</span>
+								
+							
+							<div class="video_page_overlay">
+								
+								<span class="video_page_title"><script src="//fast.wistia.com/embed/medias/fvynu51wm6.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_fvynu51wm6 popover=true popoverContent=link" style="display:inline"><a href="#">View Video	</a></span></span>
+							
+							</div>
+							
+							
+						</div>
+							
+							
+					</div>
+-->
+						
 						<div class="video_link">
 							
 							<div class="single_video">

@@ -2290,8 +2290,10 @@ a.single_attorney_link {
         font-family: "Montserrat-Light";
         font-size: 15px;
         letter-spacing: 0.8px;
-        padding-top: 140px;
-        display: inline-block; }
+        display: inline-block;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%); }
         .video_page_wrapper .video_link .video_page_overlay span.video_page_title a {
           color: #fff; }
     .video_page_wrapper .video_link .single_video {
