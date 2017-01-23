@@ -19268,6 +19268,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp-content\/themes\/hartman\/images\/sp_checkmark.png": {
+		"ft": 32768,
+		"iS": 1570,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/sp_checkmark.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/themes\/hartman\/images\/sp_checkmark.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -19278,11 +19286,41 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/wp-content\/themes\/hartman\/images\/sp_checkmark2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/sp_checkmark2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/sp_checkmark3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/sp_checkmark3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/wp-content\/themes\/hartman\/images\/sp_checkmark_animated.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/sp_checkmark_animated.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/hartman\/images\/sp_checkmark_hover.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/sp_checkmark_hover.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -19379,7 +19417,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/js\/custom-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/wp-content\/themes\/hartman\/js\/jquery-match-height\/.eslintrc": {

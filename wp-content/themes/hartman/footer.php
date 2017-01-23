@@ -355,7 +355,7 @@ var waypoint = new Waypoint({
 
 <?php endif;?>
 
-<?php if(is_page_template( 'page-about.php') || is_page_template('page-contact.php') || is_page_template('page-videos.php') || is_page_template('page-testimonials.php') || is_page_template('page-attorneysdirectory.php') || is_page_template('page-bio.php') || is_page_template('page-caseresults.php')): ?>
+<?php if(is_page_template( 'page-about.php') || is_page_template('page-directory.php') || is_page_template('page-contact.php') || is_page_template('page-videos.php') || is_page_template('page-testimonials.php') || is_page_template('page-attorneysdirectory.php') || is_page_template('page-bio.php') || is_page_template('page-caseresults.php')): ?>
 
 <script type="text/javascript">
 

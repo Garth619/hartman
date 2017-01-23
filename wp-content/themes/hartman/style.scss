@@ -393,7 +393,7 @@ nav.desktop {
 		background: $grey;
 		border:none;
 		font-size:13px;
-		padding:12px 45px 9px 35px;
+		padding:12px 45px 9px 12px;
 		width:100%;
 		font-family: $montserratlight;
 		font-size:13px;
@@ -914,6 +914,7 @@ nav.desktop {
 		opacity:0;
 		visibility: hidden;
 		transition:all .5s ease-in-out;
+		z-index: 10;
 	}
 	h1 {
 		color:$bluedark;
@@ -1288,8 +1289,8 @@ nav.desktop {
 			box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
 			a {display: block;position: relative;}
 			img.video_image {
-				max-width:100%;
-				height: 200px;
+				width:100%;
+				height: 244px;
 				display: block;
 			}
 			img.play {
@@ -1314,11 +1315,11 @@ nav.desktop {
 			background:$bluelight;
 			height:175px;
 			float:left;
-			margin-top:63px;
+			margin-top: 53px;
 			margin-left:-1px;
 		}
 		.testimonial {
-			margin-top:61px;
+			margin-top:52px;
 			margin-left:40px;
 			font-family: $montserratreg;
 			
@@ -1612,7 +1613,7 @@ box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.2);
 						font-family: $utopiareg;
 						color:$bluedark;
 						font-size:17px;
-						padding-bottom:10px;
+						padding-bottom:16px;
 						background: transparent;
 						padding-right:25px;
 						border-radius: 0;
@@ -1744,12 +1745,12 @@ body img.gform_ajax_spinner {
 		text-transform: uppercase;
 		font-size:11px;
 		position: absolute;
-		top:40px;
+		top:43px;
 		left:0;
 	}
 	
 	.instruction.validation_message {
-		top:54px;
+		top:57px;
 	}
 	
 	
@@ -2418,7 +2419,8 @@ body.page-template-page-about, body.page-template-page-attorneysdirectory {
 			height:175px;
 			text-align: center;
 			padding:60px 0 0;
-		
+			position: relative;
+			z-index:1;
 			float:left;
 			margin-bottom:40px;
 			&:nth-of-type(3n + 1) {
@@ -2446,19 +2448,42 @@ body.page-template-page-about, body.page-template-page-attorneysdirectory {
 				color:$black;
 			}
 			&:hover {
-
-				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f2236+0,075593+62 */
-				background: #0f2236; /* Old browsers */
-				background: -moz-linear-gradient(45deg,  #0f2236 0%, #075593 62%); /* FF3.6-15 */
-				background: -webkit-linear-gradient(45deg,  #0f2236 0%,#075593 62%); /* Chrome10-25,Safari5.1-6 */
-				background: linear-gradient(45deg,  #0f2236 0%,#075593 62%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+					span.large_header, span.sub_header {
+						color:#fff;
+					}
+			}
+			&:before {
+					
+					content:"";
+					width:100%;
+					height:100%;
+					position: absolute;
+					top:0;
+					left:0;
+					z-index: -1;
+					opacity: 0;
+					-webkit-transform: scale3d(0.7, 1, 1);
+					transform: scale3d(0.7, 1, 1);
+					-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+					transition: transform 0.4s, opacity 0.4s;
+					-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+					transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+					
+					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f2236+0,075593+62 */
+					background: #0f2236; /* Old browsers */
+					background: -moz-linear-gradient(45deg,  #0f2236 0%, #075593 62%); /* FF3.6-15 */
+					background: -webkit-linear-gradient(45deg,  #0f2236 0%,#075593 62%); /* Chrome10-25,Safari5.1-6 */
+					background: linear-gradient(45deg,  #0f2236 0%,#075593 62%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f2236', endColorstr='#075593',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-
-				span {
+				}
+				
+			&:hover:before {
+					opacity: 1;
+					-webkit-transform: translate3d(0, 0, 0);
+					transform: translate3d(0, 0, 0);
 					color:#fff;
 				}
-			}
+			
 		
 	}
 }
@@ -2644,6 +2669,7 @@ body.page-template-page-about, body.page-template-page-attorneysdirectory {
 							border-bottom:1px solid $bluedark;
 						}
 					}
+					> a:hover {color:#fff}
 
 						> a {
 							color:$bluedark;
@@ -2657,15 +2683,42 @@ body.page-template-page-about, body.page-template-page-attorneysdirectory {
 							border-top:1px solid $bluedark;
 							padding:25px 0;
 							display: block;
-							&:hover {
-								color:#fff;
+							position:relative;
+							z-index:1;
+							transition:all .2s ease-in-out;
+							&:before {
+								
+								content:"";
+								width:100%;
+								height:100%;
+								position: absolute;
+								top:0;
+								left:0;
+								z-index: -1;
+								opacity: 0;
+								-webkit-transform: scale3d(0.7, 1, 1);
+								transform: scale3d(0.7, 1, 1);
+								-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+								transition: transform 0.4s, opacity 0.4s;
+								-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+								transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+								
+								
 								
 								/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f2236+0,075593+100 */
 								background: #0f2236; /* Old browsers */
 								background: -moz-linear-gradient(45deg,  #0f2236 0%, #075593 100%); /* FF3.6-15 */
 								background: -webkit-linear-gradient(45deg,  #0f2236 0%,#075593 100%); /* Chrome10-25,Safari5.1-6 */
 								background: linear-gradient(45deg,  #0f2236 0%,#075593 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f2236', endColorstr='#075593',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f2236', endColorstr='#075593',GradientType=1 ); 							
+							}
+							&:hover:before {
+								opacity: 1;
+								-webkit-transform: translate3d(0, 0, 0);
+								transform: translate3d(0, 0, 0);
+							
+									
+								
 							}
 						}
 					}
@@ -2948,7 +3001,7 @@ a.single_attorney_link {
 			font-size:15px;
 			letter-spacing: 0.8px;
 			position: relative;
-			font-weight: 600;
+// 			font-weight: 600;
 			text-transform: uppercase;
 			&:hover {
 				.attorney_overlay {
@@ -4413,16 +4466,16 @@ html.fixed, body.fixed {
 		width:100%;
 		padding-right:0;
 		.video_wrapper {
-			margin: 65px 0 0 22px;
+			margin: 65px 0 0 32px;
 			float:right;
 			width:300px;
 			
 			img.video_image {
-				
+				height:180px;
 			}
 			img.play {
 				right: 122px;
-				top: 52px;
+				top: 62px;
 			}
 		}
 		.blueline {
@@ -4443,7 +4496,9 @@ html.fixed, body.fixed {
 }
 
 .more_clients {
-	
+	clear:both;
+	display: block;
+	 padding-top: 21px;
 	a {
 		
 		span {
@@ -5629,7 +5684,7 @@ a.single_attorney_link {
 				font-size:12px;
 				padding: 17px 15px;
 				margin-top:22px;
-				font-weight: 600;
+// 				font-weight: 600;
 			}
 		}
 		.lower_content {
@@ -7252,7 +7307,7 @@ header {
 
 
 .gform_footer {
-	
+	width:100%;
 	.gform_button {
 		width:100%;
 		padding:16px 0;
@@ -7266,11 +7321,11 @@ header {
 	}
 	
 	.gfield_description, .validation_message {
-		
+		top:50px;
 	}
 	
 	.instruction.validation_message {
-		
+		top:60px;
 	}
 	
 	
@@ -7281,11 +7336,17 @@ header {
 			display: none;
 		}
 		h1 {
-			font-size:51px;
-			line-height: 55px;
+			font-size:40px;
+			line-height: 44px;
 			margin-left: 20px;
 			padding-right:30px;
 		}
+	}
+	h1 {
+		font-size:40px;
+		line-height: 44px;
+	
+		
 	}
 }
 	
