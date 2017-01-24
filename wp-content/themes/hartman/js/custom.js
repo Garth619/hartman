@@ -207,10 +207,14 @@ $slick_slider = jQuery('.inner_case_wrapper');
   
 	jQuery('.svg_hover_wrapper').hide();
   
+  
+  
   jQuery('.single_reason').mouseenter(function(){
 	  
-	  jQuery(this).find('svg.mycheckmark').fadeOut(200);
-		jQuery(this).find('.svg_hover_wrapper').fadeIn(200);
+	  	jQuery(this).find('img.mobile_reasons_checkmark').hide();
+	  	
+			jQuery(this).find('svg.mycheckmark').fadeOut(200);
+			jQuery(this).find('.svg_hover_wrapper').fadeIn(200);
 		
 		
 			
@@ -225,6 +229,10 @@ $slick_slider = jQuery('.inner_case_wrapper');
 	
 	jQuery('.single_reason').mouseleave(function(){
 	  
+	 
+	  jQuery(this).find('img.mobile_reasons_checkmark').fadeIn(500);
+	  
+	  
 	  jQuery(this).find('svg.mycheckmark').fadeIn(200);
 		jQuery(this).find('.svg_hover_wrapper').fadeOut(200);
 		
@@ -237,7 +245,7 @@ $slick_slider = jQuery('.inner_case_wrapper');
 	// Sidebar Slide Toggle
 	
 	
-	jQuery('.sidebar ul.sub-menu').hide();
+// 	jQuery('.sidebar ul.sub-menu').hide();
 	
 	
 	jQuery('.sidebar li.menu-item-has-children a').click(function() {
@@ -297,7 +305,7 @@ $slick_slider = jQuery('.inner_case_wrapper');
 
   jQuery('.mobile_wrapper').click(function() {
 	  
-	  jQuery('nav.desktop').fadeIn();
+	  jQuery('nav.desktop').slideDown();
 	  
   });
   
@@ -313,7 +321,7 @@ jQuery( "<div class='close_wrapper'><div class='x_first'></div><div class='x_sec
 
 jQuery(".close_wrapper").click(function(){
 	        
-	  jQuery('nav.desktop').fadeOut();
+	  jQuery('nav.desktop').slideUp();
      
  });
  
@@ -324,14 +332,14 @@ jQuery(".close_wrapper").click(function(){
  
  jQuery('li.search').click(function(){
 	 
-	 jQuery('.search_wrapper').fadeIn();
+	 jQuery('.search_wrapper').slideDown();
 	 jQuery('html, body').addClass('fixed')
 	 
  });
  
  jQuery('.search_close_wrapper').click(function(){
 	 
-	 jQuery('.search_wrapper').fadeOut();
+	 jQuery('.search_wrapper').slideUp();
 	 jQuery('html, body').removeClass('fixed')
 	 
  });
@@ -339,6 +347,14 @@ jQuery(".close_wrapper").click(function(){
 
  
 // Disables nav cick function on smaller screens after page load only
+
+
+
+jQuery('.inner_search_wrapper input[type="text"]').click(function(){
+	
+// 	jQuery('body').css("overflow-x","hidden");
+	
+});
 
 
 
@@ -351,7 +367,9 @@ function checkWidth() {
         
        jQuery("nav.desktop li.menu-item-has-children a").click(function(){
 	        
-	        jQuery(this).next('ul.sub-menu').slideToggle(200);
+// 	        jQuery(this).next('ul.sub-menu').slideToggle(500);
+
+jQuery(this).next('ul.sub-menu').toggleClass('slide');
      
     		});
     		
@@ -459,13 +477,13 @@ jQuery('.video_thumb .video_thumb_overlay').hide();
 
 jQuery('.video_wrapper .video_thumb').mouseenter(function() {
 	
-	jQuery(this).children('.video_thumb_overlay').fadeIn(100);
+	jQuery(this).children('.video_thumb_overlay').fadeIn(300);
 	
 });
 
 jQuery('.video_wrapper .video_thumb').mouseleave(function() {
 	
-	jQuery(this).children('.video_thumb_overlay').fadeOut(100);
+	jQuery(this).children('.video_thumb_overlay').fadeOut(300);
 	
 });
 
@@ -478,13 +496,13 @@ jQuery('.col_2 .video_wrapper .video_overlay').hide();
 
 jQuery('.col_2 .video_wrapper').mouseenter(function() {
 	
-	jQuery(this).find('.video_overlay').fadeIn(100);
+	jQuery(this).find('.video_overlay').fadeIn(300);
 	
 });
 
 jQuery('.col_2 .video_wrapper').mouseleave(function() {
 	
-	jQuery(this).find('.video_overlay').fadeOut(100);
+	jQuery(this).find('.video_overlay').fadeOut(300);
 	
 });
 

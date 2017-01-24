@@ -300,25 +300,39 @@
 			
 			
 			
-			<?php if(get_field('six_reasons')): ?>
+		<?php if(get_field('six_reasons')): ?>
+			
+		
 			 
 				<?php while(has_sub_field('six_reasons')): ?>
 			 
-					
-					<div class="single_reason">
-				
-						<img class="icon" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.svg"/>
-				
+						
+						<div class="single_reason">
+						
+						<div id="svg_mobile">
+							
+							<img class="mobile_reasons_checkmark" src="<?php bloginfo('template_directory');?>/images/sp_checkmark2.svg"/>
+							
+							<div class="svg_hover_wrapper">
+							
+								<img class="check_hover" src="<?php bloginfo('template_directory');?>/images/sp_checkmark.png"/>
+							
+							</div><!-- svg_hover_wrapper -->
+
+
+						</div><!-- svg_1 -->
+						
 						<span class="sm_red_line"></span><!-- sm_red_line -->
 				
 						<span class="large_header"><?php the_sub_field('single_reason_title');?></span><!-- large_header -->
 				
 						<p><?php the_sub_field('single_reason_content');?></p>
 				
-					</div><!-- single_reason -->
-					
-	
-			   <?php endwhile; ?>
+			</div><!-- single_reason -->
+						
+						
+			
+			<?php endwhile; ?>
 			 
 			<?php endif; ?>
 			
@@ -446,7 +460,7 @@
 </section><!-- addtional_about_content -->
 
 
-<section class="community">
+<section id="community_trigger" class="community">
 	
 	<div class="give_back mymatch">
 		

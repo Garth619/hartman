@@ -202,7 +202,7 @@ jQuery(document).ready(function(){
 
 	
 	
-// Greyline Animation inAboiut Section
+// Greyline Animation in About Section
 
 
 var waypointabout = new Waypoint({
@@ -346,7 +346,28 @@ var waypoint = new Waypoint({
 			
 			});
 		}
-})	
+})
+
+
+
+// Dallas Gives Back Redline Animation 
+
+
+
+
+var waypoint = new Waypoint({
+  element: document.getElementById('community_trigger'),
+  handler: function(direction) {
+    
+	jQuery(".community .give_back .give_back_inner span.redline").animate({
+        
+        width: '100px'
+			
+			});
+		}
+})
+
+
  
 
 }); // Doucment Ready

@@ -122,6 +122,13 @@ body {
 			margin-bottom:3px;
 			
 		}
+		h3 {
+			color:#003b6b;
+			font-family: $montserratlight;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 18px;
+		}
 		p {
 			margin-bottom: 30px;
 		}
@@ -348,6 +355,10 @@ nav.desktop {
 			> ul.sub-menu.hide {
 				bottom:0;
 				
+			}
+			> ul.sub-menu.slide {
+				bottom:-43px;
+				z-index:10;
 			}
 			> ul.sub-menu {
 				background:$black;
@@ -593,7 +604,7 @@ nav.desktop {
 				}
 				.video_content {
 					float:left;
-					padding-left:30px;
+					padding-left: 27px;
 					color:#fff;
 					line-height: 21px;
 					max-width:250px;
@@ -602,14 +613,14 @@ nav.desktop {
 						font-family: $montserratbold;
 						letter-spacing: 2px;
 						
-						font-size:13px;
+						font-size:14px;
 						text-transform: uppercase;
 						
 					}
 					p {
 						font-family: $utopiabold;
 						letter-spacing: 0.4px;
-						font-size:15.8px;
+						font-size:16.8px;
 					}
 				}
 				
@@ -686,6 +697,8 @@ nav.desktop {
 			}
 			.dollar {
 				font-size: 46px;
+				 position: relative;
+				 top: -2px;
 			}
 
 			
@@ -979,6 +992,8 @@ nav.desktop {
 .practice_areas {
 	overflow: hidden;
 	margin-top:-27px;
+	position: relative;
+  z-index: 5;
 	.practice_area_wrapper {
 		.slick-list {
 			padding-top:27px;
@@ -1124,7 +1139,7 @@ nav.desktop {
 			top:0;
 			left:0;
 		}
-		svg {
+		svg, img.mobile_reasons_checkmark {
 			width:60px;
 			height:60px;
 		}
@@ -1161,7 +1176,7 @@ nav.desktop {
 			}
 			img.check_hover {
 				width:30px;
-				margin: 20px 0 0 0px;
+				margin: 20px auto 0px;
 			}
 		}
 		
@@ -1389,7 +1404,7 @@ nav.desktop {
 				margin-top:110px;
 			}
 			span.redline {
-				width:100px;
+				width:0px;
 				height:1px;
 				background:$red;
 				display: block;
@@ -1810,7 +1825,7 @@ body img.gform_ajax_spinner {
 					text-decoration: none;
 					transition: all .2s ease-in-out;
 					&:hover {
-						color:#101e2e;
+						color:#fff;
 					}
 				}
 			}
@@ -2025,7 +2040,7 @@ footer {
 			}
 		}
 		.video_wrapper {
-			margin-left:230px;
+			margin-left:245px;
 			margin-top:95px;
 			float:left;
 			position: relative;
@@ -2124,7 +2139,7 @@ footer {
 		>li.current-menu-ancestor {
 			
 			> ul.sub-menu { 
-				display: block !important;
+				display: block;
 				 li.current-menu-item {
 					 a {
 						 background: #fff;
@@ -2133,6 +2148,7 @@ footer {
 				}
 		}
 		> li.menu-item-has-children {
+			
 			> ul.sub-menu {
 
 				li.current-menu-item {
@@ -2152,7 +2168,7 @@ footer {
 						float:right;
 						margin-right:15px;
 						position: relative;
-						top:3px;
+						top:8px;
 						right: -29px;
 				 }
 			}
@@ -2167,12 +2183,16 @@ footer {
 						float:right;
 						margin-right:15px;
 						position: relative;
-						top:3px;
+						top:8px;
 						right: -29px;
 				 }
 			}
+			li {
+				
+			}
 			> a {
 				cursor: pointer;
+				
 			}
 				> a:after {
 						content:"";
@@ -2185,7 +2205,7 @@ footer {
 						margin-right:15px;
 						transition:all .2s ease-in-out;
 						position: relative;
-						top:3px;
+						top:8px;
 						right: -29px;
 					}
 				}
@@ -2201,7 +2221,7 @@ footer {
 				width:100%;
 				display: block;
 				border-top:1px solid $black;
-				padding:24px 40px 20px 35px;
+				padding:24px 33px 20px 35px;
 				transition: all .2s ease-in-out;
 				line-height: 19px;
 				
@@ -2224,6 +2244,7 @@ footer {
 			
 			}
 			ul.sub-menu {
+				display: none;
 				li {
 					
 					a {
@@ -2352,7 +2373,7 @@ body.page-template-page-about, body.page-template-page-attorneysdirectory {
 				display: block;
 				font-family: $montserratreg;
 				font-size:13px;
-				letter-spacing: 2px;
+				letter-spacing: 2.75px;
 				text-transform: uppercase;
 				font-weight: 600;
 				margin-top:28px;
@@ -2363,6 +2384,7 @@ body.page-template-page-about, body.page-template-page-attorneysdirectory {
 				text-transform: uppercase;
 				font-size:13px;
 				display: block;
+				letter-spacing: 2px;
 			}
 		}
 	}
@@ -3874,13 +3896,14 @@ a.single_attorney_link {
 		>li.menu-item-has-children {
 			> a {
 
-// 				padding-bottom:19px;
+// padding-bottom:19px;
 
-				&:after {
+				&:after { 
 				float:none;
 				position:relative;
 				top:14px;
 				left:17px;
+				
 			
 			}
 			}
@@ -3899,18 +3922,22 @@ a.single_attorney_link {
 		> li {
 			padding:0;
 			display: block;
-			margin-bottom:38px;
+margin-bottom:38px;
 			&:after {
 				content:"";
 				width:0;
 				height:0;
 				background: none;
+				float:none;
+				
 			}
 			&:hover:after {
 				content:"";
 				width:0;
 				height:0;
 				background: none;
+				float:none;
+				
 			}
 			a {
 				color:#fff;
@@ -3920,23 +3947,40 @@ a.single_attorney_link {
 					color:#007ddc;
 				}
 			}
+			> ul.sub-menu.slide {
+				max-height:3000px;
+				opacity:1;
+				visibility: visible;
+				padding-top:19px;
+				padding-bottom:19px;
+				margin-top:19px;
+				margin-bottom:-19px;
+				
+			}
 			> ul.sub-menu {
 				position: relative;
 				top:0;
 				width:auto;
-				opacity: 1;
-				visibility: visible;
+				max-height:0;
+				opacity:0;
+				visibility: hidden;
+				transition:all .3 ease-in-out;
+				
 				z-index:0;
 				background: none;
 				padding:0;
-				display:none;
-				overflow:hidden;
-				margin-top:19px;
 
-				//padding-top:19px;
-				/*padding-bottom:19px;
+				overflow:visible;
+// 		margin-top:19px;
+
+
+/*
+				padding-top:19px;
+				padding-bottom:19px;
 */
-				margin-bottom:-19px;
+
+
+// 				margin-bottom:-19px;
 				
 				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#075593+52,072f51+100 */
 				background: #075593; /* Old browsers */
@@ -3955,14 +3999,14 @@ a.single_attorney_link {
 				li {
 					display: block;
 					font-size:18px;
-					margin-bottom:38px;
+ 					margin-bottom:38px;
 					&:first-of-type {
 						a {
-							margin-top:19px;
+// 							margin-top:19px;
 						}
 					}
-					&:last-of-type {
-						margin-bottom:19px;
+					&:nth-last-child(2) {
+margin-bottom:0px;
 						a {
 							margin-bottom:0;
 						}
@@ -4115,6 +4159,7 @@ html.fixed, body.fixed {
 				font-family: $montserratlight;
 				display: block;
 				margin-top:13px;
+// 				letter-spacing: 2px;
 			}
 		}
 		
@@ -4461,7 +4506,7 @@ html.fixed, body.fixed {
 				text-align: left;
 			}
 			span.redline {
-				;
+				
 			}
 			.headline_wrapper {
 				text-align: left;
@@ -4758,7 +4803,8 @@ footer {
 .content {
 	.blue_header_wrapper {
 		h1 {
-			margin-left: 7%;
+			margin-left: 6%;
+			padding-right:0;
 		}
 	}
 }
@@ -5510,50 +5556,7 @@ a.single_attorney_link {
 @media screen and (max-width: 800px) {
 	
 
-	header {
-		height:70px;
-		border-bottom:1px solid #ccc;
-	.logo_wrapper {
-			height:70px;
-			padding: 6px 0 0 10px;
-			background: none;
-			img.logo {
-				padding: 0px 0 0 0px;
-				width:185px;
-				
-			}
-		}
-	.header_col_right {
-			background: none;
-		 .mobile_wrapper {
-			padding: 12px 28px 8px;
-			background: none;
-			.mobile_bar {
-				
-				&:last-of-type {
-					
-				}
-			}
-			span {
-				margin-top:8px;
-			}
-		}
-		
-		.free_consultation_wrapper {
-					height:70px;
-					padding: 13px 30px;
-				 span.sub_header {
-					
-				}
-				a.large_header {
-					
-				}
-			}
-		
-		
-	}
-	
-	}
+
 
 	.banner_wrapper {
 		margin-top:70px;
@@ -5564,10 +5567,12 @@ a.single_attorney_link {
 	}
 	
 	
+/*
 	.search_close_wrapper, .close_wrapper {
 		top:30px;
 		right:29px;
 	}
+*/
 	
 	
 } /* Media Query */
@@ -5575,7 +5580,44 @@ a.single_attorney_link {
 @media screen and (max-width: 730px) {
 	
 
-
+	header {
+		height:70px;
+		border-bottom:1px solid #ccc;
+	.logo_wrapper {
+			height:70px;
+			padding: 6px 0 0 10px;
+			background: none;
+			img.logo {
+				padding: 0px 0 0 0px;
+				width:185px;
+			}
+		}
+	.header_col_right {
+			background: none;
+		 .mobile_wrapper {
+			padding: 12px 28px 8px;
+			background: none;
+			.mobile_bar {
+				&:last-of-type {
+					
+				}
+			}
+			span {
+				margin-top:8px;
+			}
+		}
+		.free_consultation_wrapper {
+			height:70px;
+			padding: 13px 30px;
+			span.sub_header {
+					
+			}
+			a.large_header {
+					
+			}
+		}
+	}
+}
 
 	
 /* Main Banner */
@@ -5729,7 +5771,7 @@ a.single_attorney_link {
 
 .case_results {
 	
-	
+	.inner_case_wrapper {
 .single_case_results.case_results_active {
 	background: #fff;
 	span.largeheader {
@@ -5750,6 +5792,7 @@ a.single_attorney_link {
 			top:4px;
 		}
 	}
+}
 }
 }
 
@@ -6568,7 +6611,7 @@ a.single_attorney_link {
 				font-size:68px;
 				line-height: 64px;
 				margin-left: 20px;
-				padding-right:30px;
+// 				padding-right:30px;
 			}
 		}
 	}
@@ -6621,7 +6664,7 @@ a.single_attorney_link {
 	
 	
 	
-	.pracrice_areas_wrapper {
+.pracrice_areas_wrapper {
 	ul {
 		
 		li {
@@ -6631,7 +6674,7 @@ a.single_attorney_link {
 	ul.menu {
 		margin-bottom: 130px;
 		> li {
-			
+			text-align: center;
 			> a {
 				
 				
@@ -6926,7 +6969,7 @@ header {
 					margin-top:7px;
 					font-size: 12px;
 					font-weight: 600;
-					
+					letter-spacing: 2px;
 				}
 			}
 		}
