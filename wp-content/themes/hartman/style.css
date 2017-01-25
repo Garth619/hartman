@@ -1833,6 +1833,8 @@ body.page-template-page-about .inner_main_no_sidebar .inner_container .inner_con
       font-weight: 600;
       margin-top: 10px;
       color: #101e2e; }
+    .case_results_page_wrapper .single_case_results_page:focus {
+      background: red; }
     .case_results_page_wrapper .single_case_results_page:hover span.large_header, .case_results_page_wrapper .single_case_results_page:hover span.sub_header {
       color: #fff; }
     .case_results_page_wrapper .single_case_results_page:before {
@@ -3074,7 +3076,8 @@ a.single_attorney_link {
       margin-top: 0; }
   /* Contact */
   .contact_wrapper {
-    padding-right: 30px; }
+    padding-right: 30px;
+    margin-bottom: 0; }
     .contact_wrapper .single_contact {
       display: block; }
       .contact_wrapper .single_contact .contact_info {
@@ -3138,7 +3141,13 @@ a.single_attorney_link {
     .testimonials_wrapper .testimonials_column:first-of-type {
       float: none; }
     .testimonials_wrapper .testimonials_column:last-of-type {
-      float: none; } }
+      float: none; }
+  .case_results_page_wrapper .single_case_results_page {
+    padding-left: 20px;
+    padding-right: 20px; }
+    .case_results_page_wrapper .single_case_results_page span.sub_header {
+      font-size: 12px;
+      line-height: 20px; } }
 
 /* Media Query */
 @media screen and (max-width: 1115px) {

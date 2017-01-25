@@ -2431,6 +2431,9 @@ body.page-template-page-about, body.page-template-page-attorneysdirectory {
 				margin-top:10px;
 				color:$black;
 			}
+			&:focus {
+				background: red;
+			}
 			&:hover {
 					span.large_header, span.sub_header {
 						color:#fff;
@@ -4953,6 +4956,7 @@ footer {
 
 .contact_wrapper {
 	padding-right:30px;
+	margin-bottom:0;
 	.single_contact {
 		display: block;
 		.contact_info {
@@ -5234,7 +5238,16 @@ body.page-template-page-bio {
 
 
 
-
+.case_results_page_wrapper {
+.single_case_results_page  {
+padding-left:20px;
+padding-right:20px;
+span.sub_header {
+	font-size:12px;
+	line-height: 20px
+}
+}
+}
 
 
 
@@ -7497,6 +7510,7 @@ body.page-template-page-bio {
 		background: none !important;
 		top: 170px!important;
 // 		width:auto !important;
+// min-height: 800px !important;
 		.searchwp-live-search-result {
 			font-family: $montserratlight;
 			font-size:18px;
@@ -7509,6 +7523,7 @@ body.page-template-page-bio {
 			border-bottom: none;
 			padding-left:0;
 			padding-bottom:0;
+			
 			&:last-of-type {
 				padding-bottom:250px !important;
 			}
@@ -7536,7 +7551,9 @@ body.page-template-page-bio {
 			}
 		}
 	}
-	
+
+
+
 
 
 
