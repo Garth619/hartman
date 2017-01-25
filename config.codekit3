@@ -19466,6 +19466,12 @@
 		"oAP": "\/wp-content\/themes\/hartman\/index.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/hartman\/js\/conditional-jquery.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/js\/conditional-jquery.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/hartman\/js\/custom-min.js": {
 		"ft": 64,
 		"mi": 1,
