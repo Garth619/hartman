@@ -256,6 +256,21 @@ $slick_slider = jQuery('.inner_case_wrapper');
 	});
 	
 	
+	jQuery('div.sidebar ul.menu > li').mouseenter(function(){
+		
+		jQuery(this).next().find('a').addClass('remove_border');
+		
+		
+	});
+	
+	jQuery('div.sidebar ul.menu > li').mouseleave(function(){
+		
+		jQuery(this).next().find('a').removeClass('remove_border');
+		
+		
+	});
+	
+	
 
   
   // Inner Banner Play Button Hover

@@ -260,8 +260,7 @@ nav.desktop {
       nav.desktop ul.menu > li > ul.sub-menu.hide {
         bottom: 0; }
       nav.desktop ul.menu > li > ul.sub-menu.slide {
-        bottom: -43px;
-        z-index: 10; }
+        bottom: -43px; }
       nav.desktop ul.menu > li > ul.sub-menu {
         background: #101e2e;
         position: absolute;
@@ -860,7 +859,8 @@ nav.desktop {
       left: 0; }
     .reasons_grid .single_reason svg, .reasons_grid .single_reason img.mobile_reasons_checkmark {
       width: 60px;
-      height: 60px; }
+      height: 60px;
+      margin: 0 auto; }
     .reasons_grid .single_reason .svg_hover_wrapper {
       width: 60px;
       height: 60px;
@@ -1628,7 +1628,8 @@ footer {
 
 .sidebar {
   width: 30%;
-  float: left; }
+  float: left;
+  margin-bottom: 45px; }
   .sidebar ul {
     list-style: none;
     margin: 0;
@@ -1649,8 +1650,8 @@ footer {
     float: right;
     margin-right: 15px;
     position: relative;
-    top: 8px;
-    right: -29px; }
+    top: 30px;
+    right: 0px; }
   .sidebar ul.menu > li.menu-item-has-children > a:hover:after {
     content: "";
     width: 0;
@@ -1660,9 +1661,9 @@ footer {
     border-top: 6px solid #fff;
     float: right;
     margin-right: 15px;
-    position: relative;
-    top: 8px;
-    right: -29px; }
+    position: absolute;
+    top: 30px;
+    right: 0px; }
   .sidebar ul.menu > li.menu-item-has-children > a {
     cursor: pointer; }
   .sidebar ul.menu > li.menu-item-has-children > a:after {
@@ -1675,9 +1676,13 @@ footer {
     float: right;
     margin-right: 15px;
     transition: all .2s ease-in-out;
-    position: relative;
-    top: 8px;
-    right: -29px; }
+    position: absolute;
+    top: 30px;
+    right: 0px; }
+  .sidebar ul.menu > li > a:hover {
+    border-top: 1px solid #fff; }
+  .sidebar ul.menu > li > a.remove_border {
+    border-top: 1px solid #fff; }
   .sidebar ul.menu li {
     width: 100%; }
     .sidebar ul.menu li a {
@@ -1692,20 +1697,42 @@ footer {
       border-top: 1px solid #101e2e;
       padding: 24px 33px 20px 35px;
       transition: all .2s ease-in-out;
-      line-height: 19px; }
+      line-height: 19px;
+      position: relative;
+      z-index: 1; }
       .sidebar ul.menu li a:hover {
-        color: #fff;
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#075593+0,072f51+100 */
-        background: #075593;
+        color: #fff; }
+      .sidebar ul.menu li a:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0;
+        -webkit-transform: scale3d(0.7, 1, 1);
+        transform: scale3d(0.7, 1, 1);
+        -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+        transition: transform 0.4s, opacity 0.4s;
+        -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+        transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f2236+0,075593+62 */
+        background: #0f2236;
         /* Old browsers */
-        background: -moz-linear-gradient(-45deg, #075593 0%, #072f51 100%);
+        background: -moz-linear-gradient(45deg, #0f2236 0%, #075593 62%);
         /* FF3.6-15 */
-        background: -webkit-linear-gradient(-45deg, #075593 0%, #072f51 100%);
+        background: -webkit-linear-gradient(45deg, #0f2236 0%, #075593 62%);
         /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(135deg, #075593 0%, #072f51 100%);
+        background: linear-gradient(45deg, #0f2236 0%, #075593 62%);
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#075593', endColorstr='#072f51',GradientType=1 );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f2236', endColorstr='#075593',GradientType=1 );
         /* IE6-9 fallback on horizontal gradient */ }
+      .sidebar ul.menu li a:hover:before {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        color: #fff; }
     .sidebar ul.menu li:last-of-type a {
       border-bottom: 1px solid #101e2e; }
     .sidebar ul.menu li ul.sub-menu {
@@ -1713,6 +1740,8 @@ footer {
       .sidebar ul.menu li ul.sub-menu li a {
         background: #e1e1e1;
         border-top: 1px #fff solid; }
+        .sidebar ul.menu li ul.sub-menu li a:before {
+          background: none; }
         .sidebar ul.menu li ul.sub-menu li a:hover {
           background: #fff;
           color: #101e2e; }
@@ -1835,7 +1864,7 @@ body.page-template-page-about .inner_main_no_sidebar .inner_container .inner_con
       color: #101e2e; }
     .case_results_page_wrapper .single_case_results_page:focus {
       background: red; }
-    .case_results_page_wrapper .single_case_results_page:hover span.large_header, .case_results_page_wrapper .single_case_results_page:hover span.sub_header {
+    2 .case_results_page_wrapper .single_case_results_page:hover span.large_header, 2 .case_results_page_wrapper .single_case_results_page:hover span.sub_header {
       color: #fff; }
     .case_results_page_wrapper .single_case_results_page:before {
       content: "";
@@ -2801,7 +2830,7 @@ a.single_attorney_link {
         font-family: "Montserrat-Light"; }
       .search_wrapper .inner_search_wrapper form input[type="submit"] {
         right: 30px;
-        top: 110px;
+        top: 107px;
         background: url(images/header_icon_search-02.png) top left no-repeat;
         background-size: 18px 18px; }
   header {
@@ -3968,10 +3997,27 @@ a.single_attorney_link {
   .inner_main_with_sidebar {
     margin-top: 55px; }
   .testimonials_wrapper, .contact_wrapper, .case_results_page_wrapper {
-    padding-right: 0px; } }
+    padding-right: 0px; }
+  .sidebar ul.menu li a {
+    padding: 24px 54px 20px 35px; } }
 
 /* Media Query */
 /* Min Width for Search Plugin */
+div.inner_search_wrapper form#searchform div input#s::-webkit-input-placeholder {
+  color: #fff; }
+
+div.inner_search_wrapper form#searchform div input#s::-moz-placeholder {
+  color: #fff; }
+
+div.inner_search_wrapper form#searchform div input#s:-moz-placeholder {
+  color: #fff; }
+
+div.inner_search_wrapper form#searchform div input#s:-ms-input-placeholder {
+  color: #fff; }
+
+div.inner_search_wrapper form#searchform div input#s::-moz-placeholder {
+  opacity: 1; }
+
 .searchwp-live-search-results {
   background: none !important;
   top: 170px !important; }

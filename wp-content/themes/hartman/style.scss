@@ -358,7 +358,7 @@ nav.desktop {
 			}
 			> ul.sub-menu.slide {
 				bottom:-43px;
-				z-index:10;
+// 				z-index:10;
 			}
 			> ul.sub-menu {
 				background:$black;
@@ -1142,6 +1142,7 @@ nav.desktop {
 		svg, img.mobile_reasons_checkmark {
 			width:60px;
 			height:60px;
+			margin:0 auto;
 		}
 		.svg_hover_wrapper {
 			width:60px;
@@ -2129,6 +2130,7 @@ footer {
 .sidebar {
 	width:30%;
 	float:left;
+	margin-bottom:45px;
 	ul {
 		list-style: none;
 		margin: 0;
@@ -2168,8 +2170,8 @@ footer {
 						float:right;
 						margin-right:15px;
 						position: relative;
-						top:8px;
-						right: -29px;
+						top:30px;
+						right: 0px;
 				 }
 			}
 			> a:hover {
@@ -2182,14 +2184,12 @@ footer {
 						border-top: 6px solid #fff;
 						float:right;
 						margin-right:15px;
-						position: relative;
-						top:8px;
-						right: -29px;
+						position: absolute;
+						top:30px;
+						right: 0px;
 				 }
 			}
-			li {
-				
-			}
+			
 			> a {
 				cursor: pointer;
 				
@@ -2204,9 +2204,18 @@ footer {
 						float:right;
 						margin-right:15px;
 						transition:all .2s ease-in-out;
-						position: relative;
-						top:8px;
-						right: -29px;
+						position: absolute;
+						top:30px;
+						right: 0px;
+					}
+				}
+				
+				> li {
+					> a:hover {
+						border-top:1px solid #fff;
+					}
+					> a.remove_border {
+						border-top:1px solid #fff;
 					}
 				}
 		li {
@@ -2224,18 +2233,48 @@ footer {
 				padding:24px 33px 20px 35px;
 				transition: all .2s ease-in-out;
 				line-height: 19px;
-				
+				position: relative;
+				z-index:1;
 				&:hover {
 					color:#fff;
-					
-					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#075593+0,072f51+100 */
-					background: #075593; /* Old browsers */
-					background: -moz-linear-gradient(-45deg,  #075593 0%, #072f51 100%); /* FF3.6-15 */
-					background: -webkit-linear-gradient(-45deg,  #075593 0%,#072f51 100%); /* Chrome10-25,Safari5.1-6 */
-					background: linear-gradient(135deg,  #075593 0%,#072f51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#075593', endColorstr='#072f51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
 				}
+				
+				&:before {
+					
+					content:"";
+					width:100%;
+					height:100%;
+					position: absolute;
+					top:0;
+					left:0;
+					z-index: -1;
+					opacity: 0;
+					-webkit-transform: scale3d(0.7, 1, 1);
+					transform: scale3d(0.7, 1, 1);
+					-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+					transition: transform 0.4s, opacity 0.4s;
+					-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+					transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+					
+					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f2236+0,075593+62 */
+					background: #0f2236; /* Old browsers */
+					background: -moz-linear-gradient(45deg,  #0f2236 0%, #075593 62%); /* FF3.6-15 */
+					background: -webkit-linear-gradient(45deg,  #0f2236 0%,#075593 62%); /* Chrome10-25,Safari5.1-6 */
+					background: linear-gradient(45deg,  #0f2236 0%,#075593 62%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f2236', endColorstr='#075593',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+				}
+				
+			&:hover:before {
+					opacity: 1;
+					-webkit-transform: translate3d(0, 0, 0);
+					transform: translate3d(0, 0, 0);
+					color:#fff;
+				}
+				
+				
+				
+				
+				
 			}
 			&:last-of-type {
 				a {
@@ -2250,6 +2289,9 @@ footer {
 					a {
 							background:#e1e1e1;
 							border-top:1px #fff solid;
+							&:before {
+								background:none;
+							}
 						&:hover {
 						background:#fff;
 							color:$black;
@@ -2433,8 +2475,7 @@ body.page-template-page-about, body.page-template-page-attorneysdirectory {
 			}
 			&:focus {
 				background: red;
-			}
-			&:hover {
+			}2			&:hover {
 					span.large_header, span.sub_header {
 						color:#fff;
 					}
@@ -4102,7 +4143,7 @@ html.fixed, body.fixed {
 				}
 				input[type="submit"] {
 					right:30px;
-					top: 110px;
+					top: 107px;
 					background:url(images/header_icon_search-02.png) top left no-repeat;
 					background-size: 18px 18px;
 					
@@ -7498,12 +7539,44 @@ body.page-template-page-bio {
 	
 	
 	
+	
+	.sidebar ul.menu li a {
+		padding: 24px 54px 20px 35px;
+	}
+	
+	
+	
+	
+	
 } /* Media Query */
 
 
 
 
 /* Min Width for Search Plugin */
+
+
+div.inner_search_wrapper form#searchform div input#s::-webkit-input-placeholder {
+	color:#fff;
+}
+
+div.inner_search_wrapper form#searchform div input#s::-moz-placeholder {
+	color:#fff;
+}
+
+div.inner_search_wrapper form#searchform div input#s:-moz-placeholder{
+	color:#fff;
+}
+
+div.inner_search_wrapper form#searchform div input#s:-ms-input-placeholder {
+	color:#fff;
+}
+
+div.inner_search_wrapper form#searchform div input#s::-moz-placeholder {
+	opacity:1;
+}
+
+
 
 
 .searchwp-live-search-results {
