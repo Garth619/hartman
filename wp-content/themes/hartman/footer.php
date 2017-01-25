@@ -223,7 +223,39 @@ var waypointabout = new Waypoint({
 	
 	
 		}
+})
+
+
+
+
+// Greyline Animation in Additional About Section
+
+
+var waypointabout = new Waypoint({
+  element: document.getElementById('addtional_greyline'),
+  handler: function(direction) {
+    
+	
+	jQuery(".col_1 .greyline").animate({height: '100%'}, 1200);
+	jQuery(".greyline_mobile").animate({height: '100%'}, 1200);
+
+
+	jQuery(".col_2 .blueline").delay(1000).queue(function(){
+		
+		
+		jQuery(this).addClass("move");
+		
+		
+	});
+
+
+	
+	
+		}
 })	
+
+
+	
 
 	
 

@@ -930,13 +930,23 @@ nav.desktop {
   max-width: 1280px;
   margin: 0 auto;
   padding-left: 53px; }
+  .addtional_about_content .greyline_mobile {
+    display: none; }
   .addtional_about_content .col_1 {
+    position: relative;
     width: 70%;
     float: left;
     padding-right: 175px;
     padding-top: 175px;
-    padding-bottom: 150px;
-    border-right: 2px solid #e8e8e8; }
+    padding-bottom: 150px; }
+    .addtional_about_content .col_1 .greyline {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 2px;
+      height: 0;
+      background: #e8e8e8;
+      z-index: 5; }
     .addtional_about_content .col_1 span.large_header {
       color: #003b6b;
       font-size: 85px;
@@ -953,7 +963,9 @@ nav.desktop {
   .addtional_about_content .col_2 {
     width: 30%;
     float: left;
-    margin-top: 240px; }
+    margin-top: 240px;
+    position: relative;
+    z-index: 5; }
     .addtional_about_content .col_2 .video_wrapper {
       margin-left: -45px;
       position: relative;
@@ -983,12 +995,19 @@ nav.desktop {
         z-index: 3;
         opacity: 0.6; }
     .addtional_about_content .col_2 .blueline {
-      width: 10px;
+      width: 0px;
       background: #007ddc;
       height: 175px;
       float: left;
       margin-top: 53px;
-      margin-left: -1px; }
+      opacity: 0;
+      transition: all .2s ease-in-out;
+      position: relative;
+      z-index: 10;
+      left: -1px; }
+    .addtional_about_content .col_2 .blueline.move {
+      opacity: 1;
+      width: 10px; }
     .addtional_about_content .col_2 .testimonial {
       margin-top: 52px;
       margin-left: 40px;
@@ -2958,8 +2977,17 @@ a.single_attorney_link {
     padding-bottom: 185px;
     padding-right: 0px;
     width: 91%;
-    border-left: 2px solid #e8e8e8;
-    padding-left: 0; }
+    padding-left: 0;
+    position: relative; }
+    .addtional_about_content .greyline_mobile {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 2px;
+      height: 0;
+      background: #e8e8e8;
+      z-index: 5;
+      display: block; }
     .addtional_about_content .bluelinetwo {
       background: #007ddc;
       float: left;
@@ -2975,6 +3003,8 @@ a.single_attorney_link {
       border-right: none;
       padding-right: 40px;
       padding-left: 40px; }
+      .addtional_about_content .col_1 .greyline {
+        display: none; }
       .addtional_about_content .col_1 span.large_header {
         font-size: 78px; }
     .addtional_about_content .col_2 {
@@ -3472,6 +3502,8 @@ a.single_attorney_link {
     border: none;
     width: 87%;
     padding-bottom: 135px; }
+    .addtional_about_content .greyline_mobile {
+      display: none; }
     .addtional_about_content .col_1 {
       padding: 0; }
       .addtional_about_content .col_1 span.large_header {
@@ -3496,6 +3528,8 @@ a.single_attorney_link {
         margin: -6px auto 45px;
         width: 80px;
         height: 10px; }
+      .addtional_about_content .col_2 .blueline.move {
+        width: 80px; }
       .addtional_about_content .col_2 .testimonial {
         margin: 0;
         order: 2;
@@ -4052,6 +4086,16 @@ div.inner_search_wrapper form#searchform div input#s::-moz-placeholder {
         text-decoration: none; }
 
 @media screen and (min-width: 1200px) {
+  div.inner_search_wrapper form#searchform div input#s::-webkit-input-placeholder {
+    color: #003b6b; }
+  div.inner_search_wrapper form#searchform div input#s::-moz-placeholder {
+    color: #003b6b; }
+  div.inner_search_wrapper form#searchform div input#s:-moz-placeholder {
+    color: #003b6b; }
+  div.inner_search_wrapper form#searchform div input#s:-ms-input-placeholder {
+    color: #003b6b; }
+  div.inner_search_wrapper form#searchform div input#s::-moz-placeholder {
+    opacity: 1; }
   .searchwp-live-search-results {
     background: #101e2e !important;
     border-radius: 0 !important;

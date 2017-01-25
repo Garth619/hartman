@@ -1230,14 +1230,26 @@ nav.desktop {
 	margin:0 auto;
 // 	overflow: hidden;
 	padding-left:53px;
+	.greyline_mobile {
+		display: none;
+	}
 	.col_1 {
-		
+		position: relative;
+		.greyline {
+			position: absolute;
+			top:0;
+			right:0;
+			width:2px;
+			height:0;
+			background: #e8e8e8;
+			z-index:5;
+		}		
 		width: 70%;
 		float:left;
 		padding-right:175px;
 		padding-top:175px;
 		padding-bottom:150px;
-		border-right:2px solid $grey;
+// 		border-right:2px solid $grey;
 		span.large_header {
 			color:$bluedark;
 			font-size:85px;
@@ -1258,6 +1270,8 @@ nav.desktop {
 		width:30%;
 		float:left;
 		margin-top: 240px;
+		position: relative;
+		z-index:5;
 		.video_wrapper {
 			margin-left:-45px;
 			position: relative;
@@ -1289,12 +1303,23 @@ nav.desktop {
 			}
 		}
 		.blueline {
-			width:10px;
+			width:0px;
 			background:$bluelight;
 			height:175px;
 			float:left;
 			margin-top: 53px;
-			margin-left:-1px;
+// 			margin-left:-1px;
+			opacity: 0;
+			transition: all .2s ease-in-out;
+			position: relative;
+			z-index:10;
+			left:-1px;
+		
+		}
+		.blueline.move {
+			opacity: 1;
+			
+			width:10px;
 		}
 		.testimonial {
 			margin-top:52px;
@@ -4442,9 +4467,21 @@ html.fixed, body.fixed {
    padding-bottom: 185px;
     padding-right: 0px;
     width: 91%;
-    border-left: 2px solid #e8e8e8;
+//     border-left: 2px solid #e8e8e8;
     padding-left:0;
 //     overflow: hidden;
+position: relative;
+	.greyline_mobile {
+		position: absolute;
+			top:0;
+			left:0;
+			width:2px;
+			height:0;
+			background: #e8e8e8;
+			z-index:5;
+
+		display: block;
+	}
     .bluelinetwo {
 	    background: $bluelight;
 	    float: left;
@@ -4461,6 +4498,9 @@ html.fixed, body.fixed {
 		border-right:none;
 		padding-right:40px;
 		padding-left:40px;
+		.greyline {
+			display: none;
+		}
 		span.large_header {
 			font-size:78px;
 		}
@@ -4469,6 +4509,7 @@ html.fixed, body.fixed {
 		}
 	}
 	.col_2 {
+		
 		margin-top:0;
 		width:100%;
 		padding-right:0;
@@ -6028,7 +6069,9 @@ a.single_attorney_link {
 	 border:none;
 	 width: 87%;
 	 padding-bottom: 135px;
-    
+   .greyline_mobile {
+	   display: none;
+   }
 	.col_1 {
 		padding:0;
 		span.large_header {
@@ -6065,6 +6108,9 @@ a.single_attorney_link {
 			margin:-6px auto 45px;
 			width:80px;
 			height:10px;
+		}
+		.blueline.move {
+			width:80px;
 		}
 		.testimonial {
 			margin:0;
@@ -7631,6 +7677,32 @@ div.inner_search_wrapper form#searchform div input#s::-moz-placeholder {
 
 
 @media screen and (min-width: 1200px) {
+	
+	
+	
+	
+	div.inner_search_wrapper form#searchform div input#s::-webkit-input-placeholder {
+	color:$bluedark;
+}
+
+div.inner_search_wrapper form#searchform div input#s::-moz-placeholder {
+	color:$bluedark;
+}
+
+div.inner_search_wrapper form#searchform div input#s:-moz-placeholder{
+	color:$bluedark;
+}
+
+div.inner_search_wrapper form#searchform div input#s:-ms-input-placeholder {
+	color:$bluedark;
+}
+
+div.inner_search_wrapper form#searchform div input#s::-moz-placeholder {
+	opacity:1;
+}
+
+	
+	
 	
 	
 	

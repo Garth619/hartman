@@ -393,11 +393,13 @@
 	
 </section><!-- reasons -->
 
-<section class="addtional_about_content">
+<section id="addtional_greyline" class="addtional_about_content">
 	
-
+<div class="greyline_mobile"></div><!-- greyline -->
 	
 	<div class="col_1">
+		
+		<div class="greyline"></div><!-- greyline -->
 		
 		<span class="large_header"><?php the_field('additonal_content_header');?></span><!-- large_header -->
 		
@@ -406,6 +408,8 @@
 			<?php the_field('additional_content');?>
 		
 		</div><!-- content -->
+		
+		
 		
 	</div><!-- col_1 -->
 	
