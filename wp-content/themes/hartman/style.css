@@ -1254,7 +1254,7 @@ nav.desktop {
             z-index: 5;
             top: -116px;
             right: 9px; }
-        .request .form .gform_wrapper ul li#field_1_6 {
+        .request .form .gform_wrapper ul li#field_1_6, .request .form .gform_wrapper ul li#field_1_7 {
           display: none; }
   .request .form ul li ::-webkit-input-placeholder {
     color: #003b6b; }
