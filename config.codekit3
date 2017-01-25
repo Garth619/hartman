@@ -19128,6 +19128,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp-content\/themes\/hartman\/images\/internal_tablet_mainimage_2jpg.jpg": {
+		"ft": 16384,
+		"iS": 63245,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/hartman\/images\/internal_tablet_mainimage_2jpg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/themes\/hartman\/images\/logo_hartman.png": {
 		"ft": 32768,
 		"iS": 32916,
@@ -21602,6 +21610,70 @@
 		"iS": 55580,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/internal_tablet_mainimage.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/01\/internal_tablet_mainimage_2jpg-1024x419.jpg": {
+		"ft": 16384,
+		"iS": 28968,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/01\/internal_tablet_mainimage_2jpg-1024x419.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/01\/internal_tablet_mainimage_2jpg-150x150.jpg": {
+		"ft": 16384,
+		"iS": 3992,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/01\/internal_tablet_mainimage_2jpg-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/01\/internal_tablet_mainimage_2jpg-225x65.jpg": {
+		"ft": 16384,
+		"iS": 2934,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/01\/internal_tablet_mainimage_2jpg-225x65.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/01\/internal_tablet_mainimage_2jpg-300x123.jpg": {
+		"ft": 16384,
+		"iS": 5032,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/01\/internal_tablet_mainimage_2jpg-300x123.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/01\/internal_tablet_mainimage_2jpg-406x120.jpg": {
+		"ft": 16384,
+		"iS": 6007,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/01\/internal_tablet_mainimage_2jpg-406x120.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/01\/internal_tablet_mainimage_2jpg-768x314.jpg": {
+		"ft": 16384,
+		"iS": 18662,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/01\/internal_tablet_mainimage_2jpg-768x314.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/01\/internal_tablet_mainimage_2jpg-940x198.jpg": {
+		"ft": 16384,
+		"iS": 15181,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/01\/internal_tablet_mainimage_2jpg-940x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/01\/internal_tablet_mainimage_2jpg.jpg": {
+		"ft": 16384,
+		"iS": 63245,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/01\/internal_tablet_mainimage_2jpg.jpg",
 		"oF": 0,
 		"opt": 0
 		},
