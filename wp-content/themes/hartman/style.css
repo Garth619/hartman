@@ -1668,7 +1668,7 @@ footer {
     border-top: 6px solid #007ddc;
     float: right;
     margin-right: 15px;
-    position: relative;
+    position: absolute;
     top: 30px;
     right: 0px; }
   .sidebar ul.menu > li.menu-item-has-children > a:hover:after {
@@ -1883,7 +1883,7 @@ body.page-template-page-about .inner_main_no_sidebar .inner_container .inner_con
       color: #101e2e; }
     .case_results_page_wrapper .single_case_results_page:focus {
       background: red; }
-    2 .case_results_page_wrapper .single_case_results_page:hover span.large_header, 2 .case_results_page_wrapper .single_case_results_page:hover span.sub_header {
+    .case_results_page_wrapper .single_case_results_page:hover span.large_header, .case_results_page_wrapper .single_case_results_page:hover span.sub_header {
       color: #fff; }
     .case_results_page_wrapper .single_case_results_page:before {
       content: "";
@@ -2177,11 +2177,11 @@ body.page-template-page-bio .inner_main_no_sidebar .inner_container {
           left: 0;
           width: 10px;
           background: #007ddc;
-          height: 100%; }
+          height: 73%; }
         body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .img_email_wrapper {
-          width: 85%;
+          width: 86%;
           float: left;
-          margin-left: 14%; }
+          margin-left: 17%; }
         body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell img {
           width: 100%;
           height: auto; }
@@ -2232,28 +2232,31 @@ body.page-template-page-bio .inner_main_no_sidebar .inner_container {
               opacity: 1;
               -webkit-transform: translate3d(0, 0, 0);
               transform: translate3d(0, 0, 0); }
-    body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio td.bio_content_cell .sidebar_bio_content {
+    body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio .sidebar_bio_content {
       font-family: "Utopia W01 Bd";
       color: #003b6b;
       font-size: 20px;
-      margin-left: 14%;
-      padding-top: 45px; }
-      body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio td.bio_content_cell .sidebar_bio_content span.bio_row {
+      margin-left: 17%;
+      padding-top: 45px;
+      text-align: left;
+      margin-top: 30px;
+      clear: both; }
+      body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio .sidebar_bio_content span.bio_row {
         display: block;
         margin-bottom: 7px; }
-        body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio td.bio_content_cell .sidebar_bio_content span.bio_row span.lightblue {
+        body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio .sidebar_bio_content span.bio_row span.lightblue {
           color: #007ddc;
           font-size: 17px;
           position: relative;
           top: -2px; }
-        body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio td.bio_content_cell .sidebar_bio_content span.bio_row .description {
+        body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio .sidebar_bio_content span.bio_row .description {
           font-family: "Montserrat-Light";
           text-transform: uppercase;
           font-size: 15px;
           letter-spacing: 0.6px;
           text-decoration: none;
           color: #003b6b; }
-          body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio td.bio_content_cell .sidebar_bio_content span.bio_row .description a {
+          body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio .sidebar_bio_content span.bio_row .description a {
             color: #003b6b; }
   body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .inner_content {
     width: 66%;
@@ -3204,10 +3207,25 @@ a.single_attorney_link {
   body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio {
     width: 100%;
     float: none; }
+    body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper {
+      width: 100%; }
+      body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell {
+        display: flex;
+        flex-direction: row; }
+        body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .header_blue_line {
+          height: 100%; }
+        body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .img_email_wrapper {
+          width: 300px;
+          margin-left: 4%; }
+        body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .sidebar_bio_content {
+          float: left;
+          margin-left: 4%;
+          padding: 0;
+          margin-top: 0; }
   body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .inner_content {
     width: 100%;
     float: none;
-    margin-top: 35px; }
+    margin-top: 65px; }
   /* Testimonials */
   .testimonials_wrapper .testimonials_column {
     width: 100%; }
@@ -3309,7 +3327,21 @@ a.single_attorney_link {
 @media screen and (max-width: 840px) {
   /* Attorneys Directory */
   a.single_attorney_link .single_attorney {
-    width: 40%; } }
+    width: 40%; }
+  /* Bio */
+  body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell {
+    display: block;
+    float: left; }
+    body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .header_blue_line {
+      height: 70%; }
+    body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .img_email_wrapper {
+      width: 300px;
+      margin-left: 14%; }
+    body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .sidebar_bio_content {
+      float: left;
+      margin-left: 14%;
+      padding: 0;
+      margin-top: 45px; } }
 
 /* Media Query */
 @media screen and (max-width: 800px) {
@@ -3809,10 +3841,10 @@ a.single_attorney_link {
         border-top: none; }
   /* Bio */
   body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell {
-    padding-left: 15px;
-    width: 100%; }
-  body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio td.bio_content_cell .sidebar_bio_content {
-    margin-left: 45px; }
+    /*
+								 padding-left: 15px;
+								width:100%;
+*/ }
   /* Footer */
   .about_icons_wrapper {
     flex-direction: column; }
@@ -4026,22 +4058,30 @@ a.single_attorney_link {
         padding-right: 4px;
         width: 100%; }
   /* Bio */
-  body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.header_blue_line {
-    display: none;
-    width: 1px; }
+  body.page-template-page-bio .content h1 {
+    font-size: 40px;
+    line-height: 44px; }
   body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell {
     float: none;
     margin: 0;
     padding: 0 20px;
-    display: block; }
+    display: block;
+    width: 100%; }
+    body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .header_blue_line {
+      display: none;
+      width: 1px; }
+    body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .sidebar_bio_content {
+      margin-left: 0; }
+    body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .img_email_wrapper {
+      margin: 0 auto;
+      padding-right: 20px; }
+    body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell img {
+      width: 100%; }
   body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio td.spacer {
     display: none; }
-  body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio td.bio_content_cell {
-    display: block; }
-    body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio td.bio_content_cell .sidebar_bio_content {
-      margin-left: 30px; }
   body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .inner_content {
-    padding-left: 25px; }
+    padding-left: 25px;
+    margin-top: 25px; }
   .inner_main_with_sidebar {
     margin-top: 55px; }
   .testimonials_wrapper, .contact_wrapper, .case_results_page_wrapper {

@@ -58,14 +58,6 @@
 									
 								</div><!-- img_email_wrapper -->
 								
-								</td>
-						
-							</tr>
-							
-							<tr>
-								
-								<td class="bio_content_cell">
-									
 									<div class="sidebar_bio_content">
 										
 										
@@ -96,10 +88,20 @@
 										
 										<?php endif;?>
 							
-									</div><!-- sidebar_bio -->
-									
+									</div><!-- sidebar_bio_content -->
+
+								
 								</td>
+						
 							</tr>
+							
+							
+								
+								
+									
+																	
+						
+						
 					
 						</table><!-- blue_header_wrapper -->
 						
