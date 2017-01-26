@@ -2866,25 +2866,42 @@ body.page-template-page-bio {
 					table.blue_header_wrapper {
 						tr {
 							
+/*
 							td.header_blue_line {
 								position: relative;
 								top:-4px;
 							}
+*/
 							td.bio_cell {
-								margin-left:14%;
+// 								margin-left:14%;
 								text-align: center;
 								position: relative;
-								float:right;
+								float:none;
+								.header_blue_line {
+									position: absolute;
+									top:-5px;
+									left:0;
+									width:10px;
+									background: $bluelight;
+									height:100%;
+								}
+								.img_email_wrapper {
+									width:85%;
+									float: left;
+									 margin-left: 14%;
+								}
 								img {
-									max-width: 100%;
+									width: 100%;
 									height:auto;
+									
 									
 								}
 								.email_wrapper {
 									width:100%;
-									position: absolute;
+// 									position: absolute;
 									bottom:0;
 									left:0;
+									margin-top:-25px;
 									a.email_attorney {
 										color:#fff;
 										text-decoration: none;

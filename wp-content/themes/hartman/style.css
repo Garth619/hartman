@@ -2160,64 +2160,78 @@ body.page-template-page-bio .inner_main_no_sidebar .inner_container {
   body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio {
     width: 34%;
     float: left; }
-    body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.header_blue_line {
-      position: relative;
-      top: -4px; }
-    body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell {
-      margin-left: 14%;
-      text-align: center;
-      position: relative;
-      float: right; }
-      body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell img {
-        max-width: 100%;
-        height: auto; }
-      body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .email_wrapper {
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-        left: 0; }
-        body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .email_wrapper a.email_attorney {
-          color: #fff;
-          text-decoration: none;
-          text-transform: uppercase;
-          font-size: 15px;
-          font-family: "Montserrat-Regular";
-          letter-spacing: 0.6px;
-          padding: 20px 44px;
-          margin-top: -45px;
-          position: relative;
-          z-index: 1;
-          /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f34b23+100 */
-          background: #f32323;
-          /* Old browsers */
-          background: -moz-linear-gradient(left, #f32323 0%, #f34b23 100%);
-          /* FF3.6-15 */
-          background: -webkit-linear-gradient(left, #f32323 0%, #f34b23 100%);
-          /* Chrome10-25,Safari5.1-6 */
-          background: linear-gradient(to right, #f32323 0%, #f34b23 100%);
-          /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f34b23',GradientType=1 );
-          /* IE6-9 */ }
-          body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .email_wrapper a.email_attorney:before {
-            background: #007ddc;
-            content: "";
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: -1;
-            opacity: 0;
-            -webkit-transform: scale3d(0.7, 1, 1);
-            transform: scale3d(0.7, 1, 1);
-            -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
-            transition: transform 0.4s, opacity 0.4s;
-            -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
-            transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1); }
-          body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .email_wrapper a.email_attorney:hover:before {
-            opacity: 1;
-            -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0); }
+    body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr {
+      /*
+							td.header_blue_line {
+								position: relative;
+								top:-4px;
+							}
+*/ }
+      body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell {
+        text-align: center;
+        position: relative;
+        float: none; }
+        body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .header_blue_line {
+          position: absolute;
+          top: -5px;
+          left: 0;
+          width: 10px;
+          background: #007ddc;
+          height: 100%; }
+        body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .img_email_wrapper {
+          width: 85%;
+          float: left;
+          margin-left: 14%; }
+        body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell img {
+          width: 100%;
+          height: auto; }
+        body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .email_wrapper {
+          width: 100%;
+          bottom: 0;
+          left: 0;
+          margin-top: -25px; }
+          body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .email_wrapper a.email_attorney {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 15px;
+            font-family: "Montserrat-Regular";
+            letter-spacing: 0.6px;
+            padding: 20px 44px;
+            margin-top: -45px;
+            position: relative;
+            z-index: 1;
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f34b23+100 */
+            background: #f32323;
+            /* Old browsers */
+            background: -moz-linear-gradient(left, #f32323 0%, #f34b23 100%);
+            /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #f32323 0%, #f34b23 100%);
+            /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #f32323 0%, #f34b23 100%);
+            /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f32323', endColorstr='#f34b23',GradientType=1 );
+            /* IE6-9 */ }
+            body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .email_wrapper a.email_attorney:before {
+              background: #007ddc;
+              content: "";
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              z-index: -1;
+              opacity: 0;
+              -webkit-transform: scale3d(0.7, 1, 1);
+              transform: scale3d(0.7, 1, 1);
+              -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+              transition: transform 0.4s, opacity 0.4s;
+              -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+              transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1); }
+            body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio table.blue_header_wrapper tr td.bio_cell .email_wrapper a.email_attorney:hover:before {
+              opacity: 1;
+              -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0); }
     body.page-template-page-bio .inner_main_no_sidebar .inner_container .content .sidebar_bio td.bio_content_cell .sidebar_bio_content {
       font-family: "Utopia W01 Bd";
       color: #003b6b;

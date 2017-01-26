@@ -29,10 +29,14 @@
 					
 							<tr>
 								
-								<td class="header_blue_line"></td><!-- blue_line -->
+								
 								
 								<td class="bio_cell">
 									
+									<div class="header_blue_line"></div><!-- header_blue_line -->
+									
+									
+									<div class="img_email_wrapper">
 									
 									<?php if(get_field('attorney_image')):?>
 								
@@ -44,20 +48,22 @@
 								
 										<?php endif;?>
 									
-	
+									
 									
 									<div class="email_wrapper">
 									
 										<a class="email_attorney" href="mailto:<?php the_field('attorney_email');?>"><?php the_field('email_button_verbaige');?></a><!-- email_attorney -->
 									
 									</div><!-- email_wrapper -->
+									
+								</div><!-- img_email_wrapper -->
 								
 								</td>
 						
 							</tr>
 							
 							<tr>
-								<td class="spacer"></td><!-- spacer -->
+								
 								<td class="bio_content_cell">
 									
 									<div class="sidebar_bio_content">
