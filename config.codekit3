@@ -22312,7 +22312,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/award_1.png": {
 		"ft": 32768,
-		"iS": 32245,
+		"iS": 5248,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/award_1.png",
 		"oF": 0,
@@ -22320,7 +22320,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/award_2.png": {
 		"ft": 32768,
-		"iS": 56096,
+		"iS": 21166,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/award_2.png",
 		"oF": 0,
@@ -22328,7 +22328,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/award_3.png": {
 		"ft": 32768,
-		"iS": 43852,
+		"iS": 16859,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/award_3.png",
 		"oF": 0,
@@ -22336,7 +22336,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/award_4.png": {
 		"ft": 32768,
-		"iS": 56262,
+		"iS": 23781,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/award_4.png",
 		"oF": 0,
@@ -22344,7 +22344,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/award_5.png": {
 		"ft": 32768,
-		"iS": 33014,
+		"iS": 9488,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/award_5.png",
 		"oF": 0,
@@ -22352,7 +22352,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/community_bg.jpg": {
 		"ft": 16384,
-		"iS": 88106,
+		"iS": 10886,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/community_bg.jpg",
 		"oF": 0,
@@ -22360,7 +22360,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/community_image.jpg": {
 		"ft": 16384,
-		"iS": 371814,
+		"iS": 124257,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/community_image.jpg",
 		"oF": 0,
@@ -22406,7 +22406,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/content_video_thumb.jpg": {
 		"ft": 16384,
-		"iS": 72620,
+		"iS": 17873,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/content_video_thumb.jpg",
 		"oF": 0,
@@ -22414,15 +22414,15 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/dot.png": {
 		"ft": 32768,
-		"iS": 984,
+		"iS": 125,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/dot.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/wp-content\/themes\/hartman\/images\/footer_bg.jpg": {
 		"ft": 16384,
-		"iS": 163708,
+		"iS": 25608,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/footer_bg.jpg",
 		"oF": 0,
@@ -22430,7 +22430,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/footer_logo_hartman.png": {
 		"ft": 32768,
-		"iS": 22012,
+		"iS": 6878,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/footer_logo_hartman.png",
 		"oF": 0,
@@ -22448,7 +22448,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/givebacklogo.png": {
 		"ft": 32768,
-		"iS": 12789,
+		"iS": 9551,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/givebacklogo.png",
 		"oF": 0,
@@ -22456,7 +22456,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/header_icon_scrollarrow.png": {
 		"ft": 32768,
-		"iS": 27390,
+		"iS": 226,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/header_icon_scrollarrow.png",
 		"oF": 0,
@@ -22588,7 +22588,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/header_video_playbutton.png": {
 		"ft": 32768,
-		"iS": 28130,
+		"iS": 1942,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/header_video_playbutton.png",
 		"oF": 0,
@@ -22674,7 +22674,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/logo_hartman.png": {
 		"ft": 32768,
-		"iS": 32916,
+		"iS": 6130,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/logo_hartman.png",
 		"oF": 0,
@@ -22698,7 +22698,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/mobile_header_video_thumb.jpg": {
 		"ft": 16384,
-		"iS": 60712,
+		"iS": 10828,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/mobile_header_video_thumb.jpg",
 		"oF": 0,
@@ -22706,7 +22706,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/mobile_mainimage.jpg": {
 		"ft": 16384,
-		"iS": 190283,
+		"iS": 32626,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/mobile_mainimage.jpg",
 		"oF": 0,
@@ -22732,7 +22732,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/pa_icon1.png": {
 		"ft": 32768,
-		"iS": 28393,
+		"iS": 1462,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/pa_icon1.png",
 		"oF": 0,
@@ -22740,7 +22740,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/pa_icon2.png": {
 		"ft": 32768,
-		"iS": 28464,
+		"iS": 1657,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/pa_icon2.png",
 		"oF": 0,
@@ -22748,7 +22748,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/pa_icon3.png": {
 		"ft": 32768,
-		"iS": 29141,
+		"iS": 2048,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/pa_icon3.png",
 		"oF": 0,
@@ -22756,7 +22756,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/pa_icon4.png": {
 		"ft": 32768,
-		"iS": 27733,
+		"iS": 1073,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/pa_icon4.png",
 		"oF": 0,
@@ -22764,7 +22764,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/pa_icon5.png": {
 		"ft": 32768,
-		"iS": 29473,
+		"iS": 2505,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/pa_icon5.png",
 		"oF": 0,
@@ -22772,7 +22772,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/pa_icon6.png": {
 		"ft": 32768,
-		"iS": 28778,
+		"iS": 1917,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/pa_icon6.png",
 		"oF": 0,
@@ -22780,11 +22780,11 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/play.png": {
 		"ft": 32768,
-		"iS": 4889,
+		"iS": 504,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/play.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/wp-content\/themes\/hartman\/images\/social_fb.svg": {
 		"ft": 2097152,
@@ -22868,7 +22868,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/sp_bg.jpg": {
 		"ft": 16384,
-		"iS": 268874,
+		"iS": 69056,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/sp_bg.jpg",
 		"oF": 0,
@@ -22876,7 +22876,7 @@
 		},
 	"\/wp-content\/themes\/hartman\/images\/sp_checkmark.png": {
 		"ft": 32768,
-		"iS": 1570,
+		"iS": 1393,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/images\/sp_checkmark.png",
 		"oF": 0,
@@ -24708,7 +24708,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/wp-content\/themes\/hartman\/tag.php": {
@@ -24729,7 +24729,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/award_1-150x120.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/award_1-225x65.png": {
 		"ft": 32768,
@@ -24737,7 +24737,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/award_1-225x65.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/award_1-250x120.png": {
 		"ft": 32768,
@@ -24745,7 +24745,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/award_1-250x120.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/award_1.png": {
 		"ft": 32768,
@@ -24753,7 +24753,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/award_1.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/award_2-120x120.png": {
 		"ft": 32768,
@@ -24761,7 +24761,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/award_2-120x120.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/award_2-120x65.png": {
 		"ft": 32768,
@@ -24769,7 +24769,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/award_2-120x65.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/award_2.png": {
 		"ft": 32768,
@@ -24777,7 +24777,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/award_2.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/award_3-150x120.png": {
 		"ft": 32768,
@@ -24785,7 +24785,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/award_3-150x120.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/award_3-225x65.png": {
 		"ft": 32768,
@@ -24793,7 +24793,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/award_3-225x65.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/award_3-232x120.png": {
 		"ft": 32768,
@@ -24801,7 +24801,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/award_3-232x120.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/award_3.png": {
 		"ft": 32768,
@@ -24809,7 +24809,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/award_3.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/award_4-120x120.png": {
 		"ft": 32768,
@@ -24817,7 +24817,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/award_4-120x120.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/award_4-120x65.png": {
 		"ft": 32768,
@@ -24825,7 +24825,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/award_4-120x65.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/award_4.png": {
 		"ft": 32768,
@@ -24833,7 +24833,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/award_4.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/award_5-141x120.png": {
 		"ft": 32768,
@@ -24841,7 +24841,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/award_5-141x120.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/award_5-141x65.png": {
 		"ft": 32768,
@@ -24849,7 +24849,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/award_5-141x65.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/award_5.png": {
 		"ft": 32768,
@@ -24857,7 +24857,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/award_5.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/content_video_thumb-150x150.jpeg": {
 		"ft": 16384,
@@ -24913,7 +24913,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/footer_logo_hartman-150x120.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/footer_logo_hartman-225x65.png": {
 		"ft": 32768,
@@ -24921,7 +24921,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/footer_logo_hartman-225x65.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/footer_logo_hartman-300x89.png": {
 		"ft": 32768,
@@ -24929,7 +24929,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/footer_logo_hartman-300x89.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/footer_logo_hartman.png": {
 		"ft": 32768,
@@ -24937,7 +24937,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/footer_logo_hartman.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/header_mainimage-1024x573.jpeg": {
 		"ft": 16384,
@@ -25225,7 +25225,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/logo_hartman-150x65.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/logo_hartman.png": {
 		"ft": 32768,
@@ -25233,7 +25233,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/logo_hartman.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/mobile_header_video_thumb-150x150.jpeg": {
 		"ft": 16384,
@@ -25337,7 +25337,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/pa_icon1.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/pa_icon2.png": {
 		"ft": 32768,
@@ -25345,7 +25345,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/pa_icon2.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/pa_icon3.png": {
 		"ft": 32768,
@@ -25353,7 +25353,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/pa_icon3.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/pa_icon4.png": {
 		"ft": 32768,
@@ -25361,7 +25361,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/pa_icon4.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/pa_icon5.png": {
 		"ft": 32768,
@@ -25369,7 +25369,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/pa_icon5.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/pa_icon6.png": {
 		"ft": 32768,
@@ -25377,7 +25377,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/pa_icon6.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2017\/01\/placeholder-150x150.jpg": {
 		"ft": 16384,
