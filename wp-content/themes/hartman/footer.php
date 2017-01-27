@@ -180,13 +180,9 @@
 
 <?php wp_footer(); ?>
 	
-<script type="text/javascript" src="<?php bloginfo('template_directory');?>/slick/slick/slick.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/custom-min.js?v=12"></script>
-<script src="<?php bloginfo('template_directory');?>/js/waypoints/lib/jquery.waypoints.min.js"></script>
-<script src="<?php bloginfo('template_directory');?>/js/waypoints/lib/shortcuts/sticky.min.js"></script>
 
-<script src="<?php bloginfo('template_directory');?>/js/wow/dist/wow.min.js"></script>
-<script src="<?php bloginfo('template_directory');?>/js/jquery-match-height/jquery.matchHeight.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/custom-min.js?v=12"></script>
+
 
 <?php include('js/conditional-jquery.php');?>
 
