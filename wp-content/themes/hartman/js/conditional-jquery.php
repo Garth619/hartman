@@ -1,6 +1,6 @@
 <?php if(is_front_page()):?>
 
-<script src="<?php bloginfo('template_directory');?>/js/vivus/dist/vivus.min.js"></script>
+
 
 <script type="text/javascript">
 
