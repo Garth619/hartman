@@ -566,7 +566,7 @@ function twentyten_get_gallery_images() {
 if (!is_admin()) add_action("wp_enqueue_scripts", "my_jquery_enqueue", 11);
 function my_jquery_enqueue() {
    wp_deregister_script('jquery');
-   wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", false, null,true);
+   wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", false, null, true);
    wp_enqueue_script('jquery');
 }
 
@@ -597,10 +597,12 @@ return $content;
 // add_filter( 'searchwp_live_search_base_styles', '__return_false' );
 
 
+/*
 function my_searchwp_live_search_posts_per_page() {
 	return 10; // return 20 results
 }
 add_filter( 'searchwp_live_search_posts_per_page', 'my_searchwp_live_search_posts_per_page' );
+*/
 
 
 
@@ -638,3 +640,32 @@ add_filter( 'widget_archives_args', 'my_limit_archives' );
 
 
 
+
+// load css
+function mytheme_enqueue_style() {
+    wp_enqueue_style( 'mytheme-style', get_stylesheet_uri() ); 
+}
+add_action( 'wp_enqueue_scripts', 'mytheme_enqueue_style' );
+
+
+
+
+
+function wptuts_scripts_basic()
+{
+        // Register the script like this for a theme:
+    wp_register_script( 'custom-script', get_template_directory_uri() . '/js/custom-min.js', array( 'jquery'), '20120208', true );
+ 
+    // For either a plugin or a theme, you can then enqueue the script:
+    wp_enqueue_script( 'custom-script' );
+}
+add_action( 'wp_enqueue_scripts', 'wptuts_scripts_basic' );
+
+
+
+
+
+
+
+
+ 

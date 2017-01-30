@@ -180,10 +180,6 @@
 
 <?php wp_footer(); ?>
 	
-
-<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/custom-min.js?v=12"></script>
-
-
 <?php include('js/conditional-jquery.php');?>
 
 </body>
