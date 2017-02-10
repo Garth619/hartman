@@ -357,7 +357,16 @@ nav.desktop {
 			}
 			}
 			
-
+/*
+			&:hover {
+				> ul.sub-menu {
+					bottom:-43px;
+					opacity:1;
+					visibility: visible;
+					z-index:0;
+				}
+			}
+*/
 		}
 		> li.current-menu-ancestor {
 				a {
@@ -377,16 +386,9 @@ nav.desktop {
 				margin-top:7px;
 				transition:all .2s ease-in-out;
 			}
-		> li:hover {
-			ul.sub-menu {
-				opacity: 1;
-				visibility: visible;
-			}
-		}
 		> li {
 			padding-bottom: 35px;
 			cursor: pointer;
-			position: relative;
 			&:hover:after {
 				content:"";
 				width:100%;
@@ -405,31 +407,31 @@ nav.desktop {
 				}
 			
 			}
-			
-/*
+			> ul.sub-menu.active {
+				bottom:-43px;
+				
+			}
 			> ul.sub-menu.hide {
 				bottom:0;
 				
 			}
-*/
 			> ul.sub-menu.slide {
-// 				bottom:-43px;
-
+				bottom:-43px;
+// 				z-index:10;
 			}
 			> ul.sub-menu {
 				background:$black;
 				position: absolute;
+ 				bottom:0px;
  				text-align: center;
- 				top:56px;
+ 				// bottom:-43px;
 				transition:all .2s ease-in-out;
-				opacity:0;
-				visibility: hidden;
-				padding-top:15px;
-				padding-bottom:20px;
-				left:-20px;
+				opacity:1;
+				visibility: visible;
+				width:100%;
+				left:0;
 				padding-left:0%;
-			
-				text-align: left;;
+				z-index:-1;
 				li.current-menu-item {
 					a {
 						color:$bluelight;
@@ -439,10 +441,9 @@ nav.desktop {
 					display: none;
 				}
 				li {
-					display:block;
+					display: inline-block;
 					font-size:13px;
 					letter-spacing: 0.4px;
-					min-width:300px;
 					a {
 						color:#fff;
 						padding:15px 0;
@@ -4040,7 +4041,6 @@ a.single_attorney_link {
 			}
 		}
 		
-		
 	}
 	ul.menu {
 		display: block;
@@ -4051,7 +4051,7 @@ a.single_attorney_link {
 		>li.menu-item-has-children {
 			> a {
 
-
+// padding-bottom:19px;
 
 				&:after { 
 				float:none;
@@ -4074,16 +4074,10 @@ a.single_attorney_link {
 					
 				}
 		}
-		>li:hover {
-			ul.sub-menu {
-				opacity: 0;
-				visibility: hidden;
-			}
-		}
 		> li {
 			padding:0;
 			display: block;
-			margin-bottom:38px;
+margin-bottom:38px;
 			&:after {
 				content:"";
 				width:0;
@@ -4126,7 +4120,7 @@ a.single_attorney_link {
 				opacity:0;
 				visibility: hidden;
 				transition:all .3 ease-in-out;
-				left:0;
+				
 				z-index:0;
 				background: none;
 				padding:0;
@@ -4161,7 +4155,6 @@ a.single_attorney_link {
 					display: block;
 					font-size:18px;
  					margin-bottom:38px;
- 					text-align: center;
 					&:first-of-type {
 						a {
 // 							margin-top:19px;

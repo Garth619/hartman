@@ -851,6 +851,7 @@ jQuery(this).next('ul.sub-menu').toggleClass('slide');
     } else {
 	    
 	    
+/*
        jQuery("nav.desktop li.menu-item-has-children a").click(function(){
 	        
 					
@@ -860,23 +861,10 @@ jQuery(this).next('ul.sub-menu').toggleClass('slide');
 		jQuery('ul.sub-menu').removeClass('active');
 		jQuery(this).next('ul.sub-menu').addClass('active');
 		
-		
-		
-		
-		 // jQuery(this).next('ul.sub-menu').toggleClass('active');
- 	   // jQuery('ul.sub-menu').not(this).toggleClass('hide'); something along these lines needs to target correctly http://www.w3schools.com/jquery/jquery_traversing_siblings.asp
-					
-					
-					
-					
-					
-
- 	        
-
-
 
 	        
 	     });
+*/
     		
 
 	    	 
