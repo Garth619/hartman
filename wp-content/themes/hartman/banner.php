@@ -20,8 +20,10 @@
 			
 	
 			
+<!--
 				<img class="play_reg" src="<?php bloginfo('template_directory');?>/images/internal_header_button.png"/>
 				<img class="play_hover" src="<?php bloginfo('template_directory');?>/images/internal_header_button_hover.png"/>
+-->
 			
 			
 			
