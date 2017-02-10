@@ -422,7 +422,7 @@ nav.desktop {
  				text-align: center;
  				top:56px;
 				transition:all .2s ease-in-out;
-				opacity:0;
+				opacity:0; /* */
 				visibility: hidden;
 				padding-top:15px;
 				padding-bottom:20px;
@@ -430,19 +430,56 @@ nav.desktop {
 				padding-left:0%;
 			
 				text-align: left;;
-				li.current-menu-item {
-					a {
+				> li.current-menu-item {
+					> a {
 						color:$bluelight;
 					}
 				}
 				li.search {
 					display: none;
 				}
+				
+				>li.menu-item-has-children {
+					> a {
+						&:after {
+					content:"";
+					width:0px;
+					height:0px;
+// 					float:right;
+					border-left: 5px solid transparent;
+					border-right: 5px solid transparent;
+					border-top: 5px solid $bluelight;
+					position: relative;
+					top:11px;
+					left:12px;
+				}	
+					}
+				}
+				
+				
+				
+				
+				> li.current_page_parent {
+					> a {
+					color:$bluelight;
+					}
+				}
+				> li:hover {
+					> a {
+						color:$bluelight;
+					}
+					ul.sub-menu {
+						opacity: 1;
+						visibility: visible;
+					}
+				}
 				li {
 					display:block;
 					font-size:13px;
 					letter-spacing: 0.4px;
 					min-width:300px;
+					position: relative;
+					line-height:16px;
 					a {
 						color:#fff;
 						padding:15px 0;
@@ -452,7 +489,24 @@ nav.desktop {
 						&:hover {
 							color:#007ddc;
 						}
+						
 					}
+					> ul.sub-menu {
+							position: absolute;
+							top:-10px;
+							left:300px;
+							background: $black;
+							padding:10px 0;
+							opacity: 0;
+							visibility: hidden;
+							transition: all .2s ease-in-out;
+							> li.current-menu-item {
+								> a {
+									color:$bluelight;
+								}
+							}
+
+						}
 				}
 			}
 		}
@@ -4123,52 +4177,65 @@ a.single_attorney_link {
 				top:0;
 				width:auto;
 				max-height:0;
-				opacity:0;
+				opacity:0; 
 				visibility: hidden;
 				transition:all .3 ease-in-out;
 				left:0;
 				z-index:0;
 				background: none;
 				padding:0;
-
 				overflow:visible;
-// 		margin-top:19px;
 
-
-/*
-				padding-top:19px;
-				padding-bottom:19px;
-*/
-
-
-// 				margin-bottom:-19px;
-				
 				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#075593+52,072f51+100 */
 				background: #075593; /* Old browsers */
 				background: -moz-linear-gradient(45deg,  #075593 52%, #072f51 100%); /* FF3.6-15 */
 				background: -webkit-linear-gradient(45deg,  #075593 52%,#072f51 100%); /* Chrome10-25,Safari5.1-6 */
 				background: linear-gradient(45deg,  #075593 52%,#072f51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#075593', endColorstr='#072f51',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-				li.current-menu-item {
-					a {
+				>li:hover {
+					ul.sub-menu {
+						opacity: 0;
+						visibility: hidden;
+					}
+				}
+				
+				
+				> li.current-menu-item {
+					> a {
 						color:#00a6e4;
 						
 					}
 				}
-				
+				>li {
+					>ul.sub-menu {
+						max-height:0;
+						position: relative;
+						left:0;
+						background:transparent;
+					}
+					> ul.sub-menu.slide {
+						max-height:3000px;
+						opacity:1;
+						visibility: visible;
+						padding-top:19px;
+						padding-bottom:19px;
+						margin-top:19px;
+						margin-bottom:-19px;
+					}
+				}
 				li {
 					display: block;
 					font-size:18px;
  					margin-bottom:38px;
  					text-align: center;
+ 					line-height:20px;
 					&:first-of-type {
 						a {
-// 							margin-top:19px;
+
 						}
 					}
 					&:nth-last-child(2) {
-margin-bottom:0px;
+						margin-bottom:0px;
 						a {
 							margin-bottom:0;
 						}

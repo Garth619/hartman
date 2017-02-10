@@ -842,7 +842,7 @@ function checkWidth() {
 	        
 // 	        jQuery(this).next('ul.sub-menu').slideToggle(500);
 
-jQuery(this).next('ul.sub-menu').toggleClass('slide');
+				jQuery(this).next('ul.sub-menu').toggleClass('slide');
      
     		});
     		
