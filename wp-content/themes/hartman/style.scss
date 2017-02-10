@@ -584,10 +584,13 @@ nav.desktop {
 			margin-top:123px;
 // 			overflow: hidden;
 			.icon_wrapper {
-				width:55%;
-				float:left;
-				border-right:1px solid $red;
-				padding:10px 30px 10px 0px;
+// 				width:55%;
+			
+				margin:0 auto;
+				padding:10px 0px 0px 0px;
+// 				float:left;
+// 				border-right:1px solid $red;
+// 				padding:10px 30px 10px 0px;
 				.single_icon {
 // 					width:33.333333%;
 					float:left;
@@ -596,16 +599,16 @@ nav.desktop {
 					text-transform: uppercase;
 					font-size:13px;
 					letter-spacing: 2px;
-					
+					width:33.3333%;
 // 					padding:0 10px;
 					&:nth-of-type(1) {
-						width:30%;
+// 						width:30%;
 					}
 					&:nth-of-type(2) {
-						width:34%;
+// 						width:34%;
 					}
 					&:nth-of-type(3) {
-						width:36%;
+// 						width:36%;
 					}
 					span.largeheader {
 						font-family:$montserratreg;
@@ -627,7 +630,7 @@ nav.desktop {
 				float:left;
 				padding-left:80px;
 				margin-top:10px;
-				
+				display:none;
 				.video_thumb {
 					-webkit-box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.75);
 					-moz-box-shadow: 0px 0px 9px 3px rgba(0,0,0,0.75);
@@ -1334,7 +1337,7 @@ nav.desktop {
 		.video_wrapper {
 			margin-left:-45px;
 			position: relative;
-			cursor: pointer;
+// 			cursor: pointer;
 			-webkit-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
 			-moz-box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
 			box-shadow: 0px 0px 48px -16px rgba(0,0,0,1);
@@ -1349,6 +1352,7 @@ nav.desktop {
 				right: 178px;
 				top: 90px;
 				z-index:5;
+				display: none;
 			}
 			.video_overlay {
 				width:100%;
@@ -1359,6 +1363,7 @@ nav.desktop {
 				left:0;
 				z-index:3;
 				opacity: 0.6;
+				display:none !important;
 			}
 		}
 		.blueline {
@@ -3619,7 +3624,8 @@ header {
 		.lower_content {
 			.icon_wrapper {
 				padding-right:0%;
-				width:53%;
+	
+	
 				.single_icon {
 					span.largeheader {
 						
@@ -4344,8 +4350,8 @@ html.fixed, body.fixed {
 	/* Main Banner */
 
 .main_banner {
-// 	background:url(images/tablet_mainimage.jpg) top center no-repeat;
-	height: 1727px;
+ height:1445px;
+// 	height: 1727px;
 	margin-top:100px;
 	.main_inner_banner {
 		padding-left:0;
@@ -4363,26 +4369,26 @@ html.fixed, body.fixed {
 			}
 		}
 		.lower_content {
-			max-width:665px;
+			max-width:800px;
 			margin: 67px auto 0;
 			
 			.icon_wrapper {
-				width:100%;
+				
 				border-right: none;
-				border-bottom: 1px solid #d11010;
+// 				border-bottom: 1px solid #d11010;
 				padding-bottom:63px;
 				display: flex;
 				flex-direction: row;
 				.single_icon {
 
 					&:nth-of-type(1) {
-						width: 170px;
+// 						width: 170px;
 					}
 					&:nth-of-type(2) {
-						flex-grow:1;
+// 						flex-grow:1;
 					}
 					&:nth-of-type(3) {
-						width:190px;
+// 						width:190px;
 					}
 					span.largeheader {
 						
@@ -4399,7 +4405,7 @@ html.fixed, body.fixed {
 				width:100%;
 				margin:60px 0 0 0;
 				padding-left:0;
-				
+				display:none;
 					
 					.video_thumb {
 						width:258px;
@@ -4604,6 +4610,7 @@ position: relative;
 			img.play {
 				right: 122px;
 				top: 62px;
+				display: none;
 			}
 		}
 		.blueline {
@@ -5906,12 +5913,8 @@ body.page-template-page-bio {
 /* Main Banner */
 
 .main_banner {
-/*
-	background:url(images/mobile_mainimage.jpg) top center no-repeat;
-	background-size: cover;
-*/
-	
-	height:1326px;
+	height:1000px;
+// 	height:1326px;
 	.main_inner_banner {
 		padding-top:175px;
 		.welcome_content {
@@ -5954,7 +5957,7 @@ body.page-template-page-bio {
 						margin-bottom: 0;
 						width:200px;
 						padding-bottom:50px;
-						border-bottom:1px solid #d11010;
+// 						border-bottom:1px solid #d11010;
 					}
 					span.largeheader {
 						margin-top:26px;
@@ -5968,7 +5971,8 @@ body.page-template-page-bio {
 				}
 			}
 			.video_wrapper {
-				display: flex;
+				display:none;
+// 				display: flex;
 				flex-direction: column;
 				margin-top:40px;
 				.video_thumb {
@@ -7880,6 +7884,16 @@ div.inner_search_wrapper form#searchform div input#s::-moz-placeholder {
 	
 	
 	
+	.main_banner .main_inner_banner .lower_content .icon_wrapper {
+		width:84%;
+	}
+	
+	
+	
+	
+	
+	
+	
 	div.inner_search_wrapper form#searchform div input#s::-webkit-input-placeholder {
 	color:$bluedark;
 }
@@ -8347,6 +8361,15 @@ div.inner_search_wrapper form#searchform div input#s::-moz-placeholder {
 {
     opacity: .75;
     color: black;
+}
+
+
+.dwls_search_results {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:50;
+	background:#fff;
 }
 
 
