@@ -1603,8 +1603,15 @@ nav.desktop {
 	.video_wrapper {
 		width:50%;
 		float:left;
+		overflow: hidden;
+		video {
+			min-width:100%;
+			min-height:100%;
+		}
+/*
 		background:url(images/community_image.jpg);
 		background-size:cover;
+*/
 		
 /*
 		img {

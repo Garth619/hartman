@@ -584,6 +584,9 @@
 	<div class="video_wrapper mymatch">
 			
 <!-- 			<img src="<?php bloginfo('template_directory');?>/images/community_image.jpg"/> -->
+
+
+<video src="<?php bloginfo('template_directory');?>/videos/hartman-loop.mp4" loop autoplay></video>
 			
 			
 		</div><!-- video_wrapper -->
@@ -591,6 +594,8 @@
 		<div style="clear:both"></div>
 	
 </section><!-- community -->
+
+
 
 <section class="awards">
 	
