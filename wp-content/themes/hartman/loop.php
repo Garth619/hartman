@@ -148,7 +148,7 @@
 					
 				<?php endif; ?>
 				
-				<?php the_date(); ?>
+				<?php echo get_the_date(); ?>
 				
 			</div><!-- .entry-meta -->
 

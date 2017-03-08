@@ -1,3 +1,4 @@
+<?php if (!is_page('contact')) { ?>}
 <section id="request_scroll" class="request">
 	
 	<div class="form">
@@ -10,6 +11,7 @@
 	</div><!-- form -->
 	
 </section><!-- request -->
+<?php } ?>
 
 <section id="location_trigger" class="locations">
 	
