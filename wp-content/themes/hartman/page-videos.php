@@ -39,144 +39,33 @@
 					<div class="video_page_wrapper">
 						
 					
+						<?php if(get_field('video_center')): ?>
+						 
+							<?php while(has_sub_field('video_center')): ?>
+						 
+								<div class="video_link">
+							
+									<div class="single_video">
+								
+										<?php the_sub_field('video_code');?>
+								
+										<span class="video_title">	<?php the_sub_field('video_title');?></span><!-- video_title -->
+								
+										<div class="video_page_overlay">
+								
+											<span class="video_page_title">View Video</span>
+							
+										</div><!-- video_page_overlay -->							
+							
+									</div><!-- single_video -->
+							
+								</div><!-- video_link -->
+
+						    <?php endwhile; ?>
+						 
+						<?php endif; ?>
 					
-					
-						
-				
-<!--
-						
-						
-						
-						
-						
-						
-						
-						<div class="video_link">
-							
-							<div class="single_video">
-								
-								<img src="<?php bloginfo('template_directory');?>/images/video_ph.png"/>
-								<span class="video_title">Video Title Goes Here</span>
-								
-							
-							<div class="video_page_overlay">
-								
-								<span class="video_page_title"><script src="//fast.wistia.com/embed/medias/fvynu51wm6.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_fvynu51wm6 popover=true popoverContent=link" style="display:inline"><a href="#">View Video	</a></span></span>
-							
-							</div>
-							
-							
-						</div>
-							
-							
-					</div>
--->
-						
-						<div class="video_link">
-							
-							<div class="single_video">
-								
-								<img src="<?php bloginfo('template_directory');?>/images/video_ph.png"/>
-								<span class="video_title">Video Title Goes Here</span><!-- video_title -->
-								
-								<div class="video_page_overlay">
-								
-								<span class="video_page_title">View Video</span>
-							
-							</div><!-- video_page_overlay -->							
-							
-							</div><!-- single_video -->
-							
-						</div><!-- video_link -->
-						
-						<div class="video_link">
-							
-							<div class="single_video">
-								
-								<img src="<?php bloginfo('template_directory');?>/images/video_ph.png"/>
-								<span class="video_title">Video Title Goes Here</span><!-- video_title -->
-								
-								<div class="video_page_overlay">
-								
-								<span class="video_page_title">View Video</span>
-							
-							</div><!-- video_page_overlay -->							
-							
-							</div><!-- single_video -->
-							
-						</div><!-- video_link -->
-						
-						<div class="video_link">
-							
-							<div class="single_video">
-								
-								<img src="<?php bloginfo('template_directory');?>/images/video_ph.png"/>
-								<span class="video_title">Video Title Goes Here</span><!-- video_title -->
-								
-								<div class="video_page_overlay">
-								
-								<span class="video_page_title">View Video</span>
-							
-							</div><!-- video_page_overlay -->							
-							
-							</div><!-- single_video -->
-							
-						</div><!-- video_link -->
-						
-						<div class="video_link">
-							
-							<div class="single_video">
-								
-								<img src="<?php bloginfo('template_directory');?>/images/video_ph.png"/>
-								<span class="video_title">Video Title Goes Here</span><!-- video_title -->
-								
-								<div class="video_page_overlay">
-								
-								<span class="video_page_title">View Video</span>
-							
-							</div><!-- video_page_overlay -->							
-							
-							</div><!-- single_video -->
-							
-						</div><!-- video_link -->
-						
-						<div class="video_link">
-							
-							<div class="single_video">
-								
-								<img src="<?php bloginfo('template_directory');?>/images/video_ph.png"/>
-								<span class="video_title">Video Title Goes Here</span><!-- video_title -->
-								
-								<div class="video_page_overlay">
-								
-								<span class="video_page_title">View Video</span>
-							
-							</div><!-- video_page_overlay -->							
-							
-							</div><!-- single_video -->
-							
-						</div><!-- video_link -->
-						
-						<div class="video_link">
-							
-							<div class="single_video">
-								
-								<img src="<?php bloginfo('template_directory');?>/images/video_ph.png"/>
-								<span class="video_title">Video Title Goes Here</span><!-- video_title -->
-								
-								<div class="video_page_overlay">
-								
-								<span class="video_page_title">View Video</span>
-							
-							</div><!-- video_page_overlay -->							
-							
-							</div><!-- single_video -->
-							
-						</div><!-- video_link -->
-						
-																								
-						
-						
+															
 					</div><!-- video_wrapper -->
 				
 								
