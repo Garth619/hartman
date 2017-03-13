@@ -21,6 +21,12 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/.maintenance": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.maintenance",
+		"oF": 0
+		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -26063,16 +26069,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/wp-content\/themes\/hartman\/style-ie.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/wp-content\/themes\/hartman\/style-ie-min.css",
-		"oF": 0,
-		"oS": 0
 		},
 	"\/wp-content\/themes\/hartman\/style.css": {
 		"aP": 1,
