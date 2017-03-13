@@ -3324,11 +3324,15 @@ a.single_attorney_link {
 					font-family: $montserratbold;
 					margin-top:25px;
 				}
+				span.testimonial_video {
+					display: block;
+					margin-top:10px;
+				}
 				p {
 					color:#260801;
 					font-family: $utopiareg;
 					line-height:27px;
-					margin-bottom:25px !important;
+// 					margin-bottom:25px !important;
 				}
 				span.testimonial_name {
 					text-transform: uppercase;
@@ -3336,6 +3340,8 @@ a.single_attorney_link {
 					font-family: $montserratbold;
 					color:#b9b9b9;
 					letter-spacing: 1.2px;
+					display: block;
+					margin-top:25px;
 				}
 			}
 		}

@@ -62,7 +62,21 @@
 									
 									<span class="large_header"><?php the_sub_field('testimonail_title');?></span><!-- large_header -->
 									
-									<p><?php the_sub_field('testimonial_content');?></p>
+									<?php if( get_sub_field('video_or_content') == 'Testimonial Video' ): ?>
+										
+										<span class="testimonial_video"><?php the_sub_field('video');?></span><!-- testimonial_video -->
+									
+									<?php endif; ?>
+									
+									<?php if( get_sub_field('video_or_content') == 'Testimonial Content' ): ?>
+										
+										<p><?php the_sub_field('testimonial_content');?></p>
+									
+									<?php endif; ?>
+									
+									
+									
+								
 									
 									<span class="testimonial_name"><?php the_sub_field('first_name');?></span><!-- testimonial_name -->
 									
@@ -100,7 +114,19 @@
 									
 									<span class="large_header"><?php the_sub_field('testimonail_title');?></span><!-- large_header -->
 									
-									<p><?php the_sub_field('testimonial_content');?></p>
+									<?php if( get_sub_field('video_or_content') == 'Testimonial Video' ): ?>
+										
+										<span class="testimonial_video"><?php the_sub_field('video');?></span><!-- testimonial_video -->
+									
+									<?php endif; ?>
+									
+									<?php if( get_sub_field('video_or_content') == 'Testimonial Content' ): ?>
+										
+										<p><?php the_sub_field('testimonial_content');?></p>
+									
+									<?php endif; ?>
+									
+
 									
 									<span class="testimonial_name"><?php the_sub_field('first_name');?></span><!-- testimonial_name -->
 									
