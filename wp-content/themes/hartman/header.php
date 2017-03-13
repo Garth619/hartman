@@ -30,7 +30,6 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 
-
 <style type="text/css">
 
 

@@ -118,6 +118,7 @@ body {
 	font-family: $utopiareg;
 	line-height: 1;
 	color:$black;
+	
 }
 
 .content {
@@ -278,12 +279,11 @@ header {
 			flex-grow: 3;
 			background:#fff;
 			.my_sticky {
-// 				display:flex;
+				
 			}
 			.free_consultation_wrapper {
-float:left;
+				float:left;
 				color:#fff;
-			
 				text-align: center;
 				padding: 25px 55px 26px;
 				margin-left:25px;
@@ -400,6 +400,7 @@ nav.desktop {
 				color:$bluedark;
 				letter-spacing: 0.4px;
 				text-decoration: none;
+				display: block;
 				&:hover {
 					color:$bluedark;
 				}
