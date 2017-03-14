@@ -21,6 +21,12 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -21542,6 +21548,12 @@
 		"oAP": "\/wp-content\/themes\/hartman\/editor-style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/wp-content\/themes\/hartman\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/hartman\/favicon.ico",
+		"oF": 0
 		},
 	"\/wp-content\/themes\/hartman\/fonts\/montserrat\/demo.html": {
 		"ft": 8192,
