@@ -24181,7 +24181,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/hartman\/style.css",
 		"oF": 2,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/wp-content\/themes\/hartman\/tag.php": {
@@ -25577,6 +25577,70 @@
 		"oA": 2,
 		"oAP": "\/wp-content\/uploads\/2017\/03\/DallasHelpsAdriennesArmyNCnews.pdf",
 		"oF": 0
+		},
+	"\/wp-content\/uploads\/2017\/03\/internal_header_mainimage-1024x228.jpg": {
+		"ft": 16384,
+		"iS": 24980,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/internal_header_mainimage-1024x228.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/03\/internal_header_mainimage-150x150.jpg": {
+		"ft": 16384,
+		"iS": 5313,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/internal_header_mainimage-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/03\/internal_header_mainimage-225x65.jpg": {
+		"ft": 16384,
+		"iS": 4134,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/internal_header_mainimage-225x65.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/03\/internal_header_mainimage-300x67.jpg": {
+		"ft": 16384,
+		"iS": 4571,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/internal_header_mainimage-300x67.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/03\/internal_header_mainimage-406x120.jpg": {
+		"ft": 16384,
+		"iS": 8824,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/internal_header_mainimage-406x120.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/03\/internal_header_mainimage-768x171.jpg": {
+		"ft": 16384,
+		"iS": 16166,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/internal_header_mainimage-768x171.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/03\/internal_header_mainimage-940x198.jpg": {
+		"ft": 16384,
+		"iS": 20524,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/internal_header_mainimage-940x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2017\/03\/internal_header_mainimage.jpg": {
+		"ft": 16384,
+		"iS": 110686,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2017\/03\/internal_header_mainimage.jpg",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/wp-content\/uploads\/ithemes-security\/backups\/index.php": {
 		"ft": 8192,
