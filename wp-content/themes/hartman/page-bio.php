@@ -51,8 +51,12 @@
 									
 									
 									<div class="email_wrapper">
-									
-										<a class="email_attorney" href="mailto:<?php the_field('attorney_email');?>"><?php the_field('email_button_verbaige');?></a><!-- email_attorney -->
+										
+										<a class="email_attorney" href="/contact">Contact Us</a><!-- email_attorney -->
+
+										<!--ACF button
+										<a class="email_attorney" href="mailto:<?php the_field('attorney_email');?>"><?php the_field('email_button_verbaige');?></a> -->
+										<!-- email_attorney -->
 									
 									</div><!-- email_wrapper -->
 									

@@ -287,7 +287,7 @@ header {
 				text-align: center;
 				padding: 25px 55px 26px;
 				margin-left:25px;
-				
+				width:325px;
 				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f32323+0,f35123+62 */
 				background: #f32323; /* Old browsers */
 				background: -moz-linear-gradient(-45deg,  #f32323 0%, #f35123 62%); /* FF3.6-15 */
@@ -3717,6 +3717,7 @@ header {
 			
 			.free_consultation_wrapper {
 				padding: 29px 15px 28px;
+				width:280px;
 				span.sub_header {
 					font-size:12px;
 				}
@@ -6060,7 +6061,8 @@ body.page-template-page-bio {
 		}
 		.free_consultation_wrapper {
 			height:70px;
-			padding: 13px 30px;
+			padding: 13px 5px;
+			width:235px;
 			span.sub_header {
 					
 			}
@@ -8533,5 +8535,112 @@ div.inner_search_wrapper form#searchform div input#s::-moz-placeholder {
 	z-index:50;
 	background:#fff;
 }
+
+
+/* Reviews */
+
+.review-container {
+    width: 100%
+}
+
+.review-container h2 {
+    text-align: center;
+}
+
+.review-container h3 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.review-left {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+
+.review-right {
+    width: 48%;
+    float: right;
+    margin-right: 0;
+}
+
+.review-bottom {
+    width: 48%;
+    float: none;
+    margin: 0 auto;
+}
+
+.review-left img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    height: 54px;
+    width: auto;
+}
+
+.review-right img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    height: 54px;
+    width: auto;
+}
+
+.review-bottom img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    height: 54px;
+    width: auto;
+    padding-top: 20px;
+}
+
+.review-button {
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    color: #fff!important;
+    border-radius: 6px;
+    background-color: #f32323; /* change */
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+        font-family: "Montserrat-Regular";
+}
+a.review-button:hover {
+   color:#fff;
+   background-color:#007ddc;
+}
+
+
+.wistia-review {
+    padding-top: 40px;
+}
+
+@media (max-width:767px){
+    .review-left {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+    }
+
+    .review-right {
+        width: 100%;
+        float: none;
+    }
+
+    .review-bottom {
+        width: 100%;
+    }
+
+    .review-right img {
+        padding-top: 30px;
+    }
+
+    .review-bottom img {
+        padding-top: 30px;
+    }
+}
+
 
 

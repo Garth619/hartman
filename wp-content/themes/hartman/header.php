@@ -75,11 +75,49 @@
 
 </style>
 
-
-
-
 <?php wp_head(); ?>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29356247-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="application/ld+json">
+{
+     "@context": "http://schema.org",
+     "@type": "Attorney",
+     "name": "Dallas W. Hartman P.C., Attorneys at Law",
+     "alternateName": " ",
+         "description": "Pittsburgh Personal Injury Attorney",
+     "url" : "http://www.dallashartman.com/",
+     "logo" : "http://www.dallashartman.com/wp-content/uploads/2017/01/logo_hartman.png",
+     "image" : "http://www.dallashartman.com/wp-content/uploads/2017/01/internal_bio_hartman-b.jpg",
+     "telephone": " (412) 262-2888",
+     "openingHours" : "Mo,Tu,We,Th,Fr 09:00-17:00",
+     "hasMap": "https://www.google.com/maps/place/Dallas+W.+Hartman+P.C.,+Attorneys+at+Law/@40.438011,-79.998148,15z/data=!4m5!3m4!1s0x0:0xed2717d370b4a054!8m2!3d40.438011!4d-79.998148",
+     "address":
+          {
+          "@type": "PostalAddress",
+          "streetAddress": "One Oxford Centre, 301 Grant St #4300",
+          "addressLocality": "Pittsburgh",
+          "addressRegion": "PA",
+          "postalCode": "15219",
+          "addressCountry": "USA"
+          },
+     "sameAs": [
+     "https://twitter.com/dallashartman",
+     "http://www.linkedin.com/company/2358083",
+     "https://www.facebook.com/DallasHelps",
+     "https://plus.google.com/+Dallashartman"
+     ]
+}
+</script>
 
 
 </head>
